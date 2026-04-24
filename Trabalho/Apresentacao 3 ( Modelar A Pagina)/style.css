@@ -3,3 +3,47 @@
     padding: 0%;
     box-sizing: border-box;
 }
+.Inicio_Top{
+    display: flex;
+    background-color: blue;
+    padding: 1%;
+}
+#Titulo{
+    color: red;
+    font-size: 50px;
+    line-height: 0.5;
+    font-style: italic;
+    font-weight: 1000;
+    margin-left: 40px;
+}
+#B_Pokemons{
+    margin-left: 40px;
+    font-size: 22px;
+}
+#B_Deck{
+    margin-left: 40px;
+    font-size: 22px;
+}
+#B_Login{
+    padding: 5px 15px;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: aqua;
+    margin-left: auto;
+    font-weight: bold;
+
+    box-shadow: 0 4px #000000;
+
+    transition: all 0.1s;
+    position: relative;
+    outline: none;
+}
+#B_Login:hover{
+    background-color: aquamarine;
+}
+#B_Login:active{
+    box-shadow: 0 5px #000000;
+    transform: translateY(4px);
+}
