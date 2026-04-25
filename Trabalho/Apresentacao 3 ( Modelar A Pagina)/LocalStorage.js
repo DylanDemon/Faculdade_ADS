@@ -90,3 +90,4 @@ const pokemons = [
         imagem: "./Pokemons_Sprites/6_Charizard.gif"
     },
 ]
+export default pokemons;
