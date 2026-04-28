@@ -241,203 +241,202 @@ const pokemons = [
         hab_principal: "Olhar Aguçado",
         hab_oculta: "Peito Grande",
         evolucoes: ["Pidgeot"],
-        imagem: "./Pokemons_Sprites/18_Pidgeotto.gif"
+        imagem: "./Pokemons_Sprites/17_Pidgeotto.gif"
     },
     {
         ID: 18,
-        nome: "",
-        nivel: ,
-        tipo: [],
-        tamanho: , // em metros
-        peso: , // em kg
-        sobre: "",
-        fraqueza: [""],
-        hab_principal: "",
-        hab_oculta: "",
-        evolucoes: [],
-        imagem: "./Pokemons_Sprites/"
+        nome: "pidgeot",
+        nivel: 36,
+        tipo: ["Normal", "Voador"],
+        tamanho: 1.5,
+        peso: 39.5,
+        sobre: "Este Pokémon possui uma plumagem deslumbrante. Muitos treinadores são cativados pela beleza das penas em sua cabeça, decidindo utilizá-lo como seu Pokémon principal.",
+        fraqueza: ["Elétrico", "Gelo", "Rocha"],
+        hab_principal: "Olhar Aguçado",
+        hab_oculta: "Peito Desolado",
+        imagem: "./Pokemons_Sprites/18_Pidgeot.gif"
     },
     {
         ID: 19,
-        nome: "",
-        nivel: ,
-        tipo: [],
-        tamanho: , // em metros
-        peso: , // em kg
-        sobre: "",
-        fraqueza: [""],
-        hab_principal: "",
-        hab_oculta: "",
-        evolucoes: [],
-        imagem: "./Pokemons_Sprites/"
+        nome: "rattata",
+        nivel: 1,
+        tipo: ["Normal"],
+        tamanho: 0.3,
+        peso: 3.5,
+        sobre: "Vive onde quer que haja comida disponível. Ele passa o dia inteiro procurando por algo para comer. Graças aos seus dentes afiados, pode roer quase qualquer coisa.",
+        fraqueza: ["Lutador"],
+        hab_principal: "Fuga",
+        hab_oculta: "Entusiasmo",
+        evolucoes: [20],
+        imagem: "./Pokemons_Sprites/19_Rattata.gif"
     },
         {
         ID: 20,
-        nome: "",
-        nivel: ,
-        tipo: [],
-        tamanho: , // em metros
-        peso: , // em kg
-        sobre: "",
-        fraqueza: [""],
-        hab_principal: "",
-        hab_oculta: "",
+        nome: "raticate",
+        nivel: 20,
+        tipo: ["Normal"],
+        tamanho: 0.7,
+        peso: 18.5,
+        sobre: "Suas presas crescem constantemente, então ele rói rochas e troncos para desgastá-las. Pode até mesmo roer as paredes de casas.",
+        fraqueza: ["Lutador"],
+        hab_principal: "Fuga",
+        hab_oculta: "Entusiasmo",
         evolucoes: [],
-        imagem: "./Pokemons_Sprites/"
+        imagem: "./Pokemons_Sprites/20_Raticate.gif"
     },
         {
         ID: 21,
-        nome: "",
-        nivel: ,
-        tipo: [],
-        tamanho: , // em metros
-        peso: , // em kg
-        sobre: "",
-        fraqueza: [""],
-        hab_principal: "",
-        hab_oculta: "",
-        evolucoes: [],
-        imagem: "./Pokemons_Sprites/"
+        nome: "spearow",
+        nivel: 1,
+        tipo: ["Normal", "Voador"],
+        tamanho: 0.3,
+        peso: 2.0,
+        sobre: "Bate suas asas curtas com muita rapidez para se manter no ar. Ele vasculha a grama em busca de insetos para se alimentar.",
+        fraqueza: ["Elétrico", "Gelo", "Rocha"],
+        hab_principal: "Olhar Aguçado",
+        hab_oculta: "Atirador",
+        evolucoes: [22],
+        imagem: "./Pokemons_Sprites/21_Spearow.gif"
     },
         {
         ID: 22,
-        nome: "",
-        nivel: ,
-        tipo: [],
-        tamanho: , // em metros
-        peso: , // em kg
-        sobre: "",
-        fraqueza: [""],
-        hab_principal: "",
-        hab_oculta: "",
+        nome: "fearow",
+        nivel: 20,
+        tipo: ["Normal", "Voador"],
+        tamanho: 1.2,
+        peso: 38.0,
+        sobre: "Com suas asas grandes e magníficas, ele pode voar o dia inteiro sem precisar descansar. Usa seu bico longo para capturar presas na terra ou na água.",
+        fraqueza: ["Elétrico", "Gelo", "Rocha"],
+        hab_principal: "Olhar Aguçado",
+        hab_oculta: "Atirador",
         evolucoes: [],
-        imagem: "./Pokemons_Sprites/"
+        imagem: "./Pokemons_Sprites/22_Fearow.gif"
     },
         {
         ID: 23,
-        nome: "",
-        nivel: ,
-        tipo: [],
-        tamanho: , // em metros
-        peso: , // em kg
-        sobre: "",
-        fraqueza: [""],
-        hab_principal: "",
-        hab_oculta: "",
-        evolucoes: [],
-        imagem: "./Pokemons_Sprites/"
+        nome: "ekans",
+        nivel: 1,
+        tipo: ["Venenoso"],
+        tamanho: 2.0,
+        peso: 6.9,
+        sobre: "Move-se silenciosamente pela grama e ataca suas presas por trás. Quanto mais velho ele fica, mais longo seu corpo se torna.",
+        fraqueza: ["Psíquico", "Terra"],
+        hab_principal: "Intimidação",
+        hab_oculta: "Nervosismo",
+        evolucoes: ["arbok"],
+        imagem: "./Pokemons_Sprites/23_Ekans.gif"
     },
         {
         ID: 24,
-        nome: "",
-        nivel: ,
-        tipo: [],
-        tamanho: , // em metros
-        peso: , // em kg
-        sobre: "",
-        fraqueza: [""],
-        hab_principal: "",
-        hab_oculta: "",
+        nome: "arbok",
+        nivel: 22,
+        tipo: ["Venenoso"],
+        tamanho: 3.5,
+        peso: 65.0,
+        sobre: "A estampa em seu peito serve para intimidar inimigos. Aqueles que encontram seu olhar paralisam de medo antes mesmo de Arbok atacar.",
+        fraqueza: ["Psíquico", "Terra"],
+        hab_principal: "Intimidação",
+        hab_oculta: "Nervosismo",
         evolucoes: [],
-        imagem: "./Pokemons_Sprites/"
+        imagem: "./Pokemons_Sprites/24_arbok.gif"
     },
         {
         ID: 25,
-        nome: "",
-        nivel: ,
-        tipo: [],
-        tamanho: , // em metros
-        peso: , // em kg
-        sobre: "",
-        fraqueza: [""],
-        hab_principal: "",
-        hab_oculta: "",
-        evolucoes: [],
-        imagem: "./Pokemons_Sprites/"
+        nome: "pikachu",
+        nivel: 1,
+        tipo: ["Elétrico"],
+        tamanho: 0.4,
+        peso: 6.0,
+        sobre: "Quando vários desses Pokémon se reúnem, sua eletricidade pode causar tempestades de raios. Armazena energia em suas bochechas vermelhas.",
+        fraqueza: ["Terra"],
+        hab_principal: "Static (Estática)",
+        hab_oculta: "Lightning Rod (Para-raios)",
+        evolucoes: ["Raichu"],
+        imagem: "./Pokemons_Sprites/25_Pikachu.gif"
     },
         {
         ID: 26,
-        nome: "",
-        nivel: ,
-        tipo: [],
-        tamanho: , // em metros
-        peso: , // em kg
-        sobre: "",
-        fraqueza: [""],
-        hab_principal: "",
-        hab_oculta: "",
+        nome: "raichu",
+        nivel: 1,
+        tipo: ["Elétrico"],
+        tamanho: 0.8,
+        peso: 30.0,
+        sobre: "Sua cauda longa serve como um fio terra para protegê-lo de sua própria alta voltagem. Se acumular muita eletricidade, ele se torna agressivo.",
+        fraqueza: ["Terra"],
+        hab_principal: "Static (Estática)",
+        hab_oculta: "Lightning Rod (Para-raios)",
         evolucoes: [],
-        imagem: "./Pokemons_Sprites/"
+        imagem: "./Pokemons_Sprites/26_Raichu.gif"
     },
         {
         ID: 27,
-        nome: "",
-        nivel: ,
-        tipo: [],
-        tamanho: , // em metros
-        peso: , // em kg
-        sobre: "",
-        fraqueza: [""],
-        hab_principal: "",
-        hab_oculta: "",
-        evolucoes: [],
-        imagem: "./Pokemons_Sprites/"
+        nome: "sandshrew",
+        nivel: 1,
+        tipo: ["Terra"],
+        tamanho: 0.6,
+        peso: 12.0,
+        sobre: "Seu corpo é seco e ele prefere viver em desertos. Ele se enrola em uma bola para se defender de inimigos e para evitar a perda de umidade corporal.",
+        fraqueza: ["Água", "Grama", "Gelo"],
+        hab_principal: "Sand Veil (Véu de Areia)",
+        hab_oculta: "Sand Rush (Ímpeto de Areia)",
+        evolucoes: ["sandslash"],
+        imagem: "./Pokemons_Sprites/27_Sandshrew.gif"
     },
         {
         ID: 28,
-        nome: "",
-        nivel: ,
-        tipo: [],
-        tamanho: , // em metros
-        peso: , // em kg
-        sobre: "",
-        fraqueza: [""],
-        hab_principal: "",
-        hab_oculta: "",
+        nome: "sandslash",
+        nivel: 22,
+        tipo: ["Terra"],
+        tamanho: 1.0,
+        peso: 29.5,
+        sobre: "Seu corpo é coberto por espinhos rígidos que são extensões de sua pele. Ele se enrola para atacar ou se defender, causando sérios danos a quem o toca.",
+        fraqueza: ["Água", "Grama", "Gelo"],
+        hab_principal: "Sand Veil (Véu de Areia)",
+        hab_oculta: "Sand Rush (Ímpeto de Areia)",
         evolucoes: [],
-        imagem: "./Pokemons_Sprites/"
+        imagem: "./Pokemons_Sprites/28_Sandslash.gif"
     },
         {
         ID: 29,
-        nome: "",
-        nivel: ,
-        tipo: [],
-        tamanho: , // em metros
-        peso: , // em kg
-        sobre: "",
-        fraqueza: [""],
-        hab_principal: "",
-        hab_oculta: "",
-        evolucoes: [],
-        imagem: "./Pokemons_Sprites/"
+        nome: "nidoran",
+        nivel: 1,
+        tipo: ["Venenoso"],
+        tamanho: 0.4,
+        peso: 7.0,
+        sobre: "Embora seja pequena, seus chifres venenosos a tornam perigosa. Ela é um Pokémon dócil, mas libera uma toxina potente do seu chifre se for ameaçada.",
+        fraqueza: ["Psíquico", "Terra"],
+        hab_principal: "Poison Point (Ponto Venenoso)",
+        hab_oculta: "Hustle (Entusiasmo)",
+        evolucoes: ["nidorina"],
+        imagem: "./Pokemons_Sprites/29_Nidoran_F.gif"
     },
         {
         ID: 30,
-        nome: "",
-        nivel: ,
-        tipo: [],
-        tamanho: , // em metros
-        peso: , // em kg
-        sobre: "",
-        fraqueza: [""],
-        hab_principal: "",
-        hab_oculta: "",
-        evolucoes: [],
-        imagem: "./Pokemons_Sprites/"
+        nome: "nidorina",
+        nivel: 16,
+        tipo: ["Venenoso"],
+        tamanho: 0.8,
+        peso: 20.0,
+        sobre: "Quando está com seus amigos ou família, ela retrai seus espinhos para não ferir ninguém. Ela se torna nervosa se for separada do grupo.",
+        fraqueza: ["Psíquico", "Terra"],
+        hab_principal: "Poison Point (Ponto Venenoso)",
+        hab_oculta: "Hustle (Entusiasmo)",
+        evolucoes: ["nidoqueen"],
+        imagem: "./Pokemons_Sprites/30_Nidorina.gif"
     },
         {
         ID: 31,
-        nome: "",
-        nivel: ,
-        tipo: [],
-        tamanho: , // em metros
-        peso: , // em kg
-        sobre: "",
-        fraqueza: [""],
-        hab_principal: "",
-        hab_oculta: "",
+        nome: "nidoqueen",
+        nivel: 1,
+        tipo: ["Venenoso", "Terra"],
+        tamanho: 1.3,
+        peso: 60.0,
+        sobre: "Seu corpo é coberto por escamas extremamente rígidas. Ela usa seu corpo robusto para executar movimentos pesados e proteger sua prole com ferocidade.",
+        fraqueza: ["Água", "Gelo", "Psíquico", "Terra"],
+        hab_principal: "Poison Point (Ponto Venenoso)",
+        hab_oculta: "Sheer Force (Força Bruta)",
         evolucoes: [],
-        imagem: "./Pokemons_Sprites/"
+        imagem: "./Pokemons_Sprites/31_Nidoqueen.gif"
     }
 ]
 export default pokemons;
