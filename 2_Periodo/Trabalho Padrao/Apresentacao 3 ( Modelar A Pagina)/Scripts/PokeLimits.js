@@ -1,4 +1,4 @@
-import pokemons from "./Scripts/LocalStorage";
+import pokemons from "./ListaPokemons.js";
 const PokemonsPorPagina = 12;
 const AtualPagina = 1
 
@@ -7,3 +7,4 @@ function PokeLimits(){
     const fim = inicio + PokemonsPorPagina
     return pokemons.slice(inicio,fim);
 }
+export{PokemonsPorPagina,AtualPagina,PokeLimits};
