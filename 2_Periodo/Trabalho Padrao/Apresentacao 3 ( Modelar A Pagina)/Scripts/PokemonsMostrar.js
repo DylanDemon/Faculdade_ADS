@@ -1,6 +1,7 @@
-import pokemons from "./LocalStorage.js";
+import pokemons from "./ListaPokemons.js";
 const container = document.getElementById('poke_contain');
 
+function PokemonsMostrar(){
 pokemons.forEach(pokemon => {
     const card = document.createElement('div');
     card.classList.add('card-pokemon');
@@ -13,3 +14,5 @@ pokemons.forEach(pokemon => {
     `;
     container.appendChild(card)
 })
+}
+export {container,PokemonsMostrar};
