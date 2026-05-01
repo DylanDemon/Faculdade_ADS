@@ -1,8 +1,9 @@
-import pokemons from "./ListaPokemons.js";
+import {PokemonsPorPagina,AtualPagina,PokeLimits } from "./PokeLimits.js";
 const container = document.getElementById('poke_contain');
 
 function PokemonsMostrar(){
-pokemons.forEach(pokemon => {
+container.innerHTML = "";
+PokeLimits().forEach(pokemon => {
     const card = document.createElement('div');
     card.classList.add('card-pokemon');
 

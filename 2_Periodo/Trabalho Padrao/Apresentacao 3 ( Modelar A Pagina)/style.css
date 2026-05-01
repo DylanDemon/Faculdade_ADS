@@ -4,39 +4,52 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(166, 30, 0);
+    background-color: rgb(204, 0, 0);
+    background-image: url('./Imagems_Extras/');
 }
-.Inicio_Top{
+.Inicio{
     display: flex;
-    background-color: rgb(129, 0, 0);
-    padding: 1%;
-    border: 2px solid black;
+    justify-content: center;
+}
+#margem_pixel{
+    display: flex;
+    position: relative;
+    width: 1270px;
+    height: 125px;
 }
 #Titulo{
-    width: 300px;
+    position: absolute;
+    width: 370px;
+    margin-top: 15px;
+    margin-right: 850px;
 }
 #B_Pokemons{
-    width: 200px;
-    display: block;
-    margin-left: 50px;
+    position: absolute;
+    width: 240px;
+    margin-top: 20px;
+    margin-right: 240px;
     background: none;    /* Remove o fundo cinza padrão */
     border: none;        /* Remove a borda padrão */
     padding: 0;          /* Remove o espaçamento interno */
     cursor: pointer;     /* Faz o mouse virar a "mãozinha" */
 }
 #B_Deck{
-    width: 200px;
+    position: absolute;
+    width: 240px;
     display: block;
-    margin-left: 20px;
+    margin-top: 20px;
+    margin-left: 250px;
     background: none;    /* Remove o fundo cinza padrão */
     border: none;        /* Remove a borda padrão */
     padding: 0;          /* Remove o espaçamento interno */
     cursor: pointer; 
 }
 #B_Login{
-    width: 200px;
+    position: absolute;
+    width: 240px;
     display: block;
-    margin-left: 400px;
+    margin-top: 20px;
+    margin-left: 900px;
     background: none;    /* Remove o fundo cinza padrão */
     border: none;        /* Remove a borda padrão */
     padding: 0;          /* Remove o espaçamento interno */
@@ -67,4 +80,17 @@ body{
 }
 .card-pokemon:hover {
     transform: scale(1.05);
+}
+.Fim{
+    display: flex;
+    justify-content: center;
+}
+#B_Proximo{
+    width: 100px;
+    order: 2;
+}
+#B_Anterior{
+    width: 100px;
+    order: 1;
+    transform: scaleX(-1);
 }
