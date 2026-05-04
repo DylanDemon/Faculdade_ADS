@@ -1,6 +1,6 @@
 import pokemons from "./ListaPokemons.js";
 import { PokemonsMostrar } from "./PokemonsMostrar.js";
-const PokemonsPorPagina = 12;
+const PokemonsPorPagina = 15;
 let AtualPagina = 1
 
 function PokeLimits(){
