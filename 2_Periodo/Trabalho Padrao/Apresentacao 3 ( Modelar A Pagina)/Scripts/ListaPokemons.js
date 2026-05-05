@@ -11,7 +11,8 @@ const pokemons = [
         hab_principal: "Overgrow (Espessura)",
         hab_oculta: "Chlorophyll (Clorofila)",
         evolucoes: ["Ivysaur", "Venusaur"],
-        imagem: "./Pokemons_Estatica/001.png"
+        imagem: "./Pokemons_Estatica/001.png",
+        card: "./Card_Pokemons/pokemon 1.png"
     },
     {
         ID: 2,
@@ -25,7 +26,8 @@ const pokemons = [
         hab_principal: "Overgrow (Espessura)",
         hab_oculta: "Chlorophyll (Clorofila)",
         evolucoes: ["bulbasaur", "venusaur"],
-        imagem: "./Pokemons_Estatica/002.png"
+        imagem: "./Pokemons_Estatica/002.png",
+        card: "./Card_Pokemons/pokemon 2.png"
     },
     {
         ID: 3,
@@ -39,7 +41,8 @@ const pokemons = [
         hab_principal: "Overgrow (Espessura)",
         hab_oculta: "Chlorophyll (Clorofila)",
         evolucoes: ["bulbasaur", "ivysaur"],
-        imagem: "./Pokemons_Estatica/003.png"
+        imagem: "./Pokemons_Estatica/003.png",
+        card: "./Card_Pokemons/pokemon 3.png"
     },
     {
         ID: 4,
@@ -53,7 +56,8 @@ const pokemons = [
         hab_principal: "Blaze",
         hab_oculta: "Solar Power",
         evolucoes: ["charmeleon", "charizard"],
-        imagem: "./Pokemons_Estatica/004.png"
+        imagem: "./Pokemons_Estatica/004.png",
+        card: "./Card_Pokemons/pokemon 4.png"
     },
     {
         ID: 5,
@@ -67,7 +71,8 @@ const pokemons = [
         hab_principal: "Blaze",
         hab_oculta: "Solar Power",
         evolucoes: ["charmander", "charizard"],
-        imagem: "./Pokemons_Estatica/005.png"
+        imagem: "./Pokemons_Estatica/005.png",
+        card: "./Card_Pokemons/pokemon 5.png"
     },
     {
         ID: 6,
@@ -81,7 +86,8 @@ const pokemons = [
         hab_principal: "Blaze",
         hab_oculta: "Solar Power",
         evolucoes: ["charmander", "charmeleon"],
-        imagem: "./Pokemons_Estatica/006.png"
+        imagem: "./Pokemons_Estatica/006.png",
+        card: "./Card_Pokemons/pokemon 6.png"
     },
     {
         ID: 7,
@@ -95,7 +101,8 @@ const pokemons = [
         hab_principal: "Torrente",
         hab_oculta: "Cura Pelas Chuvas",
         evolucoes: ["wartortle", "blastoise"],
-        imagem: "./Pokemons_Estatica/007.png"
+        imagem: "./Pokemons_Estatica/007.png",
+        card: "./Card_Pokemons/pokemon 7.png"
     },
     {
         ID: 8,
@@ -109,7 +116,8 @@ const pokemons = [
         hab_principal: "Torrente",
         hab_oculta: "Cura Pelas Chuvas",
         evolucoes: ["blastoise"],
-        imagem: "./Pokemons_Estatica/008.png"
+        imagem: "./Pokemons_Estatica/008.png",
+        card: "./Card_Pokemons/pokemon 8.png"
     },
     {
         ID: 9,
@@ -123,7 +131,8 @@ const pokemons = [
         hab_principal: "Torrente",
         hab_oculta: "Cura Pelas Chuvas",
         evolucoes: [], // Estágio final
-        imagem: "./Pokemons_Estatica/009.png"
+        imagem: "./Pokemons_Estatica/009.png",
+        card: "./Card_Pokemons/pokemon 9.png"
     },
     {
         ID: 10,
@@ -137,7 +146,8 @@ const pokemons = [
         hab_principal: "Escudo de Poeira",
         hab_oculta: "Fuga",
         evolucoes: ["metapod", "butterfree"],
-        imagem: "./Pokemons_Estatica/010.png"
+        imagem: "./Pokemons_Estatica/010.png",
+        card: "./Card_Pokemons/pokemon 10.png"
     },
     {
         ID: 11,
@@ -151,7 +161,8 @@ const pokemons = [
         hab_principal: "Mudar de Cor",
         hab_oculta: "Nenhuma",
         evolucoes: ["butterfree"],
-        imagem: "./Pokemons_Estatica/011.png"
+        imagem: "./Pokemons_Estatica/011.png",
+        card: "./Card_Pokemons/pokemon 11.png"
     },
     {
         ID: 12,
@@ -165,7 +176,8 @@ const pokemons = [
         hab_principal: "Olhos Compostos",
         hab_oculta: "Lente Matizada",
         evolucoes: [], // Estágio final
-        imagem: "./Pokemons_Estatica/012.png"
+        imagem: "./Pokemons_Estatica/012.png",
+        card: "./Card_Pokemons/pokemon 12.png"
     },
     {
         ID: 13,
@@ -179,7 +191,8 @@ const pokemons = [
         hab_principal: "Escudo de Poeira",
         hab_oculta: "Fuga",
         evolucoes: ["Kakuna", "Beedrill"],
-        imagem: "./Pokemons_Estatica/013.png"
+        imagem: "./Pokemons_Estatica/013.png",
+        card: "./Card_Pokemons/pokemon 13.png"
     },
     {
         ID: 14,
@@ -193,7 +206,8 @@ const pokemons = [
         hab_principal: "Mudar de Cor",
         hab_oculta: "",
         evolucoes: ["Beedrill"],
-        imagem: "./Pokemons_Estatica/014.png"
+        imagem: "./Pokemons_Estatica/014.png",
+        card: "./Card_Pokemons/pokemon 14.png"
     },
     {
         ID: 15,
@@ -207,7 +221,8 @@ const pokemons = [
         hab_principal: "Enxame",
         hab_oculta: "Sniper",
         evolucoes: [], // Estágio final
-        imagem: "./Pokemons_Estatica/015.png"
+        imagem: "./Pokemons_Estatica/015.png",
+        card: "./Card_Pokemons/pokemon 15.png"
     },
     {
         ID: 16,
@@ -221,7 +236,8 @@ const pokemons = [
         hab_principal: "Olhar Aguçado", // Ou "Pés Ligeiros"
         hab_oculta: "Peito Grande",
         evolucoes: ["Pidgeotto", "Pidgeot"],
-        imagem: "./Pokemons_Estatica/016.png"
+        imagem: "./Pokemons_Estatica/016.png",
+        card: "./Card_Pokemons/pokemon 16.png"
     },
     {
         ID: 17,
@@ -235,7 +251,8 @@ const pokemons = [
         hab_principal: "Olhar Aguçado",
         hab_oculta: "Peito Grande",
         evolucoes: ["Pidgeot"],
-        imagem: "./Pokemons_Estatica/017.png"
+        imagem: "./Pokemons_Estatica/017.png",
+        card: "./Card_Pokemons/pokemon 17.png"
     },
     {
         ID: 18,
@@ -248,7 +265,8 @@ const pokemons = [
         fraqueza: ["Elétrico", "Gelo", "Rocha"],
         hab_principal: "Olhar Aguçado",
         hab_oculta: "Peito Desolado",
-        imagem: "./Pokemons_Estatica/018.png"
+        imagem: "./Pokemons_Estatica/018.png",
+        card: "./Card_Pokemons/pokemon 18.png"
     },
     {
         ID: 19,
@@ -262,7 +280,8 @@ const pokemons = [
         hab_principal: "Fuga",
         hab_oculta: "Entusiasmo",
         evolucoes: [20],
-        imagem: "./Pokemons_Estatica/019.png"
+        imagem: "./Pokemons_Estatica/019.png",
+        card: "./Card_Pokemons/pokemon 19.png"
     },
         {
         ID: 20,
@@ -276,7 +295,8 @@ const pokemons = [
         hab_principal: "Fuga",
         hab_oculta: "Entusiasmo",
         evolucoes: [],
-        imagem: "./Pokemons_Estatica/020.png"
+        imagem: "./Pokemons_Estatica/020.png",
+        card: "./Card_Pokemons/pokemon 20.png"
     },
         {
         ID: 21,
@@ -290,7 +310,8 @@ const pokemons = [
         hab_principal: "Olhar Aguçado",
         hab_oculta: "Atirador",
         evolucoes: [22],
-        imagem: "./Pokemons_Estatica/021.png"
+        imagem: "./Pokemons_Estatica/021.png",
+        card: "./Card_Pokemons/pokemon 21.png"
     },
         {
         ID: 22,
@@ -304,7 +325,8 @@ const pokemons = [
         hab_principal: "Olhar Aguçado",
         hab_oculta: "Atirador",
         evolucoes: [],
-        imagem: "./Pokemons_Estatica/022.png"
+        imagem: "./Pokemons_Estatica/022.png",
+        card: "./Card_Pokemons/pokemon 22.png"
     },
         {
         ID: 23,
@@ -318,7 +340,8 @@ const pokemons = [
         hab_principal: "Intimidação",
         hab_oculta: "Nervosismo",
         evolucoes: ["arbok"],
-        imagem: "./Pokemons_Estatica/023.png"
+        imagem: "./Pokemons_Estatica/023.png",
+        card: "./Card_Pokemons/pokemon 23.png"
     },
         {
         ID: 24,
@@ -332,7 +355,8 @@ const pokemons = [
         hab_principal: "Intimidação",
         hab_oculta: "Nervosismo",
         evolucoes: [],
-        imagem: "./Pokemons_Estatica/024.png"
+        imagem: "./Pokemons_Estatica/024.png",
+        card: "./Card_Pokemons/pokemon 24.png"
     },
         {
         ID: 25,
@@ -346,7 +370,8 @@ const pokemons = [
         hab_principal: "Static (Estática)",
         hab_oculta: "Lightning Rod (Para-raios)",
         evolucoes: ["Raichu"],
-        imagem: "./Pokemons_Estatica/025.png"
+        imagem: "./Pokemons_Estatica/025.png",
+        card: "./Card_Pokemons/pokemon 25.png"
     },
         {
         ID: 26,
@@ -360,7 +385,8 @@ const pokemons = [
         hab_principal: "Static (Estática)",
         hab_oculta: "Lightning Rod (Para-raios)",
         evolucoes: [],
-        imagem: "./Pokemons_Estatica/026.png"
+        imagem: "./Pokemons_Estatica/026.png",
+        card: "./Card_Pokemons/pokemon 26.png"
     },
         {
         ID: 27,
@@ -374,7 +400,8 @@ const pokemons = [
         hab_principal: "Sand Veil (Véu de Areia)",
         hab_oculta: "Sand Rush (Ímpeto de Areia)",
         evolucoes: ["sandslash"],
-        imagem: "./Pokemons_Estatica/027.png"
+        imagem: "./Pokemons_Estatica/027.png",
+        card: "./Card_Pokemons/pokemon 27.png"
     },
         {
         ID: 28,
@@ -388,7 +415,8 @@ const pokemons = [
         hab_principal: "Sand Veil (Véu de Areia)",
         hab_oculta: "Sand Rush (Ímpeto de Areia)",
         evolucoes: [],
-        imagem: "./Pokemons_Estatica/028.png"
+        imagem: "./Pokemons_Estatica/028.png",
+        card: "./Card_Pokemons/pokemon 28.png"
     },
         {
         ID: 29,
@@ -402,7 +430,8 @@ const pokemons = [
         hab_principal: "Poison Point (Ponto Venenoso)",
         hab_oculta: "Hustle (Entusiasmo)",
         evolucoes: ["nidorina"],
-        imagem: "./Pokemons_Estatica/029.png"
+        imagem: "./Pokemons_Estatica/029.png",
+        card: "./Card_Pokemons/pokemon 29.png"
     },
         {
         ID: 30,
@@ -416,7 +445,8 @@ const pokemons = [
         hab_principal: "Poison Point (Ponto Venenoso)",
         hab_oculta: "Hustle (Entusiasmo)",
         evolucoes: ["nidoqueen"],
-        imagem: "./Pokemons_Estatica/030.png"
+        imagem: "./Pokemons_Estatica/030.png",
+        card: "./Card_Pokemons/pokemon 30.png"
     },
         {
         ID: 31,
@@ -430,7 +460,8 @@ const pokemons = [
         hab_principal: "Poison Point (Ponto Venenoso)",
         hab_oculta: "Sheer Force (Força Bruta)",
         evolucoes: [],
-        imagem: "./Pokemons_Estatica/031.png"
+        imagem: "./Pokemons_Estatica/031.png",
+        card: "./Card_Pokemons/pokemon 31.png"
     }
 ]
 export default pokemons;
