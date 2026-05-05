@@ -1,16 +1,19 @@
-import pokemons from "./ListaPokemons.js";
+import {PokemonsPorPagina,AtualPagina,PokeLimits } from "./PokeLimits.js";
 const container = document.getElementById('poke_contain');
 
 function PokemonsMostrar(){
-pokemons.forEach(pokemon => {
+// Pokemons Antigos Deletados
+container.innerHTML = "";
+
+// Pokemons Novos Adicionados
+PokeLimits().forEach(pokemon => {
     const card = document.createElement('div');
-    card.classList.add('card-pokemon');
+    card.classList.add('card');
 
     card.innerHTML = `
-        <p>#${pokemon.ID}</p>
-        <img src="${pokemon.imagem}" alt="${pokemon.nome}">
-        <h2 style="text-transform: capitalize;">${pokemon.nome}</h2>
-        <p>Tipo: ${pokemon.tipo.join('/')}</p>
+        
+        <img src="${pokemon.card}" alt="" class="card_pokemon">
+        <img src="${pokemon.imagem}" alt="" class="pokemons">
     `;
     container.appendChild(card)
 })
