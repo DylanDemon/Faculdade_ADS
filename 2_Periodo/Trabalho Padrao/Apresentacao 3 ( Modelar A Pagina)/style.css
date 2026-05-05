@@ -4,6 +4,26 @@
     box-sizing: border-box;
     image-rendering: pixelated;
 }
+@keyframes iniciar {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0%;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 100%;
+    }
+}
+@keyframes CardSpawn{
+    0%{
+        transform: scale(0%);
+        opacity: 0%;
+        }
+    100%{
+        transform: scale(100%);
+        opacity: 100%;
+    }
+}
 body{
     background-image: url('./Imagems_Extras/Fundo Copia.png');
     background-repeat: no-repeat;
@@ -19,12 +39,14 @@ body{
     position: relative;
     width: 1270px;
     height: 125px;
+    animation: iniciar 1s ease-in-out normal;
 }
 #Titulo{
     position: absolute;
     width: 370px;
     margin-top: 15px;
     margin-right: 850px;
+    animation: iniciar 1s ease-in-out normal;
 }
 #B_Pokemons{
     position: absolute;
@@ -35,6 +57,7 @@ body{
     border: none;        /* Remove a borda padrão */
     padding: 0;          /* Remove o espaçamento interno */
     cursor: pointer;     /* Faz o mouse virar a "mãozinha" */
+    animation: iniciar 1s ease-in-out normal;
 }
 #B_Deck{
     position: absolute;
@@ -46,6 +69,7 @@ body{
     border: none;        /* Remove a borda padrão */
     padding: 0;          /* Remove o espaçamento interno */
     cursor: pointer; 
+    animation: iniciar 1s ease-in-out normal;
 }
 #B_Login{
     position: absolute;
@@ -57,12 +81,13 @@ body{
     border: none;        /* Remove a borda padrão */
     padding: 0;          /* Remove o espaçamento interno */
     cursor: pointer; 
+    animation: iniciar 1s ease-in-out normal;
 }
 #poke_contain{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
+    gap: 50px;
+    padding: 50px;
     justify-content: center;
 }
 .card{
@@ -72,6 +97,7 @@ body{
     align-items: center;
     width: 246px;
     height: 336px;
+    animation: CardSpawn 0.5s ease-in-out normal;
 }
 .pokemons{
     position: absolute;
@@ -80,7 +106,8 @@ body{
 }
 
 .card:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
+    transition: transform 0.3s ease
 }
 .Fim{
     display: flex;
