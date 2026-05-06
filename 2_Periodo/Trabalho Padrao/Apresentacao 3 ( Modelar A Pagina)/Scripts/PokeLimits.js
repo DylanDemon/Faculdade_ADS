@@ -1,7 +1,6 @@
 import pokemons from "./ListaPokemons.js";
 import { PokemonsMostrar } from "./PokemonsMostrar.js";
 function PokemonsPorLargura() {
-    try{
     const largura = window.innerWidth;
 
     if (largura < 768) {
@@ -14,16 +13,9 @@ function PokemonsPorLargura() {
     else {
         return 18
     }
-    }
-    catch(error){
-        throw new error("Error No PokemonsPorLargura")
-        console.error(error.stack)
-        return null;
-    }
 }
-const PokemonsPorPagina = PokemonsPorLargura();
+let PokemonsPorPagina = PokemonsPorLargura();
 let AtualPagina = 1
-
 function PokeLimits(){
     try{
     const inicio = (AtualPagina - 1) * PokemonsPorPagina;

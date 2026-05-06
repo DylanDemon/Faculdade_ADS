@@ -3,6 +3,7 @@
     padding: 0%;
     box-sizing: border-box;
     image-rendering: pixelated;
+    vertical-align: middle;
 }
 @keyframes iniciar {
     0% {
@@ -33,62 +34,61 @@ body{
 }
 .Inicio{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
 }
-#margem_pixel{
+@media(max-width: 768px) {
+    #margem_pixel {
+        flex-wrap: wrap; /* Permite que os itens "quebrem" para a linha de baixo se necessário */
+        padding: 5%;
+        background-size: 100% 100%; 
+    }
+
+    #Titulo {
+        width: 80%; /* No celular o título fica grande no topo */
+    }
+
+    #B_Pokemons, #B_Deck, #B_Login {
+        width: 28%; /* Os botões ficam menores para caberem lado a lado abaixo do título */
+    }
+}
+.margem_pixel{
     display: flex;
-    position: relative;
-    width: 1270px;
-    height: 125px;
-    animation: iniciar 1s ease-in-out normal;
+    background-image: url(./Imagems_Extras/Margem_PixelMon2.png);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 2% 5%; /* Padding em % ajuda a manter o conteúdo longe das bordas da imagem */
+    width: 95vw;    /* Ocupa quase toda a largura da tela */
+    max-width: 1500px; /* Mas não cresce infinitamente no PC */
+    height: auto;
+    min-height: 150px;
+
+    animation: iniciar 1s ease-in-out normal
 }
-#Titulo{
-    position: absolute;
-    width: 370px;
-    margin-top: 15px;
-    margin-right: 850px;
-    animation: iniciar 1s ease-in-out normal;
-}
-#B_Pokemons{
-    position: absolute;
-    width: 240px;
-    margin-top: 20px;
-    margin-right: 240px;
-    background: none;    /* Remove o fundo cinza padrão */
-    border: none;        /* Remove a borda padrão */
-    padding: 0;          /* Remove o espaçamento interno */
-    cursor: pointer;     /* Faz o mouse virar a "mãozinha" */
-    animation: iniciar 1s ease-in-out normal;
-}
-#B_Deck{
-    position: absolute;
-    width: 240px;
+#Titulo img, #B_Pokemons img, #B_Deck img, #B_Login img{
+    margin: 0;
+    max-width: 100%;
+    height: block;
     display: block;
-    margin-top: 20px;
-    margin-left: 250px;
-    background: none;    /* Remove o fundo cinza padrão */
-    border: none;        /* Remove a borda padrão */
-    padding: 0;          /* Remove o espaçamento interno */
-    cursor: pointer; 
     animation: iniciar 1s ease-in-out normal;
 }
-#B_Login{
-    position: absolute;
-    width: 240px;
-    display: block;
-    margin-top: 20px;
-    margin-left: 900px;
-    background: none;    /* Remove o fundo cinza padrão */
-    border: none;        /* Remove a borda padrão */
-    padding: 0;          /* Remove o espaçamento interno */
-    cursor: pointer; 
-    animation: iniciar 1s ease-in-out normal;
+#Titulo {
+    width: 40%;       /* Título um pouco maior */
+}
+#B_Pokemons, #B_Deck, #B_Login{
+    width: 20%
 }
 #poke_contain{
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
-    padding: 50px;
     justify-content: center;
 }
 .card{
@@ -96,14 +96,12 @@ body{
     position: relative;
     justify-content: center;
     align-items: center;
-    width: 246px;
-    height: 336px;
     animation: CardSpawn 0.5s ease-in-out normal;
 }
 .pokemons{
     position: absolute;
     display: block;
-    width: 140px;
+    width: 50%;
 }
 
 .card:hover {

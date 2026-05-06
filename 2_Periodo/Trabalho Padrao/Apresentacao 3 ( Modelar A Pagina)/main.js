@@ -19,13 +19,8 @@ function init(){
     if(botao5){
         botao5.addEventListener("click", Apertei5)
     }
-    PokemonsPorLargura();
     PokemonsMostrar();
     PokeLimits();
     salvarStorage(); 
 }
-window.addEventListener("resize",() => {
-        PokemonsPorPagina = PokemonsPorLargura();
-        PokemonsMostrar();
-    })
 document.addEventListener('DOMContentLoaded', init);
