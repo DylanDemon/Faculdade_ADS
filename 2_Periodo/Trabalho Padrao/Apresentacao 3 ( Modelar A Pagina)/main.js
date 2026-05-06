@@ -21,7 +21,6 @@ function init(){
     }
     PokemonsMostrar();
     PokeLimits();
-    salvarStorage();
-    console.log(`${window.innerWidth} x ${window.innerHeight}`);
+    salvarStorage(); 
 }
 document.addEventListener('DOMContentLoaded', init);
