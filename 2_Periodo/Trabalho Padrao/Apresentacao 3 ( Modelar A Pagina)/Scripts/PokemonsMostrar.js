@@ -10,8 +10,8 @@ PokeLimits().forEach(pokemon => {
     card.classList.add('card');
 
     card.innerHTML = `
-        <img src="${pokemon.card}" alt="" class="card_pokemon">
         <img src="${pokemon.imagem}" alt="" class="pokemons">
+        <img src="${pokemon.card}" alt="" class="card_pokemon">
     `;
     container.appendChild(card)
 })

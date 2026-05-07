@@ -19,8 +19,8 @@ function init(){
     if(botao5){
         botao5.addEventListener("click", Apertei5)
     }
-    PokemonsMostrar();
     PokeLimits();
-    salvarStorage(); 
+    salvarStorage();
+    PokemonsMostrar();
 }
 document.addEventListener('DOMContentLoaded', init);
