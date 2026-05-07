@@ -10,6 +10,9 @@ function PokemonsPorLargura() {
     } else if(largura < 1920){
         return 15; // PC de 17 polegadas ou mais
     }
+    else{
+        return 20;
+    }
 }
 let PokemonsPorPagina = PokemonsPorLargura();
 let AtualPagina = 1

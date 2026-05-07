@@ -2,8 +2,7 @@ import {container, PokemonsMostrar} from './Scripts/PokemonsMostrar.js';
 import {PokemonsPorPagina, AtualPagina, PokeLimits} from './Scripts/PokeLimits.js';
 import {botao,botao2,botao3,botao4, botao5,Apertei1,Apertei2,Apertei3,Apertei4, Apertei5} from './Scripts/Botoes.js';
 import { salvarStorage } from './Scripts/Localstorage.js';
-function init(){
-    console.log("Pokemons Iniciado");
+function init(){    
     if(botao){
         botao.addEventListener("click", Apertei1)
     }
@@ -22,5 +21,6 @@ function init(){
     PokeLimits();
     salvarStorage();
     PokemonsMostrar();
+    console.log("Pokemons Iniciado");
 }
 document.addEventListener('DOMContentLoaded', init);
