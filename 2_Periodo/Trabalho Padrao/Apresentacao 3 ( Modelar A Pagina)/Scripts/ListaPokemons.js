@@ -109,7 +109,7 @@ const pokemons = [
             hab_oculta: "Solar Power",
             evolucoes: ["charmander", "charmeleon"],
             imagem: "./Pokemons_Estatica/006.png",
-            card: "./Card_Pokemons/pokemon 6.png"
+            card: "./Card_Pokemons/pokemon fogo_voador.png"
     },
     {
             ID: 7,
@@ -1482,7 +1482,7 @@ const pokemons = [
             Hab_oculta: "Nenhuma",
             Evolucoes: ["haunter", "gengar"],
             imagem: "./Pokemons_Estatica/092.png",
-            card: "./Card_Pokemons/pokemon 92.png",
+            card: "./Card_Pokemons/pokemon sombrio_veneno.png",
         },
         {
             ID: 93,
@@ -1498,7 +1498,7 @@ const pokemons = [
             Hab_oculta: "Nenhuma",
             Evolucoes: ["gastly", "gengar"],
             imagem: "./Pokemons_Estatica/093.png",
-            card: "./Card_Pokemons/pokemon 93.png",
+            card: "./Card_Pokemons/pokemon sombrio_veneno.png",
         },
         {
             ID: 94,
@@ -1514,7 +1514,7 @@ const pokemons = [
             Hab_oculta: "Nenhuma",
             Evolucoes: ["gastly", "haunter"],
             imagem: "./Pokemons_Estatica/094.png",
-            card: "./Card_Pokemons/pokemon 94.png",
+            card: "./Card_Pokemons/pokemon sombrio_veneno.png",
         },
         {
             ID: 95,
@@ -1642,7 +1642,7 @@ const pokemons = [
             Hab_oculta: "Harvest",
             Evolucoes: ["exeggutor"],
             imagem: "./Pokemons_Estatica/102.png",
-            card: "./Card_Pokemons/pokemon 102.png",
+            card: "./Card_Pokemons/pokemon planta_psiquico.png",
         },
         {
             ID: 103,
@@ -1658,7 +1658,7 @@ const pokemons = [
             Hab_oculta: "Harvest",
             Evolucoes: ["exeggcute"],
             imagem: "./Pokemons_Estatica/103.png",
-            card: "./Card_Pokemons/pokemon 103.png",
+            card: "./Card_Pokemons/pokemon planta_psiquico.png",
         },
         {
             ID: 104,
@@ -1786,7 +1786,7 @@ const pokemons = [
             Hab_oculta: "Reckless",
             Evolucoes: ["rhydon", "rhyperior"],
             imagem: "./Pokemons_Estatica/111.png",
-            card: "./Card_Pokemons/pokemon 111.png",
+            card: "./Card_Pokemons/pokemon terra_rocha.png",
         },
         {
             ID: 112,
@@ -1802,7 +1802,7 @@ const pokemons = [
             Hab_oculta: "Reckless",
             Evolucoes: ["rhyhorn", "rhyperior"],
             imagem: "./Pokemons_Estatica/112.png",
-            card: "./Card_Pokemons/pokemon 112.png",
+            card: "./Card_Pokemons/pokemon terra_rocha.png",
         },
         {
             ID: 113,
@@ -1962,7 +1962,7 @@ const pokemons = [
             Hab_oculta: "Technician",
             Evolucoes: ["mime jr.", "mr. rime"],
             imagem: "./Pokemons_Estatica/122.png",
-            card: "./Card_Pokemons/pokemon 122.png",
+            card: "./Card_Pokemons/pokemon psiquico_fada.png",
         },
         {
             ID: 123,
@@ -1994,7 +1994,7 @@ const pokemons = [
             Hab_oculta: "Dry Skin",
             Evolucoes: ["smoochum"],
             imagem: "./Pokemons_Estatica/124.png",
-            card: "./Card_Pokemons/pokemon 124.png",
+            card: "./Card_Pokemons/pokemon gelo_psiquico.png",
         },
         {
             ID: 125,
@@ -2090,7 +2090,7 @@ const pokemons = [
             Hab_oculta: "Moxie",
             Evolucoes: ["magikarp"],
             imagem: "./Pokemons_Estatica/130.png",
-            card: "./Card_Pokemons/pokemon 130.png",
+            card: "./Card_Pokemons/pokemon agua_voador.png",
         },
         {
             ID: 131,
@@ -2218,7 +2218,7 @@ const pokemons = [
             Hab_oculta: "Weak Armor",
             Evolucoes: ["omastar"],
             imagem: "./Pokemons_Estatica/138.png",
-            card: "./Card_Pokemons/pokemon 138.png",
+            card: "./Card_Pokemons/pokemon rocha_agua.png",
         },
         {
             ID: 139,
@@ -2234,7 +2234,7 @@ const pokemons = [
             Hab_oculta: "Weak Armor",
             Evolucoes: ["omanyte"],
             imagem: "./Pokemons_Estatica/139.png",
-            card: "./Card_Pokemons/pokemon 139.png",
+            card: "./Card_Pokemons/pokemon rocha_agua.png",
         },
         {
             ID: 140,
@@ -2250,7 +2250,7 @@ const pokemons = [
             Hab_oculta: "Weak Armor",
             Evolucoes: ["kabutops"],
             imagem: "./Pokemons_Estatica/140.png",
-            card: "./Card_Pokemons/pokemon 140.png",
+            card: "./Card_Pokemons/pokemon rocha_agua.png",
         },
         {
             ID: 141,
@@ -2266,7 +2266,7 @@ const pokemons = [
             Hab_oculta: "Weak Armor",
             Evolucoes: ["kabuto"],
             imagem: "./Pokemons_Estatica/141.png",
-            card: "./Card_Pokemons/pokemon 141.png",
+            card: "./Card_Pokemons/pokemon rocha_agua.png",
         },
         {
             ID: 142,
@@ -2282,7 +2282,7 @@ const pokemons = [
             Hab_oculta: "Unnerve",
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/142.png",
-            card: "./Card_Pokemons/pokemon 142.png",
+            card: "./Card_Pokemons/pokemon rocha_voador.png",
         },
         {
             ID: 143,
@@ -2314,7 +2314,7 @@ const pokemons = [
             Hab_oculta: "Snow Cloak",
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/144.png",
-            card: "./Card_Pokemons/pokemon 144.png",
+            card: "./Card_Pokemons/pokemon gelo_voador.png",
         },
         {
             ID: 145,
@@ -2330,7 +2330,7 @@ const pokemons = [
             Hab_oculta: "Static",
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/145.png",
-            card: "./Card_Pokemons/pokemon 145.png",
+            card: "./Card_Pokemons/pokemon eletrico_voador.png",
         },
         {
             ID: 146,
@@ -2346,7 +2346,7 @@ const pokemons = [
             Hab_oculta: "Flame Body",
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/146.png",
-            card: "./Card_Pokemons/pokemon 146.png",
+            card: "./Card_Pokemons/pokemon fogo_voador.png",
         },
         {
             ID: 147,
@@ -2362,7 +2362,7 @@ const pokemons = [
             Hab_oculta: "Marvel Scale",
             Evolucoes: ["dragonair", "dragonite"],
             imagem: "./Pokemons_Estatica/147.png",
-            card: "./Card_Pokemons/pokemon 147.png",
+            card: "./Card_Pokemons/pokemon dragao.png",
         },
         {
             ID: 148,
@@ -2378,7 +2378,7 @@ const pokemons = [
             Hab_oculta: "Marvel Scale",
             Evolucoes: ["dratini", "dragonite"],
             imagem: "./Pokemons_Estatica/148.png",
-            card: "./Card_Pokemons/pokemon 148.png",
+            card: "./Card_Pokemons/pokemon dragao.png",
         },
         {
             ID: 149,
@@ -2842,7 +2842,7 @@ const pokemons = [
             Hab_oculta: "Magic Bounce",
             Evolucoes: ["xatu"],
             imagem: "./Pokemons_Estatica/177.png",
-            card: "./Card_Pokemons/pokemon 177.png",
+            card: "./Card_Pokemons/pokemon psiquico_voador.png",
         },
         {
             ID: 178,
@@ -2858,7 +2858,7 @@ const pokemons = [
             Hab_oculta: "Magic Bounce",
             Evolucoes: ["natu"],
             imagem: "./Pokemons_Estatica/178.png",
-            card: "./Card_Pokemons/pokemon 178.png",
+            card: "./Card_Pokemons/pokemon psiquico_voador.png",
         },
         {
             ID: 179,
@@ -3162,7 +3162,7 @@ const pokemons = [
             Hab_oculta: "Inner Focus",
             Evolucoes: ["eevee"],
             imagem: "./Pokemons_Estatica/197.png",
-            card: "./Card_Pokemons/pokemon 197.png",
+            card: "./Card_Pokemons/pokemon sombrio.png",
         },
         {
             ID: 198,
@@ -3178,7 +3178,7 @@ const pokemons = [
             Hab_oculta: "Prankster",
             Evolucoes: ["honchkrow"],
             imagem: "./Pokemons_Estatica/198.png",
-            card: "./Card_Pokemons/pokemon 198.png",
+            card: "./Card_Pokemons/pokemon sombrio_voador.png",
         },
         {
             ID: 199,
@@ -3210,7 +3210,7 @@ const pokemons = [
             Hab_oculta: "Nenhuma",
             Evolucoes: ["mismagius"],
             imagem: "./Pokemons_Estatica/200.png",
-            card: "./Card_Pokemons/pokemon 200.png",
+            card: "./Card_Pokemons/pokemon fantasma.png",
         },
         {
             ID: 201,
@@ -3610,7 +3610,7 @@ const pokemons = [
             Hab_oculta: "Insomnia",
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/225.png",
-            card: "./Card_Pokemons/pokemon 225.png",
+            card: "./Card_Pokemons/pokemon gelo_voador.png",
         },
         {
             ID: 226,
@@ -3626,7 +3626,7 @@ const pokemons = [
             Hab_oculta: "Water Veil",
             Evolucoes: ["mantyke"],
             imagem: "./Pokemons_Estatica/226.png",
-            card: "./Card_Pokemons/pokemon 226.png",
+            card: "./Card_Pokemons/pokemon agua_voador.png",
         },
         {
             ID: 227,
@@ -3642,7 +3642,7 @@ const pokemons = [
             Hab_oculta: "Weak Armor",
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/227.png",
-            card: "./Card_Pokemons/pokemon 227.png",
+            card: "./Card_Pokemons/pokemon aço_voador.png",
         },
         {
             ID: 228,
@@ -3818,7 +3818,7 @@ const pokemons = [
             Hab_oculta: "Hydration",
             Evolucoes: ["jynx"],
             imagem: "./Pokemons_Estatica/238.png",
-            card: "./Card_Pokemons/pokemon 238.png",
+            card: "./Card_Pokemons/pokemon gelo_psiquico.png",
         },
         {
             ID: 239,
@@ -3994,7 +3994,7 @@ const pokemons = [
             Hab_oculta: "Multiscale",
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/249.png",
-            card: "./Card_Pokemons/pokemon 249.png",
+            card: "./Card_Pokemons/pokemon psiquico_voador.png",
         },
         {
             ID: 250,
@@ -4010,7 +4010,7 @@ const pokemons = [
             Hab_oculta: "Regenerator",
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/250.png",
-            card: "./Card_Pokemons/pokemon 250.png",
+            card: "./Card_Pokemons/pokemon fogo_voador.png",
         },
         {
             ID: 251,
@@ -4026,7 +4026,7 @@ const pokemons = [
             Hab_oculta: "Nenhuma",
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/251.png",
-            card: "./Card_Pokemons/pokemon 251.png",
+            card: "./Card_Pokemons/pokemon planta_psiquico.png",
         },
         {
             ID: 252,
@@ -4186,7 +4186,7 @@ const pokemons = [
             Hab_oculta: "Rattled",
             Evolucoes: ["mightyena"],
             imagem: "./Pokemons_Estatica/261.png",
-            card: "./Card_Pokemons/pokemon 261.png",
+            card: "./Card_Pokemons/pokemon sombrio.png",
         },
         {
             ID: 262,
@@ -4202,7 +4202,7 @@ const pokemons = [
             Hab_oculta: "Moxie",
             Evolucoes: ["poochyena"],
             imagem: "./Pokemons_Estatica/262.png",
-            card: "./Card_Pokemons/pokemon 262.png",
+            card: "./Card_Pokemons/pokemon sombrio.png",
         },
         {
             ID: 263,
@@ -4458,7 +4458,7 @@ const pokemons = [
             Hab_oculta: "Rain Dish",
             Evolucoes: ["pelipper"],
             imagem: "./Pokemons_Estatica/278.png",
-            card: "./Card_Pokemons/pokemon 278.png",
+            card: "./Card_Pokemons/pokemon agua_voador.png",
         },
         {
             ID: 279,
@@ -4474,7 +4474,7 @@ const pokemons = [
             Hab_oculta: "Rain Dish",
             Evolucoes: ["wingull"],
             imagem: "./Pokemons_Estatica/279.png",
-            card: "./Card_Pokemons/pokemon 279.png",
+            card: "./Card_Pokemons/pokemon agua_voador.png",
         },
         {
             ID: 280,
@@ -4490,7 +4490,7 @@ const pokemons = [
             Hab_oculta: "Telepathy",
             Evolucoes: ["kirlia", "gardevoir", "gallade"],
             imagem: "./Pokemons_Estatica/280.png",
-            card: "./Card_Pokemons/pokemon 280.png",
+            card: "./Card_Pokemons/pokemon psiquico_fada.png",
         },
         {
             ID: 281,
@@ -4506,7 +4506,7 @@ const pokemons = [
             Hab_oculta: "Telepathy",
             Evolucoes: ["ralts", "gardevoir", "gallade"],
             imagem: "./Pokemons_Estatica/281.png",
-            card: "./Card_Pokemons/pokemon 281.png",
+            card: "./Card_Pokemons/pokemon psiquico_fada.png",
         },
         {
             ID: 282,
@@ -4522,7 +4522,7 @@ const pokemons = [
             Hab_oculta: "Telepathy",
             Evolucoes: ["ralts", "kirlia"],
             imagem: "./Pokemons_Estatica/282.png",
-            card: "./Card_Pokemons/pokemon 282.png",
+            card: "./Card_Pokemons/pokemon psiquico_fada.png",
         },
         {
             ID: 283,
@@ -5658,7 +5658,7 @@ const pokemons = [
             Hab_oculta: "Cursed Body",
             Evolucoes: ["banette"],
             imagem: "./Pokemons_Estatica/353.png",
-            card: "./Card_Pokemons/pokemon 353.png",
+            card: "./Card_Pokemons/pokemon fantasma.png",
         },
         {
             ID: 354,
@@ -5674,7 +5674,7 @@ const pokemons = [
             Hab_oculta: "Cursed Body",
             Evolucoes: ["shuppet"],
             imagem: "./Pokemons_Estatica/354.png",
-            card: "./Card_Pokemons/pokemon 354.png",
+            card: "./Card_Pokemons/pokemon fantasma.png",
         },
         {
             ID: 355,
@@ -5690,7 +5690,7 @@ const pokemons = [
             Hab_oculta: "Frisk",
             Evolucoes: ["dusclops", "dusknoir"],
             imagem: "./Pokemons_Estatica/355.png",
-            card: "./Card_Pokemons/pokemon 355.png",
+            card: "./Card_Pokemons/pokemon fantasma.png",
         },
         {
             ID: 356,
@@ -5706,7 +5706,7 @@ const pokemons = [
             Hab_oculta: "Frisk",
             Evolucoes: ["duskull", "dusknoir"],
             imagem: "./Pokemons_Estatica/356.png",
-            card: "./Card_Pokemons/pokemon 356.png",
+            card: "./Card_Pokemons/pokemon fantasma.png",
         },
         {
             ID: 357,
@@ -5754,7 +5754,7 @@ const pokemons = [
             Hab_oculta: "Justified",
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/359.png",
-            card: "./Card_Pokemons/pokemon psiquico.png",
+            card: "./Card_Pokemons/pokemon sombrio.png",
         },
         {
             ID: 360,
@@ -5946,7 +5946,7 @@ const pokemons = [
             Hab_oculta: "Sheer Force",
             Evolucoes: ["shelgon", "salamence"],
             imagem: "./Pokemons_Estatica/371.png",
-            card: "./Card_Pokemons/pokemon 371.png",
+            card: "./Card_Pokemons/pokemon dragao.png",
         },
         {
             ID: 372,
@@ -5962,7 +5962,7 @@ const pokemons = [
             Hab_oculta: "Overcoat",
             Evolucoes: ["bagon", "salamence"],
             imagem: "./Pokemons_Estatica/372.png",
-            card: "./Card_Pokemons/pokemon 372.png",
+            card: "./Card_Pokemons/pokemon dragao.png",
         },
         {
             ID: 373,
@@ -6874,7 +6874,7 @@ const pokemons = [
             Hab_oculta: "Nenhuma",
             Evolucoes: ["misdreavus"],
             imagem: "./Pokemons_Estatica/429.png",
-            card: "./Card_Pokemons/pokemon 429.png",
+            card: "./Card_Pokemons/pokemon fantasma.png",
         },
         {
             ID: 430,
@@ -6890,7 +6890,7 @@ const pokemons = [
             Hab_oculta: "Moxie",
             Evolucoes: ["murkrow"],
             imagem: "./Pokemons_Estatica/430.png",
-            card: "./Card_Pokemons/pokemon 430.png",
+            card: "./Card_Pokemons/pokemon sombrio_voador.png",
         },
         {
             ID: 431,
@@ -7034,7 +7034,7 @@ const pokemons = [
             Hab_oculta: "Technician",
             Evolucoes: ["mr-mime"],
             imagem: "./Pokemons_Estatica/439.png",
-            card: "./Card_Pokemons/pokemon 439.png",
+            card: "./Card_Pokemons/pokemon psiquico_fada.png",
         },
         {
             ID: 440,
@@ -7338,7 +7338,7 @@ const pokemons = [
             Hab_oculta: "Water Veil",
             Evolucoes: ["mantine"],
             imagem: "./Pokemons_Estatica/458.png",
-            card: "./Card_Pokemons/pokemon 458.png",
+            card: "./Card_Pokemons/pokemon agua_voador.png",
         },
         {
             ID: 459,
@@ -7434,7 +7434,7 @@ const pokemons = [
             Hab_oculta: "Reckless",
             Evolucoes: ["rhyhorn", "rhydon"],
             imagem: "./Pokemons_Estatica/464.png",
-            card: "./Card_Pokemons/pokemon 464.png",
+            card: "./Card_Pokemons/pokemon terra_rocha.png",
         },
         {
             ID: 465,
@@ -7642,7 +7642,7 @@ const pokemons = [
             Hab_oculta: "Frisk",
             Evolucoes: ["duskull", "dusclops"],
             imagem: "./Pokemons_Estatica/477.png",
-            card: "./Card_Pokemons/pokemon 477.png",
+            card: "./Card_Pokemons/pokemon fantasma.png",
         },
         {
             ID: 478,
@@ -7866,7 +7866,7 @@ const pokemons = [
             Hab_oculta: "Nenhuma",
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/491.png",
-            card: "./Card_Pokemons/pokemon 491.png",
+            card: "./Card_Pokemons/pokemon sombrio.png",
         },
         {
             ID: 492,
@@ -8154,7 +8154,7 @@ const pokemons = [
             Hab_oculta: "Prankster",
             Evolucoes: ["liepard"],
             imagem: "./Pokemons_Estatica/509.png",
-            card: "./Card_Pokemons/pokemon 509.png",
+            card: "./Card_Pokemons/pokemon sombrio.png",
         },
         {
             ID: 510,
@@ -8170,7 +8170,7 @@ const pokemons = [
             Hab_oculta: "Prankster",
             Evolucoes: ["purrloin"],
             imagem: "./Pokemons_Estatica/510.png",
-            card: "./Card_Pokemons/pokemon 510.png",
+            card: "./Card_Pokemons/pokemon sombrio.png",
         },
         {
             ID: 511,
@@ -8442,7 +8442,7 @@ const pokemons = [
             Hab_oculta: "Simple",
             Evolucoes: ["swoobat"],
             imagem: "./Pokemons_Estatica/527.png",
-            card: "./Card_Pokemons/pokemon 527.png",
+            card: "./Card_Pokemons/pokemon psiquico_voador.png",
         },
         {
             ID: 528,
@@ -8458,7 +8458,7 @@ const pokemons = [
             Hab_oculta: "Simple",
             Evolucoes: ["woobat"],
             imagem: "./Pokemons_Estatica/528.png",
-            card: "./Card_Pokemons/pokemon 528.png",
+            card: "./Card_Pokemons/pokemon psiquico_voador.png",
         },
         {
             ID: 529,
@@ -8986,7 +8986,7 @@ const pokemons = [
             Hab_oculta: "Tinted Lens",
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/561.png",
-            card: "./Card_Pokemons/pokemon 561.png",
+            card: "./Card_Pokemons/pokemon psiquico_voador.png",
         },
         {
             ID: 562,
@@ -9002,7 +9002,7 @@ const pokemons = [
             Hab_oculta: "Nenhuma",
             Evolucoes: ["cofagrigus"],
             imagem: "./Pokemons_Estatica/562.png",
-            card: "./Card_Pokemons/pokemon 562.png",
+            card: "./Card_Pokemons/pokemon fantasma.png",
         },
         {
             ID: 563,
@@ -9018,7 +9018,7 @@ const pokemons = [
             Hab_oculta: "Nenhuma",
             Evolucoes: ["yamask"],
             imagem: "./Pokemons_Estatica/563.png",
-            card: "./Card_Pokemons/pokemon 563.png",
+            card: "./Card_Pokemons/pokemon fantasma.png",
         },
         {
             ID: 564,
@@ -9066,7 +9066,7 @@ const pokemons = [
             Hab_oculta: "Nenhuma",
             Evolucoes: ["archeops"],
             imagem: "./Pokemons_Estatica/566.png",
-            card: "./Card_Pokemons/pokemon 566.png",
+            card: "./Card_Pokemons/pokemon rocha_voador.png",
         },
         {
             ID: 567,
@@ -9082,7 +9082,7 @@ const pokemons = [
             Hab_oculta: "Nenhuma",
             Evolucoes: ["archen"],
             imagem: "./Pokemons_Estatica/567.png",
-            card: "./Card_Pokemons/pokemon 567.png",
+            card: "./Card_Pokemons/pokemon rocha_voador.png",
         },
         {
             ID: 568,
@@ -9130,7 +9130,7 @@ const pokemons = [
             Hab_oculta: "Nenhuma",
             Evolucoes: ["zoroark"],
             imagem: "./Pokemons_Estatica/570.png",
-            card: "./Card_Pokemons/pokemon 570.png",
+            card: "./Card_Pokemons/pokemon sombrio.png",
         },
         {
             ID: 571,
@@ -9146,7 +9146,7 @@ const pokemons = [
             Hab_oculta: "Nenhuma",
             Evolucoes: ["zorua"],
             imagem: "./Pokemons_Estatica/571.png",
-            card: "./Card_Pokemons/pokemon 571.png",
+            card: "./Card_Pokemons/pokemon sombrio.png",
         },
         {
             ID: 572,
@@ -9290,7 +9290,7 @@ const pokemons = [
             Hab_oculta: "Hydration",
             Evolucoes: ["swanna"],
             imagem: "./Pokemons_Estatica/580.png",
-            card: "./Card_Pokemons/pokemon 580.png",
+            card: "./Card_Pokemons/pokemon agua_voador.png",
         },
         {
             ID: 581,
@@ -9306,7 +9306,7 @@ const pokemons = [
             Hab_oculta: "Hydration",
             Evolucoes: ["ducklett"],
             imagem: "./Pokemons_Estatica/581.png",
-            card: "./Card_Pokemons/pokemon 581.png",
+            card: "./Card_Pokemons/pokemon agua_voador.png",
         },
         {
             ID: 582,
@@ -9402,7 +9402,7 @@ const pokemons = [
             Hab_oculta: "Motor Drive",
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/587.png",
-            card: "./Card_Pokemons/pokemon 587.png",
+            card: "./Card_Pokemons/pokemon eletrico_voador.png",
         },
         {
             ID: 588,
@@ -9770,7 +9770,7 @@ const pokemons = [
             Hab_oculta: "Unnerve",
             Evolucoes: ["fraxure", "haxorus"],
             imagem: "./Pokemons_Estatica/610.png",
-            card: "./Card_Pokemons/pokemon 610.png",
+            card: "./Card_Pokemons/pokemon dragao.png",
         },
         {
             ID: 611,
@@ -9786,7 +9786,7 @@ const pokemons = [
             Hab_oculta: "Unnerve",
             Evolucoes: ["axew", "haxorus"],
             imagem: "./Pokemons_Estatica/611.png",
-            card: "./Card_Pokemons/pokemon 611.png",
+            card: "./Card_Pokemons/pokemon dragao.png",
         },
         {
             ID: 612,
@@ -9802,7 +9802,7 @@ const pokemons = [
             Hab_oculta: "Unnerve",
             Evolucoes: ["axew", "fraxure"],
             imagem: "./Pokemons_Estatica/612.png",
-            card: "./Card_Pokemons/pokemon 612.png",
+            card: "./Card_Pokemons/pokemon dragao.png",
         },
         {
             ID: 613,
@@ -9946,7 +9946,7 @@ const pokemons = [
             Hab_oculta: "Mold Breaker",
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/621.png",
-            card: "./Card_Pokemons/pokemon 621.png",
+            card: "./Card_Pokemons/pokemon dragao.png",
         },
         {
             ID: 622,
@@ -10074,7 +10074,7 @@ const pokemons = [
             Hab_oculta: "Weak Armor",
             Evolucoes: ["mandibuzz"],
             imagem: "./Pokemons_Estatica/629.png",
-            card: "./Card_Pokemons/pokemon 629.png",
+            card: "./Card_Pokemons/pokemon sombrio_voador.png",
         },
         {
             ID: 630,
@@ -10090,7 +10090,7 @@ const pokemons = [
             Hab_oculta: "Weak Armor",
             Evolucoes: ["vullaby"],
             imagem: "./Pokemons_Estatica/630.png",
-            card: "./Card_Pokemons/pokemon 630.png",
+            card: "./Card_Pokemons/pokemon sombrio_voador.png",
         },
         {
             ID: 631,
@@ -10282,7 +10282,7 @@ const pokemons = [
             Hab_oculta: "Volt Absorb",
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/642.png",
-            card: "./Card_Pokemons/pokemon 642.png",
+            card: "./Card_Pokemons/pokemon eletrico_voador.png",
         },
         {
             ID: 643,
@@ -10602,7 +10602,7 @@ const pokemons = [
             Hab_oculta: "Gale Wings",
             Evolucoes: ["fletchling", "talonflame"],
             imagem: "./Pokemons_Estatica/662.png",
-            card: "./Card_Pokemons/pokemon 662.png",
+            card: "./Card_Pokemons/pokemon fogo_voador.png",
         },
         {
             ID: 663,
@@ -10618,7 +10618,7 @@ const pokemons = [
             Hab_oculta: "Gale Wings",
             Evolucoes: ["fletchling", "fletchinder"],
             imagem: "./Pokemons_Estatica/663.png",
-            card: "./Card_Pokemons/pokemon 663.png",
+            card: "./Card_Pokemons/pokemon fogo_voador.png",
         },
         {
             ID: 664,
@@ -11018,7 +11018,7 @@ const pokemons = [
             Hab_oculta: "Pickpocket",
             Evolucoes: ["barbaracle"],
             imagem: "./Pokemons_Estatica/688.png",
-            card: "./Card_Pokemons/pokemon 688.png",
+            card: "./Card_Pokemons/pokemon rocha_agua.png",
         },
         {
             ID: 689,
@@ -11034,7 +11034,7 @@ const pokemons = [
             Hab_oculta: "Pickpocket",
             Evolucoes: ["binacle"],
             imagem: "./Pokemons_Estatica/689.png",
-            card: "./Card_Pokemons/pokemon 689.png",
+            card: "./Card_Pokemons/pokemon rocha_agua.png",
         },
         {
             ID: 690,
@@ -11226,7 +11226,7 @@ const pokemons = [
             Hab_oculta: "Mold Breaker",
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/701.png",
-            card: "./Card_Pokemons/pokemon 701.png",
+            card: "./Card_Pokemons/pokemon lutador_voador.png",
         },
         {
             ID: 702,
@@ -11274,7 +11274,7 @@ const pokemons = [
             Hab_oculta: "Gooey",
             Evolucoes: ["sliggoo", "goodra"],
             imagem: "./Pokemons_Estatica/704.png",
-            card: "./Card_Pokemons/pokemon 704.png",
+            card: "./Card_Pokemons/pokemon dragao.png",
         },
         {
             ID: 705,
@@ -11290,7 +11290,7 @@ const pokemons = [
             Hab_oculta: "Gooey",
             Evolucoes: ["goomy", "goodra"],
             imagem: "./Pokemons_Estatica/705.png",
-            card: "./Card_Pokemons/pokemon 705.png",
+            card: "./Card_Pokemons/pokemon dragao.png",
         },
         {
             ID: 706,
@@ -11306,7 +11306,7 @@ const pokemons = [
             Hab_oculta: "Gooey",
             Evolucoes: ["goomy", "sliggoo"],
             imagem: "./Pokemons_Estatica/706.png",
-            card: "./Card_Pokemons/pokemon 706.png",
+            card: "./Card_Pokemons/pokemon dragao.png",
         },
         {
             ID: 707,
@@ -11482,7 +11482,7 @@ const pokemons = [
             Hab_oculta: "Nenhuma",
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/717.png",
-            card: "./Card_Pokemons/pokemon 717.png",
+            card: "./Card_Pokemons/pokemon sombrio_voador.png",
         },
         {
             ID: 718,
@@ -11866,7 +11866,7 @@ const pokemons = [
             Hab_oculta: "Nenhuma",
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/741.png",
-            card: "./Card_Pokemons/pokemon 741.png",
+            card: "./Card_Pokemons/pokemon fogo_voador.png",
         },
         {
             ID: 742,
@@ -12394,7 +12394,7 @@ const pokemons = [
             Hab_oculta: "Nenhuma",
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/774.png",
-            card: "./Card_Pokemons/pokemon 774.png",
+            card: "./Card_Pokemons/pokemon rocha_voador.png",
         },
         {
             ID: 775,
@@ -12522,7 +12522,7 @@ const pokemons = [
             Hab_oculta: "Overcoat",
             Evolucoes: ["hakamo-o", "kommo-o"],
             imagem: "./Pokemons_Estatica/782.png",
-            card: "./Card_Pokemons/pokemon 782.png",
+            card: "./Card_Pokemons/pokemon dragao.png",
         },
         {
             ID: 783,
@@ -12586,7 +12586,7 @@ const pokemons = [
             Hab_oculta: "Telepathy",
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/786.png",
-            card: "./Card_Pokemons/pokemon 786.png",
+            card: "./Card_Pokemons/pokemon psiquico_fada.png",
         },
         {
             ID: 787,
@@ -12762,7 +12762,7 @@ const pokemons = [
             Hab_oculta: "Nenhuma",
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/797.png",
-            card: "./Card_Pokemons/pokemon 797.png",
+            card: "./Card_Pokemons/pokemon aço_voador.png",
         },
         {
             ID: 798,
@@ -13242,7 +13242,7 @@ const pokemons = [
             Hab_oculta: "Stakeout",
             Evolucoes: ["thievul"],
             imagem: "./Pokemons_Estatica/827.png",
-            card: "./Card_Pokemons/pokemon 827.png",
+            card: "./Card_Pokemons/pokemon sombrio.png",
         },
         {
             ID: 828,
@@ -13258,7 +13258,7 @@ const pokemons = [
             Hab_oculta: "Stakeout",
             Evolucoes: ["nickit"],
             imagem: "./Pokemons_Estatica/828.png",
-            card: "./Card_Pokemons/pokemon 828.png",
+            card: "./Card_Pokemons/pokemon sombrio.png",
         },
         {
             ID: 829,
@@ -13674,7 +13674,7 @@ const pokemons = [
             Hab_oculta: "Cursed Body",
             Evolucoes: ["polteageist"],
             imagem: "./Pokemons_Estatica/854.png",
-            card: "./Card_Pokemons/pokemon 854.png",
+            card: "./Card_Pokemons/pokemon fantasma.png",
         },
         {
             ID: 855,
@@ -13690,7 +13690,7 @@ const pokemons = [
             Hab_oculta: "Cursed Body",
             Evolucoes: ["sinistea"],
             imagem: "./Pokemons_Estatica/855.png",
-            card: "./Card_Pokemons/pokemon 855.png",
+            card: "./Card_Pokemons/pokemon fantasma.png",
         },
         {
             ID: 856,
@@ -13738,7 +13738,7 @@ const pokemons = [
             Hab_oculta: "Magic Bounce",
             Evolucoes: ["hatenna", "hattrem"],
             imagem: "./Pokemons_Estatica/858.png",
-            card: "./Card_Pokemons/pokemon 858.png",
+            card: "./Card_Pokemons/pokemon psiquico_fada.png",
         },
         {
             ID: 859,
@@ -13834,7 +13834,7 @@ const pokemons = [
             Hab_oculta: "Perish Body",
             Evolucoes: ["corsola"],
             imagem: "./Pokemons_Estatica/864.png",
-            card: "./Card_Pokemons/pokemon 864.png",
+            card: "./Card_Pokemons/pokemon fantasma.png",
         },
         {
             ID: 865,
@@ -13866,7 +13866,7 @@ const pokemons = [
             Hab_oculta: "Ice Body",
             Evolucoes: ["mime jr.", "mr. mime"],
             imagem: "./Pokemons_Estatica/866.png",
-            card: "./Card_Pokemons/pokemon 866.png",
+            card: "./Card_Pokemons/pokemon gelo_psiquico.png",
         },
         {
             ID: 867,
@@ -14330,7 +14330,7 @@ const pokemons = [
             Hab_oculta: "Nenhuma",
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/895.png",
-            card: "./Card_Pokemons/pokemon 895.png",
+            card: "./Card_Pokemons/pokemon dragao.png",
         },
         {
             ID: 896,
@@ -14362,7 +14362,7 @@ const pokemons = [
             Hab_oculta: "Nenhuma",
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/897.png",
-            card: "./Card_Pokemons/pokemon 897.png",
+            card: "./Card_Pokemons/pokemon fantasma.png",
         },
         {
             ID: 898,
@@ -15050,7 +15050,7 @@ const pokemons = [
             Hab_oculta: "Competitive",
             Evolucoes: ["kilowattrel"],
             imagem: "./Pokemons_Estatica/940.png",
-            card: "./Card_Pokemons/pokemon 940.png",
+            card: "./Card_Pokemons/pokemon eletrico_voador.png",
         },
         {
             ID: 941,
@@ -15066,7 +15066,7 @@ const pokemons = [
             Hab_oculta: "Competitive",
             Evolucoes: ["wattrel"],
             imagem: "./Pokemons_Estatica/941.png",
-            card: "./Card_Pokemons/pokemon 941.png",
+            card: "./Card_Pokemons/pokemon eletrico_voador.png",
         },
         {
             ID: 942,
@@ -15082,7 +15082,7 @@ const pokemons = [
             Hab_oculta: "Stakeout",
             Evolucoes: ["mabosstiff"],
             imagem: "./Pokemons_Estatica/942.png",
-            card: "./Card_Pokemons/pokemon 942.png",
+            card: "./Card_Pokemons/pokemon sombrio.png",
         },
         {
             ID: 943,
@@ -15098,7 +15098,7 @@ const pokemons = [
             Hab_oculta: "Stakeout",
             Evolucoes: ["maschiff"],
             imagem: "./Pokemons_Estatica/943.png",
-            card: "./Card_Pokemons/pokemon 943.png",
+            card: "./Card_Pokemons/pokemon sombrio.png",
         },
         {
             ID: 944,
@@ -15546,7 +15546,7 @@ const pokemons = [
             Hab_oculta: "Fluffy",
             Evolucoes: ["houndstone"],
             imagem: "./Pokemons_Estatica/971.png",
-            card: "./Card_Pokemons/pokemon 971.png",
+            card: "./Card_Pokemons/pokemon fantasma.png",
         },
         {
             ID: 972,
@@ -15562,7 +15562,7 @@ const pokemons = [
             Hab_oculta: "Fluffy",
             Evolucoes: ["greavard"],
             imagem: "./Pokemons_Estatica/972.png",
-            card: "./Card_Pokemons/pokemon 972.png",
+            card: "./Card_Pokemons/pokemon fantasma.png",
         },
         {
             ID: 973,
@@ -15898,7 +15898,7 @@ const pokemons = [
             Hab_oculta: "Nenhuma",
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/993.png",
-            card: "./Card_Pokemons/pokemon 993.png",
+            card: "./Card_Pokemons/pokemon sombrio_voador.png",
         },
         {
             ID: 994,
@@ -15994,7 +15994,7 @@ const pokemons = [
             Hab_oculta: "Nenhuma",
             Evolucoes: ["gholdengo"],
             imagem: "./Pokemons_Estatica/999.png",
-            card: "./Card_Pokemons/pokemon 999.png",
+            card: "./Card_Pokemons/pokemon fantasma.png",
         },
         {
             ID: 1000,
@@ -16170,7 +16170,7 @@ const pokemons = [
             Hab_oculta: "Nenhuma",
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/1010.png",
-            card: "./Card_Pokemons/pokemon 1010.png",
+            card: "./Card_Pokemons/pokemon planta_psiquico.png",
         },
         {
             ID: 1011,
