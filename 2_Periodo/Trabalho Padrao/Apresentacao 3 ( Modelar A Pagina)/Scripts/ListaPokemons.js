@@ -2826,7 +2826,7 @@ const pokemons = [
             Hab_oculta: "Super Luck",
             Evolucoes: ["togepi", "togekiss"],
             imagem: "./Pokemons_Estatica/176.png",
-            card: "./Card_Pokemons/pokemon 176.png",
+            card: "./Card_Pokemons/pokemon fada_voador.png",
         },
         {
             ID: 177,
@@ -6810,7 +6810,7 @@ const pokemons = [
             Hab_oculta: "Flare Boost",
             Evolucoes: ["drifblim"],
             imagem: "./Pokemons_Estatica/425.png",
-            card: "./Card_Pokemons/pokemon 425.png",
+            card: "./Card_Pokemons/pokemon fantasma_voador.png",
         },
         {
             ID: 426,
@@ -6826,7 +6826,7 @@ const pokemons = [
             Hab_oculta: "Flare Boost",
             Evolucoes: ["drifloon"],
             imagem: "./Pokemons_Estatica/426.png",
-            card: "./Card_Pokemons/pokemon 426.png",
+            card: "./Card_Pokemons/pokemon fantasma_voador.png",
         },
         {
             ID: 427,
@@ -7498,7 +7498,7 @@ const pokemons = [
             Hab_oculta: "Super Luck",
             Evolucoes: ["togepi", "togetic"],
             imagem: "./Pokemons_Estatica/468.png",
-            card: "./Card_Pokemons/pokemon 468.png",
+            card: "./Card_Pokemons/pokemon fada_voador.png",
         },
         {
             ID: 469,
@@ -14490,7 +14490,7 @@ const pokemons = [
             Hab_oculta: "Contrary",
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/905.png",
-            card: "./Card_Pokemons/pokemon 905.png",
+            card: "./Card_Pokemons/pokemon fada_voador.png",
         },
         {
             ID: 906,
