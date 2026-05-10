@@ -3,7 +3,7 @@ import { proximaPagina, anteriorPagina } from "./PokeLimits.js"; // Adicionado .
 // Botao Pokemons Animado
 const botao = document.getElementById("B_Pokemons");
 function Apertei1() {
-    const imagem1Normal = "./Imagems_Extras/Botao_Pokemon_0.gif";
+    const imagem1Normal = "./Imagems_Extras/Botao_Pokemon_0.png";
     const imagem1Clicada = "./Imagems_Extras/Botao_Pokemon_1.png";
     botao.src = imagem1Clicada;
     setTimeout(() => {
@@ -34,29 +34,30 @@ function Apertei3() {
 }
 
 // Botao Proximo Animado
-const botao4 = document.getElementById('B_Proximo');
-function Apertei4(){
+const botaoProximo = document.getElementById('B_Proximo');
+function AperteiProximo(){
     const imagem4Normal = "./Imagems_Extras/botao_proximo_0.png";
     const imagem4Clicada = "./Imagems_Extras/botao_Proximo_1.png";
-    botao4.src = imagem4Clicada;
+    botaoProximo.src = imagem4Clicada;
 
     setTimeout(() => {
-        botao4.src = imagem4Normal;
+        botaoProximo.src = imagem4Normal;
         proximaPagina(); // Agora chamando a função importada
     }, 200);
 }
 
 // Botao Anterior Animado
-const botao5 = document.getElementById('B_Anterior');
-function Apertei5(){
+const botaoAnterior = document.getElementById('B_Anterior');
+function AperteiAnterior(){
     const imagem5Normal = "./Imagems_Extras/botao_proximo_0.png";
     const imagem5Clicada = "./Imagems_Extras/botao_Proximo_1.png";
-    botao5.src = imagem5Clicada;
-
+    botaoAnterior.src = imagem5Clicada;
+    botaoAnterior.style.filter = "drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.8))";
     setTimeout(() => {
-        botao5.src = imagem5Normal;
+        botaoAnterior.src = imagem5Normal;
+        botaoAnterior.style.filter = "";
         anteriorPagina(); // Agora chamando a função importada
     }, 200);
 }
 // Exportando Tudo para a Main (Corrigido o final)
-export { botao, botao2, botao3, botao4, botao5, Apertei1, Apertei2, Apertei3, Apertei4, Apertei5};
+export { botao, botao2, botao3, botaoProximo, botaoAnterior, Apertei1, Apertei2, Apertei3, AperteiProximo, AperteiAnterior};

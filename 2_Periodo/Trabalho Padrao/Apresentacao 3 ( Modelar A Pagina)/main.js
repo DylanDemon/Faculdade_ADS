@@ -1,7 +1,10 @@
 import {container, PokemonsMostrar} from './Scripts/PokemonsMostrar.js';
-import {PokemonsPorPagina, AtualPagina, PokeLimits} from './Scripts/PokeLimits.js';
-import {botao,botao2,botao3,botao4, botao5,Apertei1,Apertei2,Apertei3,Apertei4, Apertei5} from './Scripts/Botoes.js';
+import {PokeLimits, Pagina, pInput} from './Scripts/PokeLimits.js';
+import {botao,botao2,botao3,botaoProximo, botaoAnterior,Apertei1,Apertei2,Apertei3,AperteiProximo, AperteiAnterior} from './Scripts/Botoes.js';
 import { salvarStorage } from './Scripts/Localstorage.js';
+import { mostrarTamanhoHeader } from './Scripts/MostrarTamanho.js';
+
+
 function init(){    
     if(botao){
         botao.addEventListener("click", Apertei1)
@@ -12,15 +15,19 @@ function init(){
     if(botao3){
         botao3.addEventListener("click", Apertei3)
     }
-    if(botao4){
-        botao4.addEventListener("click", Apertei4)
+    if(botaoProximo){
+        botaoProximo.addEventListener("click", AperteiProximo)
     }
-    if(botao5){
-        botao5.addEventListener("click", Apertei5)
+    if(botaoAnterior){
+        botaoAnterior.addEventListener("click", AperteiAnterior)
+    }
+    if(pInput){
+    pInput.addEventListener("change", Pagina);
     }
     PokeLimits();
     salvarStorage();
     PokemonsMostrar();
+    window.onload = mostrarTamanhoHeader();
     console.log("Pokemons Iniciado");
 }
 document.addEventListener('DOMContentLoaded', init);

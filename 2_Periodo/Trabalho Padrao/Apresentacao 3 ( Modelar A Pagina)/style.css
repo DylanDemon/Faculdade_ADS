@@ -1,6 +1,12 @@
 :root{
     --cor-principal: black
 }
+@font-face{
+    font-family: 'Aseprite Font';
+    src: url(./Fonts/aseprite.otf) format('opentype');
+    font-weight:normal;
+    font-style: normal;
+}
 *{
     margin: 0%;
     padding: 0%;
@@ -21,42 +27,53 @@
 }
 @keyframes CardSpawn{
     0%{
-        transform: scale(0%);
+        transform: translateX(-50px);
         opacity: 0%;
         }
     100%{
-        transform: scale(100%);
+        transform: translateX(0px);
         opacity: 100%;
     }
 }
-@font-face{
-    font-family: 'Aseprite Font';
-    src: url(./Fonts/aseprite.otf) format('opentype');
-    font-weight:normal;
-    font-style: normal;
+@keyframes CardDespawn{
+        0%{
+        transform: translateX(0px);
+        opacity: 0%;
+        }
+    100%{
+        transform: translateX(-50px);
+        opacity: 100%;
+    }
 }
+
 body{
-    background-image: url('./Imagems_Extras/Fundo Copia.png');
+    background-image: url('./Imagems_Extras/Fundo Copia2.png');
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
     background-size: 100% 100%;
 }
 .Inicio{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    width: 100%;
+    max-width: 1289px;
+    height: 200px;
+    gap: 5px;
     padding: 20px;
+    margin: 0px auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 @media(max-width: 768px) {
-    #margem_pixel {
+    .margem_pixel {
         flex-wrap: wrap; /* Permite que os itens "quebrem" para a linha de baixo se necessário */
-        padding: 5%;
-        background-size: 100% 100%; 
+        justify-content: space-around;
     }
-
+    .card{
+        width: 150px;
+        height: 210px;
+    }
     #Titulo {
         width: 80%; /* No celular o título fica grande no topo */
     }
@@ -67,34 +84,37 @@ body{
 }
 .margem_pixel{
     display: flex;
-    background-image: url(./Imagems_Extras/Margem_PixelMon2.png);
+    margin: 0 auto;
+    background-image: url(./Imagems_Extras/Margem_PixelMon.png);
     background-position: center center;
-    background-size: 100%;
-    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+
     justify-content: center;
     align-items: center;
     gap: 10px;
-    padding: 2% 5%; /* Padding em % ajuda a manter o conteúdo longe das bordas da imagem */
-    width: 95vw;    /* Ocupa quase toda a largura da tela */
-    max-width: 1500px; /* Mas não cresce infinitamente no PC */
+    padding: 2% 4%;
+ /* Padding em % ajuda a manter o conteúdo longe das bordas da imagem */
+    /* Ocupa quase toda a largura da tela */
+    max-width: 1300px; /* Mas não cresce infinitamente no PC */
     height: auto;
-    min-height: 150px;
+    min-height: 140px;
 
     animation: iniciar 1s ease-in-out normal
 }
-#Titulo img, #B_Pokemons img, #B_Deck img, #B_Login img{
+    #Titulo img, #B_Pokemons img, #B_Deck img, #B_Login img{
     margin: 0;
     max-width: 100%;
-    height: block;
+    height: auto;
     display: block;
     animation: iniciar 1s ease-in-out normal;
-}
-#Titulo {
-    width: 40%;       /* Título um pouco maior */
-}
-#B_Pokemons, #B_Deck, #B_Login{
-    width: 20%
-}
+    }
+     #Titulo{
+        width: 40%;       /* Título um pouco maior */
+    }
+    #B_Pokemons, #B_Deck, #B_Login{
+        width: 20%
+    }
 #poke_contain{
     display: flex;
     flex-wrap: wrap;
@@ -107,6 +127,7 @@ body{
         position: relative;
 
         animation: CardSpawn 0.5s ease-in-out normal;
+
         .card_pokemon{
             width: 100%;
             height: 100%;
@@ -119,6 +140,8 @@ body{
             padding: 25px;
             box-sizing: border-box;
             position: relative;
+
+            transition: transform 0.5s ease;
                 .Texto_Pokemon{
                     position: absolute;
                     top: 15.2%;
@@ -132,7 +155,7 @@ body{
                 }
                 &:hover {
                     transform: scale(1.1);
-                    transition: transform 0.3s ease
+                    z-index: 10;
                 }
         }
         .grupo_texto{
@@ -153,15 +176,36 @@ body{
 }
 .Fim{
     display: flex;
-    justify-content: center;
-}
-#B_Proximo{
-    width: 100px;
-    order: 2;
-}
-#B_Anterior{
-    width: 100px;
-    order: 1;
-    transform: scaleX(-1);
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+    
+    #B_Proximo{
+        position: relative;
+        order: 3;
+        width: 90px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    #B_Anterior{
+        position: relative;
+        order: 1;
+        width: 90px;
+        transform: scaleX(-1);
+    }
+    #N_Pagina{
+        position: relative;
+        order: 2 !important;
+        border: 2px solid black;
+        text-align: center;
+        justify-content: center;
+        font-size: 28px;
+        width: 5%;
+        height: 50px;
+    }
+    #N_Pagina::-webkit-outer-spin-button, #N_Pagina::-webkit-inner-spin-button{
+            -webkit-appearance: none;
+            margin: 0;
+        }
 }
 
