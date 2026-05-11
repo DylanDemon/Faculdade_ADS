@@ -1,0 +1,23 @@
+:root{
+    --cor-principal: black
+}
+@font-face{
+    font-family: 'Aseprite Font';
+    src: url(./Fonts/aseprite.otf) format('opentype');
+    font-weight:normal;
+    font-style: normal;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    image-rendering: pixelated;
+    font-family: 'Aseprite Font';
+    vertical-align: middle;
+}
+body{
+    background-image: url('./Imagems_Extras/Fundo_Copia2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}

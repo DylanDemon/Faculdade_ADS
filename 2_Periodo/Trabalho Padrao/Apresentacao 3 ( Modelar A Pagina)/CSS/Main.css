@@ -47,7 +47,7 @@
 }
 
 body{
-    background-image: url('./Imagems_Extras/Fundo Copia2.png');
+    background-image: url('./Imagems_Extras/Fundo_Copia2.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -102,18 +102,21 @@ body{
 
     animation: iniciar 1s ease-in-out normal
 }
-    #Titulo img, #B_Pokemons img, #B_Deck img, #B_Login img{
+    #Titulo img, #B_Home img, #B_Deck img, #B_Login img{
     margin: 0;
     max-width: 100%;
     height: auto;
     display: block;
     animation: iniciar 1s ease-in-out normal;
     }
-     #Titulo{
+    #Titulo{
         width: 40%;       /* Título um pouco maior */
     }
-    #B_Pokemons, #B_Deck, #B_Login{
+    #B_Deck, #B_Login{
         width: 20%
+    }
+    #B_Home{
+        width: 65px;
     }
 #poke_contain{
     display: flex;
