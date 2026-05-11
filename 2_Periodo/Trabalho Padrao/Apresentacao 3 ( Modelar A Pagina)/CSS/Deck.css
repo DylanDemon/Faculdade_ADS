@@ -15,9 +15,106 @@
     font-family: 'Aseprite Font';
     vertical-align: middle;
 }
+@keyframes iniciar {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0%;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 100%;
+    }
+}
+@keyframes CardSpawn{
+    0%{
+        transform: translateX(-50px);
+        opacity: 0%;
+        }
+    100%{
+        transform: translateX(0px);
+        opacity: 100%;
+    }
+}
+@keyframes CardDespawn{
+        0%{
+        transform: translateX(0px);
+        opacity: 0%;
+        }
+    100%{
+        transform: translateX(-50px);
+        opacity: 100%;
+    }
+}
+
 body{
     background-image: url('./Imagems_Extras/Fundo_Copia2.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
 }
+.Inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1289px;
+    height: 200px;
+    gap: 5px;
+    padding: 20px;
+    margin: 0px auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+@media(max-width: 768px) {
+    .margem_pixel {
+        flex-wrap: wrap; /* Permite que os itens "quebrem" para a linha de baixo se necessário */
+        justify-content: space-around;
+    }
+    .card{
+        width: 150px;
+        height: 210px;
+    }
+    #Titulo {
+        width: 80%; /* No celular o título fica grande no topo */
+    }
+
+    #B_Pokemons, #B_Deck, #B_Login {
+        width: 28%; /* Os botões ficam menores para caberem lado a lado abaixo do título */
+    }
+}
+.margem_pixel{
+    display: flex;
+    margin: 0 auto;
+    background-image: url(./Imagems_Extras/Margem_PixelMon.png);
+    background-position: center center;
+    background-size: 100% 100%;
+
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 2% 4%;
+ /* Padding em % ajuda a manter o conteúdo longe das bordas da imagem */
+    /* Ocupa quase toda a largura da tela */
+    max-width: 1300px; /* Mas não cresce infinitamente no PC */
+    height: auto;
+    min-height: 140px;
+
+    animation: iniciar 1s ease-in-out normal
+}
+    #Titulo img, #B_Home img, #B_Deck img, #B_Login img{
+    margin: 0;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    animation: iniciar 1s ease-in-out normal;
+    }
+    #Titulo{
+        width: 40%;       /* Título um pouco maior */
+    }
+    #B_Deck, #B_Login{
+        width: 20%
+    }
+    #B_Home{
+        width: 65px;
+    }

@@ -3,8 +3,8 @@ import { proximaPagina, anteriorPagina } from "./PokeLimits.js"; // Adicionado .
 // Botao Pokemons Animado
 const botao = document.getElementById("B_Home");
 function Apertei1() {
-    const imagem1Normal = "./Imagems_Extras/Botao_Home_0.png";
-    const imagem1Clicada = "./Imagems_Extras/Botao_Home_1.png";
+    const imagem1Normal = "./CSS/Imagems_Extras/Botao_Home_0.png";
+    const imagem1Clicada = "./CSS/Imagems_Extras/Botao_Home_1.png";
     botao.src = imagem1Clicada;
     setTimeout(() => {
         botao.src = imagem1Normal;
@@ -15,8 +15,8 @@ function Apertei1() {
 // Botao Deck Animado
 const botao2 = document.getElementById('B_Deck');
 function Apertei2() {
-    const imagem2Normal = "./Imagems_Extras/Botao_Deck_0.png";
-    const imagem2Clicada = "./Imagems_Extras/Botao_Deck_1.png";
+    const imagem2Normal = "./CSS/Imagems_Extras/Botao_Deck_0.png";
+    const imagem2Clicada = "./CSS/Imagems_Extras/Botao_Deck_1.png";
     botao2.src = imagem2Clicada;
     setTimeout(() => {
         botao2.src = imagem2Normal;
@@ -27,8 +27,8 @@ function Apertei2() {
 // Botao Login Animado
 const botao3 = document.getElementById('B_Login');
 function Apertei3() {
-    const imagem3Normal = "./Imagems_Extras/Botao_Login_0.png";
-    const imagem3Clicada = "./Imagems_Extras/Botao_Login_1.png";
+    const imagem3Normal = "./CSS/Imagems_Extras/Botao_Login_0.png";
+    const imagem3Clicada = "./CSS/Imagems_Extras/Botao_Login_1.png";
     botao3.src = imagem3Clicada;
     setTimeout(() => {
         botao3.src = imagem3Normal;
@@ -39,8 +39,8 @@ function Apertei3() {
 // Botao Proximo Animado
 const botaoProximo = document.getElementById('B_Proximo');
 function AperteiProximo(){
-    const imagem4Normal = "./Imagems_Extras/botao_proximo_0.png";
-    const imagem4Clicada = "./Imagems_Extras/botao_Proximo_1.png";
+    const imagem4Normal = "./CSS/Imagems_Extras/botao_proximo_0.png";
+    const imagem4Clicada = "./CSS/Imagems_Extras/botao_Proximo_1.png";
     botaoProximo.src = imagem4Clicada;
     botaoProximo.style.filter = "drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.8))";
     setTimeout(() => {
@@ -53,8 +53,8 @@ function AperteiProximo(){
 // Botao Anterior Animado
 const botaoAnterior = document.getElementById('B_Anterior');
 function AperteiAnterior(){
-    const imagem5Normal = "./Imagems_Extras/botao_proximo_0.png";
-    const imagem5Clicada = "./Imagems_Extras/botao_Proximo_1.png";
+    const imagem5Normal = "./CSS/Imagems_Extras/botao_proximo_0.png";
+    const imagem5Clicada = "./CSS/Imagems_Extras/botao_Proximo_1.png";
     botaoAnterior.src = imagem5Clicada;
     setTimeout(() => {
         botaoAnterior.src = imagem5Normal;
