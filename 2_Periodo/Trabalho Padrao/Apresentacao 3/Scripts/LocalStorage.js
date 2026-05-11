@@ -41,10 +41,16 @@ const Deck2 = [
 const Deck3 = [
 ]
 function salvarStorage(){
-localStorage.setItem("IDpokemons",JSON.stringify(IDpokemons))
-localStorage.setItem("Favoritos",JSON.stringify(Favoritos))
-localStorage.setItem("Deck1",JSON.stringify(Deck1))
-localStorage.setItem("Deck2",JSON.stringify(Deck2))
-localStorage.setItem("Deck3",JSON.stringify(Deck3))
+    try {  
+        localStorage.setItem("IDpokemons",JSON.stringify(IDpokemons));
+        localStorage.setItem("Favoritos",JSON.stringify(Favoritos));
+        localStorage.setItem("Deck1",JSON.stringify(Deck1));
+        localStorage.setItem("Deck2",JSON.stringify(Deck2));
+        localStorage.setItem("Deck3",JSON.stringify(Deck3));
+    } 
+    catch (error) {
+        console.error("DEU UM ERRO NO FUNÇAO >> salvarStorage << LOCALIZADO NA LocalStorage.js" + erro.message);
+    }
+  
 }
 export{salvarStorage};
