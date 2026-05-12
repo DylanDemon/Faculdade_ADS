@@ -1,7 +1,7 @@
 import {container, PokemonsMostrar} from './Scripts/PokemonsMostrar.js';
 import {PokeLimits, Pagina, pInput} from './Scripts/PokeLimits.js';
 import {botaoHome, botaoDeck, botaoLogin,botaoProximo, botaoAnterior, aperteiHome, aperteiDeck, aperteiLogin,aperteiProximo, aperteiAnterior} from './Scripts/Botoes.js';
-import { salvarStorage } from './Scripts/Localstorage.js';
+import { PrincipalStorage } from './Scripts/Localstorage.js';
 import { mostrarTamanhoHeader } from './Scripts/MostrarTamanho.js';
 
 
@@ -15,7 +15,7 @@ function init(){
 
     if (!localStorage.getItem("Favoritos")) {
         console.log("Primeira execução detectada! Criando banco de dados inicial...");
-        salvarStorage([],[],[],[]); 
+        PrincipalStorage([],[],[],[]); 
     } else {
         console.log("Bem-vindo de volta! Dados carregados do navegador.");
     }

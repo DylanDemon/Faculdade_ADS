@@ -2,6 +2,7 @@ import {PokeLimits} from "./PokeLimits.js";
 import { CarregarStorage } from "./Localstorage.js";
 const container = document.getElementById('poke_contain');
 const dados = CarregarStorage();
+const icone = "./CSS/Imagems_Extras/Favorito_0.png"
 function PokemonsMostrar(){
     try {
         if (!container) {
@@ -24,24 +25,24 @@ function PokemonsMostrar(){
                 </div>
                 <h1 class="Texto_Pokemon">${pokemon.nome}</h1>
                 <img src="${pokemon.imagem}" alt="${pokemon.ID}" class="pokemons">
-                <img src="./CSS/Imagems_Extras/Favorito_0.png" alt="Favoritos" class="Favorito">
+                <img src=${icone} alt="" class="Favorito">
             </div>
             `;
             const botaoFavorito = card.querySelector('.Favorito');
-            let Favoritos = dados.Favoritos;
-            const pokemonID = pokemon.ID;
 
             botaoFavorito.addEventListener('click', () =>{
+
                 console.log("Favoritou Pokemon: " + pokemon.nome);
+                let Favoritos = dados.Favoritos;
 
-                if(botaoFavorito.src.includes("Favorito_0.png"))
+                if(!Favoritos.includes(pokemon.ID)){
                     botaoFavorito.src = "./CSS/Imagems_Extras/Favorito_1.png";
-                else
+                    Favoritos.push(pokemon.ID)
+                }
+                else{
                     botaoFavorito.src = "./CSS/Imagems_Extras/Favorito_0.png";
-
-                if(!Favoritos.includes(pokemon.ID)) Favoritos.push(pokemonID)
-                else Favoritos = Favoritos.filter(id => id !== pokemonID)
-            
+                    Favoritos = Favoritos.filter(id => id !== pokemon.ID)
+                }           
                 localStorage.setItem("Favoritos", JSON.stringify(Favoritos))
             })
             container.appendChild(card);

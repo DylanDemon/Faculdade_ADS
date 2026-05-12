@@ -2,7 +2,7 @@ const S_Favoritos = []
 const S_Deck1 = []
 const S_Deck2 = []
 const S_Deck3 = []
-function salvarStorage(S_Favoritos, S_Deck1, S_Deck2, S_Deck3){
+function PrincipalStorage(S_Favoritos, S_Deck1, S_Deck2, S_Deck3){
     try {  
         localStorage.setItem("Favoritos",JSON.stringify(S_Favoritos || []));
         localStorage.setItem("Deck1",JSON.stringify(S_Deck1 || []));
@@ -16,13 +16,9 @@ function salvarStorage(S_Favoritos, S_Deck1, S_Deck2, S_Deck3){
 }
 function CarregarStorage(){
     try {
-    /** @type {number[]} */
     const Favoritos = JSON.parse(localStorage.getItem("Favoritos")) || [];
-    /** @type {number[]} */
     const Deck1 = JSON.parse(localStorage.getItem("Deck1")) || [];
-    /** @type {number[]} */
     const Deck2 = JSON.parse(localStorage.getItem("Deck2")) || [];
-    /** @type {number[]} */
     const Deck3 = JSON.parse(localStorage.getItem("Deck3")) || [];
 
     console.log("Carregou Tudo Certo");
@@ -34,4 +30,4 @@ function CarregarStorage(){
         return {Favoritos: [], Deck1: [], Deck2: [], Deck3: [] };
     }
 }
-export{salvarStorage, CarregarStorage};
+export{PrincipalStorage, CarregarStorage};
