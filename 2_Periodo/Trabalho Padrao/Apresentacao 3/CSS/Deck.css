@@ -7,6 +7,12 @@
     font-weight:normal;
     font-style: normal;
 }
+@font-face{
+    font-family: 'Aseprite Mini Font';
+    src: url(./Fonts/aseprite-mini.otf) format('opentype');
+    font-weight:normal;
+    font-style: normal;
+}
 *{
     margin: 0%;
     padding: 0%;
@@ -118,3 +124,26 @@ body{
     #B_Home{
         width: 65px;
     }
+.Deck1, .Deck2, .Deck3{
+    display: flex;
+
+    width: 100vw;
+    height: 15vh;
+
+    background-image: url('./Imagems_Extras/Margem_PixelMon2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    justify-content: center;
+    align-items: center;
+
+    font-size: 500%;
+}
+.Area_Deck1, .Area_Deck2, .Area_Deck3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+    min-height: 100%;
+}

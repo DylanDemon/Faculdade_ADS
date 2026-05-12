@@ -15,6 +15,7 @@
     font-family: 'Aseprite Font';
     vertical-align: middle;
 }
+/* #region Animaçoes*/
 @keyframes iniciar {
     0% {
         transform: translateY(-100px);
@@ -45,6 +46,7 @@
         opacity: 100%;
     }
 }
+/* #endregion */
 
 body{
     background-image: url('./Imagems_Extras/Fundo_Copia2.png');
@@ -82,6 +84,7 @@ body{
         width: 28%; /* Os botões ficam menores para caberem lado a lado abaixo do título */
     }
 }
+/* #region Margem Inicial*/
 .margem_pixel{
     display: flex;
     margin: 0 auto;
@@ -118,6 +121,7 @@ body{
     #B_Home{
         width: 65px;
     }
+/* #endregion*/
 #poke_contain{
     display: flex;
     flex-wrap: wrap;
@@ -174,6 +178,14 @@ body{
                     font-size: 21px;
                     color: var(--cor-principal);
                 }
+        }
+        .Favorito{
+            display: flex;
+            align-self: flex-end;
+            position: absolute;
+            width: 20%;
+            height: auto;
+            margin-left: 70%;
         }
     }
 }

@@ -1,8 +1,8 @@
 ﻿The font file in this archive was created using Fontstruct the free, online
 font-building tool.
-This font was created by “adityaraj”.
+This font was created by “ADfksy”.
 This font has a homepage where this archive and other versions may be found:
-https://fontstruct.com/fontstructions/show/2260539
+https://fontstruct.com/fontstructions/show/2233382
 [ancestry]
 Try Fontstruct at https://fontstruct.com
 It’s easy and it’s fun.

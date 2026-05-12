@@ -4,11 +4,11 @@ import { proximaPagina, anteriorPagina } from "./PokeLimits.js"; // Adicionado .
 const botaoHome = document.getElementById("B_Home");
 function aperteiHome() {
     try{
-        const imagem1Normal = "./CSS/Imagems_Extras/Botao_Home_0.png";
-        const imagem1Clicada = "./CSS/Imagems_Extras/Botao_Home_1.png";
-        botaoHome.src = imagem1Clicada;
+        const imagemNormal = "./CSS/Imagems_Extras/Botao_Home_0.png";
+        const imagemClicada = "./CSS/Imagems_Extras/Botao_Home_1.png";
+        botaoHome.src = imagemClicada;
         setTimeout(() => {
-            botaoHome.src = imagem1Normal;
+            botaoHome.src = imagemNormal;
             window.location.href = "./index.html";
         }, 200);
     }
@@ -21,11 +21,11 @@ function aperteiHome() {
 const botaoDeck = document.getElementById('B_Deck');
 function aperteiDeck() {
     try{
-        const imagem2Normal = "./CSS/Imagems_Extras/Botao_Deck_0.png";
-        const imagem2Clicada = "./CSS/Imagems_Extras/Botao_Deck_1.png";
-        botaoDeck.src = imagem2Clicada;
+        const imagemNormal = "./CSS/Imagems_Extras/Botao_Deck_0.png";
+        const imagemClicada = "./CSS/Imagems_Extras/Botao_Deck_1.png";
+        botaoDeck.src = imagemClicada;
         setTimeout(() => {
-            botaoDeck.src = imagem2Normal;
+            botaoDeck.src = imagemNormal;
             window.location.href = "./Deck.html";
         }, 200);
     }
@@ -38,22 +38,22 @@ function aperteiDeck() {
 const botaoLogin = document.getElementById('B_Login');
 function aperteiLogin() {
     try {
-        const imagem3Normal = "./CSS/Imagems_Extras/Botao_Login_0.png";
-        const imagem3Clicada = "./CSS/Imagems_Extras/Botao_Login_1.png";
-        botaoLogin.src = imagem3Clicada;
+        const imagemNormal = "./CSS/Imagems_Extras/Botao_Login_0.png";
+        const imagemClicada = "./CSS/Imagems_Extras/Botao_Login_1.png";
+        botaoLogin.src = imagemClicada;
         setTimeout(() => {
-            botaoLogin.src = imagem3Normal;
+            botaoLogin.src = imagemNormal;
             window.location.href = "./Login.html";
         }, 200);
     } 
-    catch (error) {
+    catch (erro) {
         console.error("DEU UM ERRO NO FUNÇAO >> aperteiLogin << LOCALIZADO NA Botoes.js" + erro.message);
     }
 }
 
 // Botao Proximo Animado
 const botaoProximo = document.getElementById('B_Proximo');
-function AperteiProximo(){
+function aperteiProximo(){
     try {
         
         const imagem4Normal = "./CSS/Imagems_Extras/botao_proximo_0.png";
@@ -73,7 +73,7 @@ function AperteiProximo(){
 
 // Botao Anterior Animado
 const botaoAnterior = document.getElementById('B_Anterior');
-function AperteiAnterior(){
+function aperteiAnterior(){
     try {
         const imagem5Normal = "./CSS/Imagems_Extras/botao_proximo_0.png";
         const imagem5Clicada = "./CSS/Imagems_Extras/botao_Proximo_1.png";
@@ -89,4 +89,4 @@ function AperteiAnterior(){
     }
 }
 // Exportando Tudo para a Main (Corrigido o final)
-export { botaoHome, botaoDeck, botaoLogin, botaoProximo, botaoAnterior, aperteiHome, aperteiDeck, aperteiLogin, AperteiProximo, AperteiAnterior};
+export { botaoHome, botaoDeck, botaoLogin, botaoProximo, botaoAnterior, aperteiHome, aperteiDeck, aperteiLogin, aperteiProximo, aperteiAnterior};
