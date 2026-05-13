@@ -53,6 +53,7 @@
 }
 
 body{
+    min-height: 100vh;
     background-image: url('./Imagems_Extras/Fundo_Copia2.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -87,6 +88,11 @@ body{
     #B_Pokemons, #B_Deck, #B_Login {
         width: 28%; /* Os botões ficam menores para caberem lado a lado abaixo do título */
     }
+    .Titulo_Login{
+        display: flex;
+        font-size: clamp(5rem, 10vw, 50rem);
+        color: yellow;
+}
 }
 .margem_pixel{
     display: flex;

@@ -1,4 +1,4 @@
-import { CarregarStorage } from "./LocalStorage.js";
+import { CarregarStorage } from "./1.LocalStorage.js";
 
 function f_Favoritos (botaoFavorito,  pokemon){
 

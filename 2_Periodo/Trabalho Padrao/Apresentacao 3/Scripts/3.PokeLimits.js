@@ -1,5 +1,5 @@
 import pokemons from "./1.ListaPokemons.js";
-import { PokemonsMostrar } from "./PokemonsMostrar.js";
+import { PokemonsMostrar } from "./4.PokemonsMostrar.js";
 import {PokemonsFiltrado } from "./2.Buscador.js";
 
 const getpInput = () => document.getElementById("N_Pagina");
@@ -14,8 +14,8 @@ function AtualPaginaSet(Valor){AtualPagina = Valor;}
 function PokemonsPorLargura(){
     try {
         if (largura < 768) return 8;    // Celular mostra poucos para carregar rápido
-        if (largura < 1200) return 12;  // Tablet
-        return 20;                      // PC de 17 polegadas ou mais
+        else if (largura < 1200) return 12;  // Tablet
+        else return 24;                      // PC de 17 polegadas ou mais
     } 
     catch (error) {
         console.error("DEU UM ERRO NO FUNÇAO >> PokemonsPorLargura << LOCALIZADO NA PokeLimits.js" + erro.stack);
@@ -35,6 +35,7 @@ function PokeLimits(){
     }
 }
 
+//#region Pagina
 function proximaPagina() {
     try {
         if(AtualPagina<TotalPagina()) {
@@ -101,4 +102,5 @@ function Pagina(){
         console.error("DEU UM ERRO NO FUNÇAO >> Pagina << LOCALIZADO NA PokeLimits.js" + erro.message);
     }
 }
+//#endregion
 export{AtualPaginaSet,proximaPagina,anteriorPagina,PokeLimits, Pagina, pInput};

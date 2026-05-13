@@ -1,4 +1,4 @@
-import { proximaPagina, anteriorPagina } from "./2.PokeLimits.js"; // Adicionado .js
+import { proximaPagina, anteriorPagina } from "./3.PokeLimits.js"; // Adicionado .js
 
 const botaoHome = document.getElementById("B_Home");
 function aperteiHome() {

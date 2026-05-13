@@ -1,6 +1,6 @@
 import pokemons from "./1.ListaPokemons.js";
-import { AtualPaginaSet } from "./2.PokeLimits.js";
-import { PokemonsMostrar } from "./PokemonsMostrar.js";
+import { AtualPaginaSet } from "./3.PokeLimits.js";
+import { PokemonsMostrar } from "./4.PokemonsMostrar.js";
 const Texto_Buscar = document.getElementById('Buscar')
 const botao_Buscar = document.getElementById('Buscar_Ok')
 function PokemonsFiltrado(){

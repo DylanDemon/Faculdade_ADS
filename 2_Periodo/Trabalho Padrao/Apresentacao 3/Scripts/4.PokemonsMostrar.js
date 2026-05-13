@@ -1,7 +1,9 @@
-import {PokeLimits} from "./2.PokeLimits.js";
+//#region Imports
 import pokemons from "./1.ListaPokemons.js";
-import {f_Favoritos } from "./Favoritos.js";
-import { CarregarStorage } from "./LocalStorage.js";
+import { CarregarStorage } from "./1.LocalStorage.js";
+import {f_Favoritos } from "./2.Favoritos.js";
+import {PokeLimits} from "./3.PokeLimits.js";
+//#endregion
 const container = document.getElementById('poke_contain');
 const dados = CarregarStorage();
 
