@@ -119,10 +119,10 @@ body{
         width: 40%;       /* Título um pouco maior */
     }
     #B_Deck, #B_Login{
-        width: 20%
+        width: 30%
     }
     #B_Home{
-        width: 65px;
+        width: 15%;
     }
 .Deck1, .Deck2, .Deck3{
     display: flex;

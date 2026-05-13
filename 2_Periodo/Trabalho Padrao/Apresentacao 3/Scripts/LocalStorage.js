@@ -16,6 +16,7 @@ function PrincipalStorage(S_Favoritos, S_Deck1, S_Deck2, S_Deck3){
 }
 function CarregarStorage(){
     try {
+        /* typenumber */
     const Favoritos = JSON.parse(localStorage.getItem("Favoritos")) || [];
     const Deck1 = JSON.parse(localStorage.getItem("Deck1")) || [];
     const Deck2 = JSON.parse(localStorage.getItem("Deck2")) || [];

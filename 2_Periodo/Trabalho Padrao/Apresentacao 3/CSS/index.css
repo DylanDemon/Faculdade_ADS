@@ -49,6 +49,7 @@
 /* #endregion */
 
 body{
+    min-height: 100vh;
     background-image: url('./Imagems_Extras/Fundo_Copia2.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -65,7 +66,6 @@ body{
     padding: 20px;
     margin: 0px auto;
     margin-top: 50px;
-    margin-bottom: 50px;
 }
 @media(max-width: 768px) {
     .margem_pixel {
@@ -95,7 +95,7 @@ body{
 
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 40px;
     padding: 2% 4%;
  /* Padding em % ajuda a manter o conteúdo longe das bordas da imagem */
     /* Ocupa quase toda a largura da tela */
@@ -104,22 +104,25 @@ body{
     min-height: 140px;
 
     animation: iniciar 1s ease-in-out normal
+
 }
     #Titulo img, #B_Home img, #B_Deck img, #B_Login img{
+    display: block;
     margin: 0;
     max-width: 100%;
     height: auto;
-    display: block;
     animation: iniciar 1s ease-in-out normal;
     }
     #Titulo{
         width: 40%;       /* Título um pouco maior */
     }
     #B_Deck, #B_Login{
-        width: 20%
+        margin-left: 25px;
+        width: 35%
     }
     #B_Home{
-        width: 65px;
+        margin-right: 20px;
+        width: 12%;
     }
 /* #endregion*/
 #poke_contain{
@@ -224,3 +227,30 @@ body{
         }
 }
 
+.Area_Buscar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    width: 90vw;
+    height: 10vh;
+    max-height: 200px;
+
+    margin: 0% auto;
+    padding: 1% 4%;
+
+    gap: 40px;
+}
+#Buscar_Ok{
+    width: 10%;
+    height: 90%;
+
+    border-radius: 10px;
+}
+#Buscar{
+    width: 20%;
+    height: 90%;
+    border-radius: 10px;
+}

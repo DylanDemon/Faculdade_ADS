@@ -100,9 +100,7 @@ body{
     align-items: center;
     gap: 10px;
     padding: 2% 4%;
- /* Padding em % ajuda a manter o conteúdo longe das bordas da imagem */
-    /* Ocupa quase toda a largura da tela */
-    max-width: 1300px; /* Mas não cresce infinitamente no PC */
+    max-width: 1300px;
     height: auto;
     min-height: 140px;
 
@@ -119,17 +117,19 @@ body{
         width: 40%;       /* Título um pouco maior */
     }
     #B_Deck, #B_Login{
-        width: 20%
+        width: 30%
     }
     #B_Home{
-        width: 65px;
+        width: 15%;
     }
 .Area_Login {
     display: flex;
-    flex-direction: column; /* Coloca o título em cima e a div de campos embaixo */
-    width: 90vw;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
     height: 75vh;
-    gap: 70px;              /* <--- Ajuste este valor para aumentar a distância entre LOGIN e os inputs */
+    max-height: 640px;
+    gap: 60px;
     
     /* Suas configurações de fundo */
     background-image: url('./Imagems_Extras/Login.png');
@@ -137,22 +137,22 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
 
-    align-items: center;    /* Centraliza os dois horizontalmente */
-    justify-content: center; /* Centraliza o bloco todo verticalmente no fundo */
+    align-items: center;
+    justify-content: center;
     animation: iniciar 1.5s ease-in-out normal;
+
         .Campos_Login {
         display: flex;
-        flex-direction: column; /* Deixa e-mail, senha e botão um embaixo do outro */
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 10px;              /* Espaço entre cada campo de digitação */
-        width: 40%;             /* Garante que os inputs não fiquem largos demais */
+        gap: 10px; 
+        width: 40%; 
     }
 
     .Campos_Login input, .Campos_Login button {
-        padding: 5%;
-        padding-right: 30%;
-        font-size: 18px;
+        padding: 5% 30% 4% 3% ;
+        font-size: 69%;
         border-radius: 20px;     /* Opcional: deixa as bordas arredondadas */
         border: 2px solid #000000;
     }
@@ -163,11 +163,9 @@ body{
     }
 }
 .Titulo_Login{
-    font-family: 'Aseprite Mini Font';
-    font-size: 6vw;
-    font-weight: 100;
-    font-style: normal;
-    color: rgb(255, 213, 0);
+        display: flex;
+        font-size: clamp(1.2rem, 5.5vw, 10rem);
+        color: yellow;
 }
 .CriarContaText{
     color: aqua;

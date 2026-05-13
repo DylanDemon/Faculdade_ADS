@@ -4,18 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PixelMon</title>
-    <link rel="stylesheet" href="./CSS/Main.css">
+    <link rel="stylesheet" href="./CSS/index.css">
 </head>
 <body>
     <header class="Inicio">       
         <div class="margem_pixel">  
             <img src="./CSS/Imagems_Extras/Titulo.png" id="Titulo">
-            <img src="./CSS/Imagems_Extras/Botao_Home_0.png" alt="" id="B_Home">
-            <img src="./CSS/Imagems_Extras/Botao_Deck_0.png" id="B_Deck">
-            <img src="./CSS/Imagems_Extras/Botao_Login_0.png" id="B_Login">
+            <nav aria-label="Navegação Principal">
+                <img src="./CSS/Imagems_Extras/Botao_Home_0.png" alt="" id="B_Home">
+                <img src="./CSS/Imagems_Extras/Botao_Deck_0.png" id="B_Deck">
+                <img src="./CSS/Imagems_Extras/Botao_Login_0.png" id="B_Login">
+            </nav>
         </div>
     </header>
-    <section id="poke_contain"></section>
+    <main>
+        <section class="Area_Buscar">
+            <button type="button" id="Buscar_Ok">Buscar</button>
+            <input type="text" placeholder=" Digite..." id="Buscar">
+        </section>
+        <section id="poke_contain"></section>
+    </main>
     <footer class="Fim">
         <img src="./CSS/Imagems_Extras/botao_proximo_0.png" id="B_Proximo">
         <input type="number" value="1" id="N_Pagina">
