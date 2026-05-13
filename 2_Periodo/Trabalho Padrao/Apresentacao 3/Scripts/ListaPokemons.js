@@ -13,7 +13,8 @@
 //     evolucoes:
 //     imagem: imagem: "./Pokemons_Estatica/035.png",
 //     card:
-// },
+//     icone:
+//     },
 const pokemons = [
     {
             ID: 1,
@@ -29,8 +30,9 @@ const pokemons = [
             hab_oculta: "Chlorophyll (Clorofila)",
             evolucoes: ["Ivysaur", "Venusaur"],
             imagem: "./Pokemons_Estatica/001.png",
-            card: "./CSS/Card_Pokemons/pokemon planta_veneno.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon planta_veneno.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 2,
             nome: "ivysaur",
@@ -45,8 +47,9 @@ const pokemons = [
             hab_oculta: "Chlorophyll (Clorofila)",
             evolucoes: ["bulbasaur", "venusaur"],
             imagem: "./Pokemons_Estatica/002.png",
-            card: "./CSS/Card_Pokemons/pokemon planta_veneno.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon planta_veneno.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 3,
             nome: "venusaur",
@@ -61,8 +64,9 @@ const pokemons = [
             hab_oculta: "Chlorophyll (Clorofila)",
             evolucoes: ["bulbasaur", "ivysaur"],
             imagem: "./Pokemons_Estatica/003.png",
-            card: "./CSS/Card_Pokemons/pokemon planta_veneno.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon planta_veneno.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 4,
             nome: "charmander",
@@ -77,8 +81,9 @@ const pokemons = [
             hab_oculta: "Solar Power",
             evolucoes: ["charmeleon", "charizard"],
             imagem: "./Pokemons_Estatica/004.png",
-            card: "./CSS/Card_Pokemons/pokemon fogo.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon fogo.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 5,
             nome: "charmeleon",
@@ -93,8 +98,9 @@ const pokemons = [
             hab_oculta: "Solar Power",
             evolucoes: ["charmander", "charizard"],
             imagem: "./Pokemons_Estatica/005.png",
-            card: "./CSS/Card_Pokemons/pokemon fogo.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon fogo.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 6,
             nome: "charizard",
@@ -109,8 +115,9 @@ const pokemons = [
             hab_oculta: "Solar Power",
             evolucoes: ["charmander", "charmeleon"],
             imagem: "./Pokemons_Estatica/006.png",
-            card: "./CSS/Card_Pokemons/pokemon fogo_voador.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon fogo_voador.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 7,
             nome: "squirtle",
@@ -125,8 +132,9 @@ const pokemons = [
             hab_oculta: "Cura Pelas Chuvas",
             evolucoes: ["wartortle", "blastoise"],
             imagem: "./Pokemons_Estatica/007.png",
-            card: "./CSS/Card_Pokemons/pokemon agua.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon agua.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 8,
             nome: "wartortle",
@@ -141,8 +149,9 @@ const pokemons = [
             hab_oculta: "Cura Pelas Chuvas",
             evolucoes: ["blastoise"],
             imagem: "./Pokemons_Estatica/008.png",
-            card: "./CSS/Card_Pokemons/pokemon agua.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon agua.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 9,
             nome: "blastoise",
@@ -157,8 +166,9 @@ const pokemons = [
             hab_oculta: "Cura Pelas Chuvas",
             evolucoes: [], // Estágio final
             imagem: "./Pokemons_Estatica/009.png",
-            card: "./CSS/Card_Pokemons/pokemon agua.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon agua.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 10,
             nome: "caterpie",
@@ -173,8 +183,9 @@ const pokemons = [
             hab_oculta: "Fuga",
             evolucoes: ["metapod", "butterfree"],
             imagem: "./Pokemons_Estatica/010.png",
-            card: "./CSS/Card_Pokemons/pokemon inseto.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon inseto.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 11,
             nome: "metapod",
@@ -189,8 +200,9 @@ const pokemons = [
             hab_oculta: "Nenhuma",
             evolucoes: ["butterfree"],
             imagem: "./Pokemons_Estatica/011.png",
-            card: "./CSS/Card_Pokemons/pokemon inseto.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon inseto.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 12,
             nome: "butterfree",
@@ -205,8 +217,9 @@ const pokemons = [
             hab_oculta: "Lente Matizada",
             evolucoes: [], // Estágio final
             imagem: "./Pokemons_Estatica/012.png",
-            card: "./CSS/Card_Pokemons/pokemon inseto_voador.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon inseto_voador.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 13,
             nome: "weedle",
@@ -221,8 +234,9 @@ const pokemons = [
             hab_oculta: "Fuga",
             evolucoes: ["Kakuna", "Beedrill"],
             imagem: "./Pokemons_Estatica/013.png",
-            card: "./CSS/Card_Pokemons/pokemon inseto_veneno.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon inseto_veneno.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 14,
             nome: "kakuna",
@@ -237,8 +251,9 @@ const pokemons = [
             hab_oculta: "",
             evolucoes: ["Beedrill"],
             imagem: "./Pokemons_Estatica/014.png",
-            card: "./CSS/Card_Pokemons/pokemon inseto_veneno.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon inseto_veneno.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 15,
             nome: "beedrill",
@@ -253,8 +268,9 @@ const pokemons = [
             hab_oculta: "Sniper",
             evolucoes: [], // Estágio final
             imagem: "./Pokemons_Estatica/015.png",
-            card: "./CSS/Card_Pokemons/pokemon inseto_veneno.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon inseto_veneno.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 16,
             nome: "pidgey",
@@ -269,8 +285,9 @@ const pokemons = [
             hab_oculta: "Peito Grande",
             evolucoes: ["Pidgeotto", "Pidgeot"],
             imagem: "./Pokemons_Estatica/016.png",
-            card: "./CSS/Card_Pokemons/pokemon normal_voador.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon normal_voador.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 17,
             nome: "pidgeotto",
@@ -285,8 +302,9 @@ const pokemons = [
             hab_oculta: "Peito Grande",
             evolucoes: ["Pidgeot"],
             imagem: "./Pokemons_Estatica/017.png",
-            card: "./CSS/Card_Pokemons/pokemon normal_voador.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon normal_voador.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 18,
             nome: "pidgeot",
@@ -300,8 +318,9 @@ const pokemons = [
             hab_principal: "Olhar Aguçado",
             hab_oculta: "Peito Desolado",
             imagem: "./Pokemons_Estatica/018.png",
-            card: "./CSS/Card_Pokemons/pokemon normal_voador.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon normal_voador.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 19,
             nome: "rattata",
@@ -316,8 +335,9 @@ const pokemons = [
             hab_oculta: "Entusiasmo",
             evolucoes: [20],
             imagem: "./Pokemons_Estatica/019.png",
-            card: "./CSS/Card_Pokemons/pokemon normal.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon normal.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 20,
             nome: "raticate",
@@ -332,8 +352,9 @@ const pokemons = [
             hab_oculta: "Entusiasmo",
             evolucoes: [],
             imagem: "./Pokemons_Estatica/020.png",
-            card: "./CSS/Card_Pokemons/pokemon normal.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon normal.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 21,
             nome: "spearow",
@@ -348,8 +369,9 @@ const pokemons = [
             hab_oculta: "Atirador",
             evolucoes: [22],
             imagem: "./Pokemons_Estatica/021.png",
-            card: "./CSS/Card_Pokemons/pokemon normal_voador.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon normal_voador.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 22,
             nome: "fearow",
@@ -364,8 +386,9 @@ const pokemons = [
             hab_oculta: "Atirador",
             evolucoes: [],
             imagem: "./Pokemons_Estatica/022.png",
-            card: "./CSS/Card_Pokemons/pokemon normal_voador.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon normal_voador.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 23,
             nome: "ekans",
@@ -380,8 +403,9 @@ const pokemons = [
             hab_oculta: "Nervosismo",
             evolucoes: ["arbok"],
             imagem: "./Pokemons_Estatica/023.png",
-            card: "./CSS/Card_Pokemons/pokemon veneno.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon veneno.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 24,
             nome: "arbok",
@@ -395,8 +419,9 @@ const pokemons = [
             hab_oculta: "Nervosismo",
             evolucoes: [],
             imagem: "./Pokemons_Estatica/024.png",
-            card: "./CSS/Card_Pokemons/pokemon veneno.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon veneno.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 25,
             nome: "pikachu",
@@ -411,8 +436,9 @@ const pokemons = [
             hab_oculta: "Lightning Rod (Para-raios)",
             evolucoes: ["Raichu"],
             imagem: "./Pokemons_Estatica/025.png",
-            card: "./CSS/Card_Pokemons/pokemon eletrico.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon eletrico.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 26,
             nome: "raichu",
@@ -427,8 +453,9 @@ const pokemons = [
             hab_oculta: "Lightning Rod (Para-raios)",
             evolucoes: [],
             imagem: "./Pokemons_Estatica/026.png",
-            card: "./CSS/Card_Pokemons/pokemon eletrico.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon eletrico.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 27,
             nome: "sandshrew",
@@ -442,8 +469,9 @@ const pokemons = [
             hab_oculta: "Sand Rush (Ímpeto de Areia)",
             evolucoes: ["sandslash"],
             imagem: "./Pokemons_Estatica/027.png",
-            card: "./CSS/Card_Pokemons/pokemon terra.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon terra.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 28,
             nome: "sandslash",
@@ -458,8 +486,9 @@ const pokemons = [
             hab_oculta: "Sand Rush (Ímpeto de Areia)",
             evolucoes: [],
             imagem: "./Pokemons_Estatica/028.png",
-            card: "./CSS/Card_Pokemons/pokemon terra.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon terra.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 29,
             nome: "nidoran",
@@ -474,8 +503,9 @@ const pokemons = [
             hab_oculta: "Hustle (Entusiasmo)",
             evolucoes: ["nidorina"],
             imagem: "./Pokemons_Estatica/029.png",
-            card: "./CSS/Card_Pokemons/pokemon veneno.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon veneno.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 30,
             nome: "nidorina",
@@ -490,8 +520,9 @@ const pokemons = [
             hab_oculta: "Hustle (Entusiasmo)",
             evolucoes: ["nidoqueen"],
             imagem: "./Pokemons_Estatica/030.png",
-            card: "./CSS/Card_Pokemons/pokemon veneno.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon veneno.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 31,
             nome: "nidoqueen",
@@ -506,8 +537,9 @@ const pokemons = [
             hab_oculta: "Sheer Force (Força Bruta)",
             evolucoes: [],
             imagem: "./Pokemons_Estatica/031.png",
-            card: "./CSS/Card_Pokemons/pokemon veneno_terra.png"
-    },
+            card: "./CSS/Card_Pokemons/pokemon veneno_terra.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
     {
             ID: 32,
             nome: "nidoran-m",
@@ -522,8 +554,9 @@ const pokemons = [
             Hab_oculta: "Hustle",
             Evolucoes: ["nidorino", "nidoking"],
             imagem: "./Pokemons_Estatica/032.png",
-            card: "./CSS/Card_Pokemons/pokemon veneno.png"
-        },
+            card: "./CSS/Card_Pokemons/pokemon veneno.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 33,
             nome: "nidorino",
@@ -538,8 +571,9 @@ const pokemons = [
             Hab_oculta: "Hustle",
             Evolucoes: ["nidoran-m", "nidoking"],
             imagem: "./Pokemons_Estatica/033.png",
-            card: "./CSS/Card_Pokemons/pokemon veneno.png"
-        },
+            card: "./CSS/Card_Pokemons/pokemon veneno.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 34,
             nome: "nidoking",
@@ -554,8 +588,9 @@ const pokemons = [
             Hab_oculta: "Sheer Force",
             Evolucoes: ["nidoran-m", "nidorino"],
             imagem: "./Pokemons_Estatica/034.png",
-            card: "./CSS/Card_Pokemons/pokemon veneno_terra.png"
-        },
+            card: "./CSS/Card_Pokemons/pokemon veneno_terra.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 35,
             nome: "clefairy",
@@ -570,8 +605,9 @@ const pokemons = [
             Hab_oculta: "Friend Guard",
             Evolucoes: ["cleffa", "clefable"],
             imagem: "./Pokemons_Estatica/035.png",
-            card: "./CSS/Card_Pokemons/pokemon fada.png"
-        },
+            card: "./CSS/Card_Pokemons/pokemon fada.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 36,
             nome: "clefable",
@@ -586,8 +622,9 @@ const pokemons = [
             hab_oculta: "Unaware",
             evolucoes: ["cleffa", "clefairy"],
             imagem: "./Pokemons_Estatica/036.png",
-            card: "./CSS/Card_Pokemons/pokemon fada.png"
-        },
+            card: "./CSS/Card_Pokemons/pokemon fada.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 37,
             nome: "vulpix",
@@ -602,8 +639,9 @@ const pokemons = [
             Hab_oculta: "Drought",
             Evolucoes: ["ninetales"],
             imagem: "./Pokemons_Estatica/037.png",
-            card: "./CSS/Card_Pokemons/pokemon fogo.png"
-        },
+            card: "./CSS/Card_Pokemons/pokemon fogo.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 38,
             nome: "ninetales",
@@ -618,8 +656,9 @@ const pokemons = [
             Hab_oculta: "Drought",
             Evolucoes: ["vulpix"],
             imagem: "./Pokemons_Estatica/038.png",
-            card: "./CSS/Card_Pokemons/pokemon fogo.png"
-        },
+            card: "./CSS/Card_Pokemons/pokemon fogo.png",
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 39,
             nome: "jigglypuff",
@@ -635,7 +674,8 @@ const pokemons = [
             Evolucoes: ["igglybuff", "wigglytuff"],
             imagem: "./Pokemons_Estatica/039.png",
             card: "./CSS/Card_Pokemons/pokemon normal_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 40,
             nome: "wigglytuff",
@@ -651,7 +691,8 @@ const pokemons = [
             Evolucoes: ["igglybuff", "jigglypuff"],
             imagem: "./Pokemons_Estatica/040.png",
             card: "./CSS/Card_Pokemons/pokemon normal_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 41,
             nome: "zubat",
@@ -667,7 +708,8 @@ const pokemons = [
             Evolucoes: ["golbat", "crobat"],
             imagem: "./Pokemons_Estatica/041.png",
             card: "./CSS/Card_Pokemons/pokemon veneno_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 42,
             nome: "golbat",
@@ -683,7 +725,8 @@ const pokemons = [
             Evolucoes: ["zubat", "crobat"],
             imagem: "./Pokemons_Estatica/042.png",
             card: "./CSS/Card_Pokemons/pokemon veneno_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 43,
             nome: "oddish",
@@ -699,7 +742,8 @@ const pokemons = [
             Evolucoes: ["gloom", "vileplume", "bellossom"],
             imagem: "./Pokemons_Estatica/043.png",
             card: "./CSS/Card_Pokemons/pokemon planta_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 44,
             nome: "gloom",
@@ -715,7 +759,8 @@ const pokemons = [
             Evolucoes: ["oddish", "vileplume", "bellossom"],
             imagem: "./Pokemons_Estatica/044.png",
             card: "./CSS/Card_Pokemons/pokemon planta_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 45,
             nome: "vileplume",
@@ -731,7 +776,8 @@ const pokemons = [
             Evolucoes: ["oddish", "gloom"],
             imagem: "./Pokemons_Estatica/045.png",
             card: "./CSS/Card_Pokemons/pokemon planta_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 46,
             nome: "paras",
@@ -747,7 +793,8 @@ const pokemons = [
             Evolucoes: ["parasect"],
             imagem: "./Pokemons_Estatica/046.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 47,
             nome: "parasect",
@@ -763,7 +810,8 @@ const pokemons = [
             Evolucoes: ["paras"],
             imagem: "./Pokemons_Estatica/047.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 48,
             nome: "venonat",
@@ -779,7 +827,8 @@ const pokemons = [
             Evolucoes: ["venomoth"],
             imagem: "./Pokemons_Estatica/048.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 49,
             nome: "venomoth",
@@ -795,7 +844,8 @@ const pokemons = [
             Evolucoes: ["venonat"],
             imagem: "./Pokemons_Estatica/049.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 50,
             nome: "diglett",
@@ -811,7 +861,8 @@ const pokemons = [
             Evolucoes: ["dugtrio"],
             imagem: "./Pokemons_Estatica/050.png",
             card: "./CSS/Card_Pokemons/pokemon terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 51,
             nome: "dugtrio",
@@ -827,7 +878,8 @@ const pokemons = [
             Evolucoes: ["diglett"],
             imagem: "./Pokemons_Estatica/051.png",
             card: "./CSS/Card_Pokemons/pokemon terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 52,
             nome: "meowth",
@@ -843,7 +895,8 @@ const pokemons = [
             Evolucoes: ["persian"],
             imagem: "./Pokemons_Estatica/052.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 53,
             nome: "persian",
@@ -859,7 +912,8 @@ const pokemons = [
             Evolucoes: ["meowth"],
             imagem: "./Pokemons_Estatica/053.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 54,
             nome: "psyduck",
@@ -875,7 +929,8 @@ const pokemons = [
             Evolucoes: ["golduck"],
             imagem: "./Pokemons_Estatica/054.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 55,
             nome: "golduck",
@@ -891,7 +946,8 @@ const pokemons = [
             Evolucoes: ["psyduck"],
             imagem: "./Pokemons_Estatica/055.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 56,
             nome: "mankey",
@@ -907,7 +963,8 @@ const pokemons = [
             Evolucoes: ["primeape", "annihilape"],
             imagem: "./Pokemons_Estatica/056.png",
             card: "./CSS/Card_Pokemons/pokemon lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 57,
             nome: "primeape",
@@ -923,7 +980,8 @@ const pokemons = [
             Evolucoes: ["mankey", "annihilape"],
             imagem: "./Pokemons_Estatica/057.png",
             card: "./CSS/Card_Pokemons/pokemon lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 58,
             nome: "growlithe",
@@ -939,7 +997,8 @@ const pokemons = [
             Evolucoes: ["arcanine"],
             imagem: "./Pokemons_Estatica/058.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 59,
             nome: "arcanine",
@@ -955,7 +1014,8 @@ const pokemons = [
             Evolucoes: ["growlithe"],
             imagem: "./Pokemons_Estatica/059.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 60,
             nome: "poliwag",
@@ -971,7 +1031,8 @@ const pokemons = [
             Evolucoes: ["poliwhirl", "poliwrath", "politoed"],
             imagem: "./Pokemons_Estatica/060.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 61,
             nome: "poliwhirl",
@@ -987,7 +1048,8 @@ const pokemons = [
             Evolucoes: ["poliwag", "poliwrath", "politoed"],
             imagem: "./Pokemons_Estatica/061.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 62,
             nome: "poliwrath",
@@ -1003,7 +1065,8 @@ const pokemons = [
             Evolucoes: ["poliwag", "poliwhirl"],
             imagem: "./Pokemons_Estatica/062.png",
             card: "./CSS/Card_Pokemons/pokemon agua_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 63,
             nome: "abra",
@@ -1019,7 +1082,8 @@ const pokemons = [
             Evolucoes: ["kadabra", "alakazam"],
             imagem: "./Pokemons_Estatica/063.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 64,
             nome: "kadabra",
@@ -1035,7 +1099,8 @@ const pokemons = [
             Evolucoes: ["abra", "alakazam"],
             imagem: "./Pokemons_Estatica/064.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 65,
             nome: "alakazam",
@@ -1051,7 +1116,8 @@ const pokemons = [
             Evolucoes: ["abra", "kadabra"],
             imagem: "./Pokemons_Estatica/065.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 66,
             nome: "machop",
@@ -1067,7 +1133,8 @@ const pokemons = [
             Evolucoes: ["machoke", "machamp"],
             imagem: "./Pokemons_Estatica/066.png",
             card: "./CSS/Card_Pokemons/pokemon lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 67,
             nome: "machoke",
@@ -1083,7 +1150,8 @@ const pokemons = [
             Evolucoes: ["machop", "machamp"],
             imagem: "./Pokemons_Estatica/067.png",
             card: "./CSS/Card_Pokemons/pokemon lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 68,
             nome: "machamp",
@@ -1099,7 +1167,8 @@ const pokemons = [
             Evolucoes: ["machop", "machoke"],
             imagem: "./Pokemons_Estatica/068.png",
             card: "./CSS/Card_Pokemons/pokemon lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 69,
             nome: "bellsprout",
@@ -1115,7 +1184,8 @@ const pokemons = [
             Evolucoes: ["weepinbell", "victreebel"],
             imagem: "./Pokemons_Estatica/069.png",
             card: "./CSS/Card_Pokemons/pokemon planta_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 70,
             nome: "weepinbell",
@@ -1131,7 +1201,8 @@ const pokemons = [
             Evolucoes: ["bellsprout", "victreebel"],
             imagem: "./Pokemons_Estatica/070.png",
             card: "./CSS/Card_Pokemons/pokemon planta_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 71,
             nome: "victreebel",
@@ -1147,7 +1218,8 @@ const pokemons = [
             Evolucoes: ["bellsprout", "weepinbell"],
             imagem: "./Pokemons_Estatica/071.png",
             card: "./CSS/Card_Pokemons/pokemon planta_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 72,
             nome: "tentaçool",
@@ -1163,7 +1235,8 @@ const pokemons = [
             Evolucoes: ["tentacruel"],
             imagem: "./Pokemons_Estatica/072.png",
             card: "./CSS/Card_Pokemons/pokemon agua_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 73,
             nome: "tentacruel",
@@ -1179,7 +1252,8 @@ const pokemons = [
             Evolucoes: ["tentaçool"],
             imagem: "./Pokemons_Estatica/073.png",
             card: "./CSS/Card_Pokemons/pokemon agua_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 74,
             nome: "geodude",
@@ -1195,7 +1269,8 @@ const pokemons = [
             Evolucoes: ["graveler", "golem"],
             imagem: "./Pokemons_Estatica/074.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 75,
             nome: "graveler",
@@ -1211,7 +1286,8 @@ const pokemons = [
             Evolucoes: ["geodude", "golem"],
             imagem: "./Pokemons_Estatica/075.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 76,
             nome: "golem",
@@ -1227,7 +1303,8 @@ const pokemons = [
             Evolucoes: ["geodude", "graveler"],
             imagem: "./Pokemons_Estatica/076.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 77,
             nome: "ponyta",
@@ -1243,7 +1320,8 @@ const pokemons = [
             Evolucoes: ["rapidash"],
             imagem: "./Pokemons_Estatica/077.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 78,
             nome: "rapidash",
@@ -1259,7 +1337,8 @@ const pokemons = [
             Evolucoes: ["ponyta"],
             imagem: "./Pokemons_Estatica/078.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 79,
             nome: "slowpoke",
@@ -1275,7 +1354,8 @@ const pokemons = [
             Evolucoes: ["slowbro", "slowking"],
             imagem: "./Pokemons_Estatica/079.png",
             card: "./CSS/Card_Pokemons/pokemon agua_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 80,
             nome: "slowbro",
@@ -1291,7 +1371,8 @@ const pokemons = [
             Evolucoes: ["slowpoke"],
             imagem: "./Pokemons_Estatica/080.png",
             card: "./CSS/Card_Pokemons/pokemon agua_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 81,
             nome: "magnemite",
@@ -1307,7 +1388,8 @@ const pokemons = [
             Evolucoes: ["magneton", "magnezone"],
             imagem: "./Pokemons_Estatica/081.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 82,
             nome: "magneton",
@@ -1323,7 +1405,8 @@ const pokemons = [
             Evolucoes: ["magnemite", "magnezone"],
             imagem: "./Pokemons_Estatica/082.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 83,
             nome: "farfetchd",
@@ -1339,7 +1422,8 @@ const pokemons = [
             Evolucoes: ["sirfetchd"],
             imagem: "./Pokemons_Estatica/083.png",
             card: "./CSS/Card_Pokemons/pokemon normal_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 84,
             nome: "doduo",
@@ -1355,7 +1439,8 @@ const pokemons = [
             Evolucoes: ["dodrio"],
             imagem: "./Pokemons_Estatica/084.png",
             card: "./CSS/Card_Pokemons/pokemon normal_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 85,
             nome: "dodrio",
@@ -1371,7 +1456,8 @@ const pokemons = [
             Evolucoes: ["doduo"],
             imagem: "./Pokemons_Estatica/085.png",
             card: "./CSS/Card_Pokemons/pokemon normal_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 86,
             nome: "seel",
@@ -1387,7 +1473,8 @@ const pokemons = [
             Evolucoes: ["dewgong"],
             imagem: "./Pokemons_Estatica/086.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 87,
             nome: "dewgong",
@@ -1403,7 +1490,8 @@ const pokemons = [
             Evolucoes: ["seel"],
             imagem: "./Pokemons_Estatica/087.png",
             card: "./CSS/Card_Pokemons/pokemon agua_gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 88,
             nome: "grimer",
@@ -1419,7 +1507,8 @@ const pokemons = [
             Evolucoes: ["muk"],
             imagem: "./Pokemons_Estatica/088.png",
             card: "./CSS/Card_Pokemons/pokemon veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 89,
             nome: "muk",
@@ -1435,7 +1524,8 @@ const pokemons = [
             Evolucoes: ["grimer"],
             imagem: "./Pokemons_Estatica/089.png",
             card: "./CSS/Card_Pokemons/pokemon veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 90,
             nome: "shellder",
@@ -1451,7 +1541,8 @@ const pokemons = [
             Evolucoes: ["cloyster"],
             imagem: "./Pokemons_Estatica/090.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 91,
             nome: "cloyster",
@@ -1467,7 +1558,8 @@ const pokemons = [
             Evolucoes: ["shellder"],
             imagem: "./Pokemons_Estatica/091.png",
             card: "./CSS/Card_Pokemons/pokemon agua_gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 92,
             nome: "gastly",
@@ -1483,7 +1575,8 @@ const pokemons = [
             Evolucoes: ["haunter", "gengar"],
             imagem: "./Pokemons_Estatica/092.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 93,
             nome: "haunter",
@@ -1499,7 +1592,8 @@ const pokemons = [
             Evolucoes: ["gastly", "gengar"],
             imagem: "./Pokemons_Estatica/093.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 94,
             nome: "gengar",
@@ -1515,7 +1609,8 @@ const pokemons = [
             Evolucoes: ["gastly", "haunter"],
             imagem: "./Pokemons_Estatica/094.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 95,
             nome: "onix",
@@ -1531,7 +1626,8 @@ const pokemons = [
             Evolucoes: ["steelix"],
             imagem: "./Pokemons_Estatica/095.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 96,
             nome: "drowzee",
@@ -1547,7 +1643,8 @@ const pokemons = [
             Evolucoes: ["hypno"],
             imagem: "./Pokemons_Estatica/096.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 97,
             nome: "hypno",
@@ -1563,7 +1660,8 @@ const pokemons = [
             Evolucoes: ["drowzee"],
             imagem: "./Pokemons_Estatica/097.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 98,
             nome: "krabby",
@@ -1579,7 +1677,8 @@ const pokemons = [
             Evolucoes: ["kingler"],
             imagem: "./Pokemons_Estatica/098.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 99,
             nome: "kingler",
@@ -1595,7 +1694,8 @@ const pokemons = [
             Evolucoes: ["krabby"],
             imagem: "./Pokemons_Estatica/099.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 100,
             nome: "voltorb",
@@ -1611,7 +1711,8 @@ const pokemons = [
             Evolucoes: ["electrode"],
             imagem: "./Pokemons_Estatica/100.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 101,
             nome: "electrode",
@@ -1627,7 +1728,8 @@ const pokemons = [
             Evolucoes: ["voltorb"],
             imagem: "./Pokemons_Estatica/101.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 102,
             nome: "exeggcute",
@@ -1643,7 +1745,8 @@ const pokemons = [
             Evolucoes: ["exeggutor"],
             imagem: "./Pokemons_Estatica/102.png",
             card: "./CSS/Card_Pokemons/pokemon planta_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 103,
             nome: "exeggutor",
@@ -1659,7 +1762,8 @@ const pokemons = [
             Evolucoes: ["exeggcute"],
             imagem: "./Pokemons_Estatica/103.png",
             card: "./CSS/Card_Pokemons/pokemon planta_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 104,
             nome: "cubone",
@@ -1675,7 +1779,8 @@ const pokemons = [
             Evolucoes: ["marowak"],
             imagem: "./Pokemons_Estatica/104.png",
             card: "./CSS/Card_Pokemons/pokemon terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 105,
             nome: "marowak",
@@ -1691,7 +1796,8 @@ const pokemons = [
             Evolucoes: ["cubone"],
             imagem: "./Pokemons_Estatica/105.png",
             card: "./CSS/Card_Pokemons/pokemon terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 106,
             nome: "hitmonlee",
@@ -1707,7 +1813,8 @@ const pokemons = [
             Evolucoes: ["tyrogue"],
             imagem: "./Pokemons_Estatica/106.png",
             card: "./CSS/Card_Pokemons/pokemon lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 107,
             nome: "hitmonchan",
@@ -1723,7 +1830,8 @@ const pokemons = [
             Evolucoes: ["tyrogue"],
             imagem: "./Pokemons_Estatica/107.png",
             card: "./CSS/Card_Pokemons/pokemon lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 108,
             nome: "lickitung",
@@ -1739,7 +1847,8 @@ const pokemons = [
             Evolucoes: ["lickilicky"],
             imagem: "./Pokemons_Estatica/108.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 109,
             nome: "koffing",
@@ -1755,7 +1864,8 @@ const pokemons = [
             Evolucoes: ["weezing"],
             imagem: "./Pokemons_Estatica/109.png",
             card: "./CSS/Card_Pokemons/pokemon veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 110,
             nome: "weezing",
@@ -1771,7 +1881,8 @@ const pokemons = [
             Evolucoes: ["koffing"],
             imagem: "./Pokemons_Estatica/110.png",
             card: "./CSS/Card_Pokemons/pokemon veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 111,
             nome: "rhyhorn",
@@ -1787,7 +1898,8 @@ const pokemons = [
             Evolucoes: ["rhydon", "rhyperior"],
             imagem: "./Pokemons_Estatica/111.png",
             card: "./CSS/Card_Pokemons/pokemon terra_rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 112,
             nome: "rhydon",
@@ -1803,7 +1915,8 @@ const pokemons = [
             Evolucoes: ["rhyhorn", "rhyperior"],
             imagem: "./Pokemons_Estatica/112.png",
             card: "./CSS/Card_Pokemons/pokemon terra_rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 113,
             nome: "chansey",
@@ -1819,7 +1932,8 @@ const pokemons = [
             Evolucoes: ["happiny", "blissey"],
             imagem: "./Pokemons_Estatica/113.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 114,
             nome: "tangela",
@@ -1835,7 +1949,8 @@ const pokemons = [
             Evolucoes: ["tangrowth"],
             imagem: "./Pokemons_Estatica/114.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 115,
             nome: "kangaskhan",
@@ -1851,7 +1966,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/115.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 116,
             nome: "horsea",
@@ -1867,7 +1983,8 @@ const pokemons = [
             Evolucoes: ["seadra", "kingdra"],
             imagem: "./Pokemons_Estatica/116.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 117,
             nome: "seadra",
@@ -1883,7 +2000,8 @@ const pokemons = [
             Evolucoes: ["horsea", "kingdra"],
             imagem: "./Pokemons_Estatica/117.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 118,
             nome: "goldeen",
@@ -1899,7 +2017,8 @@ const pokemons = [
             Evolucoes: ["seaking"],
             imagem: "./Pokemons_Estatica/118.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 119,
             nome: "seaking",
@@ -1915,7 +2034,8 @@ const pokemons = [
             Evolucoes: ["goldeen"],
             imagem: "./Pokemons_Estatica/119.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 120,
             nome: "staryu",
@@ -1931,7 +2051,8 @@ const pokemons = [
             Evolucoes: ["starmie"],
             imagem: "./Pokemons_Estatica/120.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 121,
             nome: "starmie",
@@ -1947,7 +2068,8 @@ const pokemons = [
             Evolucoes: ["staryu"],
             imagem: "./Pokemons_Estatica/121.png",
             card: "./CSS/Card_Pokemons/pokemon agua_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 122,
             nome: "mr. mime",
@@ -1963,7 +2085,8 @@ const pokemons = [
             Evolucoes: ["mime jr.", "mr. rime"],
             imagem: "./Pokemons_Estatica/122.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 123,
             nome: "scyther",
@@ -1979,7 +2102,8 @@ const pokemons = [
             Evolucoes: ["scizor", "kleavor"],
             imagem: "./Pokemons_Estatica/123.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 124,
             nome: "jynx",
@@ -1995,7 +2119,8 @@ const pokemons = [
             Evolucoes: ["smoochum"],
             imagem: "./Pokemons_Estatica/124.png",
             card: "./CSS/Card_Pokemons/pokemon gelo_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 125,
             nome: "electabuzz",
@@ -2011,7 +2136,8 @@ const pokemons = [
             Evolucoes: ["elekid", "electivire"],
             imagem: "./Pokemons_Estatica/125.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 126,
             nome: "magmar",
@@ -2027,7 +2153,8 @@ const pokemons = [
             Evolucoes: ["magby", "magmortar"],
             imagem: "./Pokemons_Estatica/126.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 127,
             nome: "pinsir",
@@ -2043,7 +2170,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/127.png",
             card: "./CSS/Card_Pokemons/pokemon inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 128,
             nome: "tauros",
@@ -2059,7 +2187,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/128.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 129,
             nome: "magikarp",
@@ -2075,7 +2204,8 @@ const pokemons = [
             Evolucoes: ["gyarados"],
             imagem: "./Pokemons_Estatica/129.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 130,
             nome: "gyarados",
@@ -2091,7 +2221,8 @@ const pokemons = [
             Evolucoes: ["magikarp"],
             imagem: "./Pokemons_Estatica/130.png",
             card: "./CSS/Card_Pokemons/pokemon agua_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 131,
             nome: "lapras",
@@ -2107,7 +2238,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/131.png",
             card: "./CSS/Card_Pokemons/pokemon agua_gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 132,
             nome: "ditto",
@@ -2123,7 +2255,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/132.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 133,
             nome: "eevee",
@@ -2139,7 +2272,8 @@ const pokemons = [
             Evolucoes: ["vaporeon", "jolteon", "flareon", "espeon", "umbreon", "leafeon", "glaceon", "sylveon"],
             imagem: "./Pokemons_Estatica/133.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 134,
             nome: "vaporeon",
@@ -2155,7 +2289,8 @@ const pokemons = [
             Evolucoes: ["eevee"],
             imagem: "./Pokemons_Estatica/134.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 135,
             nome: "jolteon",
@@ -2171,7 +2306,8 @@ const pokemons = [
             Evolucoes: ["eevee"],
             imagem: "./Pokemons_Estatica/135.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 136,
             nome: "flareon",
@@ -2187,7 +2323,8 @@ const pokemons = [
             Evolucoes: ["eevee"],
             imagem: "./Pokemons_Estatica/136.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 137,
             nome: "porygon",
@@ -2203,7 +2340,8 @@ const pokemons = [
             Evolucoes: ["porygon2", "porygon-z"],
             imagem: "./Pokemons_Estatica/137.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 138,
             nome: "omanyte",
@@ -2219,7 +2357,8 @@ const pokemons = [
             Evolucoes: ["omastar"],
             imagem: "./Pokemons_Estatica/138.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 139,
             nome: "omastar",
@@ -2235,7 +2374,8 @@ const pokemons = [
             Evolucoes: ["omanyte"],
             imagem: "./Pokemons_Estatica/139.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 140,
             nome: "kabuto",
@@ -2251,7 +2391,8 @@ const pokemons = [
             Evolucoes: ["kabutops"],
             imagem: "./Pokemons_Estatica/140.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 141,
             nome: "kabutops",
@@ -2267,7 +2408,8 @@ const pokemons = [
             Evolucoes: ["kabuto"],
             imagem: "./Pokemons_Estatica/141.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 142,
             nome: "aerodactyl",
@@ -2283,7 +2425,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/142.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 143,
             nome: "snorlax",
@@ -2299,7 +2442,8 @@ const pokemons = [
             Evolucoes: ["munchlax"],
             imagem: "./Pokemons_Estatica/143.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 144,
             nome: "articuno",
@@ -2315,7 +2459,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/144.png",
             card: "./CSS/Card_Pokemons/pokemon gelo_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 145,
             nome: "zapdos",
@@ -2331,7 +2476,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/145.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 146,
             nome: "moltres",
@@ -2347,7 +2493,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/146.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 147,
             nome: "dratini",
@@ -2363,7 +2510,8 @@ const pokemons = [
             Evolucoes: ["dragonair", "dragonite"],
             imagem: "./Pokemons_Estatica/147.png",
             card: "./CSS/Card_Pokemons/pokemon dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 148,
             nome: "dragonair",
@@ -2379,7 +2527,8 @@ const pokemons = [
             Evolucoes: ["dratini", "dragonite"],
             imagem: "./Pokemons_Estatica/148.png",
             card: "./CSS/Card_Pokemons/pokemon dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 149,
             nome: "dragonite",
@@ -2395,7 +2544,8 @@ const pokemons = [
             Evolucoes: ["dratini", "dragonair"],
             imagem: "./Pokemons_Estatica/149.png",
             card: "./CSS/Card_Pokemons/pokemon dragao_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 150,
             nome: "mewtwo",
@@ -2411,7 +2561,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/150.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 151,
             nome: "mew",
@@ -2427,7 +2578,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/151.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 152,
             nome: "chikorita",
@@ -2443,7 +2595,8 @@ const pokemons = [
             Evolucoes: ["bayleef", "meganium"],
             imagem: "./Pokemons_Estatica/152.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 153,
             nome: "bayleef",
@@ -2459,7 +2612,8 @@ const pokemons = [
             Evolucoes: ["chikorita", "meganium"],
             imagem: "./Pokemons_Estatica/153.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 154,
             nome: "meganium",
@@ -2475,7 +2629,8 @@ const pokemons = [
             Evolucoes: ["chikorita", "bayleef"],
             imagem: "./Pokemons_Estatica/154.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 155,
             nome: "cyndaquil",
@@ -2491,7 +2646,8 @@ const pokemons = [
             Evolucoes: ["quilava", "typhlosion"],
             imagem: "./Pokemons_Estatica/155.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 156,
             nome: "quilava",
@@ -2507,7 +2663,8 @@ const pokemons = [
             Evolucoes: ["cyndaquil", "typhlosion"],
             imagem: "./Pokemons_Estatica/156.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 157,
             nome: "typhlosion",
@@ -2523,7 +2680,8 @@ const pokemons = [
             Evolucoes: ["cyndaquil", "quilava"],
             imagem: "./Pokemons_Estatica/157.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 158,
             nome: "totodile",
@@ -2539,7 +2697,8 @@ const pokemons = [
             Evolucoes: ["croconaw", "feraligatr"],
             imagem: "./Pokemons_Estatica/158.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 159,
             nome: "croconaw",
@@ -2555,7 +2714,8 @@ const pokemons = [
             Evolucoes: ["totodile", "feraligatr"],
             imagem: "./Pokemons_Estatica/159.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 160,
             nome: "feraligatr",
@@ -2571,7 +2731,8 @@ const pokemons = [
             Evolucoes: ["totodile", "croconaw"],
             imagem: "./Pokemons_Estatica/160.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 161,
             nome: "sentret",
@@ -2587,7 +2748,8 @@ const pokemons = [
             Evolucoes: ["furret"],
             imagem: "./Pokemons_Estatica/161.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 162,
             nome: "furret",
@@ -2603,7 +2765,8 @@ const pokemons = [
             Evolucoes: ["sentret"],
             imagem: "./Pokemons_Estatica/162.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 163,
             nome: "hoothoot",
@@ -2619,7 +2782,8 @@ const pokemons = [
             Evolucoes: ["noctowl"],
             imagem: "./Pokemons_Estatica/163.png",
             card: "./CSS/Card_Pokemons/pokemon normal_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 164,
             nome: "noctowl",
@@ -2635,7 +2799,8 @@ const pokemons = [
             Evolucoes: ["hoothoot"],
             imagem: "./Pokemons_Estatica/164.png",
             card: "./CSS/Card_Pokemons/pokemon normal_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 165,
             nome: "ledyba",
@@ -2651,7 +2816,8 @@ const pokemons = [
             Evolucoes: ["ledian"],
             imagem: "./Pokemons_Estatica/165.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 166,
             nome: "ledian",
@@ -2667,7 +2833,8 @@ const pokemons = [
             Evolucoes: ["ledyba"],
             imagem: "./Pokemons_Estatica/166.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 167,
             nome: "spinarak",
@@ -2683,7 +2850,8 @@ const pokemons = [
             Evolucoes: ["ariados"],
             imagem: "./Pokemons_Estatica/167.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 168,
             nome: "ariados",
@@ -2699,7 +2867,8 @@ const pokemons = [
             Evolucoes: ["spinarak"],
             imagem: "./Pokemons_Estatica/168.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 169,
             nome: "crobat",
@@ -2715,7 +2884,8 @@ const pokemons = [
             Evolucoes: ["zubat", "golbat"],
             imagem: "./Pokemons_Estatica/169.png",
             card: "./CSS/Card_Pokemons/pokemon veneno_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 170,
             nome: "chinchou",
@@ -2731,7 +2901,8 @@ const pokemons = [
             Evolucoes: ["lanturn"],
             imagem: "./Pokemons_Estatica/170.png",
             card: "./CSS/Card_Pokemons/pokemon agua_eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 171,
             nome: "lanturn",
@@ -2747,7 +2918,8 @@ const pokemons = [
             Evolucoes: ["chinchou"],
             imagem: "./Pokemons_Estatica/171.png",
             card: "./CSS/Card_Pokemons/pokemon agua_eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 172,
             nome: "pichu",
@@ -2763,7 +2935,8 @@ const pokemons = [
             Evolucoes: ["pikachu", "raichu"],
             imagem: "./Pokemons_Estatica/172.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 173,
             nome: "cleffa",
@@ -2779,7 +2952,8 @@ const pokemons = [
             Evolucoes: ["clefairy", "clefable"],
             imagem: "./Pokemons_Estatica/173.png",
             card: "./CSS/Card_Pokemons/pokemon fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 174,
             nome: "igglybuff",
@@ -2795,7 +2969,8 @@ const pokemons = [
             Evolucoes: ["jigglypuff", "wigglytuff"],
             imagem: "./Pokemons_Estatica/174.png",
             card: "./CSS/Card_Pokemons/pokemon normal_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 175,
             nome: "togepi",
@@ -2811,7 +2986,8 @@ const pokemons = [
             Evolucoes: ["togetic", "togekiss"],
             imagem: "./Pokemons_Estatica/175.png",
             card: "./CSS/Card_Pokemons/pokemon fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 176,
             nome: "togetic",
@@ -2827,7 +3003,8 @@ const pokemons = [
             Evolucoes: ["togepi", "togekiss"],
             imagem: "./Pokemons_Estatica/176.png",
             card: "./CSS/Card_Pokemons/pokemon fada_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 177,
             nome: "natu",
@@ -2843,7 +3020,8 @@ const pokemons = [
             Evolucoes: ["xatu"],
             imagem: "./Pokemons_Estatica/177.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 178,
             nome: "xatu",
@@ -2859,7 +3037,8 @@ const pokemons = [
             Evolucoes: ["natu"],
             imagem: "./Pokemons_Estatica/178.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 179,
             nome: "mareep",
@@ -2875,7 +3054,8 @@ const pokemons = [
             Evolucoes: ["flaaffy", "ampharos"],
             imagem: "./Pokemons_Estatica/179.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 180,
             nome: "flaaffy",
@@ -2891,7 +3071,8 @@ const pokemons = [
             Evolucoes: ["mareep", "ampharos"],
             imagem: "./Pokemons_Estatica/180.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 181,
             nome: "ampharos",
@@ -2907,7 +3088,8 @@ const pokemons = [
             Evolucoes: ["mareep", "flaaffy"],
             imagem: "./Pokemons_Estatica/181.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 182,
             nome: "bellossom",
@@ -2923,7 +3105,8 @@ const pokemons = [
             Evolucoes: ["oddish", "gloom", "vileplume"],
             imagem: "./Pokemons_Estatica/182.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 183,
             nome: "marill",
@@ -2939,7 +3122,8 @@ const pokemons = [
             Evolucoes: ["azurill", "azumarill"],
             imagem: "./Pokemons_Estatica/183.png",
             card: "./CSS/Card_Pokemons/pokemon agua_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 184,
             nome: "azumarill",
@@ -2955,7 +3139,8 @@ const pokemons = [
             Evolucoes: ["azurill", "marill"],
             imagem: "./Pokemons_Estatica/184.png",
             card: "./CSS/Card_Pokemons/pokemon agua_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 185,
             nome: "sudowoodo",
@@ -2971,7 +3156,8 @@ const pokemons = [
             Evolucoes: ["bonsly"],
             imagem: "./Pokemons_Estatica/185.png",
             card: "./CSS/Card_Pokemons/pokemon rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 186,
             nome: "politoed",
@@ -2987,7 +3173,8 @@ const pokemons = [
             Evolucoes: ["poliwag", "poliwhirl", "poliwrath"],
             imagem: "./Pokemons_Estatica/186.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 187,
             nome: "hoppip",
@@ -3003,7 +3190,8 @@ const pokemons = [
             Evolucoes: ["skiploom", "jumpluff"],
             imagem: "./Pokemons_Estatica/187.png",
             card: "./CSS/Card_Pokemons/pokemon planta_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 188,
             nome: "skiploom",
@@ -3019,7 +3207,8 @@ const pokemons = [
             Evolucoes: ["hoppip", "jumpluff"],
             imagem: "./Pokemons_Estatica/188.png",
             card: "./CSS/Card_Pokemons/pokemon planta_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 189,
             nome: "jumpluff",
@@ -3035,7 +3224,8 @@ const pokemons = [
             Evolucoes: ["hoppip", "skiploom"],
             imagem: "./Pokemons_Estatica/189.png",
             card: "./CSS/Card_Pokemons/pokemon planta_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 190,
             nome: "aipom",
@@ -3051,7 +3241,8 @@ const pokemons = [
             Evolucoes: ["ambipom"],
             imagem: "./Pokemons_Estatica/190.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 191,
             nome: "sunkern",
@@ -3067,7 +3258,8 @@ const pokemons = [
             Evolucoes: ["sunflora"],
             imagem: "./Pokemons_Estatica/191.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 192,
             nome: "sunflora",
@@ -3083,7 +3275,8 @@ const pokemons = [
             Evolucoes: ["sunkern"],
             imagem: "./Pokemons_Estatica/192.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 193,
             nome: "yanma",
@@ -3099,7 +3292,8 @@ const pokemons = [
             Evolucoes: ["yanmega"],
             imagem: "./Pokemons_Estatica/193.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 194,
             nome: "wooper",
@@ -3115,7 +3309,8 @@ const pokemons = [
             Evolucoes: ["quagsire"],
             imagem: "./Pokemons_Estatica/194.png",
             card: "./CSS/Card_Pokemons/pokemon agua_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 195,
             nome: "quagsire",
@@ -3131,7 +3326,8 @@ const pokemons = [
             Evolucoes: ["wooper"],
             imagem: "./Pokemons_Estatica/195.png",
             card: "./CSS/Card_Pokemons/pokemon agua_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 196,
             nome: "espeon",
@@ -3147,7 +3343,8 @@ const pokemons = [
             Evolucoes: ["eevee"],
             imagem: "./Pokemons_Estatica/196.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 197,
             nome: "umbreon",
@@ -3163,7 +3360,8 @@ const pokemons = [
             Evolucoes: ["eevee"],
             imagem: "./Pokemons_Estatica/197.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 198,
             nome: "murkrow",
@@ -3179,7 +3377,8 @@ const pokemons = [
             Evolucoes: ["honchkrow"],
             imagem: "./Pokemons_Estatica/198.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 199,
             nome: "slowking",
@@ -3195,7 +3394,8 @@ const pokemons = [
             Evolucoes: ["slowpoke", "slowbro"],
             imagem: "./Pokemons_Estatica/199.png",
             card: "./CSS/Card_Pokemons/pokemon agua_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 200,
             nome: "misdreavus",
@@ -3211,7 +3411,8 @@ const pokemons = [
             Evolucoes: ["mismagius"],
             imagem: "./Pokemons_Estatica/200.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 201,
             nome: "unown",
@@ -3227,7 +3428,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/201.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 202,
             nome: "wobbuffet",
@@ -3243,7 +3445,8 @@ const pokemons = [
             Evolucoes: ["wynaut"],
             imagem: "./Pokemons_Estatica/202.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 203,
             nome: "girafarig",
@@ -3259,7 +3462,8 @@ const pokemons = [
             Evolucoes: ["farigiraf"],
             imagem: "./Pokemons_Estatica/203.png",
             card: "./CSS/Card_Pokemons/pokemon normal_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 204,
             nome: "pineco",
@@ -3275,7 +3479,8 @@ const pokemons = [
             Evolucoes: ["forretress"],
             imagem: "./Pokemons_Estatica/204.png",
             card: "./CSS/Card_Pokemons/pokemon inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 205,
             nome: "forretress",
@@ -3291,7 +3496,8 @@ const pokemons = [
             Evolucoes: ["pineco"],
             imagem: "./Pokemons_Estatica/205.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 206,
             nome: "dunsparce",
@@ -3307,7 +3513,8 @@ const pokemons = [
             Evolucoes: ["dudunsparce"],
             imagem: "./Pokemons_Estatica/206.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 207,
             nome: "gligar",
@@ -3323,7 +3530,8 @@ const pokemons = [
             Evolucoes: ["gliscor"],
             imagem: "./Pokemons_Estatica/207.png",
             card: "./CSS/Card_Pokemons/pokemon terra_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 208,
             nome: "steelix",
@@ -3339,7 +3547,8 @@ const pokemons = [
             Evolucoes: ["onix"],
             imagem: "./Pokemons_Estatica/208.png",
             card: "./CSS/Card_Pokemons/pokemon aço_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 209,
             nome: "snubbull",
@@ -3355,7 +3564,8 @@ const pokemons = [
             Evolucoes: ["granbull"],
             imagem: "./Pokemons_Estatica/209.png",
             card: "./CSS/Card_Pokemons/pokemon fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 210,
             nome: "granbull",
@@ -3371,7 +3581,8 @@ const pokemons = [
             Evolucoes: ["snubbull"],
             imagem: "./Pokemons_Estatica/210.png",
             card: "./CSS/Card_Pokemons/pokemon fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 211,
             nome: "qwilfish",
@@ -3387,7 +3598,8 @@ const pokemons = [
             Evolucoes: ["overqwil"],
             imagem: "./Pokemons_Estatica/211.png",
             card: "./CSS/Card_Pokemons/pokemon agua_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 212,
             nome: "scizor",
@@ -3403,7 +3615,8 @@ const pokemons = [
             Evolucoes: ["scyther"],
             imagem: "./Pokemons_Estatica/212.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 213,
             nome: "shuckle",
@@ -3419,7 +3632,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/213.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 214,
             nome: "heracross",
@@ -3435,7 +3649,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/214.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 215,
             nome: "sneasel",
@@ -3451,7 +3666,8 @@ const pokemons = [
             Evolucoes: ["weavile"],
             imagem: "./Pokemons_Estatica/215.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 116,
             nome: "teddiursa",
@@ -3467,7 +3683,8 @@ const pokemons = [
             Evolucoes: ["ursaring", "ursaluna"],
             imagem: "./Pokemons_Estatica/216.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 217,
             nome: "ursaring",
@@ -3483,7 +3700,8 @@ const pokemons = [
             Evolucoes: ["teddiursa", "ursaluna"],
             imagem: "./Pokemons_Estatica/217.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 218,
             nome: "slugma",
@@ -3499,7 +3717,8 @@ const pokemons = [
             Evolucoes: ["magcargo"],
             imagem: "./Pokemons_Estatica/218.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 219,
             nome: "magcargo",
@@ -3515,7 +3734,8 @@ const pokemons = [
             Evolucoes: ["slugma"],
             imagem: "./Pokemons_Estatica/219.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 220,
             nome: "swinub",
@@ -3531,7 +3751,8 @@ const pokemons = [
             Evolucoes: ["piloswine", "mamoswine"],
             imagem: "./Pokemons_Estatica/220.png",
             card: "./CSS/Card_Pokemons/pokemon gelo_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 221,
             nome: "piloswine",
@@ -3547,7 +3768,8 @@ const pokemons = [
             Evolucoes: ["swinub", "mamoswine"],
             imagem: "./Pokemons_Estatica/221.png",
             card: "./CSS/Card_Pokemons/pokemon gelo_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 222,
             nome: "corsola",
@@ -3563,7 +3785,8 @@ const pokemons = [
             Evolucoes: ["cursola"],
             imagem: "./Pokemons_Estatica/222.png",
             card: "./CSS/Card_Pokemons/pokemon agua_rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 223,
             nome: "remoraid",
@@ -3579,7 +3802,8 @@ const pokemons = [
             Evolucoes: ["octillery"],
             imagem: "./Pokemons_Estatica/223.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 224,
             nome: "octillery",
@@ -3595,7 +3819,8 @@ const pokemons = [
             Evolucoes: ["remoraid"],
             imagem: "./Pokemons_Estatica/224.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 225,
             nome: "delibird",
@@ -3611,7 +3836,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/225.png",
             card: "./CSS/Card_Pokemons/pokemon gelo_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 226,
             nome: "mantine",
@@ -3627,7 +3853,8 @@ const pokemons = [
             Evolucoes: ["mantyke"],
             imagem: "./Pokemons_Estatica/226.png",
             card: "./CSS/Card_Pokemons/pokemon agua_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 227,
             nome: "skarmory",
@@ -3643,7 +3870,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/227.png",
             card: "./CSS/Card_Pokemons/pokemon aço_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 228,
             nome: "houndour",
@@ -3659,7 +3887,8 @@ const pokemons = [
             Evolucoes: ["houndoom"],
             imagem: "./Pokemons_Estatica/228.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 229,
             nome: "houndoom",
@@ -3675,7 +3904,8 @@ const pokemons = [
             Evolucoes: ["houndour"],
             imagem: "./Pokemons_Estatica/229.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 230,
             nome: "kingdra",
@@ -3691,7 +3921,8 @@ const pokemons = [
             Evolucoes: ["horsea", "seadra"],
             imagem: "./Pokemons_Estatica/230.png",
             card: "./CSS/Card_Pokemons/pokemon agua_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 231,
             nome: "phanpy",
@@ -3707,7 +3938,8 @@ const pokemons = [
             Evolucoes: ["donphan"],
             imagem: "./Pokemons_Estatica/231.png",
             card: "./CSS/Card_Pokemons/pokemon terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 232,
             nome: "donphan",
@@ -3723,7 +3955,8 @@ const pokemons = [
             Evolucoes: ["phanpy"],
             imagem: "./Pokemons_Estatica/232.png",
             card: "./CSS/Card_Pokemons/pokemon terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 233,
             nome: "porygon2",
@@ -3739,7 +3972,8 @@ const pokemons = [
             Evolucoes: ["porygon", "porygon-z"],
             imagem: "./Pokemons_Estatica/233.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 234,
             nome: "stantler",
@@ -3755,7 +3989,8 @@ const pokemons = [
             Evolucoes: ["wyrdeer"],
             imagem: "./Pokemons_Estatica/234.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 235,
             nome: "smeargle",
@@ -3771,7 +4006,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/235.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 236,
             nome: "tyrogue",
@@ -3787,7 +4023,8 @@ const pokemons = [
             Evolucoes: ["hitmonlee", "hitmonchan", "hitmontop"],
             imagem: "./Pokemons_Estatica/236.png",
             card: "./CSS/Card_Pokemons/pokemon lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 237,
             nome: "hitmontop",
@@ -3803,7 +4040,8 @@ const pokemons = [
             Evolucoes: ["tyrogue"],
             imagem: "./Pokemons_Estatica/237.png",
             card: "./CSS/Card_Pokemons/pokemon lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 238,
             nome: "smoochum",
@@ -3819,7 +4057,8 @@ const pokemons = [
             Evolucoes: ["jynx"],
             imagem: "./Pokemons_Estatica/238.png",
             card: "./CSS/Card_Pokemons/pokemon gelo_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 239,
             nome: "elekid",
@@ -3835,7 +4074,8 @@ const pokemons = [
             Evolucoes: ["electabuzz", "electivire"],
             imagem: "./Pokemons_Estatica/239.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 240,
             nome: "magby",
@@ -3851,7 +4091,8 @@ const pokemons = [
             Evolucoes: ["magmar", "magmortar"],
             imagem: "./Pokemons_Estatica/240.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 241,
             nome: "miltank",
@@ -3867,7 +4108,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/241.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 242,
             nome: "blissey",
@@ -3883,7 +4125,8 @@ const pokemons = [
             Evolucoes: ["happiny", "chansey"],
             imagem: "./Pokemons_Estatica/242.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 243,
             nome: "raikou",
@@ -3899,7 +4142,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/243.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 244,
             nome: "entei",
@@ -3915,7 +4159,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/244.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 245,
             nome: "suicune",
@@ -3931,7 +4176,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/245.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 246,
             nome: "larvitar",
@@ -3947,7 +4193,8 @@ const pokemons = [
             Evolucoes: ["pupitar", "tyranitar"],
             imagem: "./Pokemons_Estatica/246.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 247,
             nome: "pupitar",
@@ -3963,7 +4210,8 @@ const pokemons = [
             Evolucoes: ["larvitar", "tyranitar"],
             imagem: "./Pokemons_Estatica/247.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 248,
             nome: "tyranitar",
@@ -3979,7 +4227,8 @@ const pokemons = [
             Evolucoes: ["larvitar", "pupitar"],
             imagem: "./Pokemons_Estatica/248.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 249,
             nome: "lugia",
@@ -3995,7 +4244,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/249.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 250,
             nome: "ho-oh",
@@ -4011,7 +4261,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/250.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 251,
             nome: "celebi",
@@ -4027,7 +4278,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/251.png",
             card: "./CSS/Card_Pokemons/pokemon planta_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 252,
             nome: "treecko",
@@ -4043,7 +4295,8 @@ const pokemons = [
             Evolucoes: ["grovyle", "sceptile"],
             imagem: "./Pokemons_Estatica/252.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 253,
             nome: "grovyle",
@@ -4059,7 +4312,8 @@ const pokemons = [
             Evolucoes: ["treecko", "sceptile"],
             imagem: "./Pokemons_Estatica/253.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 254,
             nome: "sceptile",
@@ -4075,7 +4329,8 @@ const pokemons = [
             Evolucoes: ["treecko", "grovyle"],
             imagem: "./Pokemons_Estatica/254.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 255,
             nome: "torchic",
@@ -4091,7 +4346,8 @@ const pokemons = [
             Evolucoes: ["combusken", "blaziken"],
             imagem: "./Pokemons_Estatica/255.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 256,
             nome: "combusken",
@@ -4107,7 +4363,8 @@ const pokemons = [
             Evolucoes: ["torchic", "blaziken"],
             imagem: "./Pokemons_Estatica/256.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 257,
             nome: "blaziken",
@@ -4123,7 +4380,8 @@ const pokemons = [
             Evolucoes: ["torchic", "combusken"],
             imagem: "./Pokemons_Estatica/257.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 258,
             nome: "mudkip",
@@ -4139,7 +4397,8 @@ const pokemons = [
             Evolucoes: ["marshtomp", "swampert"],
             imagem: "./Pokemons_Estatica/258.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 259,
             nome: "marshtomp",
@@ -4155,7 +4414,8 @@ const pokemons = [
             Evolucoes: ["mudkip", "swampert"],
             imagem: "./Pokemons_Estatica/259.png",
             card: "./CSS/Card_Pokemons/pokemon agua_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 260,
             nome: "swampert",
@@ -4171,7 +4431,8 @@ const pokemons = [
             Evolucoes: ["mudkip", "marshtomp"],
             imagem: "./Pokemons_Estatica/260.png",
             card: "./CSS/Card_Pokemons/pokemon agua_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 261,
             nome: "poochyena",
@@ -4187,7 +4448,8 @@ const pokemons = [
             Evolucoes: ["mightyena"],
             imagem: "./Pokemons_Estatica/261.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 262,
             nome: "mightyena",
@@ -4203,7 +4465,8 @@ const pokemons = [
             Evolucoes: ["poochyena"],
             imagem: "./Pokemons_Estatica/262.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 263,
             nome: "zigzagoon",
@@ -4219,7 +4482,8 @@ const pokemons = [
             Evolucoes: ["linoone"],
             imagem: "./Pokemons_Estatica/263.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 264,
             nome: "linoone",
@@ -4235,7 +4499,8 @@ const pokemons = [
             Evolucoes: ["zigzagoon", "obstagoon"],
             imagem: "./Pokemons_Estatica/264.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 265,
             nome: "wurmple",
@@ -4251,7 +4516,8 @@ const pokemons = [
             Evolucoes: ["silcoon", "cascoon"],
             imagem: "./Pokemons_Estatica/265.png",
             card: "./CSS/Card_Pokemons/pokemon inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 266,
             nome: "silcoon",
@@ -4267,7 +4533,8 @@ const pokemons = [
             Evolucoes: ["wurmple", "beautifly"],
             imagem: "./Pokemons_Estatica/266.png",
             card: "./CSS/Card_Pokemons/pokemon inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 267,
             nome: "beautifly",
@@ -4283,7 +4550,8 @@ const pokemons = [
             Evolucoes: ["wurmple", "silcoon"],
             imagem: "./Pokemons_Estatica/267.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 268,
             nome: "cascoon",
@@ -4299,7 +4567,8 @@ const pokemons = [
             Evolucoes: ["wurmple", "dustox"],
             imagem: "./Pokemons_Estatica/268.png",
             card: "./CSS/Card_Pokemons/pokemon inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 269,
             nome: "dustox",
@@ -4315,7 +4584,8 @@ const pokemons = [
             Evolucoes: ["wurmple", "cascoon"],
             imagem: "./Pokemons_Estatica/269.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 270,
             nome: "lotad",
@@ -4331,7 +4601,8 @@ const pokemons = [
             Evolucoes: ["lombre", "ludicolo"],
             imagem: "./Pokemons_Estatica/270.png",
             card: "./CSS/Card_Pokemons/pokemon agua_planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 271,
             nome: "lombre",
@@ -4347,7 +4618,8 @@ const pokemons = [
             Evolucoes: ["lotad", "ludicolo"],
             imagem: "./Pokemons_Estatica/271.png",
             card: "./CSS/Card_Pokemons/pokemon agua_planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 272,
             nome: "ludicolo",
@@ -4363,7 +4635,8 @@ const pokemons = [
             Evolucoes: ["lotad", "lombre"],
             imagem: "./Pokemons_Estatica/272.png",
             card: "./CSS/Card_Pokemons/pokemon agua_planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 273,
             nome: "seedot",
@@ -4379,7 +4652,8 @@ const pokemons = [
             Evolucoes: ["nuzleaf", "shiftry"],
             imagem: "./Pokemons_Estatica/273.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 274,
             nome: "nuzleaf",
@@ -4395,7 +4669,8 @@ const pokemons = [
             Evolucoes: ["seedot", "shiftry"],
             imagem: "./Pokemons_Estatica/274.png",
             card: "./CSS/Card_Pokemons/pokemon planta_sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 275,
             nome: "shiftry",
@@ -4411,7 +4686,8 @@ const pokemons = [
             Evolucoes: ["seedot", "nuzleaf"],
             imagem: "./Pokemons_Estatica/275.png",
             card: "./CSS/Card_Pokemons/pokemon planta_sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 276,
             nome: "taillow",
@@ -4427,7 +4703,8 @@ const pokemons = [
             Evolucoes: ["swellow"],
             imagem: "./Pokemons_Estatica/276.png",
             card: "./CSS/Card_Pokemons/pokemon normal_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 277,
             nome: "swellow",
@@ -4443,7 +4720,8 @@ const pokemons = [
             Evolucoes: ["taillow"],
             imagem: "./Pokemons_Estatica/277.png",
             card: "./CSS/Card_Pokemons/pokemon normal_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 278,
             nome: "wingull",
@@ -4459,7 +4737,8 @@ const pokemons = [
             Evolucoes: ["pelipper"],
             imagem: "./Pokemons_Estatica/278.png",
             card: "./CSS/Card_Pokemons/pokemon agua_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 279,
             nome: "pelipper",
@@ -4475,7 +4754,8 @@ const pokemons = [
             Evolucoes: ["wingull"],
             imagem: "./Pokemons_Estatica/279.png",
             card: "./CSS/Card_Pokemons/pokemon agua_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 280,
             nome: "ralts",
@@ -4491,7 +4771,8 @@ const pokemons = [
             Evolucoes: ["kirlia", "gardevoir", "gallade"],
             imagem: "./Pokemons_Estatica/280.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 281,
             nome: "kirlia",
@@ -4507,7 +4788,8 @@ const pokemons = [
             Evolucoes: ["ralts", "gardevoir", "gallade"],
             imagem: "./Pokemons_Estatica/281.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 282,
             nome: "gardevoir",
@@ -4523,7 +4805,8 @@ const pokemons = [
             Evolucoes: ["ralts", "kirlia"],
             imagem: "./Pokemons_Estatica/282.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 283,
             nome: "surskit",
@@ -4539,7 +4822,8 @@ const pokemons = [
             Evolucoes: ["masquerain"],
             imagem: "./Pokemons_Estatica/283.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 284,
             nome: "masquerain",
@@ -4555,7 +4839,8 @@ const pokemons = [
             Evolucoes: ["surskit"],
             imagem: "./Pokemons_Estatica/284.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 285,
             nome: "shroomish",
@@ -4571,7 +4856,8 @@ const pokemons = [
             Evolucoes: ["breloom"],
             imagem: "./Pokemons_Estatica/285.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 286,
             nome: "breloom",
@@ -4587,7 +4873,8 @@ const pokemons = [
             Evolucoes: ["shroomish"],
             imagem: "./Pokemons_Estatica/286.png",
             card: "./CSS/Card_Pokemons/pokemon planta_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 287,
             nome: "slakoth",
@@ -4603,7 +4890,8 @@ const pokemons = [
             Evolucoes: ["vigoroth", "slaking"],
             imagem: "./Pokemons_Estatica/287.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 288,
             nome: "vigoroth",
@@ -4619,7 +4907,8 @@ const pokemons = [
             Evolucoes: ["slakoth", "slaking"],
             imagem: "./Pokemons_Estatica/288.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 289,
             nome: "slaking",
@@ -4635,7 +4924,8 @@ const pokemons = [
             Evolucoes: ["slakoth", "vigoroth"],
             imagem: "./Pokemons_Estatica/289.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 290,
             nome: "nincada",
@@ -4651,7 +4941,8 @@ const pokemons = [
             Evolucoes: ["ninjask", "shedinja"],
             imagem: "./Pokemons_Estatica/290.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 291,
             nome: "ninjask",
@@ -4667,7 +4958,8 @@ const pokemons = [
             Evolucoes: ["nincada"],
             imagem: "./Pokemons_Estatica/291.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 292,
             nome: "shedinja",
@@ -4683,7 +4975,8 @@ const pokemons = [
             Evolucoes: ["nincada"],
             imagem: "./Pokemons_Estatica/292.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 293,
             nome: "whismur",
@@ -4699,7 +4992,8 @@ const pokemons = [
             Evolucoes: ["loudred", "exploud"],
             imagem: "./Pokemons_Estatica/293.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 294,
             nome: "loudred",
@@ -4715,7 +5009,8 @@ const pokemons = [
             Evolucoes: ["whismur", "exploud"],
             imagem: "./Pokemons_Estatica/294.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 295,
             nome: "exploud",
@@ -4731,7 +5026,8 @@ const pokemons = [
             Evolucoes: ["whismur", "loudred"],
             imagem: "./Pokemons_Estatica/295.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 296,
             nome: "makuhita",
@@ -4747,7 +5043,8 @@ const pokemons = [
             Evolucoes: ["hariyama"],
             imagem: "./Pokemons_Estatica/296.png",
             card: "./CSS/Card_Pokemons/pokemon lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 297,
             nome: "hariyama",
@@ -4763,7 +5060,8 @@ const pokemons = [
             Evolucoes: ["makuhita"],
             imagem: "./Pokemons_Estatica/297.png",
             card: "./CSS/Card_Pokemons/pokemon lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 298,
             nome: "azurill",
@@ -4779,7 +5077,8 @@ const pokemons = [
             Evolucoes: ["marill", "azumarill"],
             imagem: "./Pokemons_Estatica/298.png",
             card: "./CSS/Card_Pokemons/pokemon normal_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 299,
             nome: "nosepass",
@@ -4795,7 +5094,8 @@ const pokemons = [
             Evolucoes: ["probopass"],
             imagem: "./Pokemons_Estatica/299.png",
             card: "./CSS/Card_Pokemons/pokemon rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 300,
             nome: "skitty",
@@ -4811,7 +5111,8 @@ const pokemons = [
             Evolucoes: ["delcatty"],
             imagem: "./Pokemons_Estatica/300.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 301,
             nome: "delcatty",
@@ -4827,7 +5128,8 @@ const pokemons = [
             Evolucoes: ["skitty"],
             imagem: "./Pokemons_Estatica/301.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 302,
             nome: "sableye",
@@ -4843,7 +5145,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/302.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 303,
             nome: "mawile",
@@ -4859,7 +5162,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/303.png",
             card: "./CSS/Card_Pokemons/pokemon aço_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 304,
             nome: "aron",
@@ -4875,7 +5179,8 @@ const pokemons = [
             Evolucoes: ["lairon", "aggron"],
             imagem: "./Pokemons_Estatica/304.png",
             card: "./CSS/Card_Pokemons/pokemon aço_rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 305,
             nome: "lairon",
@@ -4891,7 +5196,8 @@ const pokemons = [
             Evolucoes: ["aron", "aggron"],
             imagem: "./Pokemons_Estatica/305.png",
             card: "./CSS/Card_Pokemons/pokemon aço_rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 306,
             nome: "aggron",
@@ -4907,7 +5213,8 @@ const pokemons = [
             Evolucoes: ["aron", "lairon"],
             imagem: "./Pokemons_Estatica/306.png",
             card: "./CSS/Card_Pokemons/pokemon aço_rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 307,
             nome: "meditite",
@@ -4923,7 +5230,8 @@ const pokemons = [
             Evolucoes: ["medicham"],
             imagem: "./Pokemons_Estatica/307.png",
             card: "./CSS/Card_Pokemons/pokemon lutador_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 308,
             nome: "medicham",
@@ -4939,7 +5247,8 @@ const pokemons = [
             Evolucoes: ["meditite"],
             imagem: "./Pokemons_Estatica/308.png",
             card: "./CSS/Card_Pokemons/pokemon lutador_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 309,
             nome: "electrike",
@@ -4955,7 +5264,8 @@ const pokemons = [
             Evolucoes: ["manectric"],
             imagem: "./Pokemons_Estatica/309.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 310,
             nome: "manectric",
@@ -4971,7 +5281,8 @@ const pokemons = [
             Evolucoes: ["electrike"],
             imagem: "./Pokemons_Estatica/310.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 311,
             nome: "plusle",
@@ -4987,7 +5298,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/311.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 312,
             nome: "minun",
@@ -5003,7 +5315,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/312.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 313,
             nome: "volbeat",
@@ -5019,7 +5332,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/313.png",
             card: "./CSS/Card_Pokemons/pokemon inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 314,
             nome: "illumise",
@@ -5035,7 +5349,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/314.png",
             card: "./CSS/Card_Pokemons/pokemon inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 315,
             nome: "roselia",
@@ -5051,7 +5366,8 @@ const pokemons = [
             Evolucoes: ["budew", "roserade"],
             imagem: "./Pokemons_Estatica/315.png",
             card: "./CSS/Card_Pokemons/pokemon planta_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 316,
             nome: "gulpin",
@@ -5067,7 +5383,8 @@ const pokemons = [
             Evolucoes: ["swalot"],
             imagem: "./Pokemons_Estatica/316.png",
             card: "./CSS/Card_Pokemons/pokemon veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 317,
             nome: "swalot",
@@ -5083,7 +5400,8 @@ const pokemons = [
             Evolucoes: ["gulpin"],
             imagem: "./Pokemons_Estatica/317.png",
             card: "./CSS/Card_Pokemons/pokemon veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 318,
             nome: "carvanha",
@@ -5099,7 +5417,8 @@ const pokemons = [
             Evolucoes: ["sharpedo"],
             imagem: "./Pokemons_Estatica/318.png",
             card: "./CSS/Card_Pokemons/pokemon agua_sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 319,
             nome: "sharpedo",
@@ -5115,7 +5434,8 @@ const pokemons = [
             Evolucoes: ["carvanha"],
             imagem: "./Pokemons_Estatica/319.png",
             card: "./CSS/Card_Pokemons/pokemon agua_sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 320,
             nome: "wailmer",
@@ -5131,7 +5451,8 @@ const pokemons = [
             Evolucoes: ["wailord"],
             imagem: "./Pokemons_Estatica/320.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 321,
             nome: "wailord",
@@ -5147,7 +5468,8 @@ const pokemons = [
             Evolucoes: ["wailmer"],
             imagem: "./Pokemons_Estatica/321.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 322,
             nome: "numel",
@@ -5163,7 +5485,8 @@ const pokemons = [
             Evolucoes: ["camerupt"],
             imagem: "./Pokemons_Estatica/322.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 323,
             nome: "camerupt",
@@ -5179,7 +5502,8 @@ const pokemons = [
             Evolucoes: ["numel"],
             imagem: "./Pokemons_Estatica/323.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 324,
             nome: "torkoal",
@@ -5195,7 +5519,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/324.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 325,
             nome: "spoink",
@@ -5211,7 +5536,8 @@ const pokemons = [
             Evolucoes: ["grumpig"],
             imagem: "./Pokemons_Estatica/325.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 326,
             nome: "grumpig",
@@ -5227,7 +5553,8 @@ const pokemons = [
             Evolucoes: ["spoink"],
             imagem: "./Pokemons_Estatica/326.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 327,
             nome: "spinda",
@@ -5243,7 +5570,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/327.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 328,
             nome: "trapinch",
@@ -5259,7 +5587,8 @@ const pokemons = [
             Evolucoes: ["vibrava", "flygon"],
             imagem: "./Pokemons_Estatica/328.png",
             card: "./CSS/Card_Pokemons/pokemon terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 329,
             nome: "vibrava",
@@ -5275,7 +5604,8 @@ const pokemons = [
             Evolucoes: ["trapinch", "flygon"],
             imagem: "./Pokemons_Estatica/329.png",
             card: "./CSS/Card_Pokemons/pokemon terra_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 330,
             nome: "flygon",
@@ -5291,7 +5621,8 @@ const pokemons = [
             Evolucoes: ["trapinch", "vibrava"],
             imagem: "./Pokemons_Estatica/330.png",
             card: "./CSS/Card_Pokemons/pokemon terra_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 331,
             nome: "cacnea",
@@ -5307,7 +5638,8 @@ const pokemons = [
             Evolucoes: ["cacturne"],
             imagem: "./Pokemons_Estatica/331.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 332,
             nome: "cacturne",
@@ -5323,7 +5655,8 @@ const pokemons = [
             Evolucoes: ["cacnea"],
             imagem: "./Pokemons_Estatica/332.png",
             card: "./CSS/Card_Pokemons/pokemon planta_sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 333,
             nome: "swablu",
@@ -5339,7 +5672,8 @@ const pokemons = [
             Evolucoes: ["altaria"],
             imagem: "./Pokemons_Estatica/333.png",
             card: "./CSS/Card_Pokemons/pokemon normal_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 334,
             nome: "altaria",
@@ -5355,7 +5689,8 @@ const pokemons = [
             Evolucoes: ["swablu"],
             imagem: "./Pokemons_Estatica/334.png",
             card: "./CSS/Card_Pokemons/pokemon dragao_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 335,
             nome: "zangoose",
@@ -5371,7 +5706,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/335.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 336,
             nome: "seviper",
@@ -5387,7 +5723,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/336.png",
             card: "./CSS/Card_Pokemons/pokemon veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 337,
             nome: "lunatone",
@@ -5403,7 +5740,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/337.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 338,
             nome: "solrock",
@@ -5419,7 +5757,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/338.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 339,
             nome: "barboach",
@@ -5435,7 +5774,8 @@ const pokemons = [
             Evolucoes: ["whiscash"],
             imagem: "./Pokemons_Estatica/339.png",
             card: "./CSS/Card_Pokemons/pokemon agua_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 340,
             nome: "whiscash",
@@ -5451,7 +5791,8 @@ const pokemons = [
             Evolucoes: ["barboach"],
             imagem: "./Pokemons_Estatica/340.png",
             card: "./CSS/Card_Pokemons/pokemon agua_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 341,
             nome: "corphish",
@@ -5467,7 +5808,8 @@ const pokemons = [
             Evolucoes: ["crawdaunt"],
             imagem: "./Pokemons_Estatica/341.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 342,
             nome: "crawdaunt",
@@ -5483,7 +5825,8 @@ const pokemons = [
             Evolucoes: ["corphish"],
             imagem: "./Pokemons_Estatica/342.png",
             card: "./CSS/Card_Pokemons/pokemon agua_sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 343,
             nome: "baltoy",
@@ -5499,7 +5842,8 @@ const pokemons = [
             Evolucoes: ["claydol"],
             imagem: "./Pokemons_Estatica/343.png",
             card: "./CSS/Card_Pokemons/pokemon terra_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 344,
             nome: "claydol",
@@ -5515,7 +5859,8 @@ const pokemons = [
             Evolucoes: ["baltoy"],
             imagem: "./Pokemons_Estatica/344.png",
             card: "./CSS/Card_Pokemons/pokemon terra_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 345,
             nome: "lileep",
@@ -5531,7 +5876,8 @@ const pokemons = [
             Evolucoes: ["cradily"],
             imagem: "./Pokemons_Estatica/345.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 346,
             nome: "cradily",
@@ -5547,7 +5893,8 @@ const pokemons = [
             Evolucoes: ["lileep"],
             imagem: "./Pokemons_Estatica/346.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 347,
             nome: "anorith",
@@ -5563,7 +5910,8 @@ const pokemons = [
             Evolucoes: ["armaldo"],
             imagem: "./Pokemons_Estatica/347.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 348,
             nome: "armaldo",
@@ -5579,7 +5927,8 @@ const pokemons = [
             Evolucoes: ["anorith"],
             imagem: "./Pokemons_Estatica/348.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 349,
             nome: "feebas",
@@ -5595,7 +5944,8 @@ const pokemons = [
             Evolucoes: ["milotic"],
             imagem: "./Pokemons_Estatica/349.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 350,
             nome: "milotic",
@@ -5611,7 +5961,8 @@ const pokemons = [
             Evolucoes: ["feebas"],
             imagem: "./Pokemons_Estatica/350.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 351,
             nome: "castform",
@@ -5627,7 +5978,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/351.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 352,
             nome: "kecleon",
@@ -5643,7 +5995,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/352.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 353,
             nome: "shuppet",
@@ -5659,7 +6012,8 @@ const pokemons = [
             Evolucoes: ["banette"],
             imagem: "./Pokemons_Estatica/353.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 354,
             nome: "banette",
@@ -5675,7 +6029,8 @@ const pokemons = [
             Evolucoes: ["shuppet"],
             imagem: "./Pokemons_Estatica/354.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 355,
             nome: "duskull",
@@ -5691,7 +6046,8 @@ const pokemons = [
             Evolucoes: ["dusclops", "dusknoir"],
             imagem: "./Pokemons_Estatica/355.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 356,
             nome: "dusclops",
@@ -5707,7 +6063,8 @@ const pokemons = [
             Evolucoes: ["duskull", "dusknoir"],
             imagem: "./Pokemons_Estatica/356.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 357,
             nome: "tropius",
@@ -5723,7 +6080,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/357.png",
             card: "./CSS/Card_Pokemons/pokemon planta_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 358,
             nome: "chimecho",
@@ -5739,7 +6097,8 @@ const pokemons = [
             Evolucoes: ["chingling"],
             imagem: "./Pokemons_Estatica/358.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 359,
             nome: "absol",
@@ -5755,7 +6114,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/359.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 360,
             nome: "wynaut",
@@ -5771,7 +6131,8 @@ const pokemons = [
             Evolucoes: ["wobbuffet"],
             imagem: "./Pokemons_Estatica/360.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 361,
             nome: "snorunt",
@@ -5787,7 +6148,8 @@ const pokemons = [
             Evolucoes: ["glalie", "froslass"],
             imagem: "./Pokemons_Estatica/361.png",
             card: "./CSS/Card_Pokemons/pokemon gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 362,
             nome: "glalie",
@@ -5803,7 +6165,8 @@ const pokemons = [
             Evolucoes: ["snorunt"],
             imagem: "./Pokemons_Estatica/362.png",
             card: "./CSS/Card_Pokemons/pokemon gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 363,
             nome: "spheal",
@@ -5819,7 +6182,8 @@ const pokemons = [
             Evolucoes: ["sealeo", "walrein"],
             imagem: "./Pokemons_Estatica/363.png",
             card: "./CSS/Card_Pokemons/pokemon gelo_agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 364,
             nome: "sealeo",
@@ -5835,7 +6199,8 @@ const pokemons = [
             Evolucoes: ["spheal", "walrein"],
             imagem: "./Pokemons_Estatica/364.png",
             card: "./CSS/Card_Pokemons/pokemon gelo_agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 365,
             nome: "walrein",
@@ -5851,7 +6216,8 @@ const pokemons = [
             Evolucoes: ["spheal", "sealeo"],
             imagem: "./Pokemons_Estatica/365.png",
             card: "./CSS/Card_Pokemons/pokemon gelo_agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 366,
             nome: "clamperl",
@@ -5867,7 +6233,8 @@ const pokemons = [
             Evolucoes: ["huntail", "gorebyss"],
             imagem: "./Pokemons_Estatica/366.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 367,
             nome: "huntail",
@@ -5883,7 +6250,8 @@ const pokemons = [
             Evolucoes: ["clamperl"],
             imagem: "./Pokemons_Estatica/367.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 368,
             nome: "gorebyss",
@@ -5899,7 +6267,8 @@ const pokemons = [
             Evolucoes: ["clamperl"],
             imagem: "./Pokemons_Estatica/368.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 369,
             nome: "relicanth",
@@ -5915,7 +6284,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/369.png",
             card: "./CSS/Card_Pokemons/pokemon agua_rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 370,
             nome: "luvdisc",
@@ -5931,7 +6301,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/370.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 371,
             nome: "bagon",
@@ -5947,7 +6318,8 @@ const pokemons = [
             Evolucoes: ["shelgon", "salamence"],
             imagem: "./Pokemons_Estatica/371.png",
             card: "./CSS/Card_Pokemons/pokemon dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 372,
             nome: "shelgon",
@@ -5963,7 +6335,8 @@ const pokemons = [
             Evolucoes: ["bagon", "salamence"],
             imagem: "./Pokemons_Estatica/372.png",
             card: "./CSS/Card_Pokemons/pokemon dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 373,
             nome: "salamence",
@@ -5979,7 +6352,8 @@ const pokemons = [
             Evolucoes: ["bagon", "shelgon"],
             imagem: "./Pokemons_Estatica/373.png",
             card: "./CSS/Card_Pokemons/pokemon dragao_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 374,
             nome: "beldum",
@@ -5995,7 +6369,8 @@ const pokemons = [
             Evolucoes: ["metang", "metagross"],
             imagem: "./Pokemons_Estatica/374.png",
             card: "./CSS/Card_Pokemons/pokemon aço_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 375,
             nome: "metang",
@@ -6011,7 +6386,8 @@ const pokemons = [
             Evolucoes: ["beldum", "metagross"],
             imagem: "./Pokemons_Estatica/375.png",
             card: "./CSS/Card_Pokemons/pokemon aço_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 376,
             nome: "metagross",
@@ -6027,7 +6403,8 @@ const pokemons = [
             Evolucoes: ["beldum", "metang"],
             imagem: "./Pokemons_Estatica/376.png",
             card: "./CSS/Card_Pokemons/pokemon aço_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 377,
             nome: "regirock",
@@ -6043,7 +6420,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/377.png",
             card: "./CSS/Card_Pokemons/pokemon rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 378,
             nome: "regice",
@@ -6059,7 +6437,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/378.png",
             card: "./CSS/Card_Pokemons/pokemon gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 379,
             nome: "registeel",
@@ -6075,7 +6454,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/379.png",
             card: "./CSS/Card_Pokemons/pokemon aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 380,
             nome: "latias",
@@ -6091,7 +6471,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/380.png",
             card: "./CSS/Card_Pokemons/pokemon dragao_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 381,
             nome: "latios",
@@ -6107,7 +6488,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/381.png",
             card: "./CSS/Card_Pokemons/pokemon dragao_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 382,
             nome: "kyogre",
@@ -6123,7 +6505,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/382.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 383,
             nome: "groudon",
@@ -6139,7 +6522,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/383.png",
             card: "./CSS/Card_Pokemons/pokemon terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 384,
             nome: "rayquaza",
@@ -6155,7 +6539,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/384.png",
             card: "./CSS/Card_Pokemons/pokemon dragao_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 385,
             nome: "jirachi",
@@ -6171,7 +6556,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/385.png",
             card: "./CSS/Card_Pokemons/pokemon aço_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 386,
             nome: "deoxys",
@@ -6187,7 +6573,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/386.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 387,
             nome: "turtwig",
@@ -6203,7 +6590,8 @@ const pokemons = [
             Evolucoes: ["grotle", "torterra"],
             imagem: "./Pokemons_Estatica/387.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 388,
             nome: "grotle",
@@ -6219,7 +6607,8 @@ const pokemons = [
             Evolucoes: ["turtwig", "torterra"],
             imagem: "./Pokemons_Estatica/388.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 389,
             nome: "torterra",
@@ -6235,7 +6624,8 @@ const pokemons = [
             Evolucoes: ["turtwig", "grotle"],
             imagem: "./Pokemons_Estatica/389.png",
             card: "./CSS/Card_Pokemons/pokemon planta_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 390,
             nome: "chimchar",
@@ -6251,7 +6641,8 @@ const pokemons = [
             Evolucoes: ["monferno", "infernape"],
             imagem: "./Pokemons_Estatica/390.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 391,
             nome: "monferno",
@@ -6267,7 +6658,8 @@ const pokemons = [
             Evolucoes: ["chimchar", "infernape"],
             imagem: "./Pokemons_Estatica/391.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 392,
             nome: "infernape",
@@ -6283,7 +6675,8 @@ const pokemons = [
             Evolucoes: ["chimchar", "monferno"],
             imagem: "./Pokemons_Estatica/392.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 393,
             nome: "piplup",
@@ -6299,7 +6692,8 @@ const pokemons = [
             Evolucoes: ["prinplup", "empoleon"],
             imagem: "./Pokemons_Estatica/393.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 394,
             nome: "prinplup",
@@ -6315,7 +6709,8 @@ const pokemons = [
             Evolucoes: ["piplup", "empoleon"],
             imagem: "./Pokemons_Estatica/394.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 395,
             nome: "empoleon",
@@ -6331,7 +6726,8 @@ const pokemons = [
             Evolucoes: ["piplup", "prinplup"],
             imagem: "./Pokemons_Estatica/395.png",
             card: "./CSS/Card_Pokemons/pokemon agua_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 396,
             nome: "starly",
@@ -6347,7 +6743,8 @@ const pokemons = [
             Evolucoes: ["staravia", "staraptor"],
             imagem: "./Pokemons_Estatica/396.png",
             card: "./CSS/Card_Pokemons/pokemon normal_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 397,
             nome: "staravia",
@@ -6363,7 +6760,8 @@ const pokemons = [
             Evolucoes: ["starly", "staraptor"],
             imagem: "./Pokemons_Estatica/397.png",
             card: "./CSS/Card_Pokemons/pokemon normal_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 398,
             nome: "staraptor",
@@ -6379,7 +6777,8 @@ const pokemons = [
             Evolucoes: ["starly", "staravia"],
             imagem: "./Pokemons_Estatica/398.png",
             card: "./CSS/Card_Pokemons/pokemon normal_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 399,
             nome: "bidoof",
@@ -6395,7 +6794,8 @@ const pokemons = [
             Evolucoes: ["bibarel"],
             imagem: "./Pokemons_Estatica/399.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 400,
             nome: "bibarel",
@@ -6411,7 +6811,8 @@ const pokemons = [
             Evolucoes: ["bidoof"],
             imagem: "./Pokemons_Estatica/400.png",
             card: "./CSS/Card_Pokemons/pokemon normal_agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 401,
             nome: "kricketot",
@@ -6427,7 +6828,8 @@ const pokemons = [
             Evolucoes: ["kricketune"],
             imagem: "./Pokemons_Estatica/401.png",
             card: "./CSS/Card_Pokemons/pokemon inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 402,
             nome: "kricketune",
@@ -6443,7 +6845,8 @@ const pokemons = [
             Evolucoes: ["kricketot"],
             imagem: "./Pokemons_Estatica/402.png",
             card: "./CSS/Card_Pokemons/pokemon inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 403,
             nome: "shinx",
@@ -6459,7 +6862,8 @@ const pokemons = [
             Evolucoes: ["luxio", "luxray"],
             imagem: "./Pokemons_Estatica/403.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 404,
             nome: "luxio",
@@ -6475,7 +6879,8 @@ const pokemons = [
             Evolucoes: ["shinx", "luxray"],
             imagem: "./Pokemons_Estatica/404.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 405,
             nome: "luxray",
@@ -6491,7 +6896,8 @@ const pokemons = [
             Evolucoes: ["shinx", "luxio"],
             imagem: "./Pokemons_Estatica/405.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 406,
             nome: "budew",
@@ -6507,7 +6913,8 @@ const pokemons = [
             Evolucoes: ["roselia", "roserade"],
             imagem: "./Pokemons_Estatica/406.png",
             card: "./CSS/Card_Pokemons/pokemon planta_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 407,
             nome: "roserade",
@@ -6523,7 +6930,8 @@ const pokemons = [
             Evolucoes: ["budew", "roselia"],
             imagem: "./Pokemons_Estatica/407.png",
             card: "./CSS/Card_Pokemons/pokemon planta_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 408,
             nome: "cranidos",
@@ -6539,7 +6947,8 @@ const pokemons = [
             Evolucoes: ["rampardos"],
             imagem: "./Pokemons_Estatica/408.png",
             card: "./CSS/Card_Pokemons/pokemon rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 409,
             nome: "rampardos",
@@ -6555,7 +6964,8 @@ const pokemons = [
             Evolucoes: ["cranidos"],
             imagem: "./Pokemons_Estatica/409.png",
             card: "./CSS/Card_Pokemons/pokemon rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 410,
             nome: "shieldon",
@@ -6571,7 +6981,8 @@ const pokemons = [
             Evolucoes: ["bastiodon"],
             imagem: "./Pokemons_Estatica/410.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 411,
             nome: "bastiodon",
@@ -6587,7 +6998,8 @@ const pokemons = [
             Evolucoes: ["shieldon"],
             imagem: "./Pokemons_Estatica/411.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 412,
             nome: "burmy",
@@ -6603,7 +7015,8 @@ const pokemons = [
             Evolucoes: ["wormadam", "mothim"],
             imagem: "./Pokemons_Estatica/412.png",
             card: "./CSS/Card_Pokemons/pokemon inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 413,
             nome: "wormadam",
@@ -6619,7 +7032,8 @@ const pokemons = [
             Evolucoes: ["burmy"],
             imagem: "./Pokemons_Estatica/413.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 414,
             nome: "mothim",
@@ -6635,7 +7049,8 @@ const pokemons = [
             Evolucoes: ["burmy"],
             imagem: "./Pokemons_Estatica/414.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 415,
             nome: "combee",
@@ -6651,7 +7066,8 @@ const pokemons = [
             Evolucoes: ["vespiquen"],
             imagem: "./Pokemons_Estatica/415.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 416,
             nome: "vespiquen",
@@ -6667,7 +7083,8 @@ const pokemons = [
             Evolucoes: ["combee"],
             imagem: "./Pokemons_Estatica/416.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 417,
             nome: "pachirisu",
@@ -6683,7 +7100,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/417.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 418,
             nome: "buizel",
@@ -6699,7 +7117,8 @@ const pokemons = [
             Evolucoes: ["floatzel"],
             imagem: "./Pokemons_Estatica/418.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 419,
             nome: "floatzel",
@@ -6715,7 +7134,8 @@ const pokemons = [
             Evolucoes: ["buizel"],
             imagem: "./Pokemons_Estatica/419.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 420,
             nome: "cherubi",
@@ -6731,7 +7151,8 @@ const pokemons = [
             Evolucoes: ["cherrim"],
             imagem: "./Pokemons_Estatica/420.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 421,
             nome: "cherrim",
@@ -6747,7 +7168,8 @@ const pokemons = [
             Evolucoes: ["cherubi"],
             imagem: "./Pokemons_Estatica/421.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 422,
             nome: "shellos",
@@ -6763,7 +7185,8 @@ const pokemons = [
             Evolucoes: ["gastrodon"],
             imagem: "./Pokemons_Estatica/422.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 423,
             nome: "gastrodon",
@@ -6779,7 +7202,8 @@ const pokemons = [
             Evolucoes: ["shellos"],
             imagem: "./Pokemons_Estatica/423.png",
             card: "./CSS/Card_Pokemons/pokemon agua_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 424,
             nome: "ambipom",
@@ -6795,7 +7219,8 @@ const pokemons = [
             Evolucoes: ["aipom"],
             imagem: "./Pokemons_Estatica/424.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 425,
             nome: "drifloon",
@@ -6811,7 +7236,8 @@ const pokemons = [
             Evolucoes: ["drifblim"],
             imagem: "./Pokemons_Estatica/425.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 426,
             nome: "drifblim",
@@ -6827,7 +7253,8 @@ const pokemons = [
             Evolucoes: ["drifloon"],
             imagem: "./Pokemons_Estatica/426.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 427,
             nome: "buneary",
@@ -6843,7 +7270,8 @@ const pokemons = [
             Evolucoes: ["lopunny"],
             imagem: "./Pokemons_Estatica/427.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 428,
             nome: "lopunny",
@@ -6859,7 +7287,8 @@ const pokemons = [
             Evolucoes: ["buneary"],
             imagem: "./Pokemons_Estatica/428.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 429,
             nome: "mismagius",
@@ -6875,7 +7304,8 @@ const pokemons = [
             Evolucoes: ["misdreavus"],
             imagem: "./Pokemons_Estatica/429.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 430,
             nome: "honchkrow",
@@ -6891,7 +7321,8 @@ const pokemons = [
             Evolucoes: ["murkrow"],
             imagem: "./Pokemons_Estatica/430.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 431,
             nome: "glameow",
@@ -6907,7 +7338,8 @@ const pokemons = [
             Evolucoes: ["purugly"],
             imagem: "./Pokemons_Estatica/431.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 432,
             nome: "purugly",
@@ -6923,7 +7355,8 @@ const pokemons = [
             Evolucoes: ["glameow"],
             imagem: "./Pokemons_Estatica/432.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 433,
             nome: "chingling",
@@ -6939,7 +7372,8 @@ const pokemons = [
             Evolucoes: ["chimecho"],
             imagem: "./Pokemons_Estatica/433.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 434,
             nome: "stunky",
@@ -6955,7 +7389,8 @@ const pokemons = [
             Evolucoes: ["skuntank"],
             imagem: "./Pokemons_Estatica/434.png",
             card: "./CSS/Card_Pokemons/pokemon veneno_sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 435,
             nome: "skuntank",
@@ -6971,7 +7406,8 @@ const pokemons = [
             Evolucoes: ["stunky"],
             imagem: "./Pokemons_Estatica/435.png",
             card: "./CSS/Card_Pokemons/pokemon veneno_sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 436,
             nome: "bronzor",
@@ -6987,7 +7423,8 @@ const pokemons = [
             Evolucoes: ["bronzong"],
             imagem: "./Pokemons_Estatica/436.png",
             card: "./CSS/Card_Pokemons/pokemon aço_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 437,
             nome: "bronzong",
@@ -7003,7 +7440,8 @@ const pokemons = [
             Evolucoes: ["bronzor"],
             imagem: "./Pokemons_Estatica/437.png",
             card: "./CSS/Card_Pokemons/pokemon aço_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 438,
             nome: "bonsly",
@@ -7019,7 +7457,8 @@ const pokemons = [
             Evolucoes: ["sudowoodo"],
             imagem: "./Pokemons_Estatica/438.png",
             card: "./CSS/Card_Pokemons/pokemon rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 439,
             nome: "mime-jr",
@@ -7035,7 +7474,8 @@ const pokemons = [
             Evolucoes: ["mr-mime"],
             imagem: "./Pokemons_Estatica/439.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 440,
             nome: "happiny",
@@ -7051,7 +7491,8 @@ const pokemons = [
             Evolucoes: ["chansey", "blissey"],
             imagem: "./Pokemons_Estatica/440.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 441,
             nome: "chatot",
@@ -7067,7 +7508,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/441.png",
             card: "./CSS/Card_Pokemons/pokemon normal_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 442,
             nome: "spiritomb",
@@ -7083,7 +7525,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/442.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma_sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 443,
             nome: "gible",
@@ -7099,7 +7542,8 @@ const pokemons = [
             Evolucoes: ["gabite", "garchomp"],
             imagem: "./Pokemons_Estatica/443.png",
             card: "./CSS/Card_Pokemons/pokemon dragao_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 444,
             nome: "gabite",
@@ -7115,7 +7559,8 @@ const pokemons = [
             Evolucoes: ["gible", "garchomp"],
             imagem: "./Pokemons_Estatica/444.png",
             card: "./CSS/Card_Pokemons/pokemon dragao_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 445,
             nome: "garchomp",
@@ -7131,7 +7576,8 @@ const pokemons = [
             Evolucoes: ["gible", "gabite"],
             imagem: "./Pokemons_Estatica/445.png",
             card: "./CSS/Card_Pokemons/pokemon dragao_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 446,
             nome: "munchlax",
@@ -7147,7 +7593,8 @@ const pokemons = [
             Evolucoes: ["snorlax"],
             imagem: "./Pokemons_Estatica/446.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 447,
             nome: "riolu",
@@ -7163,7 +7610,8 @@ const pokemons = [
             Evolucoes: ["lucario"],
             imagem: "./Pokemons_Estatica/447.png",
             card: "./CSS/Card_Pokemons/pokemon lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 448,
             nome: "lucario",
@@ -7179,7 +7627,8 @@ const pokemons = [
             Evolucoes: ["riolu"],
             imagem: "./Pokemons_Estatica/448.png",
             card: "./CSS/Card_Pokemons/pokemon lutador_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 449,
             nome: "hippopotas",
@@ -7195,7 +7644,8 @@ const pokemons = [
             Evolucoes: ["hippowdon"],
             imagem: "./Pokemons_Estatica/449.png",
             card: "./CSS/Card_Pokemons/pokemon terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 450,
             nome: "hippowdon",
@@ -7211,7 +7661,8 @@ const pokemons = [
             Evolucoes: ["hippopotas"],
             imagem: "./Pokemons_Estatica/450.png",
             card: "./CSS/Card_Pokemons/pokemon terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 451,
             nome: "skorupi",
@@ -7227,7 +7678,8 @@ const pokemons = [
             Evolucoes: ["drapion"],
             imagem: "./Pokemons_Estatica/451.png",
             card: "./CSS/Card_Pokemons/pokemon veneno_inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 452,
             nome: "drapion",
@@ -7243,7 +7695,8 @@ const pokemons = [
             Evolucoes: ["skorupi"],
             imagem: "./Pokemons_Estatica/452.png",
             card: "./CSS/Card_Pokemons/pokemon veneno_sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 453,
             nome: "croagunk",
@@ -7259,7 +7712,8 @@ const pokemons = [
             Evolucoes: ["toxicroak"],
             imagem: "./Pokemons_Estatica/453.png",
             card: "./CSS/Card_Pokemons/pokemon veneno_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 454,
             nome: "toxicroak",
@@ -7275,7 +7729,8 @@ const pokemons = [
             Evolucoes: ["croagunk"],
             imagem: "./Pokemons_Estatica/454.png",
             card: "./CSS/Card_Pokemons/pokemon veneno_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 455,
             nome: "carnivine",
@@ -7291,7 +7746,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/455.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 456,
             nome: "finneon",
@@ -7307,7 +7763,8 @@ const pokemons = [
             Evolucoes: ["lumineon"],
             imagem: "./Pokemons_Estatica/456.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 457,
             nome: "lumineon",
@@ -7323,7 +7780,8 @@ const pokemons = [
             Evolucoes: ["finneon"],
             imagem: "./Pokemons_Estatica/457.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 458,
             nome: "mantyke",
@@ -7339,7 +7797,8 @@ const pokemons = [
             Evolucoes: ["mantine"],
             imagem: "./Pokemons_Estatica/458.png",
             card: "./CSS/Card_Pokemons/pokemon agua_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 459,
             nome: "snover",
@@ -7355,7 +7814,8 @@ const pokemons = [
             Evolucoes: ["abomasnow"],
             imagem: "./Pokemons_Estatica/459.png",
             card: "./CSS/Card_Pokemons/pokemon planta_gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 460,
             nome: "abomasnow",
@@ -7371,7 +7831,8 @@ const pokemons = [
             Evolucoes: ["snover"],
             imagem: "./Pokemons_Estatica/460.png",
             card: "./CSS/Card_Pokemons/pokemon planta_gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 461,
             nome: "weavile",
@@ -7387,7 +7848,8 @@ const pokemons = [
             Evolucoes: ["sneasel"],
             imagem: "./Pokemons_Estatica/461.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 462,
             nome: "magnezone",
@@ -7403,7 +7865,8 @@ const pokemons = [
             Evolucoes: ["magnemite", "magneton"],
             imagem: "./Pokemons_Estatica/462.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 463,
             nome: "lickilicky",
@@ -7419,7 +7882,8 @@ const pokemons = [
             Evolucoes: ["lickitung"],
             imagem: "./Pokemons_Estatica/463.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 464,
             nome: "rhyperior",
@@ -7435,7 +7899,8 @@ const pokemons = [
             Evolucoes: ["rhyhorn", "rhydon"],
             imagem: "./Pokemons_Estatica/464.png",
             card: "./CSS/Card_Pokemons/pokemon terra_rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 465,
             nome: "tangrowth",
@@ -7451,7 +7916,8 @@ const pokemons = [
             Evolucoes: ["tangela"],
             imagem: "./Pokemons_Estatica/465.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 466,
             nome: "electivire",
@@ -7467,7 +7933,8 @@ const pokemons = [
             Evolucoes: ["elekid", "electabuzz"],
             imagem: "./Pokemons_Estatica/466.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 467,
             nome: "magmortar",
@@ -7483,7 +7950,8 @@ const pokemons = [
             Evolucoes: ["magby", "magmar"],
             imagem: "./Pokemons_Estatica/467.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 468,
             nome: "togekiss",
@@ -7499,7 +7967,8 @@ const pokemons = [
             Evolucoes: ["togepi", "togetic"],
             imagem: "./Pokemons_Estatica/468.png",
             card: "./CSS/Card_Pokemons/pokemon fada_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 469,
             nome: "yanmega",
@@ -7515,7 +7984,8 @@ const pokemons = [
             Evolucoes: ["yanma"],
             imagem: "./Pokemons_Estatica/469.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 470,
             nome: "leafeon",
@@ -7531,7 +8001,8 @@ const pokemons = [
             Evolucoes: ["eevee"],
             imagem: "./Pokemons_Estatica/470.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 471,
             nome: "glaceon",
@@ -7547,7 +8018,8 @@ const pokemons = [
             Evolucoes: ["eevee"],
             imagem: "./Pokemons_Estatica/471.png",
             card: "./CSS/Card_Pokemons/pokemon gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 472,
             nome: "gliscor",
@@ -7563,7 +8035,8 @@ const pokemons = [
             Evolucoes: ["gligar"],
             imagem: "./Pokemons_Estatica/472.png",
             card: "./CSS/Card_Pokemons/pokemon terra_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 473,
             nome: "mamoswine",
@@ -7579,7 +8052,8 @@ const pokemons = [
             Evolucoes: ["swinub", "piloswine"],
             imagem: "./Pokemons_Estatica/473.png",
             card: "./CSS/Card_Pokemons/pokemon gelo_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 474,
             nome: "porygon-z",
@@ -7595,7 +8069,8 @@ const pokemons = [
             Evolucoes: ["porygon", "porygon2"],
             imagem: "./Pokemons_Estatica/474.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 475,
             nome: "gallade",
@@ -7611,7 +8086,8 @@ const pokemons = [
             Evolucoes: ["ralts", "kirlia"],
             imagem: "./Pokemons_Estatica/475.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 476,
             nome: "probopass",
@@ -7627,7 +8103,8 @@ const pokemons = [
             Evolucoes: ["nosepass"],
             imagem: "./Pokemons_Estatica/476.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 477,
             nome: "dusknoir",
@@ -7643,7 +8120,8 @@ const pokemons = [
             Evolucoes: ["duskull", "dusclops"],
             imagem: "./Pokemons_Estatica/477.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 478,
             nome: "froslass",
@@ -7659,7 +8137,8 @@ const pokemons = [
             Evolucoes: ["snorunt"],
             imagem: "./Pokemons_Estatica/478.png",
             card: "./CSS/Card_Pokemons/pokemon gelo_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 479,
             nome: "rotom",
@@ -7675,7 +8154,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/479.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 480,
             nome: "uxie",
@@ -7691,7 +8171,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/480.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 481,
             nome: "mesprit",
@@ -7707,7 +8188,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/481.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 482,
             nome: "azelf",
@@ -7723,7 +8205,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/482.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 483,
             nome: "dialga",
@@ -7739,7 +8222,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/483.png",
             card: "./CSS/Card_Pokemons/pokemon aço_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 484,
             nome: "palkia",
@@ -7755,7 +8239,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/484.png",
             card: "./CSS/Card_Pokemons/pokemon agua_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 485,
             nome: "heatran",
@@ -7771,7 +8256,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/485.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 486,
             nome: "regigigas",
@@ -7787,7 +8273,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/486.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 487,
             nome: "giratina",
@@ -7803,7 +8290,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/487.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 488,
             nome: "cresselia",
@@ -7819,7 +8307,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/488.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 489,
             nome: "phione",
@@ -7835,7 +8324,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/489.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 490,
             nome: "manaphy",
@@ -7851,7 +8341,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/490.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 491,
             nome: "darkrai",
@@ -7867,7 +8358,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/491.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 492,
             nome: "shaymin",
@@ -7883,7 +8375,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/492.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 493,
             nome: "arceus",
@@ -7899,7 +8392,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/493.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 494,
             nome: "victini",
@@ -7915,7 +8409,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/494.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico_fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 495,
             nome: "snivy",
@@ -7931,7 +8426,8 @@ const pokemons = [
             Evolucoes: ["servine", "serperior"],
             imagem: "./Pokemons_Estatica/495.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 496,
             nome: "servine",
@@ -7947,7 +8443,8 @@ const pokemons = [
             Evolucoes: ["snivy", "serperior"],
             imagem: "./Pokemons_Estatica/496.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 497,
             nome: "serperior",
@@ -7963,7 +8460,8 @@ const pokemons = [
             Evolucoes: ["snivy", "servine"],
             imagem: "./Pokemons_Estatica/497.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 498,
             nome: "tepig",
@@ -7979,7 +8477,8 @@ const pokemons = [
             Evolucoes: ["pignite", "emboar"],
             imagem: "./Pokemons_Estatica/498.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 499,
             nome: "pignite",
@@ -7995,7 +8494,8 @@ const pokemons = [
             Evolucoes: ["tepig", "emboar"],
             imagem: "./Pokemons_Estatica/499.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 500,
             nome: "emboar",
@@ -8011,7 +8511,8 @@ const pokemons = [
             Evolucoes: ["tepig", "pignite"],
             imagem: "./Pokemons_Estatica/500.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 501,
             nome: "oshawott",
@@ -8027,7 +8528,8 @@ const pokemons = [
             Evolucoes: ["dewott", "samurott"],
             imagem: "./Pokemons_Estatica/501.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 502,
             nome: "dewott",
@@ -8043,7 +8545,8 @@ const pokemons = [
             Evolucoes: ["oshawott", "samurott"],
             imagem: "./Pokemons_Estatica/502.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 503,
             nome: "samurott",
@@ -8059,7 +8562,8 @@ const pokemons = [
             Evolucoes: ["oshawott", "dewott"],
             imagem: "./Pokemons_Estatica/503.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 504,
             nome: "patrat",
@@ -8075,7 +8579,8 @@ const pokemons = [
             Evolucoes: ["watchog"],
             imagem: "./Pokemons_Estatica/504.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 505,
             nome: "watchog",
@@ -8091,7 +8596,8 @@ const pokemons = [
             Evolucoes: ["patrat"],
             imagem: "./Pokemons_Estatica/505.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 506,
             nome: "lillipup",
@@ -8107,7 +8613,8 @@ const pokemons = [
             Evolucoes: ["herdier", "stoutland"],
             imagem: "./Pokemons_Estatica/506.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 507,
             nome: "herdier",
@@ -8123,7 +8630,8 @@ const pokemons = [
             Evolucoes: ["lillipup", "stoutland"],
             imagem: "./Pokemons_Estatica/507.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 508,
             nome: "stoutland",
@@ -8139,7 +8647,8 @@ const pokemons = [
             Evolucoes: ["lillipup", "herdier"],
             imagem: "./Pokemons_Estatica/508.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 509,
             nome: "purrloin",
@@ -8155,7 +8664,8 @@ const pokemons = [
             Evolucoes: ["liepard"],
             imagem: "./Pokemons_Estatica/509.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 510,
             nome: "liepard",
@@ -8171,7 +8681,8 @@ const pokemons = [
             Evolucoes: ["purrloin"],
             imagem: "./Pokemons_Estatica/510.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 511,
             nome: "pansage",
@@ -8187,7 +8698,8 @@ const pokemons = [
             Evolucoes: ["simisage"],
             imagem: "./Pokemons_Estatica/511.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 512,
             nome: "simisage",
@@ -8203,7 +8715,8 @@ const pokemons = [
             Evolucoes: ["pansage"],
             imagem: "./Pokemons_Estatica/512.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 513,
             nome: "pansear",
@@ -8219,7 +8732,8 @@ const pokemons = [
             Evolucoes: ["simisear"],
             imagem: "./Pokemons_Estatica/513.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 514,
             nome: "simisear",
@@ -8235,7 +8749,8 @@ const pokemons = [
             Evolucoes: ["pansear"],
             imagem: "./Pokemons_Estatica/514.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 515,
             nome: "panpour",
@@ -8251,7 +8766,8 @@ const pokemons = [
             Evolucoes: ["simipour"],
             imagem: "./Pokemons_Estatica/515.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 516,
             nome: "simipour",
@@ -8267,7 +8783,8 @@ const pokemons = [
             Evolucoes: ["panpour"],
             imagem: "./Pokemons_Estatica/516.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 517,
             nome: "munna",
@@ -8283,7 +8800,8 @@ const pokemons = [
             Evolucoes: ["musharna"],
             imagem: "./Pokemons_Estatica/517.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 518,
             nome: "musharna",
@@ -8299,7 +8817,8 @@ const pokemons = [
             Evolucoes: ["munna"],
             imagem: "./Pokemons_Estatica/518.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 519,
             nome: "pidove",
@@ -8315,7 +8834,8 @@ const pokemons = [
             Evolucoes: ["tranquill", "unfezant"],
             imagem: "./Pokemons_Estatica/519.png",
             card: "./CSS/Card_Pokemons/pokemon normal_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 520,
             nome: "tranquill",
@@ -8331,7 +8851,8 @@ const pokemons = [
             Evolucoes: ["pidove", "unfezant"],
             imagem: "./Pokemons_Estatica/520.png",
             card: "./CSS/Card_Pokemons/pokemon normal_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 521,
             nome: "unfezant",
@@ -8347,7 +8868,8 @@ const pokemons = [
             Evolucoes: ["pidove", "tranquill"],
             imagem: "./Pokemons_Estatica/521.png",
             card: "./CSS/Card_Pokemons/pokemon normal_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 522,
             nome: "blitzle",
@@ -8363,7 +8885,8 @@ const pokemons = [
             Evolucoes: ["zebstrika"],
             imagem: "./Pokemons_Estatica/522.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 523,
             nome: "zebstrika",
@@ -8379,7 +8902,8 @@ const pokemons = [
             Evolucoes: ["blitzle"],
             imagem: "./Pokemons_Estatica/523.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 524,
             nome: "roggenrola",
@@ -8395,7 +8919,8 @@ const pokemons = [
             Evolucoes: ["boldore", "gigalith"],
             imagem: "./Pokemons_Estatica/524.png",
             card: "./CSS/Card_Pokemons/pokemon rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 525,
             nome: "boldore",
@@ -8411,7 +8936,8 @@ const pokemons = [
             Evolucoes: ["roggenrola", "gigalith"],
             imagem: "./Pokemons_Estatica/525.png",
             card: "./CSS/Card_Pokemons/pokemon rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 526,
             nome: "gigalith",
@@ -8427,7 +8953,8 @@ const pokemons = [
             Evolucoes: ["roggenrola", "boldore"],
             imagem: "./Pokemons_Estatica/526.png",
             card: "./CSS/Card_Pokemons/pokemon rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 527,
             nome: "woobat",
@@ -8443,7 +8970,8 @@ const pokemons = [
             Evolucoes: ["swoobat"],
             imagem: "./Pokemons_Estatica/527.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 528,
             nome: "swoobat",
@@ -8459,7 +8987,8 @@ const pokemons = [
             Evolucoes: ["woobat"],
             imagem: "./Pokemons_Estatica/528.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 529,
             nome: "drilbur",
@@ -8475,7 +9004,8 @@ const pokemons = [
             Evolucoes: ["excadrill"],
             imagem: "./Pokemons_Estatica/529.png",
             card: "./CSS/Card_Pokemons/pokemon terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 530,
             nome: "excadrill",
@@ -8491,7 +9021,8 @@ const pokemons = [
             Evolucoes: ["drilbur"],
             imagem: "./Pokemons_Estatica/530.png",
             card: "./CSS/Card_Pokemons/pokemon terra_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 531,
             nome: "audino",
@@ -8507,7 +9038,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/531.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 532,
             nome: "timburr",
@@ -8523,7 +9055,8 @@ const pokemons = [
             Evolucoes: ["gurdurr", "conkeldurr"],
             imagem: "./Pokemons_Estatica/532.png",
             card: "./CSS/Card_Pokemons/pokemon lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 533,
             nome: "gurdurr",
@@ -8539,7 +9072,8 @@ const pokemons = [
             Evolucoes: ["timburr", "conkeldurr"],
             imagem: "./Pokemons_Estatica/533.png",
             card: "./CSS/Card_Pokemons/pokemon lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 534,
             nome: "conkeldurr",
@@ -8555,7 +9089,8 @@ const pokemons = [
             Evolucoes: ["timburr", "gurdurr"],
             imagem: "./Pokemons_Estatica/534.png",
             card: "./CSS/Card_Pokemons/pokemon lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 535,
             nome: "tympole",
@@ -8571,7 +9106,8 @@ const pokemons = [
             Evolucoes: ["palpitoad", "seismitoad"],
             imagem: "./Pokemons_Estatica/535.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 536,
             nome: "palpitoad",
@@ -8587,7 +9123,8 @@ const pokemons = [
             Evolucoes: ["tympole", "seismitoad"],
             imagem: "./Pokemons_Estatica/536.png",
             card: "./CSS/Card_Pokemons/pokemon agua_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 537,
             nome: "seismitoad",
@@ -8603,7 +9140,8 @@ const pokemons = [
             Evolucoes: ["tympole", "palpitoad"],
             imagem: "./Pokemons_Estatica/537.png",
             card: "./CSS/Card_Pokemons/pokemon agua_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 538,
             nome: "throh",
@@ -8619,7 +9157,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/538.png",
             card: "./CSS/Card_Pokemons/pokemon lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 539,
             nome: "sawk",
@@ -8635,7 +9174,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/539.png",
             card: "./CSS/Card_Pokemons/pokemon lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 540,
             nome: "sewaddle",
@@ -8651,7 +9191,8 @@ const pokemons = [
             Evolucoes: ["swadloon", "leavanny"],
             imagem: "./Pokemons_Estatica/540.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 541,
             nome: "swadloon",
@@ -8667,7 +9208,8 @@ const pokemons = [
             Evolucoes: ["sewaddle", "leavanny"],
             imagem: "./Pokemons_Estatica/541.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 542,
             nome: "leavanny",
@@ -8683,7 +9225,8 @@ const pokemons = [
             Evolucoes: ["sewaddle", "swadloon"],
             imagem: "./Pokemons_Estatica/542.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 543,
             nome: "venipede",
@@ -8699,7 +9242,8 @@ const pokemons = [
             Evolucoes: ["whirlipede", "scolipede"],
             imagem: "./Pokemons_Estatica/543.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 544,
             nome: "whirlipede",
@@ -8715,7 +9259,8 @@ const pokemons = [
             Evolucoes: ["venipede", "scolipede"],
             imagem: "./Pokemons_Estatica/544.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 545,
             nome: "scolipede",
@@ -8731,7 +9276,8 @@ const pokemons = [
             Evolucoes: ["venipede", "whirlipede"],
             imagem: "./Pokemons_Estatica/545.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 546,
             nome: "cottonee",
@@ -8747,7 +9293,8 @@ const pokemons = [
             Evolucoes: ["whimsicott"],
             imagem: "./Pokemons_Estatica/546.png",
             card: "./CSS/Card_Pokemons/pokemon planta_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 547,
             nome: "whimsicott",
@@ -8763,7 +9310,8 @@ const pokemons = [
             Evolucoes: ["cottonee"],
             imagem: "./Pokemons_Estatica/547.png",
             card: "./CSS/Card_Pokemons/pokemon planta_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 548,
             nome: "petilil",
@@ -8779,7 +9327,8 @@ const pokemons = [
             Evolucoes: ["lilligant"],
             imagem: "./Pokemons_Estatica/548.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 549,
             nome: "lilligant",
@@ -8795,7 +9344,8 @@ const pokemons = [
             Evolucoes: ["petilil"],
             imagem: "./Pokemons_Estatica/549.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 550,
             nome: "basculin",
@@ -8811,7 +9361,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/550.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 551,
             nome: "sandile",
@@ -8827,7 +9378,8 @@ const pokemons = [
             Evolucoes: ["krokorok", "krookodile"],
             imagem: "./Pokemons_Estatica/551.png",
             card: "./CSS/Card_Pokemons/pokemon terra_sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 552,
             nome: "krokorok",
@@ -8843,7 +9395,8 @@ const pokemons = [
             Evolucoes: ["sandile", "krookodile"],
             imagem: "./Pokemons_Estatica/552.png",
             card: "./CSS/Card_Pokemons/pokemon terra_sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 553,
             nome: "krookodile",
@@ -8859,7 +9412,8 @@ const pokemons = [
             Evolucoes: ["sandile", "krokorok"],
             imagem: "./Pokemons_Estatica/553.png",
             card: "./CSS/Card_Pokemons/pokemon terra_sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 554,
             nome: "darumaka",
@@ -8875,7 +9429,8 @@ const pokemons = [
             Evolucoes: ["darmanitan"],
             imagem: "./Pokemons_Estatica/554.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 555,
             nome: "darmanitan",
@@ -8891,7 +9446,8 @@ const pokemons = [
             Evolucoes: ["darumaka"],
             imagem: "./Pokemons_Estatica/555.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 556,
             nome: "maractus",
@@ -8907,7 +9463,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/556.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 557,
             nome: "dwebble",
@@ -8923,7 +9480,8 @@ const pokemons = [
             Evolucoes: ["crustle"],
             imagem: "./Pokemons_Estatica/557.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 558,
             nome: "crustle",
@@ -8939,7 +9497,8 @@ const pokemons = [
             Evolucoes: ["dwebble"],
             imagem: "./Pokemons_Estatica/558.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 559,
             nome: "scraggy",
@@ -8955,7 +9514,8 @@ const pokemons = [
             Evolucoes: ["scrafty"],
             imagem: "./Pokemons_Estatica/559.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 560,
             nome: "scrafty",
@@ -8971,7 +9531,8 @@ const pokemons = [
             Evolucoes: ["scraggy"],
             imagem: "./Pokemons_Estatica/560.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 561,
             nome: "sigilyph",
@@ -8987,7 +9548,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/561.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 562,
             nome: "yamask",
@@ -9003,7 +9565,8 @@ const pokemons = [
             Evolucoes: ["cofagrigus"],
             imagem: "./Pokemons_Estatica/562.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 563,
             nome: "cofagrigus",
@@ -9019,7 +9582,8 @@ const pokemons = [
             Evolucoes: ["yamask"],
             imagem: "./Pokemons_Estatica/563.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 564,
             nome: "tirtouga",
@@ -9035,7 +9599,8 @@ const pokemons = [
             Evolucoes: ["carraçosta"],
             imagem: "./Pokemons_Estatica/564.png",
             card: "./CSS/Card_Pokemons/pokemon agua_rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 565,
             nome: "carraçosta",
@@ -9051,7 +9616,8 @@ const pokemons = [
             Evolucoes: ["tirtouga"],
             imagem: "./Pokemons_Estatica/565.png",
             card: "./CSS/Card_Pokemons/pokemon agua_rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 566,
             nome: "archen",
@@ -9067,7 +9633,8 @@ const pokemons = [
             Evolucoes: ["archeops"],
             imagem: "./Pokemons_Estatica/566.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 567,
             nome: "archeops",
@@ -9083,7 +9650,8 @@ const pokemons = [
             Evolucoes: ["archen"],
             imagem: "./Pokemons_Estatica/567.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 568,
             nome: "trubbish",
@@ -9099,7 +9667,8 @@ const pokemons = [
             Evolucoes: ["garbodor"],
             imagem: "./Pokemons_Estatica/568.png",
             card: "./CSS/Card_Pokemons/pokemon veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 569,
             nome: "garbodor",
@@ -9115,7 +9684,8 @@ const pokemons = [
             Evolucoes: ["trubbish"],
             imagem: "./Pokemons_Estatica/569.png",
             card: "./CSS/Card_Pokemons/pokemon veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 570,
             nome: "zorua",
@@ -9131,7 +9701,8 @@ const pokemons = [
             Evolucoes: ["zoroark"],
             imagem: "./Pokemons_Estatica/570.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 571,
             nome: "zoroark",
@@ -9147,7 +9718,8 @@ const pokemons = [
             Evolucoes: ["zorua"],
             imagem: "./Pokemons_Estatica/571.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 572,
             nome: "minccino",
@@ -9163,7 +9735,8 @@ const pokemons = [
             Evolucoes: ["cinccino"],
             imagem: "./Pokemons_Estatica/572.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 573,
             nome: "cinccino",
@@ -9179,7 +9752,8 @@ const pokemons = [
             Evolucoes: ["minccino"],
             imagem: "./Pokemons_Estatica/573.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 574,
             nome: "gothita",
@@ -9195,7 +9769,8 @@ const pokemons = [
             Evolucoes: ["gothorita", "gothitelle"],
             imagem: "./Pokemons_Estatica/574.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 575,
             nome: "gothorita",
@@ -9211,7 +9786,8 @@ const pokemons = [
             Evolucoes: ["gothita", "gothitelle"],
             imagem: "./Pokemons_Estatica/575.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 576,
             nome: "gothitelle",
@@ -9227,7 +9803,8 @@ const pokemons = [
             Evolucoes: ["gothita", "gothorita"],
             imagem: "./Pokemons_Estatica/576.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 577,
             nome: "solosis",
@@ -9243,7 +9820,8 @@ const pokemons = [
             Evolucoes: ["duosion", "reuniclus"],
             imagem: "./Pokemons_Estatica/577.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 578,
             nome: "duosion",
@@ -9259,7 +9837,8 @@ const pokemons = [
             Evolucoes: ["solosis", "reuniclus"],
             imagem: "./Pokemons_Estatica/578.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 579,
             nome: "reuniclus",
@@ -9275,7 +9854,8 @@ const pokemons = [
             Evolucoes: ["solosis", "duosion"],
             imagem: "./Pokemons_Estatica/579.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 580,
             nome: "ducklett",
@@ -9291,7 +9871,8 @@ const pokemons = [
             Evolucoes: ["swanna"],
             imagem: "./Pokemons_Estatica/580.png",
             card: "./CSS/Card_Pokemons/pokemon agua_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 581,
             nome: "swanna",
@@ -9307,7 +9888,8 @@ const pokemons = [
             Evolucoes: ["ducklett"],
             imagem: "./Pokemons_Estatica/581.png",
             card: "./CSS/Card_Pokemons/pokemon agua_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 582,
             nome: "vanillite",
@@ -9323,7 +9905,8 @@ const pokemons = [
             Evolucoes: ["vanillish", "vanilluxe"],
             imagem: "./Pokemons_Estatica/582.png",
             card: "./CSS/Card_Pokemons/pokemon gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 583,
             nome: "vanillish",
@@ -9339,7 +9922,8 @@ const pokemons = [
             Evolucoes: ["vanillite", "vanilluxe"],
             imagem: "./Pokemons_Estatica/583.png",
             card: "./CSS/Card_Pokemons/pokemon gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 584,
             nome: "vanilluxe",
@@ -9355,7 +9939,8 @@ const pokemons = [
             Evolucoes: ["vanillite", "vanillish"],
             imagem: "./Pokemons_Estatica/584.png",
             card: "./CSS/Card_Pokemons/pokemon gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 585,
             nome: "deerling",
@@ -9371,7 +9956,8 @@ const pokemons = [
             Evolucoes: ["sawsbuck"],
             imagem: "./Pokemons_Estatica/585.png",
             card: "./CSS/Card_Pokemons/pokemon normal_planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 586,
             nome: "sawsbuck",
@@ -9387,7 +9973,8 @@ const pokemons = [
             Evolucoes: ["deerling"],
             imagem: "./Pokemons_Estatica/586.png",
             card: "./CSS/Card_Pokemons/pokemon normal_planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 587,
             nome: "emolga",
@@ -9403,7 +9990,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/587.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 588,
             nome: "karrablast",
@@ -9419,7 +10007,8 @@ const pokemons = [
             Evolucoes: ["escavalier"],
             imagem: "./Pokemons_Estatica/588.png",
             card: "./CSS/Card_Pokemons/pokemon inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 589,
             nome: "escavalier",
@@ -9435,7 +10024,8 @@ const pokemons = [
             Evolucoes: ["karrablast"],
             imagem: "./Pokemons_Estatica/589.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 590,
             nome: "foongus",
@@ -9451,7 +10041,8 @@ const pokemons = [
             Evolucoes: ["amoonguss"],
             imagem: "./Pokemons_Estatica/590.png",
             card: "./CSS/Card_Pokemons/pokemon planta_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 591,
             nome: "amoonguss",
@@ -9467,7 +10058,8 @@ const pokemons = [
             Evolucoes: ["foongus"],
             imagem: "./Pokemons_Estatica/591.png",
             card: "./CSS/Card_Pokemons/pokemon planta_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 592,
             nome: "frillish",
@@ -9483,7 +10075,8 @@ const pokemons = [
             Evolucoes: ["jellicent"],
             imagem: "./Pokemons_Estatica/592.png",
             card: "./CSS/Card_Pokemons/pokemon agua_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 593,
             nome: "jellicent",
@@ -9499,7 +10092,8 @@ const pokemons = [
             Evolucoes: ["frillish"],
             imagem: "./Pokemons_Estatica/593.png",
             card: "./CSS/Card_Pokemons/pokemon agua_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 594,
             nome: "alomomola",
@@ -9515,7 +10109,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/594.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 595,
             nome: "joltik",
@@ -9531,7 +10126,8 @@ const pokemons = [
             Evolucoes: ["galvantula"],
             imagem: "./Pokemons_Estatica/595.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 596,
             nome: "galvantula",
@@ -9547,7 +10143,8 @@ const pokemons = [
             Evolucoes: ["joltik"],
             imagem: "./Pokemons_Estatica/596.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 597,
             nome: "ferroseed",
@@ -9563,7 +10160,8 @@ const pokemons = [
             Evolucoes: ["ferrothorn"],
             imagem: "./Pokemons_Estatica/597.png",
             card: "./CSS/Card_Pokemons/pokemon planta_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 598,
             nome: "ferrothorn",
@@ -9579,7 +10177,8 @@ const pokemons = [
             Evolucoes: ["ferroseed"],
             imagem: "./Pokemons_Estatica/598.png",
             card: "./CSS/Card_Pokemons/pokemon planta_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 599,
             nome: "klink",
@@ -9595,7 +10194,8 @@ const pokemons = [
             Evolucoes: ["klang", "klinklang"],
             imagem: "./Pokemons_Estatica/599.png",
             card: "./CSS/Card_Pokemons/pokemon aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 600,
             nome: "klang",
@@ -9611,7 +10211,8 @@ const pokemons = [
             Evolucoes: ["klink", "klinklang"],
             imagem: "./Pokemons_Estatica/600.png",
             card: "./CSS/Card_Pokemons/pokemon aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 601,
             nome: "klinklang",
@@ -9627,7 +10228,8 @@ const pokemons = [
             Evolucoes: ["klink", "klang"],
             imagem: "./Pokemons_Estatica/601.png",
             card: "./CSS/Card_Pokemons/pokemon aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 602,
             nome: "tynamo",
@@ -9643,7 +10245,8 @@ const pokemons = [
             Evolucoes: ["eelektrik", "eelektross"],
             imagem: "./Pokemons_Estatica/602.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 603,
             nome: "eelektrik",
@@ -9659,7 +10262,8 @@ const pokemons = [
             Evolucoes: ["tynamo", "eelektross"],
             imagem: "./Pokemons_Estatica/603.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 604,
             nome: "eelektross",
@@ -9675,7 +10279,8 @@ const pokemons = [
             Evolucoes: ["tynamo", "eelektrik"],
             imagem: "./Pokemons_Estatica/604.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 605,
             nome: "elgyem",
@@ -9691,7 +10296,8 @@ const pokemons = [
             Evolucoes: ["beheeyem"],
             imagem: "./Pokemons_Estatica/605.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 606,
             nome: "beheeyem",
@@ -9707,7 +10313,8 @@ const pokemons = [
             Evolucoes: ["elgyem"],
             imagem: "./Pokemons_Estatica/606.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 607,
             nome: "litwick",
@@ -9723,7 +10330,8 @@ const pokemons = [
             Evolucoes: ["lampent", "chandelure"],
             imagem: "./Pokemons_Estatica/607.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma_fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 608,
             nome: "lampent",
@@ -9739,7 +10347,8 @@ const pokemons = [
             Evolucoes: ["litwick", "chandelure"],
             imagem: "./Pokemons_Estatica/608.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma_fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 609,
             nome: "chandelure",
@@ -9755,7 +10364,8 @@ const pokemons = [
             Evolucoes: ["litwick", "lampent"],
             imagem: "./Pokemons_Estatica/609.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma_fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 610,
             nome: "axew",
@@ -9771,7 +10381,8 @@ const pokemons = [
             Evolucoes: ["fraxure", "haxorus"],
             imagem: "./Pokemons_Estatica/610.png",
             card: "./CSS/Card_Pokemons/pokemon dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 611,
             nome: "fraxure",
@@ -9787,7 +10398,8 @@ const pokemons = [
             Evolucoes: ["axew", "haxorus"],
             imagem: "./Pokemons_Estatica/611.png",
             card: "./CSS/Card_Pokemons/pokemon dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 612,
             nome: "haxorus",
@@ -9803,7 +10415,8 @@ const pokemons = [
             Evolucoes: ["axew", "fraxure"],
             imagem: "./Pokemons_Estatica/612.png",
             card: "./CSS/Card_Pokemons/pokemon dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 613,
             nome: "cubchoo",
@@ -9819,7 +10432,8 @@ const pokemons = [
             Evolucoes: ["beartic"],
             imagem: "./Pokemons_Estatica/613.png",
             card: "./CSS/Card_Pokemons/pokemon gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 614,
             nome: "beartic",
@@ -9835,7 +10449,8 @@ const pokemons = [
             Evolucoes: ["cubchoo"],
             imagem: "./Pokemons_Estatica/614.png",
             card: "./CSS/Card_Pokemons/pokemon gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 615,
             nome: "cryogonal",
@@ -9851,7 +10466,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/615.png",
             card: "./CSS/Card_Pokemons/pokemon gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 616,
             nome: "shelmet",
@@ -9867,7 +10483,8 @@ const pokemons = [
             Evolucoes: ["accelgor"],
             imagem: "./Pokemons_Estatica/616.png",
             card: "./CSS/Card_Pokemons/pokemon inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 617,
             nome: "accelgor",
@@ -9883,7 +10500,8 @@ const pokemons = [
             Evolucoes: ["shelmet"],
             imagem: "./Pokemons_Estatica/617.png",
             card: "./CSS/Card_Pokemons/pokemon inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 618,
             nome: "stunfisk",
@@ -9899,7 +10517,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/618.png",
             card: "./CSS/Card_Pokemons/pokemon terra_eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 619,
             nome: "mienfoo",
@@ -9915,7 +10534,8 @@ const pokemons = [
             Evolucoes: ["mienshao"],
             imagem: "./Pokemons_Estatica/619.png",
             card: "./CSS/Card_Pokemons/pokemon lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 620,
             nome: "mienshao",
@@ -9931,7 +10551,8 @@ const pokemons = [
             Evolucoes: ["mienfoo"],
             imagem: "./Pokemons_Estatica/620.png",
             card: "./CSS/Card_Pokemons/pokemon lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 621,
             nome: "druddigon",
@@ -9947,7 +10568,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/621.png",
             card: "./CSS/Card_Pokemons/pokemon dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 622,
             nome: "golett",
@@ -9963,7 +10585,8 @@ const pokemons = [
             Evolucoes: ["golurk"],
             imagem: "./Pokemons_Estatica/622.png",
             card: "./CSS/Card_Pokemons/pokemon terra_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 623,
             nome: "golurk",
@@ -9979,7 +10602,8 @@ const pokemons = [
             Evolucoes: ["golett"],
             imagem: "./Pokemons_Estatica/623.png",
             card: "./CSS/Card_Pokemons/pokemon terra_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 624,
             nome: "pawniard",
@@ -9995,7 +10619,8 @@ const pokemons = [
             Evolucoes: ["bisharp", "kingambit"],
             imagem: "./Pokemons_Estatica/624.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 625,
             nome: "bisharp",
@@ -10011,7 +10636,8 @@ const pokemons = [
             Evolucoes: ["pawniard", "kingambit"],
             imagem: "./Pokemons_Estatica/625.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 626,
             nome: "bouffalant",
@@ -10027,7 +10653,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/626.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 627,
             nome: "rufflet",
@@ -10043,7 +10670,8 @@ const pokemons = [
             Evolucoes: ["braviary"],
             imagem: "./Pokemons_Estatica/627.png",
             card: "./CSS/Card_Pokemons/pokemon normal_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 628,
             nome: "braviary",
@@ -10059,7 +10687,8 @@ const pokemons = [
             Evolucoes: ["rufflet"],
             imagem: "./Pokemons_Estatica/628.png",
             card: "./CSS/Card_Pokemons/pokemon normal_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 629,
             nome: "vullaby",
@@ -10075,7 +10704,8 @@ const pokemons = [
             Evolucoes: ["mandibuzz"],
             imagem: "./Pokemons_Estatica/629.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 630,
             nome: "mandibuzz",
@@ -10091,7 +10721,8 @@ const pokemons = [
             Evolucoes: ["vullaby"],
             imagem: "./Pokemons_Estatica/630.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 631,
             nome: "heatmor",
@@ -10107,7 +10738,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/631.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 632,
             nome: "durant",
@@ -10123,7 +10755,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/632.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 633,
             nome: "deino",
@@ -10139,7 +10772,8 @@ const pokemons = [
             Evolucoes: ["zweilous", "hydreigon"],
             imagem: "./Pokemons_Estatica/633.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 634,
             nome: "zweilous",
@@ -10155,7 +10789,8 @@ const pokemons = [
             Evolucoes: ["deino", "hydreigon"],
             imagem: "./Pokemons_Estatica/634.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 635,
             nome: "hydreigon",
@@ -10171,7 +10806,8 @@ const pokemons = [
             Evolucoes: ["deino", "zweilous"],
             imagem: "./Pokemons_Estatica/635.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 636,
             nome: "larvesta",
@@ -10187,7 +10823,8 @@ const pokemons = [
             Evolucoes: ["volcarona"],
             imagem: "./Pokemons_Estatica/636.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 637,
             nome: "volcarona",
@@ -10203,7 +10840,8 @@ const pokemons = [
             Evolucoes: ["larvesta"],
             imagem: "./Pokemons_Estatica/637.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 638,
             nome: "cobalion",
@@ -10219,7 +10857,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/638.png",
             card: "./CSS/Card_Pokemons/pokemon aço_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 639,
             nome: "terrakion",
@@ -10235,7 +10874,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/639.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 640,
             nome: "virizion",
@@ -10251,7 +10891,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/640.png",
             card: "./CSS/Card_Pokemons/pokemon planta_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 641,
             nome: "tornadus",
@@ -10267,7 +10908,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/641.png",
             card: "./CSS/Card_Pokemons/pokemon voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 642,
             nome: "thundurus",
@@ -10283,7 +10925,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/642.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 643,
             nome: "reshiram",
@@ -10299,7 +10942,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/643.png",
             card: "./CSS/Card_Pokemons/pokemon dragao_fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 644,
             nome: "zekrom",
@@ -10315,7 +10959,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/644.png",
             card: "./CSS/Card_Pokemons/pokemon dragao_eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 645,
             nome: "landorus",
@@ -10331,7 +10976,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/645.png",
             card: "./CSS/Card_Pokemons/pokemon terra_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 646,
             nome: "kyurem",
@@ -10347,7 +10993,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/646.png",
             card: "./CSS/Card_Pokemons/pokemon dragao_gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 647,
             nome: "keldeo",
@@ -10363,7 +11010,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/647.png",
             card: "./CSS/Card_Pokemons/pokemon agua_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 648,
             nome: "meloetta",
@@ -10379,7 +11027,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/648.png",
             card: "./CSS/Card_Pokemons/pokemon normal_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 649,
             nome: "genesect",
@@ -10395,7 +11044,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/649.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 650,
             nome: "chespin",
@@ -10411,7 +11061,8 @@ const pokemons = [
             Evolucoes: ["quilladin", "chesnaught"],
             imagem: "./Pokemons_Estatica/650.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 651,
             nome: "quilladin",
@@ -10427,7 +11078,8 @@ const pokemons = [
             Evolucoes: ["chespin", "chesnaught"],
             imagem: "./Pokemons_Estatica/651.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 652,
             nome: "chesnaught",
@@ -10443,7 +11095,8 @@ const pokemons = [
             Evolucoes: ["chespin", "quilladin"],
             imagem: "./Pokemons_Estatica/652.png",
             card: "./CSS/Card_Pokemons/pokemon planta_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 653,
             nome: "fennekin",
@@ -10459,7 +11112,8 @@ const pokemons = [
             Evolucoes: ["braixen", "delphox"],
             imagem: "./Pokemons_Estatica/653.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 654,
             nome: "braixen",
@@ -10475,7 +11129,8 @@ const pokemons = [
             Evolucoes: ["fennekin", "delphox"],
             imagem: "./Pokemons_Estatica/654.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 655,
             nome: "delphox",
@@ -10491,7 +11146,8 @@ const pokemons = [
             Evolucoes: ["fennekin", "braixen"],
             imagem: "./Pokemons_Estatica/655.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 656,
             nome: "froakie",
@@ -10507,7 +11163,8 @@ const pokemons = [
             Evolucoes: ["frogadier", "greninja"],
             imagem: "./Pokemons_Estatica/656.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 657,
             nome: "frogadier",
@@ -10523,7 +11180,8 @@ const pokemons = [
             Evolucoes: ["froakie", "greninja"],
             imagem: "./Pokemons_Estatica/657.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 658,
             nome: "greninja",
@@ -10539,7 +11197,8 @@ const pokemons = [
             Evolucoes: ["froakie", "frogadier"],
             imagem: "./Pokemons_Estatica/658.png",
             card: "./CSS/Card_Pokemons/pokemon agua_sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 659,
             nome: "bunnelby",
@@ -10555,7 +11214,8 @@ const pokemons = [
             Evolucoes: ["diggersby"],
             imagem: "./Pokemons_Estatica/659.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 660,
             nome: "diggersby",
@@ -10571,7 +11231,8 @@ const pokemons = [
             Evolucoes: ["bunnelby"],
             imagem: "./Pokemons_Estatica/660.png",
             card: "./CSS/Card_Pokemons/pokemon normal_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 661,
             nome: "fletchling",
@@ -10587,7 +11248,8 @@ const pokemons = [
             Evolucoes: ["fletchinder", "talonflame"],
             imagem: "./Pokemons_Estatica/661.png",
             card: "./CSS/Card_Pokemons/pokemon normal_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 662,
             nome: "fletchinder",
@@ -10603,7 +11265,8 @@ const pokemons = [
             Evolucoes: ["fletchling", "talonflame"],
             imagem: "./Pokemons_Estatica/662.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 663,
             nome: "talonflame",
@@ -10619,7 +11282,8 @@ const pokemons = [
             Evolucoes: ["fletchling", "fletchinder"],
             imagem: "./Pokemons_Estatica/663.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 664,
             nome: "scatterbug",
@@ -10635,7 +11299,8 @@ const pokemons = [
             Evolucoes: ["spewpa", "vivillon"],
             imagem: "./Pokemons_Estatica/664.png",
             card: "./CSS/Card_Pokemons/pokemon inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 665,
             nome: "spewpa",
@@ -10651,7 +11316,8 @@ const pokemons = [
             Evolucoes: ["scatterbug", "vivillon"],
             imagem: "./Pokemons_Estatica/665.png",
             card: "./CSS/Card_Pokemons/pokemon inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 666,
             nome: "vivillon",
@@ -10667,7 +11333,8 @@ const pokemons = [
             Evolucoes: ["scatterbug", "spewpa"],
             imagem: "./Pokemons_Estatica/666.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 667,
             nome: "litleo",
@@ -10683,7 +11350,8 @@ const pokemons = [
             Evolucoes: ["pyroar"],
             imagem: "./Pokemons_Estatica/667.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 668,
             nome: "pyroar",
@@ -10699,7 +11367,8 @@ const pokemons = [
             Evolucoes: ["litleo"],
             imagem: "./Pokemons_Estatica/668.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 669,
             nome: "flabébé",
@@ -10715,7 +11384,8 @@ const pokemons = [
             Evolucoes: ["floette", "florges"],
             imagem: "./Pokemons_Estatica/669.png",
             card: "./CSS/Card_Pokemons/pokemon fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 670,
             nome: "floette",
@@ -10731,7 +11401,8 @@ const pokemons = [
             Evolucoes: ["flabébé", "florges"],
             imagem: "./Pokemons_Estatica/670.png",
             card: "./CSS/Card_Pokemons/pokemon fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 671,
             nome: "florges",
@@ -10747,7 +11418,8 @@ const pokemons = [
             Evolucoes: ["flabébé", "floette"],
             imagem: "./Pokemons_Estatica/671.png",
             card: "./CSS/Card_Pokemons/pokemon fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 672,
             nome: "skiddo",
@@ -10763,7 +11435,8 @@ const pokemons = [
             Evolucoes: ["gogoat"],
             imagem: "./Pokemons_Estatica/672.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 673,
             nome: "gogoat",
@@ -10779,7 +11452,8 @@ const pokemons = [
             Evolucoes: ["skiddo"],
             imagem: "./Pokemons_Estatica/673.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 674,
             nome: "pancham",
@@ -10795,7 +11469,8 @@ const pokemons = [
             Evolucoes: ["pangoro"],
             imagem: "./Pokemons_Estatica/674.png",
             card: "./CSS/Card_Pokemons/pokemon lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 675,
             nome: "pangoro",
@@ -10811,7 +11486,8 @@ const pokemons = [
             Evolucoes: ["pancham"],
             imagem: "./Pokemons_Estatica/675.png",
             card: "./CSS/Card_Pokemons/pokemon lutador_sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 676,
             nome: "furfrou",
@@ -10827,7 +11503,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/676.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 677,
             nome: "espurr",
@@ -10843,7 +11520,8 @@ const pokemons = [
             Evolucoes: ["meowstic"],
             imagem: "./Pokemons_Estatica/677.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 678,
             nome: "meowstic",
@@ -10859,7 +11537,8 @@ const pokemons = [
             Evolucoes: ["espurr"],
             imagem: "./Pokemons_Estatica/678.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 679,
             nome: "honedge",
@@ -10875,7 +11554,8 @@ const pokemons = [
             Evolucoes: ["doublade", "aegislash"],
             imagem: "./Pokemons_Estatica/679.png",
             card: "./CSS/Card_Pokemons/pokemon aço_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 680,
             nome: "doublade",
@@ -10891,7 +11571,8 @@ const pokemons = [
             Evolucoes: ["honedge", "aegislash"],
             imagem: "./Pokemons_Estatica/680.png",
             card: "./CSS/Card_Pokemons/pokemon aço_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 681,
             nome: "aegislash",
@@ -10907,7 +11588,8 @@ const pokemons = [
             Evolucoes: ["honedge", "doublade"],
             imagem: "./Pokemons_Estatica/681.png",
             card: "./CSS/Card_Pokemons/pokemon aço_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 682,
             nome: "spritzee",
@@ -10923,7 +11605,8 @@ const pokemons = [
             Evolucoes: ["aromatisse"],
             imagem: "./Pokemons_Estatica/682.png",
             card: "./CSS/Card_Pokemons/pokemon fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 683,
             nome: "aromatisse",
@@ -10939,7 +11622,8 @@ const pokemons = [
             Evolucoes: ["spritzee"],
             imagem: "./Pokemons_Estatica/683.png",
             card: "./CSS/Card_Pokemons/pokemon fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 684,
             nome: "swirlix",
@@ -10955,7 +11639,8 @@ const pokemons = [
             Evolucoes: ["slurpuff"],
             imagem: "./Pokemons_Estatica/684.png",
             card: "./CSS/Card_Pokemons/pokemon fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 685,
             nome: "slurpuff",
@@ -10971,7 +11656,8 @@ const pokemons = [
             Evolucoes: ["swirlix"],
             imagem: "./Pokemons_Estatica/685.png",
             card: "./CSS/Card_Pokemons/pokemon fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 686,
             nome: "inkay",
@@ -10987,7 +11673,8 @@ const pokemons = [
             Evolucoes: ["malamar"],
             imagem: "./Pokemons_Estatica/686.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 687,
             nome: "malamar",
@@ -11003,7 +11690,8 @@ const pokemons = [
             Evolucoes: ["inkay"],
             imagem: "./Pokemons_Estatica/687.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 688,
             nome: "binacle",
@@ -11019,7 +11707,8 @@ const pokemons = [
             Evolucoes: ["barbaracle"],
             imagem: "./Pokemons_Estatica/688.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 689,
             nome: "barbaracle",
@@ -11035,7 +11724,8 @@ const pokemons = [
             Evolucoes: ["binacle"],
             imagem: "./Pokemons_Estatica/689.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 690,
             nome: "skrelp",
@@ -11051,7 +11741,8 @@ const pokemons = [
             Evolucoes: ["dragalge"],
             imagem: "./Pokemons_Estatica/690.png",
             card: "./CSS/Card_Pokemons/pokemon veneno_agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 691,
             nome: "dragalge",
@@ -11067,7 +11758,8 @@ const pokemons = [
             Evolucoes: ["skrelp"],
             imagem: "./Pokemons_Estatica/691.png",
             card: "./CSS/Card_Pokemons/pokemon veneno_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 692,
             nome: "clauncher",
@@ -11083,7 +11775,8 @@ const pokemons = [
             Evolucoes: ["clawitzer"],
             imagem: "./Pokemons_Estatica/692.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 693,
             nome: "clawitzer",
@@ -11099,7 +11792,8 @@ const pokemons = [
             Evolucoes: ["clauncher"],
             imagem: "./Pokemons_Estatica/693.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 694,
             nome: "helioptile",
@@ -11115,7 +11809,8 @@ const pokemons = [
             Evolucoes: ["heliolisk"],
             imagem: "./Pokemons_Estatica/694.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico_normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 695,
             nome: "heliolisk",
@@ -11131,7 +11826,8 @@ const pokemons = [
             Evolucoes: ["helioptile"],
             imagem: "./Pokemons_Estatica/695.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico_normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 696,
             nome: "tyrunt",
@@ -11147,7 +11843,8 @@ const pokemons = [
             Evolucoes: ["tyrantrum"],
             imagem: "./Pokemons_Estatica/696.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 697,
             nome: "tyrantrum",
@@ -11163,7 +11860,8 @@ const pokemons = [
             Evolucoes: ["tyrunt"],
             imagem: "./Pokemons_Estatica/697.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 698,
             nome: "amaura",
@@ -11179,7 +11877,8 @@ const pokemons = [
             Evolucoes: ["aurorus"],
             imagem: "./Pokemons_Estatica/698.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 699,
             nome: "aurorus",
@@ -11195,7 +11894,8 @@ const pokemons = [
             Evolucoes: ["amaura"],
             imagem: "./Pokemons_Estatica/699.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 700,
             nome: "sylveon",
@@ -11211,7 +11911,8 @@ const pokemons = [
             Evolucoes: ["eevee"],
             imagem: "./Pokemons_Estatica/700.png",
             card: "./CSS/Card_Pokemons/pokemon fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 701,
             nome: "hawlucha",
@@ -11227,7 +11928,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/701.png",
             card: "./CSS/Card_Pokemons/pokemon lutador_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 702,
             nome: "dedenne",
@@ -11243,7 +11945,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/702.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 703,
             nome: "carbink",
@@ -11259,7 +11962,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/703.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 704,
             nome: "goomy",
@@ -11275,7 +11979,8 @@ const pokemons = [
             Evolucoes: ["sliggoo", "goodra"],
             imagem: "./Pokemons_Estatica/704.png",
             card: "./CSS/Card_Pokemons/pokemon dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 705,
             nome: "sliggoo",
@@ -11291,7 +11996,8 @@ const pokemons = [
             Evolucoes: ["goomy", "goodra"],
             imagem: "./Pokemons_Estatica/705.png",
             card: "./CSS/Card_Pokemons/pokemon dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 706,
             nome: "goodra",
@@ -11307,7 +12013,8 @@ const pokemons = [
             Evolucoes: ["goomy", "sliggoo"],
             imagem: "./Pokemons_Estatica/706.png",
             card: "./CSS/Card_Pokemons/pokemon dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 707,
             nome: "klefki",
@@ -11323,7 +12030,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/707.png",
             card: "./CSS/Card_Pokemons/pokemon aço_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 708,
             nome: "phantump",
@@ -11339,7 +12047,8 @@ const pokemons = [
             Evolucoes: ["trevenant"],
             imagem: "./Pokemons_Estatica/708.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma_planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 709,
             nome: "trevenant",
@@ -11355,7 +12064,8 @@ const pokemons = [
             Evolucoes: ["phantump"],
             imagem: "./Pokemons_Estatica/709.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma_planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 710,
             nome: "pumpkaboo",
@@ -11371,7 +12081,8 @@ const pokemons = [
             Evolucoes: ["gourgeist"],
             imagem: "./Pokemons_Estatica/710.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma_planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 711,
             nome: "gourgeist",
@@ -11387,7 +12098,8 @@ const pokemons = [
             Evolucoes: ["pumpkaboo"],
             imagem: "./Pokemons_Estatica/711.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma_planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 712,
             nome: "bergmite",
@@ -11403,7 +12115,8 @@ const pokemons = [
             Evolucoes: ["avalugg"],
             imagem: "./Pokemons_Estatica/712.png",
             card: "./CSS/Card_Pokemons/pokemon gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 713,
             nome: "avalugg",
@@ -11419,7 +12132,8 @@ const pokemons = [
             Evolucoes: ["bergmite"],
             imagem: "./Pokemons_Estatica/713.png",
             card: "./CSS/Card_Pokemons/pokemon gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 714,
             nome: "noibat",
@@ -11435,7 +12149,8 @@ const pokemons = [
             Evolucoes: ["noivern"],
             imagem: "./Pokemons_Estatica/714.png",
             card: "./CSS/Card_Pokemons/pokemon voador_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 715,
             nome: "noivern",
@@ -11451,7 +12166,8 @@ const pokemons = [
             Evolucoes: ["noibat"],
             imagem: "./Pokemons_Estatica/715.png",
             card: "./CSS/Card_Pokemons/pokemon voador_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 716,
             nome: "xerneas",
@@ -11467,7 +12183,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/716.png",
             card: "./CSS/Card_Pokemons/pokemon fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 717,
             nome: "yveltal",
@@ -11483,7 +12200,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/717.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 718,
             nome: "zygarde",
@@ -11499,7 +12217,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/718.png",
             card: "./CSS/Card_Pokemons/pokemon dragao_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 719,
             nome: "diancie",
@@ -11515,7 +12234,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/719.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 720,
             nome: "hoopa",
@@ -11531,7 +12251,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/720.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 721,
             nome: "volcanion",
@@ -11547,7 +12268,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/721.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 722,
             nome: "rowlet",
@@ -11563,7 +12285,8 @@ const pokemons = [
             Evolucoes: ["dartrix", "decidueye"],
             imagem: "./Pokemons_Estatica/722.png",
             card: "./CSS/Card_Pokemons/pokemon planta_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 723,
             nome: "dartrix",
@@ -11579,7 +12302,8 @@ const pokemons = [
             Evolucoes: ["rowlet", "decidueye"],
             imagem: "./Pokemons_Estatica/723.png",
             card: "./CSS/Card_Pokemons/pokemon planta_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 724,
             nome: "decidueye",
@@ -11595,7 +12319,8 @@ const pokemons = [
             Evolucoes: ["rowlet", "dartrix"],
             imagem: "./Pokemons_Estatica/724.png",
             card: "./CSS/Card_Pokemons/pokemon planta_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 725,
             nome: "litten",
@@ -11611,7 +12336,8 @@ const pokemons = [
             Evolucoes: ["torracat", "incineroar"],
             imagem: "./Pokemons_Estatica/725.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 726,
             nome: "torracat",
@@ -11627,7 +12353,8 @@ const pokemons = [
             Evolucoes: ["litten", "incineroar"],
             imagem: "./Pokemons_Estatica/726.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 727,
             nome: "incineroar",
@@ -11643,7 +12370,8 @@ const pokemons = [
             Evolucoes: ["litten", "torracat"],
             imagem: "./Pokemons_Estatica/727.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 728,
             nome: "popplio",
@@ -11659,7 +12387,8 @@ const pokemons = [
             Evolucoes: ["brionne", "primarina"],
             imagem: "./Pokemons_Estatica/728.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 729,
             nome: "brionne",
@@ -11675,7 +12404,8 @@ const pokemons = [
             Evolucoes: ["popplio", "primarina"],
             imagem: "./Pokemons_Estatica/729.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 730,
             nome: "primarina",
@@ -11691,7 +12421,8 @@ const pokemons = [
             Evolucoes: ["popplio", "brionne"],
             imagem: "./Pokemons_Estatica/730.png",
             card: "./CSS/Card_Pokemons/pokemon agua_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 731,
             nome: "pikipek",
@@ -11707,7 +12438,8 @@ const pokemons = [
             Evolucoes: ["trumbeak", "toucannon"],
             imagem: "./Pokemons_Estatica/731.png",
             card: "./CSS/Card_Pokemons/pokemon normal_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 732,
             nome: "trumbeak",
@@ -11723,7 +12455,8 @@ const pokemons = [
             Evolucoes: ["pikipek", "toucannon"],
             imagem: "./Pokemons_Estatica/732.png",
             card: "./CSS/Card_Pokemons/pokemon normal_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 733,
             nome: "toucannon",
@@ -11739,7 +12472,8 @@ const pokemons = [
             Evolucoes: ["pikipek", "trumbeak"],
             imagem: "./Pokemons_Estatica/733.png",
             card: "./CSS/Card_Pokemons/pokemon normal_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 734,
             nome: "yungoos",
@@ -11755,7 +12489,8 @@ const pokemons = [
             Evolucoes: ["gumshoos"],
             imagem: "./Pokemons_Estatica/734.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 735,
             nome: "gumshoos",
@@ -11771,7 +12506,8 @@ const pokemons = [
             Evolucoes: ["yungoos"],
             imagem: "./Pokemons_Estatica/735.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 736,
             nome: "grubbin",
@@ -11787,7 +12523,8 @@ const pokemons = [
             Evolucoes: ["charjabug", "vikavolt"],
             imagem: "./Pokemons_Estatica/736.png",
             card: "./CSS/Card_Pokemons/pokemon inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 737,
             nome: "charjabug",
@@ -11803,7 +12540,8 @@ const pokemons = [
             Evolucoes: ["grubbin", "vikavolt"],
             imagem: "./Pokemons_Estatica/737.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 738,
             nome: "vikavolt",
@@ -11819,7 +12557,8 @@ const pokemons = [
             Evolucoes: ["grubbin", "charjabug"],
             imagem: "./Pokemons_Estatica/738.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 739,
             nome: "crabrawler",
@@ -11835,7 +12574,8 @@ const pokemons = [
             Evolucoes: ["crabominable"],
             imagem: "./Pokemons_Estatica/739.png",
             card: "./CSS/Card_Pokemons/pokemon lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 740,
             nome: "crabominable",
@@ -11851,7 +12591,8 @@ const pokemons = [
             Evolucoes: ["crabrawler"],
             imagem: "./Pokemons_Estatica/740.png",
             card: "./CSS/Card_Pokemons/pokemon lutador_gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 741,
             nome: "oricorio",
@@ -11867,7 +12608,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/741.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 742,
             nome: "cutiefly",
@@ -11883,7 +12625,8 @@ const pokemons = [
             Evolucoes: ["ribombee"],
             imagem: "./Pokemons_Estatica/742.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 743,
             nome: "ribombee",
@@ -11899,7 +12642,8 @@ const pokemons = [
             Evolucoes: ["cutiefly"],
             imagem: "./Pokemons_Estatica/743.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 744,
             nome: "rockruff",
@@ -11915,7 +12659,8 @@ const pokemons = [
             Evolucoes: ["lycanroc"],
             imagem: "./Pokemons_Estatica/744.png",
             card: "./CSS/Card_Pokemons/pokemon rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 745,
             nome: "lycanroc",
@@ -11931,7 +12676,8 @@ const pokemons = [
             Evolucoes: ["rockruff"],
             imagem: "./Pokemons_Estatica/745.png",
             card: "./CSS/Card_Pokemons/pokemon rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 746,
             nome: "wishiwashi",
@@ -11947,7 +12693,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/746.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 747,
             nome: "mareanie",
@@ -11963,7 +12710,8 @@ const pokemons = [
             Evolucoes: ["toxapex"],
             imagem: "./Pokemons_Estatica/747.png",
             card: "./CSS/Card_Pokemons/pokemon veneno_agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 748,
             nome: "toxapex",
@@ -11979,7 +12727,8 @@ const pokemons = [
             Evolucoes: ["mareanie"],
             imagem: "./Pokemons_Estatica/748.png",
             card: "./CSS/Card_Pokemons/pokemon veneno_agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 749,
             nome: "mudbray",
@@ -11995,7 +12744,8 @@ const pokemons = [
             Evolucoes: ["mudsdale"],
             imagem: "./Pokemons_Estatica/749.png",
             card: "./CSS/Card_Pokemons/pokemon terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 750,
             nome: "mudsdale",
@@ -12011,7 +12761,8 @@ const pokemons = [
             Evolucoes: ["mudbray"],
             imagem: "./Pokemons_Estatica/750.png",
             card: "./CSS/Card_Pokemons/pokemon terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 751,
             nome: "dewpider",
@@ -12027,7 +12778,8 @@ const pokemons = [
             Evolucoes: ["araquanid"],
             imagem: "./Pokemons_Estatica/751.png",
             card: "./CSS/Card_Pokemons/pokemon agua_inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 752,
             nome: "araquanid",
@@ -12043,7 +12795,8 @@ const pokemons = [
             Evolucoes: ["dewpider"],
             imagem: "./Pokemons_Estatica/752.png",
             card: "./CSS/Card_Pokemons/pokemon agua_inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 753,
             nome: "fomantis",
@@ -12059,7 +12812,8 @@ const pokemons = [
             Evolucoes: ["lurantis"],
             imagem: "./Pokemons_Estatica/753.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 754,
             nome: "lurantis",
@@ -12075,7 +12829,8 @@ const pokemons = [
             Evolucoes: ["fomantis"],
             imagem: "./Pokemons_Estatica/754.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 755,
             nome: "morelull",
@@ -12091,7 +12846,8 @@ const pokemons = [
             Evolucoes: ["shiinotic"],
             imagem: "./Pokemons_Estatica/755.png",
             card: "./CSS/Card_Pokemons/pokemon planta_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 756,
             nome: "shiinotic",
@@ -12107,7 +12863,8 @@ const pokemons = [
             Evolucoes: ["morelull"],
             imagem: "./Pokemons_Estatica/756.png",
             card: "./CSS/Card_Pokemons/pokemon planta_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 757,
             nome: "salandit",
@@ -12123,7 +12880,8 @@ const pokemons = [
             Evolucoes: ["salazzle"],
             imagem: "./Pokemons_Estatica/757.png",
             card: "./CSS/Card_Pokemons/pokemon veneno_fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 758,
             nome: "salazzle",
@@ -12139,7 +12897,8 @@ const pokemons = [
             Evolucoes: ["salandit"],
             imagem: "./Pokemons_Estatica/758.png",
             card: "./CSS/Card_Pokemons/pokemon veneno_fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 759,
             nome: "stufful",
@@ -12155,7 +12914,8 @@ const pokemons = [
             Evolucoes: ["bewear"],
             imagem: "./Pokemons_Estatica/759.png",
             card: "./CSS/Card_Pokemons/pokemon normal_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 760,
             nome: "bewear",
@@ -12171,7 +12931,8 @@ const pokemons = [
             Evolucoes: ["stufful"],
             imagem: "./Pokemons_Estatica/760.png",
             card: "./CSS/Card_Pokemons/pokemon normal_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 761,
             nome: "bounsweet",
@@ -12187,7 +12948,8 @@ const pokemons = [
             Evolucoes: ["steenee", "tsareena"],
             imagem: "./Pokemons_Estatica/761.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 762,
             nome: "steenee",
@@ -12203,7 +12965,8 @@ const pokemons = [
             Evolucoes: ["bounsweet", "tsareena"],
             imagem: "./Pokemons_Estatica/762.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 763,
             nome: "tsareena",
@@ -12219,7 +12982,8 @@ const pokemons = [
             Evolucoes: ["bounsweet", "steenee"],
             imagem: "./Pokemons_Estatica/763.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 764,
             nome: "comfey",
@@ -12235,7 +12999,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/764.png",
             card: "./CSS/Card_Pokemons/pokemon fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 765,
             nome: "oranguru",
@@ -12251,7 +13016,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/765.png",
             card: "./CSS/Card_Pokemons/pokemon normal_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 766,
             nome: "passimian",
@@ -12267,7 +13033,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/766.png",
             card: "./CSS/Card_Pokemons/pokemon lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 767,
             nome: "wimpod",
@@ -12283,7 +13050,8 @@ const pokemons = [
             Evolucoes: ["golisopod"],
             imagem: "./Pokemons_Estatica/767.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 768,
             nome: "golisopod",
@@ -12299,7 +13067,8 @@ const pokemons = [
             Evolucoes: ["wimpod"],
             imagem: "./Pokemons_Estatica/768.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 769,
             nome: "sandygast",
@@ -12315,7 +13084,8 @@ const pokemons = [
             Evolucoes: ["palossand"],
             imagem: "./Pokemons_Estatica/769.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 770,
             nome: "palossand",
@@ -12331,7 +13101,8 @@ const pokemons = [
             Evolucoes: ["sandygast"],
             imagem: "./Pokemons_Estatica/770.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 771,
             nome: "pyukumuku",
@@ -12347,7 +13118,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/771.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 772,
             nome: "type: null",
@@ -12363,7 +13135,8 @@ const pokemons = [
             Evolucoes: ["silvally"],
             imagem: "./Pokemons_Estatica/772.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 773,
             nome: "silvally",
@@ -12379,7 +13152,8 @@ const pokemons = [
             Evolucoes: ["type: null"],
             imagem: "./Pokemons_Estatica/773.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 774,
             nome: "minior",
@@ -12395,7 +13169,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/774.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 775,
             nome: "komala",
@@ -12411,7 +13186,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/775.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 776,
             nome: "turtonator",
@@ -12427,7 +13203,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/776.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 777,
             nome: "togedemaru",
@@ -12443,7 +13220,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/777.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 778,
             nome: "mimikyu",
@@ -12459,7 +13237,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/778.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 779,
             nome: "bruxish",
@@ -12475,7 +13254,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/779.png",
             card: "./CSS/Card_Pokemons/pokemon agua_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 780,
             nome: "drampa",
@@ -12491,7 +13271,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/780.png",
             card: "./CSS/Card_Pokemons/pokemon normal_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 781,
             nome: "dhelmise",
@@ -12507,7 +13288,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/781.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma_planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 782,
             nome: "jangmo-o",
@@ -12523,7 +13305,8 @@ const pokemons = [
             Evolucoes: ["hakamo-o", "kommo-o"],
             imagem: "./Pokemons_Estatica/782.png",
             card: "./CSS/Card_Pokemons/pokemon dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 783,
             nome: "hakamo-o",
@@ -12539,7 +13322,8 @@ const pokemons = [
             Evolucoes: ["jangmo-o", "kommo-o"],
             imagem: "./Pokemons_Estatica/783.png",
             card: "./CSS/Card_Pokemons/pokemon dragao_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 784,
             nome: "kommo-o",
@@ -12555,7 +13339,8 @@ const pokemons = [
             Evolucoes: ["jangmo-o", "hakamo-o"],
             imagem: "./Pokemons_Estatica/784.png",
             card: "./CSS/Card_Pokemons/pokemon dragao_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 785,
             nome: "tapu koko",
@@ -12571,7 +13356,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/785.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 786,
             nome: "tapu lele",
@@ -12587,7 +13373,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/786.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 787,
             nome: "tapu bulu",
@@ -12603,7 +13390,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/787.png",
             card: "./CSS/Card_Pokemons/pokemon planta_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 788,
             nome: "tapu fini",
@@ -12619,7 +13407,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/788.png",
             card: "./CSS/Card_Pokemons/pokemon agua_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 789,
             nome: "cosmog",
@@ -12635,7 +13424,8 @@ const pokemons = [
             Evolucoes: ["cosmoem", "solgaleo", "lunala"],
             imagem: "./Pokemons_Estatica/789.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 790,
             nome: "cosmoem",
@@ -12651,7 +13441,8 @@ const pokemons = [
             Evolucoes: ["cosmog", "solgaleo", "lunala"],
             imagem: "./Pokemons_Estatica/790.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 791,
             nome: "solgaleo",
@@ -12667,7 +13458,8 @@ const pokemons = [
             Evolucoes: ["cosmog", "cosmoem"],
             imagem: "./Pokemons_Estatica/791.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 792,
             nome: "lunala",
@@ -12683,7 +13475,8 @@ const pokemons = [
             Evolucoes: ["cosmog", "cosmoem"],
             imagem: "./Pokemons_Estatica/792.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 793,
             nome: "nihilego",
@@ -12699,7 +13492,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/793.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 794,
             nome: "buzzwole",
@@ -12715,7 +13509,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/794.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 795,
             nome: "pheromosa",
@@ -12731,7 +13526,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/795.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 796,
             nome: "xurkitree",
@@ -12747,7 +13543,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/796.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 797,
             nome: "celesteela",
@@ -12763,7 +13560,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/797.png",
             card: "./CSS/Card_Pokemons/pokemon aço_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 798,
             nome: "kartana",
@@ -12779,7 +13577,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/798.png",
             card: "./CSS/Card_Pokemons/pokemon planta_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 799,
             nome: "guzzlord",
@@ -12795,7 +13594,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/799.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 800,
             nome: "necrozma",
@@ -12811,7 +13611,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/800.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 801,
             nome: "magearna",
@@ -12827,7 +13628,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/801.png",
             card: "./CSS/Card_Pokemons/pokemon aço_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 802,
             nome: "marshadow",
@@ -12843,7 +13645,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/802.png",
             card: "./CSS/Card_Pokemons/pokemon lutador_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 803,
             nome: "poipole",
@@ -12859,7 +13662,8 @@ const pokemons = [
             Evolucoes: ["naganadel"],
             imagem: "./Pokemons_Estatica/803.png",
             card: "./CSS/Card_Pokemons/pokemon veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 804,
             nome: "naganadel",
@@ -12875,7 +13679,8 @@ const pokemons = [
             Evolucoes: ["poipole"],
             imagem: "./Pokemons_Estatica/804.png",
             card: "./CSS/Card_Pokemons/pokemon veneno_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 805,
             nome: "stakataka",
@@ -12891,7 +13696,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/805.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 806,
             nome: "blacephalon",
@@ -12907,7 +13713,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/806.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 807,
             nome: "zeraora",
@@ -12923,7 +13730,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/807.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 808,
             nome: "meltan",
@@ -12939,7 +13747,8 @@ const pokemons = [
             Evolucoes: ["melmetal"],
             imagem: "./Pokemons_Estatica/808.png",
             card: "./CSS/Card_Pokemons/pokemon aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 809,
             nome: "melmetal",
@@ -12955,7 +13764,8 @@ const pokemons = [
             Evolucoes: ["meltan"],
             imagem: "./Pokemons_Estatica/809.png",
             card: "./CSS/Card_Pokemons/pokemon aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 810,
             nome: "grookey",
@@ -12971,7 +13781,8 @@ const pokemons = [
             Evolucoes: ["thwackey", "rillaboom"],
             imagem: "./Pokemons_Estatica/810.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 811,
             nome: "thwackey",
@@ -12987,7 +13798,8 @@ const pokemons = [
             Evolucoes: ["grookey", "rillaboom"],
             imagem: "./Pokemons_Estatica/811.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 812,
             nome: "rillaboom",
@@ -13003,7 +13815,8 @@ const pokemons = [
             Evolucoes: ["grookey", "thwackey"],
             imagem: "./Pokemons_Estatica/812.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 813,
             nome: "scorbunny",
@@ -13019,7 +13832,8 @@ const pokemons = [
             Evolucoes: ["raboot", "cinderace"],
             imagem: "./Pokemons_Estatica/813.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 814,
             nome: "raboot",
@@ -13035,7 +13849,8 @@ const pokemons = [
             Evolucoes: ["scorbunny", "cinderace"],
             imagem: "./Pokemons_Estatica/814.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 815,
             nome: "cinderace",
@@ -13051,7 +13866,8 @@ const pokemons = [
             Evolucoes: ["scorbunny", "raboot"],
             imagem: "./Pokemons_Estatica/815.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 816,
             nome: "sobble",
@@ -13067,7 +13883,8 @@ const pokemons = [
             Evolucoes: ["drizzile", "inteleon"],
             imagem: "./Pokemons_Estatica/816.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 817,
             nome: "drizzile",
@@ -13083,7 +13900,8 @@ const pokemons = [
             Evolucoes: ["sobble", "inteleon"],
             imagem: "./Pokemons_Estatica/817.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 818,
             nome: "inteleon",
@@ -13099,7 +13917,8 @@ const pokemons = [
             Evolucoes: ["sobble", "drizzile"],
             imagem: "./Pokemons_Estatica/818.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 819,
             nome: "skwovet",
@@ -13115,7 +13934,8 @@ const pokemons = [
             Evolucoes: ["greedent"],
             imagem: "./Pokemons_Estatica/819.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 820,
             nome: "greedent",
@@ -13131,7 +13951,8 @@ const pokemons = [
             Evolucoes: ["skwovet"],
             imagem: "./Pokemons_Estatica/820.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 821,
             nome: "rookidee",
@@ -13147,7 +13968,8 @@ const pokemons = [
             Evolucoes: ["corvisquire", "corviknight"],
             imagem: "./Pokemons_Estatica/821.png",
             card: "./CSS/Card_Pokemons/pokemon voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 822,
             nome: "corvisquire",
@@ -13163,7 +13985,8 @@ const pokemons = [
             Evolucoes: ["rookidee", "corviknight"],
             imagem: "./Pokemons_Estatica/822.png",
             card: "./CSS/Card_Pokemons/pokemon voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 823,
             nome: "corviknight",
@@ -13179,7 +14002,8 @@ const pokemons = [
             Evolucoes: ["rookidee", "corvisquire"],
             imagem: "./Pokemons_Estatica/823.png",
             card: "./CSS/Card_Pokemons/pokemon voador_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 824,
             nome: "blipbug",
@@ -13195,7 +14019,8 @@ const pokemons = [
             Evolucoes: ["dottler", "orbeetle"],
             imagem: "./Pokemons_Estatica/824.png",
             card: "./CSS/Card_Pokemons/pokemon inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 825,
             nome: "dottler",
@@ -13211,7 +14036,8 @@ const pokemons = [
             Evolucoes: ["blipbug", "orbeetle"],
             imagem: "./Pokemons_Estatica/825.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 826,
             nome: "orbeetle",
@@ -13227,7 +14053,8 @@ const pokemons = [
             Evolucoes: ["blipbug", "dottler"],
             imagem: "./Pokemons_Estatica/826.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 827,
             nome: "nickit",
@@ -13243,7 +14070,8 @@ const pokemons = [
             Evolucoes: ["thievul"],
             imagem: "./Pokemons_Estatica/827.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 828,
             nome: "thievul",
@@ -13259,7 +14087,8 @@ const pokemons = [
             Evolucoes: ["nickit"],
             imagem: "./Pokemons_Estatica/828.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 829,
             nome: "gossifleur",
@@ -13275,7 +14104,8 @@ const pokemons = [
             Evolucoes: ["eldegoss"],
             imagem: "./Pokemons_Estatica/829.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 830,
             nome: "eldegoss",
@@ -13291,7 +14121,8 @@ const pokemons = [
             Evolucoes: ["gossifleur"],
             imagem: "./Pokemons_Estatica/830.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 831,
             nome: "wooloo",
@@ -13307,7 +14138,8 @@ const pokemons = [
             Evolucoes: ["dubwool"],
             imagem: "./Pokemons_Estatica/831.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 832,
             nome: "dubwool",
@@ -13323,7 +14155,8 @@ const pokemons = [
             Evolucoes: ["wooloo"],
             imagem: "./Pokemons_Estatica/832.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 833,
             nome: "chewtle",
@@ -13339,7 +14172,8 @@ const pokemons = [
             Evolucoes: ["drednaw"],
             imagem: "./Pokemons_Estatica/833.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 834,
             nome: "drednaw",
@@ -13355,7 +14189,8 @@ const pokemons = [
             Evolucoes: ["chewtle"],
             imagem: "./Pokemons_Estatica/834.png",
             card: "./CSS/Card_Pokemons/pokemon agua_rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 835,
             nome: "yamper",
@@ -13371,7 +14206,8 @@ const pokemons = [
             Evolucoes: ["boltund"],
             imagem: "./Pokemons_Estatica/835.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 836,
             nome: "boltund",
@@ -13387,7 +14223,8 @@ const pokemons = [
             Evolucoes: ["yamper"],
             imagem: "./Pokemons_Estatica/836.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 837,
             nome: "rolycoly",
@@ -13403,7 +14240,8 @@ const pokemons = [
             Evolucoes: ["carkol", "coalossal"],
             imagem: "./Pokemons_Estatica/837.png",
             card: "./CSS/Card_Pokemons/pokemon rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 838,
             nome: "carkol",
@@ -13419,7 +14257,8 @@ const pokemons = [
             Evolucoes: ["rolycoly", "coalossal"],
             imagem: "./Pokemons_Estatica/838.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 839,
             nome: "coalossal",
@@ -13435,7 +14274,8 @@ const pokemons = [
             Evolucoes: ["rolycoly", "carkol"],
             imagem: "./Pokemons_Estatica/839.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 840,
             nome: "applin",
@@ -13451,7 +14291,8 @@ const pokemons = [
             Evolucoes: ["flapple", "appletun", "dipplin"],
             imagem: "./Pokemons_Estatica/840.png",
             card: "./CSS/Card_Pokemons/pokemon planta_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 841,
             nome: "flapple",
@@ -13467,7 +14308,8 @@ const pokemons = [
             Evolucoes: ["applin"],
             imagem: "./Pokemons_Estatica/841.png",
             card: "./CSS/Card_Pokemons/pokemon planta_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 842,
             nome: "appletun",
@@ -13483,7 +14325,8 @@ const pokemons = [
             Evolucoes: ["applin"],
             imagem: "./Pokemons_Estatica/842.png",
             card: "./CSS/Card_Pokemons/pokemon planta_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 843,
             nome: "silicobra",
@@ -13499,7 +14342,8 @@ const pokemons = [
             Evolucoes: ["sandaçonda"],
             imagem: "./Pokemons_Estatica/843.png",
             card: "./CSS/Card_Pokemons/pokemon terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 844,
             nome: "sandaçonda",
@@ -13515,7 +14359,8 @@ const pokemons = [
             Evolucoes: ["silicobra"],
             imagem: "./Pokemons_Estatica/844.png",
             card: "./CSS/Card_Pokemons/pokemon terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 845,
             nome: "cramorant",
@@ -13531,7 +14376,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/845.png",
             card: "./CSS/Card_Pokemons/pokemon voador_agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 846,
             nome: "arrokuda",
@@ -13547,7 +14393,8 @@ const pokemons = [
             Evolucoes: ["barraskewda"],
             imagem: "./Pokemons_Estatica/846.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 847,
             nome: "barraskewda",
@@ -13563,7 +14410,8 @@ const pokemons = [
             Evolucoes: ["arrokuda"],
             imagem: "./Pokemons_Estatica/847.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 848,
             nome: "toxel",
@@ -13579,7 +14427,8 @@ const pokemons = [
             Evolucoes: ["toxtricity"],
             imagem: "./Pokemons_Estatica/848.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 849,
             nome: "toxtricity",
@@ -13595,7 +14444,8 @@ const pokemons = [
             Evolucoes: ["toxel"],
             imagem: "./Pokemons_Estatica/849.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 850,
             nome: "sizzlipede",
@@ -13611,7 +14461,8 @@ const pokemons = [
             Evolucoes: ["centiskorch"],
             imagem: "./Pokemons_Estatica/850.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 851,
             nome: "centiskorch",
@@ -13627,7 +14478,8 @@ const pokemons = [
             Evolucoes: ["sizzlipede"],
             imagem: "./Pokemons_Estatica/851.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 852,
             nome: "clobbopus",
@@ -13643,7 +14495,8 @@ const pokemons = [
             Evolucoes: ["grapploct"],
             imagem: "./Pokemons_Estatica/852.png",
             card: "./CSS/Card_Pokemons/pokemon lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 853,
             nome: "grapploct",
@@ -13659,7 +14512,8 @@ const pokemons = [
             Evolucoes: ["clobbopus"],
             imagem: "./Pokemons_Estatica/853.png",
             card: "./CSS/Card_Pokemons/pokemon lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 854,
             nome: "sinistea",
@@ -13675,7 +14529,8 @@ const pokemons = [
             Evolucoes: ["polteageist"],
             imagem: "./Pokemons_Estatica/854.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 855,
             nome: "polteageist",
@@ -13691,7 +14546,8 @@ const pokemons = [
             Evolucoes: ["sinistea"],
             imagem: "./Pokemons_Estatica/855.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 856,
             nome: "hatenna",
@@ -13707,7 +14563,8 @@ const pokemons = [
             Evolucoes: ["hattrem", "hatterene"],
             imagem: "./Pokemons_Estatica/856.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 857,
             nome: "hattrem",
@@ -13723,7 +14580,8 @@ const pokemons = [
             Evolucoes: ["hatenna", "hatterene"],
             imagem: "./Pokemons_Estatica/857.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 858,
             nome: "hatterene",
@@ -13739,7 +14597,8 @@ const pokemons = [
             Evolucoes: ["hatenna", "hattrem"],
             imagem: "./Pokemons_Estatica/858.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 859,
             nome: "impidimp",
@@ -13755,7 +14614,8 @@ const pokemons = [
             Evolucoes: ["morgrem", "grimmsnarl"],
             imagem: "./Pokemons_Estatica/859.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 860,
             nome: "morgrem",
@@ -13771,7 +14631,8 @@ const pokemons = [
             Evolucoes: ["impidimp", "grimmsnarl"],
             imagem: "./Pokemons_Estatica/860.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 861,
             nome: "grimmsnarl",
@@ -13787,7 +14648,8 @@ const pokemons = [
             Evolucoes: ["impidimp", "morgrem"],
             imagem: "./Pokemons_Estatica/861.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 862,
             nome: "obstagoon",
@@ -13803,7 +14665,8 @@ const pokemons = [
             Evolucoes: ["zigzagoon", "linoone"],
             imagem: "./Pokemons_Estatica/862.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 863,
             nome: "perrserker",
@@ -13819,7 +14682,8 @@ const pokemons = [
             Evolucoes: ["meowth"],
             imagem: "./Pokemons_Estatica/863.png",
             card: "./CSS/Card_Pokemons/pokemon aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 864,
             nome: "cursola",
@@ -13835,7 +14699,8 @@ const pokemons = [
             Evolucoes: ["corsola"],
             imagem: "./Pokemons_Estatica/864.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 865,
             nome: "sirfetch'd",
@@ -13851,7 +14716,8 @@ const pokemons = [
             Evolucoes: ["farfetch'd"],
             imagem: "./Pokemons_Estatica/865.png",
             card: "./CSS/Card_Pokemons/pokemon lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 866,
             nome: "mr. rime",
@@ -13867,7 +14733,8 @@ const pokemons = [
             Evolucoes: ["mime jr.", "mr. mime"],
             imagem: "./Pokemons_Estatica/866.png",
             card: "./CSS/Card_Pokemons/pokemon gelo_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 867,
             nome: "runerigus",
@@ -13883,7 +14750,8 @@ const pokemons = [
             Evolucoes: ["yamask"],
             imagem: "./Pokemons_Estatica/867.png",
             card: "./CSS/Card_Pokemons/pokemon terra_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 868,
             nome: "milcery",
@@ -13899,7 +14767,8 @@ const pokemons = [
             Evolucoes: ["alcremie"],
             imagem: "./Pokemons_Estatica/868.png",
             card: "./CSS/Card_Pokemons/pokemon fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 869,
             nome: "alcremie",
@@ -13915,7 +14784,8 @@ const pokemons = [
             Evolucoes: ["milcery"],
             imagem: "./Pokemons_Estatica/869.png",
             card: "./CSS/Card_Pokemons/pokemon fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 870,
             nome: "falinks",
@@ -13931,7 +14801,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/870.png",
             card: "./CSS/Card_Pokemons/pokemon lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 871,
             nome: "pincurchin",
@@ -13947,7 +14818,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/871.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 872,
             nome: "snom",
@@ -13963,7 +14835,8 @@ const pokemons = [
             Evolucoes: ["frosmoth"],
             imagem: "./Pokemons_Estatica/872.png",
             card: "./CSS/Card_Pokemons/pokemon gelo_inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 873,
             nome: "frosmoth",
@@ -13979,7 +14852,8 @@ const pokemons = [
             Evolucoes: ["snom"],
             imagem: "./Pokemons_Estatica/873.png",
             card: "./CSS/Card_Pokemons/pokemon gelo_inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 874,
             nome: "stonjourner",
@@ -13995,7 +14869,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/874.png",
             card: "./CSS/Card_Pokemons/pokemon rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 875,
             nome: "eiscue",
@@ -14011,7 +14886,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/875.png",
             card: "./CSS/Card_Pokemons/pokemon gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 876,
             nome: "indeedee",
@@ -14027,7 +14903,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/876.png",
             card: "./CSS/Card_Pokemons/pokemon Psiquico_Normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 877,
             nome: "morpeko",
@@ -14043,7 +14920,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/877.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico_sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 878,
             nome: "cufant",
@@ -14059,7 +14937,8 @@ const pokemons = [
             Evolucoes: ["copperajah"],
             imagem: "./Pokemons_Estatica/878.png",
             card: "./CSS/Card_Pokemons/pokemon aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 879,
             nome: "copperajah",
@@ -14075,7 +14954,8 @@ const pokemons = [
             Evolucoes: ["cufant"],
             imagem: "./Pokemons_Estatica/879.png",
             card: "./CSS/Card_Pokemons/pokemon aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 880,
             nome: "draçozolt",
@@ -14091,7 +14971,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/880.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 881,
             nome: "arctozolt",
@@ -14107,7 +14988,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/881.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico_gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 882,
             nome: "draçovish",
@@ -14123,7 +15005,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/882.png",
             card: "./CSS/Card_Pokemons/pokemon agua_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 883,
             nome: "arctovish",
@@ -14139,7 +15022,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/883.png",
             card: "./CSS/Card_Pokemons/pokemon agua_gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 884,
             nome: "duraludon",
@@ -14155,7 +15039,8 @@ const pokemons = [
             Evolucoes: ["archaludon"],
             imagem: "./Pokemons_Estatica/884.png",
             card: "./CSS/Card_Pokemons/pokemon aço_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 885,
             nome: "dreepy",
@@ -14171,7 +15056,8 @@ const pokemons = [
             Evolucoes: ["drakloak", "dragapult"],
             imagem: "./Pokemons_Estatica/885.png",
             card: "./CSS/Card_Pokemons/pokemon dragao_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 886,
             nome: "drakloak",
@@ -14187,7 +15073,8 @@ const pokemons = [
             Evolucoes: ["dreepy", "dragapult"],
             imagem: "./Pokemons_Estatica/886.png",
             card: "./CSS/Card_Pokemons/pokemon dragao_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 887,
             nome: "dragapult",
@@ -14203,7 +15090,8 @@ const pokemons = [
             Evolucoes: ["dreepy", "drakloak"],
             imagem: "./Pokemons_Estatica/887.png",
             card: "./CSS/Card_Pokemons/pokemon dragao_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 888,
             nome: "zacian",
@@ -14219,7 +15107,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/888.png",
             card: "./CSS/Card_Pokemons/pokemon fada_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 889,
             nome: "zamazenta",
@@ -14235,7 +15124,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/889.png",
             card: "./CSS/Card_Pokemons/pokemon lutador_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 890,
             nome: "eternatus",
@@ -14251,7 +15141,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/890.png",
             card: "./CSS/Card_Pokemons/pokemon veneno_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 891,
             nome: "kubfu",
@@ -14267,7 +15158,8 @@ const pokemons = [
             Evolucoes: ["urshifu"],
             imagem: "./Pokemons_Estatica/891.png",
             card: "./CSS/Card_Pokemons/pokemon lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 892,
             nome: "urshifu",
@@ -14283,7 +15175,8 @@ const pokemons = [
             Evolucoes: ["kubfu"],
             imagem: "./Pokemons_Estatica/892.png",
             card: "./CSS/Card_Pokemons/pokemon lutador_sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 893,
             nome: "zarude",
@@ -14299,7 +15192,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/893.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 894,
             nome: "regieleki",
@@ -14315,7 +15209,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/894.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 895,
             nome: "regidrago",
@@ -14331,7 +15226,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/895.png",
             card: "./CSS/Card_Pokemons/pokemon dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 896,
             nome: "glastrier",
@@ -14347,7 +15243,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/896.png",
             card: "./CSS/Card_Pokemons/pokemon gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 897,
             nome: "spectrier",
@@ -14363,7 +15260,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/897.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 898,
             nome: "calyrex",
@@ -14379,7 +15277,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/898.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico_planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 899,
             nome: "wyrdeer",
@@ -14395,7 +15294,8 @@ const pokemons = [
             Evolucoes: ["stantler"],
             imagem: "./Pokemons_Estatica/899.png",
             card: "./CSS/Card_Pokemons/pokemon normal_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 900,
             nome: "kleavor",
@@ -14411,7 +15311,8 @@ const pokemons = [
             Evolucoes: ["scyther"],
             imagem: "./Pokemons_Estatica/900.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 901,
             nome: "ursaluna",
@@ -14427,7 +15328,8 @@ const pokemons = [
             Evolucoes: ["ursaring"],
             imagem: "./Pokemons_Estatica/901.png",
             card: "./CSS/Card_Pokemons/pokemon terra_normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 902,
             nome: "basculegion",
@@ -14443,7 +15345,8 @@ const pokemons = [
             Evolucoes: ["basculin"],
             imagem: "./Pokemons_Estatica/902.png",
             card: "./CSS/Card_Pokemons/pokemon agua_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 903,
             nome: "sneasler",
@@ -14459,7 +15362,8 @@ const pokemons = [
             Evolucoes: ["sneasel"],
             imagem: "./Pokemons_Estatica/903.png",
             card: "./CSS/Card_Pokemons/pokemon veneno_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 904,
             nome: "overqwil",
@@ -14475,7 +15379,8 @@ const pokemons = [
             Evolucoes: ["qwilfish"],
             imagem: "./Pokemons_Estatica/904.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 905,
             nome: "enamorus",
@@ -14491,7 +15396,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/905.png",
             card: "./CSS/Card_Pokemons/pokemon fada_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 906,
             nome: "sprigatito",
@@ -14507,7 +15413,8 @@ const pokemons = [
             Evolucoes: ["floragato", "meowscarada"],
             imagem: "./Pokemons_Estatica/906.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 907,
             nome: "floragato",
@@ -14523,7 +15430,8 @@ const pokemons = [
             Evolucoes: ["sprigatito", "meowscarada"],
             imagem: "./Pokemons_Estatica/907.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 908,
             nome: "meowscarada",
@@ -14539,7 +15447,8 @@ const pokemons = [
             Evolucoes: ["sprigatito", "floragato"],
             imagem: "./Pokemons_Estatica/908.png",
             card: "./CSS/Card_Pokemons/pokemon planta_sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 909,
             nome: "fuecoco",
@@ -14555,7 +15464,8 @@ const pokemons = [
             Evolucoes: ["crocalor", "skeledirge"],
             imagem: "./Pokemons_Estatica/909.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 910,
             nome: "crocalor",
@@ -14571,7 +15481,8 @@ const pokemons = [
             Evolucoes: ["fuecoco", "skeledirge"],
             imagem: "./Pokemons_Estatica/910.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 911,
             nome: "skeledirge",
@@ -14587,7 +15498,8 @@ const pokemons = [
             Evolucoes: ["fuecoco", "crocalor"],
             imagem: "./Pokemons_Estatica/911.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 912,
             nome: "quaxly",
@@ -14603,7 +15515,8 @@ const pokemons = [
             Evolucoes: ["quaxwell", "quaquaval"],
             imagem: "./Pokemons_Estatica/912.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 913,
             nome: "quaxwell",
@@ -14619,7 +15532,8 @@ const pokemons = [
             Evolucoes: ["quaxly", "quaquaval"],
             imagem: "./Pokemons_Estatica/913.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 914,
             nome: "quaquaval",
@@ -14635,7 +15549,8 @@ const pokemons = [
             Evolucoes: ["quaxly", "quaxwell"],
             imagem: "./Pokemons_Estatica/914.png",
             card: "./CSS/Card_Pokemons/pokemon agua_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 915,
             nome: "lechonk",
@@ -14651,7 +15566,8 @@ const pokemons = [
             Evolucoes: ["oinkologne"],
             imagem: "./Pokemons_Estatica/915.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 916,
             nome: "oinkologne",
@@ -14667,7 +15583,8 @@ const pokemons = [
             Evolucoes: ["lechonk"],
             imagem: "./Pokemons_Estatica/916.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 917,
             nome: "tarountula",
@@ -14683,7 +15600,8 @@ const pokemons = [
             Evolucoes: ["spidops"],
             imagem: "./Pokemons_Estatica/917.png",
             card: "./CSS/Card_Pokemons/pokemon inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 918,
             nome: "spidops",
@@ -14699,7 +15617,8 @@ const pokemons = [
             Evolucoes: ["tarountula"],
             imagem: "./Pokemons_Estatica/918.png",
             card: "./CSS/Card_Pokemons/pokemon inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 919,
             nome: "nymble",
@@ -14715,7 +15634,8 @@ const pokemons = [
             Evolucoes: ["lokix"],
             imagem: "./Pokemons_Estatica/919.png",
             card: "./CSS/Card_Pokemons/pokemon inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 920,
             nome: "lokix",
@@ -14731,7 +15651,8 @@ const pokemons = [
             Evolucoes: ["nymble"],
             imagem: "./Pokemons_Estatica/920.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 921,
             nome: "pawmi",
@@ -14747,7 +15668,8 @@ const pokemons = [
             Evolucoes: ["pawmo", "pawmot"],
             imagem: "./Pokemons_Estatica/921.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 922,
             nome: "pawmo",
@@ -14763,7 +15685,8 @@ const pokemons = [
             Evolucoes: ["pawmi", "pawmot"],
             imagem: "./Pokemons_Estatica/922.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 923,
             nome: "pawmot",
@@ -14779,7 +15702,8 @@ const pokemons = [
             Evolucoes: ["pawmi", "pawmo"],
             imagem: "./Pokemons_Estatica/923.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 924,
             nome: "tandemaus",
@@ -14795,7 +15719,8 @@ const pokemons = [
             Evolucoes: ["maushold"],
             imagem: "./Pokemons_Estatica/924.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 925,
             nome: "maushold",
@@ -14811,7 +15736,8 @@ const pokemons = [
             Evolucoes: ["tandemaus"],
             imagem: "./Pokemons_Estatica/925.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 926,
             nome: "fidough",
@@ -14827,7 +15753,8 @@ const pokemons = [
             Evolucoes: ["dachsbun"],
             imagem: "./Pokemons_Estatica/926.png",
             card: "./CSS/Card_Pokemons/pokemon fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 927,
             nome: "dachsbun",
@@ -14843,7 +15770,8 @@ const pokemons = [
             Evolucoes: ["fidough"],
             imagem: "./Pokemons_Estatica/927.png",
             card: "./CSS/Card_Pokemons/pokemon fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 928,
             nome: "smoliv",
@@ -14859,7 +15787,8 @@ const pokemons = [
             Evolucoes: ["dolliv", "arboliva"],
             imagem: "./Pokemons_Estatica/928.png",
             card: "./CSS/Card_Pokemons/pokemon planta_normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 929,
             nome: "dolliv",
@@ -14875,7 +15804,8 @@ const pokemons = [
             Evolucoes: ["smoliv", "arboliva"],
             imagem: "./Pokemons_Estatica/929.png",
             card: "./CSS/Card_Pokemons/pokemon planta_normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 930,
             nome: "arboliva",
@@ -14891,7 +15821,8 @@ const pokemons = [
             Evolucoes: ["smoliv", "dolliv"],
             imagem: "./Pokemons_Estatica/930.png",
             card: "./CSS/Card_Pokemons/pokemon planta_normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 931,
             nome: "squawkabilly",
@@ -14907,7 +15838,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/931.png",
             card: "./CSS/Card_Pokemons/pokemon normal_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 932,
             nome: "nacli",
@@ -14923,7 +15855,8 @@ const pokemons = [
             Evolucoes: ["naclstack", "garganacl"],
             imagem: "./Pokemons_Estatica/932.png",
             card: "./CSS/Card_Pokemons/pokemon rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 933,
             nome: "naclstack",
@@ -14939,7 +15872,8 @@ const pokemons = [
             Evolucoes: ["nacli", "garganacl"],
             imagem: "./Pokemons_Estatica/933.png",
             card: "./CSS/Card_Pokemons/pokemon rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 934,
             nome: "garganacl",
@@ -14955,7 +15889,8 @@ const pokemons = [
             Evolucoes: ["nacli", "naclstack"],
             imagem: "./Pokemons_Estatica/934.png",
             card: "./CSS/Card_Pokemons/pokemon rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 935,
             nome: "charcadet",
@@ -14971,7 +15906,8 @@ const pokemons = [
             Evolucoes: ["armarouge", "ceruledge"],
             imagem: "./Pokemons_Estatica/935.png",
             card: "./CSS/Card_Pokemons/pokemon fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 936,
             nome: "armarouge",
@@ -14987,7 +15923,8 @@ const pokemons = [
             Evolucoes: ["charcadet"],
             imagem: "./Pokemons_Estatica/936.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 937,
             nome: "ceruledge",
@@ -15003,7 +15940,8 @@ const pokemons = [
             Evolucoes: ["charcadet"],
             imagem: "./Pokemons_Estatica/937.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 938,
             nome: "tadbulb",
@@ -15019,7 +15957,8 @@ const pokemons = [
             Evolucoes: ["bellibolt"],
             imagem: "./Pokemons_Estatica/938.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 939,
             nome: "bellibolt",
@@ -15035,7 +15974,8 @@ const pokemons = [
             Evolucoes: ["tadbulb"],
             imagem: "./Pokemons_Estatica/939.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 940,
             nome: "wattrel",
@@ -15051,7 +15991,8 @@ const pokemons = [
             Evolucoes: ["kilowattrel"],
             imagem: "./Pokemons_Estatica/940.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 941,
             nome: "kilowattrel",
@@ -15067,7 +16008,8 @@ const pokemons = [
             Evolucoes: ["wattrel"],
             imagem: "./Pokemons_Estatica/941.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 942,
             nome: "maschiff",
@@ -15083,7 +16025,8 @@ const pokemons = [
             Evolucoes: ["mabosstiff"],
             imagem: "./Pokemons_Estatica/942.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 943,
             nome: "mabosstiff",
@@ -15099,7 +16042,8 @@ const pokemons = [
             Evolucoes: ["maschiff"],
             imagem: "./Pokemons_Estatica/943.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 944,
             nome: "shroodle",
@@ -15115,7 +16059,8 @@ const pokemons = [
             Evolucoes: ["grafaiai"],
             imagem: "./Pokemons_Estatica/944.png",
             card: "./CSS/Card_Pokemons/pokemon veneno_normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 945,
             nome: "grafaiai",
@@ -15131,7 +16076,8 @@ const pokemons = [
             Evolucoes: ["shroodle"],
             imagem: "./Pokemons_Estatica/945.png",
             card: "./CSS/Card_Pokemons/pokemon veneno_normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 946,
             nome: "bramblin",
@@ -15147,7 +16093,8 @@ const pokemons = [
             Evolucoes: ["brambleghast"],
             imagem: "./Pokemons_Estatica/946.png",
             card: "./CSS/Card_Pokemons/pokemon planta_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 947,
             nome: "brambleghast",
@@ -15163,7 +16110,8 @@ const pokemons = [
             Evolucoes: ["bramblin"],
             imagem: "./Pokemons_Estatica/947.png",
             card: "./CSS/Card_Pokemons/pokemon planta_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 948,
             nome: "toedscool",
@@ -15179,7 +16127,8 @@ const pokemons = [
             Evolucoes: ["toedscruel"],
             imagem: "./Pokemons_Estatica/948.png",
             card: "./CSS/Card_Pokemons/pokemon terra_planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 949,
             nome: "toedscruel",
@@ -15195,7 +16144,8 @@ const pokemons = [
             Evolucoes: ["toedscool"],
             imagem: "./Pokemons_Estatica/949.png",
             card: "./CSS/Card_Pokemons/pokemon terra_planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 950,
             nome: "klawf",
@@ -15211,7 +16161,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/950.png",
             card: "./CSS/Card_Pokemons/pokemon rocha.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 951,
             nome: "capsakid",
@@ -15227,7 +16178,8 @@ const pokemons = [
             Evolucoes: ["scovillain"],
             imagem: "./Pokemons_Estatica/951.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 952,
             nome: "scovillain",
@@ -15243,7 +16195,8 @@ const pokemons = [
             Evolucoes: ["capsakid"],
             imagem: "./Pokemons_Estatica/952.png",
             card: "./CSS/Card_Pokemons/pokemon planta_fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 953,
             nome: "rellor",
@@ -15259,7 +16212,8 @@ const pokemons = [
             Evolucoes: ["rabsca"],
             imagem: "./Pokemons_Estatica/953.png",
             card: "./CSS/Card_Pokemons/pokemon inseto.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 954,
             nome: "rabsca",
@@ -15275,7 +16229,8 @@ const pokemons = [
             Evolucoes: ["rellor"],
             imagem: "./Pokemons_Estatica/954.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 955,
             nome: "flittle",
@@ -15291,7 +16246,8 @@ const pokemons = [
             Evolucoes: ["espathra"],
             imagem: "./Pokemons_Estatica/955.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 956,
             nome: "espathra",
@@ -15307,7 +16263,8 @@ const pokemons = [
             Evolucoes: ["flittle"],
             imagem: "./Pokemons_Estatica/956.png",
             card: "./CSS/Card_Pokemons/pokemon psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 957,
             nome: "tinkatink",
@@ -15323,7 +16280,8 @@ const pokemons = [
             Evolucoes: ["tinkatuff", "tinkaton"],
             imagem: "./Pokemons_Estatica/957.png",
             card: "./CSS/Card_Pokemons/pokemon fada_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 958,
             nome: "tinkatuff",
@@ -15339,7 +16297,8 @@ const pokemons = [
             Evolucoes: ["tinkatink", "tinkaton"],
             imagem: "./Pokemons_Estatica/958.png",
             card: "./CSS/Card_Pokemons/pokemon fada_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 959,
             nome: "tinkaton",
@@ -15355,7 +16314,8 @@ const pokemons = [
             Evolucoes: ["tinkatink", "tinkatuff"],
             imagem: "./Pokemons_Estatica/959.png",
             card: "./CSS/Card_Pokemons/pokemon fada_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 960,
             nome: "wiglett",
@@ -15371,7 +16331,8 @@ const pokemons = [
             Evolucoes: ["wugtrio"],
             imagem: "./Pokemons_Estatica/960.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 961,
             nome: "wugtrio",
@@ -15387,7 +16348,8 @@ const pokemons = [
             Evolucoes: ["wiglett"],
             imagem: "./Pokemons_Estatica/961.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 962,
             nome: "bombirdier",
@@ -15403,7 +16365,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/962.png",
             card: "./CSS/Card_Pokemons/pokemon voador_sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 963,
             nome: "finizen",
@@ -15419,7 +16382,8 @@ const pokemons = [
             Evolucoes: ["palafin"],
             imagem: "./Pokemons_Estatica/963.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 964,
             nome: "palafin",
@@ -15435,7 +16399,8 @@ const pokemons = [
             Evolucoes: ["finizen"],
             imagem: "./Pokemons_Estatica/964.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 965,
             nome: "varoom",
@@ -15451,7 +16416,8 @@ const pokemons = [
             Evolucoes: ["revavroom"],
             imagem: "./Pokemons_Estatica/965.png",
             card: "./CSS/Card_Pokemons/pokemon aço_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 966,
             nome: "revavroom",
@@ -15467,7 +16433,8 @@ const pokemons = [
             Evolucoes: ["varoom"],
             imagem: "./Pokemons_Estatica/966.png",
             card: "./CSS/Card_Pokemons/pokemon aço_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 967,
             nome: "cyclizar",
@@ -15483,7 +16450,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/967.png",
             card: "./CSS/Card_Pokemons/pokemon dragao_normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 968,
             nome: "orthworm",
@@ -15499,7 +16467,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/968.png",
             card: "./CSS/Card_Pokemons/pokemon aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 969,
             nome: "glimmet",
@@ -15515,7 +16484,8 @@ const pokemons = [
             Evolucoes: ["glimmora"],
             imagem: "./Pokemons_Estatica/969.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 970,
             nome: "glimmora",
@@ -15531,7 +16501,8 @@ const pokemons = [
             Evolucoes: ["glimmet"],
             imagem: "./Pokemons_Estatica/970.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 971,
             nome: "greavard",
@@ -15547,7 +16518,8 @@ const pokemons = [
             Evolucoes: ["houndstone"],
             imagem: "./Pokemons_Estatica/971.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 972,
             nome: "houndstone",
@@ -15563,7 +16535,8 @@ const pokemons = [
             Evolucoes: ["greavard"],
             imagem: "./Pokemons_Estatica/972.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 973,
             nome: "flamigo",
@@ -15579,7 +16552,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/973.png",
             card: "./CSS/Card_Pokemons/pokemon voador_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 974,
             nome: "cetoddle",
@@ -15595,7 +16569,8 @@ const pokemons = [
             Evolucoes: ["cetitan"],
             imagem: "./Pokemons_Estatica/974.png",
             card: "./CSS/Card_Pokemons/pokemon gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 975,
             nome: "cetitan",
@@ -15611,7 +16586,8 @@ const pokemons = [
             Evolucoes: ["cetoddle"],
             imagem: "./Pokemons_Estatica/975.png",
             card: "./CSS/Card_Pokemons/pokemon gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 976,
             nome: "veluza",
@@ -15627,7 +16603,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/976.png",
             card: "./CSS/Card_Pokemons/pokemon agua_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 977,
             nome: "dondozo",
@@ -15643,7 +16620,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/977.png",
             card: "./CSS/Card_Pokemons/pokemon agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 978,
             nome: "tatsugiri",
@@ -15659,7 +16637,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/978.png",
             card: "./CSS/Card_Pokemons/pokemon dragao_agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 979,
             nome: "annihilape",
@@ -15675,7 +16654,8 @@ const pokemons = [
             Evolucoes: ["mankey", "primeape"],
             imagem: "./Pokemons_Estatica/979.png",
             card: "./CSS/Card_Pokemons/pokemon lutador_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 980,
             nome: "clodsire",
@@ -15691,7 +16671,8 @@ const pokemons = [
             Evolucoes: ["wooper"],
             imagem: "./Pokemons_Estatica/980.png",
             card: "./CSS/Card_Pokemons/pokemon veneno_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 981,
             nome: "farigiraf",
@@ -15707,7 +16688,8 @@ const pokemons = [
             Evolucoes: ["girafarig"],
             imagem: "./Pokemons_Estatica/981.png",
             card: "./CSS/Card_Pokemons/pokemon normal_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 982,
             nome: "dudunsparce",
@@ -15723,7 +16705,8 @@ const pokemons = [
             Evolucoes: ["dunsparce"],
             imagem: "./Pokemons_Estatica/982.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 983,
             nome: "kingambit",
@@ -15739,7 +16722,8 @@ const pokemons = [
             Evolucoes: ["pawniard", "bisharp"],
             imagem: "./Pokemons_Estatica/983.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 984,
             nome: "great tusk",
@@ -15755,7 +16739,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/984.png",
             card: "./CSS/Card_Pokemons/pokemon terra_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 985,
             nome: "scream tail",
@@ -15771,7 +16756,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/985.png",
             card: "./CSS/Card_Pokemons/pokemon fada_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 986,
             nome: "brute bonnet",
@@ -15787,7 +16773,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/986.png",
             card: "./CSS/Card_Pokemons/pokemon planta_sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 987,
             nome: "flutter mane",
@@ -15803,7 +16790,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/987.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 988,
             nome: "slither wing",
@@ -15819,7 +16807,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/988.png",
             card: "./CSS/Card_Pokemons/pokemon inseto_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 989,
             nome: "sandy shocks",
@@ -15835,7 +16824,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/989.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 990,
             nome: "iron treads",
@@ -15851,7 +16841,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/990.png",
             card: "./CSS/Card_Pokemons/pokemon terra_aço.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 991,
             nome: "iron bundle",
@@ -15867,7 +16858,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/991.png",
             card: "./CSS/Card_Pokemons/pokemon gelo_agua.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 992,
             nome: "iron hands",
@@ -15883,7 +16875,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/992.png",
             card: "./CSS/Card_Pokemons/pokemon lutador_eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 993,
             nome: "iron jugulis",
@@ -15899,7 +16892,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/993.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_voador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 994,
             nome: "iron moth",
@@ -15915,7 +16909,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/994.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_veneno.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 995,
             nome: "iron thorns",
@@ -15931,7 +16926,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/995.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_eletrico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 996,
             nome: "frigibax",
@@ -15947,7 +16943,8 @@ const pokemons = [
             Evolucoes: ["arctibax", "baxcalibur"],
             imagem: "./Pokemons_Estatica/996.png",
             card: "./CSS/Card_Pokemons/pokemon dragao_gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 997,
             nome: "arctibax",
@@ -15963,7 +16960,8 @@ const pokemons = [
             Evolucoes: ["frigibax", "baxcalibur"],
             imagem: "./Pokemons_Estatica/997.png",
             card: "./CSS/Card_Pokemons/pokemon dragao_gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 998,
             nome: "baxcalibur",
@@ -15979,7 +16977,8 @@ const pokemons = [
             Evolucoes: ["frigibax", "arctibax"],
             imagem: "./Pokemons_Estatica/998.png",
             card: "./CSS/Card_Pokemons/pokemon dragao_gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 999,
             nome: "gimmighoul",
@@ -15995,7 +16994,8 @@ const pokemons = [
             Evolucoes: ["gholdengo"],
             imagem: "./Pokemons_Estatica/999.png",
             card: "./CSS/Card_Pokemons/pokemon fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 1000,
             nome: "gholdengo",
@@ -16011,7 +17011,8 @@ const pokemons = [
             Evolucoes: ["gimmighoul"],
             imagem: "./Pokemons_Estatica/1000.png",
             card: "./CSS/Card_Pokemons/pokemon aço_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 1001,
             nome: "wo-chien",
@@ -16027,7 +17028,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/1001.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 1002,
             nome: "chien-pao",
@@ -16043,7 +17045,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/1002.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_gelo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 1003,
             nome: "ting-lu",
@@ -16059,7 +17062,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/1003.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_terra.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 1004,
             nome: "chi-yu",
@@ -16075,7 +17079,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/1004.png",
             card: "./CSS/Card_Pokemons/pokemon sombrio_fogo.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 1005,
             nome: "roaring moon",
@@ -16091,7 +17096,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/1005.png",
             card: "./CSS/Card_Pokemons/pokemon dragao_sombrio.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 1006,
             nome: "iron valiant",
@@ -16107,7 +17113,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/1006.png",
             card: "./CSS/Card_Pokemons/pokemon fada_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 1007,
             nome: "koraidon",
@@ -16123,7 +17130,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/1007.png",
             card: "./CSS/Card_Pokemons/pokemon lutador_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 1008,
             nome: "miraidon",
@@ -16139,7 +17147,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/1008.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 1009,
             nome: "walking wake",
@@ -16155,7 +17164,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/1009.png",
             card: "./CSS/Card_Pokemons/pokemon agua_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 1010,
             nome: "iron leaves",
@@ -16171,7 +17181,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/1010.png",
             card: "./CSS/Card_Pokemons/pokemon planta_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 1011,
             nome: "dipplin",
@@ -16187,7 +17198,8 @@ const pokemons = [
             Evolucoes: ["applin", "hydrapple"],
             imagem: "./Pokemons_Estatica/1011.png",
             card: "./CSS/Card_Pokemons/pokemon planta_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 1012,
             nome: "poltchageist",
@@ -16203,7 +17215,8 @@ const pokemons = [
             Evolucoes: ["sinistcha"],
             imagem: "./Pokemons_Estatica/1012.png",
             card: "./CSS/Card_Pokemons/pokemon planta_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 1013,
             nome: "sinistcha",
@@ -16219,7 +17232,8 @@ const pokemons = [
             Evolucoes: ["poltchageist"],
             imagem: "./Pokemons_Estatica/1013.png",
             card: "./CSS/Card_Pokemons/pokemon planta_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 1014,
             nome: "okidogi",
@@ -16235,7 +17249,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/1014.png",
             card: "./CSS/Card_Pokemons/pokemon veneno_lutador.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 1015,
             nome: "munkidori",
@@ -16251,7 +17266,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/1015.png",
             card: "./CSS/Card_Pokemons/pokemon veneno_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 1016,
             nome: "fezandipiti",
@@ -16267,7 +17283,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/1016.png",
             card: "./CSS/Card_Pokemons/pokemon veneno_fada.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 1017,
             nome: "ogerpon",
@@ -16283,7 +17300,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/1017.png",
             card: "./CSS/Card_Pokemons/pokemon planta.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 1018,
             nome: "archaludon",
@@ -16299,7 +17317,8 @@ const pokemons = [
             Evolucoes: ["duraludon"],
             imagem: "./Pokemons_Estatica/1018.png",
             card: "./CSS/Card_Pokemons/pokemon aço_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 1019,
             nome: "hydrapple",
@@ -16315,7 +17334,8 @@ const pokemons = [
             Evolucoes: ["applin", "dipplin"],
             imagem: "./Pokemons_Estatica/1019.png",
             card: "./CSS/Card_Pokemons/pokemon planta_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 1020,
             nome: "gouging fire",
@@ -16331,7 +17351,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/1020.png",
             card: "./CSS/Card_Pokemons/pokemon fogo_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 1021,
             nome: "raging bolt",
@@ -16347,7 +17368,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/1021.png",
             card: "./CSS/Card_Pokemons/pokemon eletrico_dragao.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 1022,
             nome: "iron boulder",
@@ -16363,7 +17385,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/1022.png",
             card: "./CSS/Card_Pokemons/pokemon rocha_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 1023,
             nome: "iron crown",
@@ -16379,7 +17402,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/1023.png",
             card: "./CSS/Card_Pokemons/pokemon aço_psiquico.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 1024,
             nome: "terapagos",
@@ -16395,7 +17419,8 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/1024.png",
             card: "./CSS/Card_Pokemons/pokemon normal.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
         {
             ID: 1025,
             nome: "pecharunt",
@@ -16411,6 +17436,7 @@ const pokemons = [
             Evolucoes: [],
             imagem: "./Pokemons_Estatica/1025.png",
             card: "./CSS/Card_Pokemons/pokemon veneno_fantasma.png",
-        },
+            icone: "./CSS/Imagems_Extras/Favorito_0.png",
+},
 ]
 export default pokemons;

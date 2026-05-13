@@ -126,8 +126,9 @@ body{
     }
 .Deck1, .Deck2, .Deck3{
     display: flex;
-
+    position: relative;
     width: 100vw;
+    padding: 10px;
     height: 15vh;
 
     background-image: url('./Imagems_Extras/Margem_PixelMon2.png');
@@ -138,12 +139,18 @@ body{
     justify-content: center;
     align-items: center;
 
-    font-size: 500%;
+    .DeckText{
+        display: flex;
+        position: absolute;
+        margin-top: 0.5%;
+        font-size: clamp(1.2rem, 5vw, 5rem);
+    }
+
 }
-.Area_Deck1, .Area_Deck2, .Area_Deck3{
+.Area_Deck1 img, .Area_Deck2 img, .Area_Deck3 img{
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
-    padding: 20px;
-    min-height: 100%;
+    padding: 5%;
+    max-height: 80%;
 }

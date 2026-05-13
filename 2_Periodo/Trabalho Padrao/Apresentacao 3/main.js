@@ -21,7 +21,7 @@ function init(){
     }
 
     PokeLimits();
-    PokemonsMostrar();
+    if(window.location.pathname.includes("index.html")) PokemonsMostrar();
     mostrarTamanhoHeader();
 
     console.log("Pokemons Iniciado");

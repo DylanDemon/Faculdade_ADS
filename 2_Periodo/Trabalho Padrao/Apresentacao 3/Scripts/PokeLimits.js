@@ -4,7 +4,6 @@ const getpInput = () => document.getElementById("N_Pagina");
 const largura = window.innerWidth;
 const pInput = getpInput();
 
-let PokemonsPorPagina = PokemonsPorLargura();
 const TotalPagina = () => Math.ceil(pokemons.length / PokemonsPorPagina)
 let AtualPagina = 1;
 
@@ -18,6 +17,8 @@ function PokemonsPorLargura(){
         console.error("DEU UM ERRO NO FUNÇAO >> PokemonsPorLargura << LOCALIZADO NA PokeLimits.js" + erro.message);
     }
 }
+
+let PokemonsPorPagina = PokemonsPorLargura();
 
 function PokeLimits(){
     try {

@@ -1,6 +1,5 @@
 import { proximaPagina, anteriorPagina } from "./PokeLimits.js"; // Adicionado .js
 
-// Botao Pokemons Animado
 const botaoHome = document.getElementById("B_Home");
 function aperteiHome() {
     try{
@@ -17,7 +16,6 @@ function aperteiHome() {
     }
 }
 
-// Botao Deck Animado
 const botaoDeck = document.getElementById('B_Deck');
 function aperteiDeck() {
     try{
@@ -34,7 +32,6 @@ function aperteiDeck() {
     }
 }
 
-// Botao Login Animado
 const botaoLogin = document.getElementById('B_Login');
 function aperteiLogin() {
     try {
@@ -51,7 +48,6 @@ function aperteiLogin() {
     }
 }
 
-// Botao Proximo Animado
 const botaoProximo = document.getElementById('B_Proximo');
 function aperteiProximo(){
     try {
@@ -62,7 +58,7 @@ function aperteiProximo(){
         botaoProximo.style.filter = "drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.8))";
         setTimeout(() => {
             botaoProximo.src = imagem4Normal;
-            botaoAnterior.style.filter = "";
+            botaoProximo.style.filter = "";
             proximaPagina(); // Agora chamando a função importada
         }, 200);
     } 
@@ -71,7 +67,6 @@ function aperteiProximo(){
     }
 }
 
-// Botao Anterior Animado
 const botaoAnterior = document.getElementById('B_Anterior');
 function aperteiAnterior(){
     try {
@@ -88,5 +83,5 @@ function aperteiAnterior(){
         console.error("DEU UM ERRO NO FUNÇAO >> aperteiAnterior << LOCALIZADO NA Botoes.js" + erro.message);
     }
 }
-// Exportando Tudo para a Main (Corrigido o final)
+
 export { botaoHome, botaoDeck, botaoLogin, botaoProximo, botaoAnterior, aperteiHome, aperteiDeck, aperteiLogin, aperteiProximo, aperteiAnterior};

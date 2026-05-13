@@ -1,8 +1,8 @@
 function mostrarTamanhoHeader(){
     try {
-    const header = document.querySelector('header');
+        const header = document.querySelector('header');
 
-    if(!header){throw new Error("Elemento <header> não foi encontrado no Dom.");}
+    if(!header) throw new Error("Elemento <header> não foi encontrado no Dom.");
 
     const dimensoes = header.getBoundingClientRect();
     console.log("--- DIMENSÕES DO HEADER ---");
