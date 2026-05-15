@@ -1,0 +1,172 @@
+:root{
+    --cor-principal: black
+}
+@font-face{
+    font-family: 'Aseprite Font';
+    src: url(./Fonts/aseprite.otf) format('opentype');
+    font-weight:normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Aseprite Mini Font';
+    src: url(./Fonts/aseprite-mini.otf) format('opentype');
+    font-weight:normal;
+    font-style: normal;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    image-rendering: pixelated;
+    font-family: 'Aseprite Font';
+    vertical-align: middle;
+}
+@keyframes iniciar {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0%;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 100%;
+    }
+}
+@keyframes CardSpawn{
+    0%{
+        transform: translateX(-50px);
+        opacity: 0%;
+        }
+    100%{
+        transform: translateX(0px);
+        opacity: 100%;
+    }
+}
+@keyframes CardDespawn{
+        0%{
+        transform: translateX(0px);
+        opacity: 0%;
+        }
+    100%{
+        transform: translateX(-50px);
+        opacity: 100%;
+    }
+}
+
+body{
+    min-height: 100vh;
+    background-image: url('./Imagems_Extras/Fundo_Copia2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.Inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 25vw;
+    gap: 5px;
+    padding: 0%;
+    margin: 0% auto;
+    margin-top: 5vw;
+}
+@media(max-width <= 1200px) {
+    .margem_pixel {
+        width: 80vw;
+        height: auto;
+        flex-wrap: wrap; 
+    }
+    .card{
+        width: 150px;
+        height: 210px;
+    }
+    #Titulo {
+        width: 100%; 
+    }
+
+    #B_Deck, #B_Login {
+        width: 35%;
+        margin-left: 1px;
+    }
+    #B_Home{
+        width: 40%;
+    }
+}
+.margem_pixel{
+    display: flex;
+    background-image: url(./Imagems_Extras/Margem_PixelMon.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items:center;
+   
+    gap: 1vw;
+    padding: 5vw;
+
+    max-width: 70vw;
+    height: auto;
+
+    animation: iniciar 1s ease-in-out normal
+
+}
+    #Titulo img, #B_Home img, #B_Deck img, #B_Login img{
+    animation: iniciar 1s ease-in-out normal;
+    }
+    #Titulo{
+        width: 25vw;       /* Título um pouco maior */
+    }
+    #B_Deck, #B_Login{
+        width: 12vw
+    }
+    #B_Home{
+        width: 5vw;
+    }
+.Area_Main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Espaço entre os decks */
+    padding: 20px;
+    width: 100%;
+}
+.Deck1, .Deck2, .Deck3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 60vw;
+    height: 9vw;
+    
+    background-image: url('./Imagems_Extras/Margem_PixelMon2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+.DeckText {
+    font-size: 5vw;
+    margin: 0;
+}
+}
+.Area_Deck1, .Area_Deck2, .Area_Deck3 {
+    display: flex;
+    flex-wrap: wrap; /* Se tiver muitos pokémons, eles pulam linha */
+    justify-content: center; /* Centraliza os pokémons no deck */
+    align-items: center;
+    
+    width: 85vw; /* Ligeiramente menor que a faixa de título para harmonia */
+    min-height: 10vw; 
+    padding: 20px;
+    margin-bottom: 30px; /* Espaço antes do próximo deck */
+    
+    background: rgba(0, 0, 0, 0.05); /* Um fundo sutil para visualizar a área */
+    border-radius: 10px;
+}
+.Area_Deck1 img, .Area_Deck2 img, .Area_Deck3 img{
+    width: 12vw;
+    height: auto;
+    margin: 10px;
+    transition: transform 0.2s;
+}
+.Area_Deck1 img:hover {
+    transform: scale(1.1); /* Dá um zoom de leve quando passa o mouse */
+}

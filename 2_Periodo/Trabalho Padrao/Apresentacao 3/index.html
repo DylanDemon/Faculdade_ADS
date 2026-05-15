@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelMon</title>
+    <link rel="stylesheet" href="./CSS/index.css">
+</head>
+<body>
+    <header class="Inicio">       
+        <div class="margem_pixel">  
+            <img src="./CSS/Imagems_Extras/Titulo.png" id="Titulo">
+            <nav aria-label="Navegação Principal">
+                <img src="./CSS/Imagems_Extras/Botao_Home_0.png" alt="" id="B_Home">
+                <img src="./CSS/Imagems_Extras/Botao_Deck_0.png" id="B_Deck">
+                <img src="./CSS/Imagems_Extras/Botao_Login_0.png" id="B_Login">
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="Area_Buscar">
+            <button type="button" id="Buscar_Ok">Buscar</button>
+            <input type="text" placeholder=" Nome ou ID" id="Buscar">
+            <input type="text" list="lista-tipos" placeholder=" Tipo Pokemon" id="buscar-tipo">
+            <datalist id="lista-tipos">
+                <option value="Normal">
+                <option value="Fogo">
+                <option value="Agua">
+                <option value="Planta">
+                <option value="Eletrico">
+                <option value="Gelo">
+                <option value="Lutador">
+                <option value="Veneno">
+                <option value="Terra">
+                <option value="Voador">
+                <option value="Psiquico">
+                <option value="Inseto">
+                <option value="Rocha">
+                <option value="Fantasma">
+                <option value="Sombrio">
+                <option value="Fada">
+                <option value="Aço">
+                <option value="Dragao">
+            </datalist>
+        </section>
+        <section id="poke_contain"></section>
+    </main>
+    <footer class="Fim">
+        <img src="./CSS/Imagems_Extras/botao_proximo_0.png" id="B_Proximo">
+        <input type="number" value="1" id="N_Pagina">
+        <img src="./CSS/Imagems_Extras/botao_proximo_0.png" id="B_Anterior">
+    </footer>   
+    <script type="module" src="main.js"></script>
+</body>
+</html>
