@@ -7,7 +7,6 @@ import {PokeLimits} from "./3.PokeLimits.js";
 const container = document.getElementById('poke_contain');
 const dados = CarregarStorage();
 
-
 function PokemonsMostrar(){
     try {
         if (!container) {
