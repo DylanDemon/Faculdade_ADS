@@ -14,7 +14,7 @@
 //     imagem: imagem: "./Pokemons_Estatica/035.png",
 //     card:
 //     icone:
-//     },
+// },
 const pokemons = [
     {
             ID: 1,

@@ -1,4 +1,4 @@
-import { proximaPagina, anteriorPagina } from "./3.PokeLimits.js"; // Adicionado .js
+import { proximaPagina, anteriorPagina } from "./3.PokeLimits.js";
 
 const botaoHome = document.getElementById("B_Home");
 function aperteiHome() {
@@ -59,7 +59,7 @@ function aperteiProximo(){
         setTimeout(() => {
             botaoProximo.src = imagem4Normal;
             botaoProximo.style.filter = "";
-            proximaPagina(); // Agora chamando a função importada
+            proximaPagina();
         }, 200);
     } 
     catch (error) {
@@ -76,7 +76,7 @@ function aperteiAnterior(){
         setTimeout(() => {
             botaoAnterior.src = imagem5Normal;
             botaoAnterior.style.filter = "";
-            anteriorPagina(); // Agora chamando a função importada
+            anteriorPagina();
         }, 200);
     } 
     catch (error) {
