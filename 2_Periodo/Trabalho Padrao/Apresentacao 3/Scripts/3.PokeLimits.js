@@ -13,7 +13,7 @@ function AtualPaginaSet(Valor){AtualPagina = Valor;}
 
 function PokemonsPorLargura(){
     try {
-        if (largura < 768) return 8;    // Celular mostra poucos para carregar rápido
+        if (largura < 768) return 12;    // Celular mostra poucos para carregar rápido
         else if (largura < 1200) return 12;  // Tablet
         else return 24;                      // PC de 17 polegadas ou mais
     } 

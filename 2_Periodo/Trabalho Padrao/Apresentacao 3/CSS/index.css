@@ -49,7 +49,7 @@
 /* #endregion */
 /* #region Corpo Inicial*/
 body{
-    min-height: 100vh;
+    min-height: 70vh;
     background-image: url('./Imagems_Extras/Fundo_Copia2.png');
     background-repeat: no-repeat;
     background-position: center;

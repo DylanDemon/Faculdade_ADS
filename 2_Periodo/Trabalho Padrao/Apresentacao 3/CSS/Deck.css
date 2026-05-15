@@ -106,8 +106,6 @@ body{
     max-width: 70vw;
     height: auto;
 
-    min-height: 200px;
-
     animation: iniciar 1s ease-in-out normal
 
 }
@@ -123,33 +121,52 @@ body{
     #B_Home{
         width: 5vw;
     }
+.Area_Main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Espaço entre os decks */
+    padding: 20px;
+    width: 100%;
+}
 .Deck1, .Deck2, .Deck3{
     display: flex;
-    position: relative;
-    width: 100vw;
-    padding: 10px;
-    height: 15vh;
-
+    justify-content: center;
+    align-items: center;
+    
+    width: 60vw;
+    height: 9vw;
+    
     background-image: url('./Imagems_Extras/Margem_PixelMon2.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-
-    justify-content: center;
+    
+.DeckText {
+    font-size: 5vw;
+    margin: 0;
+}
+}
+.Area_Deck1, .Area_Deck2, .Area_Deck3 {
+    display: flex;
+    flex-wrap: wrap; /* Se tiver muitos pokémons, eles pulam linha */
+    justify-content: center; /* Centraliza os pokémons no deck */
     align-items: center;
-
-    .DeckText{
-        display: flex;
-        position: absolute;
-        margin-top: 0.5%;
-        font-size: clamp(1.2rem, 5vw, 5rem);
-    }
-
+    
+    width: 85vw; /* Ligeiramente menor que a faixa de título para harmonia */
+    min-height: 10vw; 
+    padding: 20px;
+    margin-bottom: 30px; /* Espaço antes do próximo deck */
+    
+    background: rgba(0, 0, 0, 0.05); /* Um fundo sutil para visualizar a área */
+    border-radius: 10px;
 }
 .Area_Deck1 img, .Area_Deck2 img, .Area_Deck3 img{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
-    padding: 5%;
-    max-height: 80%;
+    width: 12vw;
+    height: auto;
+    margin: 10px;
+    transition: transform 0.2s;
+}
+.Area_Deck1 img:hover {
+    transform: scale(1.1); /* Dá um zoom de leve quando passa o mouse */
 }
