@@ -3,7 +3,7 @@ import {PokeLimits, Pagina, pInput} from './Scripts/3.PokeLimits.js';
 import {botaoHome, botaoDeck, botaoLogin,botaoProximo, botaoAnterior, aperteiHome, aperteiDeck, aperteiLogin,aperteiProximo, aperteiAnterior} from './Scripts/3.Botoes.js';
 import { PrincipalStorage } from './Scripts/1.LocalStorage.js';
 import { mostrarTamanhoHeader } from './Scripts/1.MostrarTamanho.js';
-import { botao_Buscar, Texto_Buscar, Procurar} from './Scripts/2.Procurador.js';
+import { botao_Buscar, Texto_Buscar, Procurar} from './Scripts/2.Procurador (Dylan).js';
 
 function init(){    
     if(botaoHome)     botaoHome.addEventListener("click", aperteiHome)
