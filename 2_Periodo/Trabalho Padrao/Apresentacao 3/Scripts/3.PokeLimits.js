@@ -1,6 +1,6 @@
 import pokemons from "./1.ListaPokemons.js";
 import { PokemonsMostrar } from "./4.PokemonsMostrar.js";
-import {PokemonsFiltrado } from "./2.Buscador.js";
+import {PokemonsFiltrado } from "./2.Procurador.js";
 
 const getpInput = () => document.getElementById("N_Pagina");
 const pInput = getpInput();
