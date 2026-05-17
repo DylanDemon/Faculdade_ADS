@@ -4,6 +4,7 @@ import { CarregarStorage } from "./1.LocalStorage.js";
 import {f_Favoritos } from "./2.Favoritos.js";
 import {PokeLimits} from "./3.PokeLimits.js";
 //#endregion
+const Card_Info = document.getElementById('card_info');
 const container = document.getElementById('poke_contain');
 const dados = CarregarStorage();
 
@@ -34,10 +35,25 @@ function PokemonsMostrar(){
                         <img src=${pokemon.icone} alt="" class="Favorito">
                     </div>
                 `;
+                card.addEventListener('click', () =>{
+                    if(Card_Info){
+                        Card_Info.innerHTML = `
+                            <div class="Back_card" style="background-color: red;">
+                                <img src="${pokemon.imagem}" alt="${pokemon.ID}" class="pokemon_cardinfo">
+                                <p class="pokemon_nome">${pokemon.nome}</p>
+                            </div>
+                        `;
+                    } else {
+                        console.warn("Nao Achei O Card_Info")
+                    }
+                });
 
                 const botaoFavorito = card.querySelector('.Favorito');
 
-                botaoFavorito.addEventListener('click', () => {f_Favoritos(botaoFavorito, pokemon)});
+                botaoFavorito.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    f_Favoritos(botaoFavorito, pokemon)
+                });
                 container.appendChild(card);
             })
 

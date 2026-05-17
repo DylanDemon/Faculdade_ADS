@@ -29,7 +29,7 @@ const pokemons = [
             hab_principal: "Overgrow (Espessura)",
             hab_oculta: "Chlorophyll (Clorofila)",
             evolucoes: ["Ivysaur", "Venusaur"],
-            imagem: "./Pokemons_Estatica/001.png",
+            imagem: "./Pokemons_Estatica/001.png",   
             card: "./CSS/Card_Pokemons/pokemon planta_veneno.png",
             icone: "./CSS/Imagems_Extras/Favorito_0.png",
 },
