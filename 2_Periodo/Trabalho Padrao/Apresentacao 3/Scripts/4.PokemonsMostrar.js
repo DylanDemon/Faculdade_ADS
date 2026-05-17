@@ -16,7 +16,7 @@ function PokemonsMostrar(){
         let Lista= PokeLimits();
         container.innerHTML = "";
 
-            Lista.forEach(pokemon => {
+            Lista.forEach(pokemon => { 
                 const card = document.createElement('div');
                 card.classList.add('card');
 
@@ -47,3 +47,8 @@ function PokemonsMostrar(){
     }
 }
 export {container,PokemonsMostrar};
+
+
+
+
+
