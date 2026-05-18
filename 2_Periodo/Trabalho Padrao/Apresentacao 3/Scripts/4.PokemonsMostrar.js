@@ -41,8 +41,24 @@ function PokemonsMostrar(){
                         Card_Info.innerHTML = `
                             <div class="Back_card" style="background-color: red;">
                             <button id="btn_sair">X</button>
-                                <img src="${pokemon.imagem}" alt="${pokemon.ID}" class="pokemon_cardinfo">
+                                <img src="${pokemon.imagem}" alt="${pokemon.ID}" class="pokemon_cardinfo"> 
+                                <div class="info_pokemon">
                                 <p class="pokemon_nome">${pokemon.nome}</p>
+                                <P class="pokemonNivel">Nivel: ${pokemon.nivel}</P>
+                                <p class="pokemonTipo"> ${pokemon.tipo}</p>
+                                <p class="pokemonsobre">${pokemon.sobre}</p>
+                                <P class="pokemonTamanho">Tamanho: ${pokemon.tamanho}</P>
+                                <p class="pokemonPeso">Peso: ${pokemon.peso}</p>
+                                <P class="pokemonHab_principal">Habilidades Principais: ${pokemon.hab_principal}</P>
+                                <p class="pokemonHab_oculta">Habilidades Ocultas: ${pokemon.hab_oculta}</p>
+                                <P class="pokemonFraqueza">Fraquezas: ${pokemon.fraqueza}</P>
+                                <P class="pokemonEvolucoes">Evolução: ${pokemon.evolucoes}</P>
+                                <p class="pokemonGen">Geração: ${pokemon.gen}</p>
+                                <P class="pokemonID">ID: ${pokemon.ID}</P>
+                                </div>
+
+
+
                             </div>
                         `;
                         Card_Info.querySelector('#btn_sair').addEventListener('click', (e) => {
