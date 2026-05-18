@@ -37,19 +37,24 @@ function PokemonsMostrar(){
                 `;
                 card.addEventListener('click', () =>{
                     if(Card_Info){
+                        Card_Info.style.display = "block";
                         Card_Info.innerHTML = `
                             <div class="Back_card" style="background-color: red;">
+                            <button id="btn_sair">X</button>
                                 <img src="${pokemon.imagem}" alt="${pokemon.ID}" class="pokemon_cardinfo">
                                 <p class="pokemon_nome">${pokemon.nome}</p>
                             </div>
                         `;
+                        Card_Info.querySelector('#btn_sair').addEventListener('click', (e) => {
+                            e.stopPropagation();
+                            Card_Info.style.display = "none";
+                        });
                     } else {
                         console.warn("Nao Achei O Card_Info")
                     }
                 });
 
                 const botaoFavorito = card.querySelector('.Favorito');
-
                 botaoFavorito.addEventListener('click', (e) => {
                     e.stopPropagation();
                     f_Favoritos(botaoFavorito, pokemon)
