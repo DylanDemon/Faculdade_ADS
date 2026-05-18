@@ -46,6 +46,14 @@
         opacity: 100%;
     }
 }
+@keyframes SpawnInfo{
+    0%{
+        transform: translate(-50%, -50%) scale(0);
+    }
+    100%{
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
 /* #endregion */
 /* #region Corpo Inicial*/
 body{
@@ -222,42 +230,97 @@ body{
     }
 }
 #card_info{
-    display: none;
     position: fixed;
     top: 50%;
     left: 50%;
-    gap: 1px;
     transform: translate(-50%, -50%);
     z-index: 99;
-    width: 50vw;
-    height: 35vw;
+    width: 70vw;
+    height: 40vw;
+    display: none;
+
+    background-color: red;
+    border: 4px solid black;
+    padding: 15px;
+    box-sizing: border-box;
+
+    animation: SpawnInfo 0.5s ease-in-out normal;
+}
+.area_foto {
+    width: 40%;
+    max-width: 500px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    align-self: center;
 }
 .Back_card {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    border: 4px solid black;
-    border-radius: 5px;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
     width: 100%;
     height: 100%;
+    position: relative;
+    gap: 15px;
+    overflow-y: auto;
+    padding: 20px 10px 10px 10px;
+}
+.pokemonID{
+    font-size: 5vw;
+    text-align: center;
+}
+.pokemonGen{
+    font-size: 3vw;
+    text-align: center;
 }
 .pokemon_cardinfo{
-    position: absolute;
-    left: 3%;
-    width: 30%;
+    width: 90%;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 20px;
+}
+.info_pokemon {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    gap: 1vw;          
+    padding: 15px;
+    box-sizing: border-box;
+
+    overflow-y: auto;
+    max-height: 100%;
+}
+p{
+    font-size: 1.6vw;
 }
 .pokemon_nome{
    font-size: 3vw;
+   text-align: center;
+   text-transform: uppercase;
+}
+.pokemonTipo{
+    font-size: 1.5vw;
+    text-align: center;
+    text-transform: uppercase;
 }
 #btn_sair{
-    position: absolute; 
-    top: 10px; 
-    right: 10px; 
-    cursor: pointer; 
-    background: #000; 
-    color: #fff; 
-    border: 2px solid #fff; 
-    padding: 5px 10px; 
+position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    background: #ef5350;
+    color: #fff;
+    border: 3px solid #000;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 5px 12px;
+    &:hover {
+    background: #c62828;
+}
 }
 .Fim{
     display: flex;
@@ -289,77 +352,3 @@ body{
     }
     #N_Pagina::-webkit-outer-spin-button, #N_Pagina::-webkit-inner-spin-button{ -webkit-appearance: none; }
 }
-
-
-
-.pokemonNivel{
-   
-
-.pokemonTipo{
-    display: flex;
-    position: absolute;
-    font-size: 2vw;
-    height: auto;
-    left: 48%;
-    bottom: 80%;
-}
-
-.pokemonsobre{
-
-}
-
-.pokemonTamanho{
-   
-}
-.pokemonPeso{
-    position: absolute;
-    left: 40%;
-    bottom: 40%;
-    font-size: 1.5vw;
-}
-
-.pokemonHab_principal{
-  
-}   
-
-.pokemonHab_oculta{
-  
-.pokemonFraqueza{
-};
-}
-.pokemonEvolucoes{
-    
-}
-
-.pokemonGen{
-    position: absolute;
-    left: 3%;
-    bottom: 45%;
-    font-size: 1.5vw;
-}
-
-.pokemonID{
-   
-}
-
-.info_pokemon {
-    display: flex;
-    align-items:flex-end;
-    text-align: right;
-    flex-direction: column;
-    width: 100%;
-    gap: 4px;          
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-
-
-
-
-
-
-
-
-
-

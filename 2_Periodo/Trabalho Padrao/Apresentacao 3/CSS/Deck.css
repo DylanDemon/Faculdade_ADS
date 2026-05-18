@@ -113,7 +113,7 @@ body{
     animation: iniciar 1s ease-in-out normal;
     }
     #Titulo{
-        width: 25vw;       /* Título um pouco maior */
+        width: 25vw;
     }
     #B_Deck, #B_Login{
         width: 12vw
@@ -125,7 +125,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px; /* Espaço entre os decks */
+    gap: 10px;
     padding: 20px;
     width: 100%;
 }
@@ -149,16 +149,16 @@ body{
 }
 .Area_Deck1, .Area_Deck2, .Area_Deck3 {
     display: flex;
-    flex-wrap: wrap; /* Se tiver muitos pokémons, eles pulam linha */
-    justify-content: center; /* Centraliza os pokémons no deck */
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     
-    width: 85vw; /* Ligeiramente menor que a faixa de título para harmonia */
+    width: 85vw;
     min-height: 10vw; 
     padding: 20px;
-    margin-bottom: 30px; /* Espaço antes do próximo deck */
+    margin-bottom: 30px;
     
-    background: rgba(0, 0, 0, 0.05); /* Um fundo sutil para visualizar a área */
+    background: rgba(0, 0, 0, 0.05);
     border-radius: 10px;
 }
 .Area_Deck1 img, .Area_Deck2 img, .Area_Deck3 img{
@@ -168,5 +168,5 @@ body{
     transition: transform 0.2s;
 }
 .Area_Deck1 img:hover {
-    transform: scale(1.1); /* Dá um zoom de leve quando passa o mouse */
+    transform: scale(1.1);
 }

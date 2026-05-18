@@ -11,7 +11,7 @@ const dados = CarregarStorage();
 function PokemonsMostrar(){
     try {
         if (!container) {
-            console.error("Erro: O elemento #poke_contain não foi encontrado no HTML!");
+            console.error("Erro: O elemento #poke_contain nao foi encontrado no HTML!");
             return;
         }       
         let Lista= PokeLimits();
@@ -39,22 +39,24 @@ function PokemonsMostrar(){
                     if(Card_Info){
                         Card_Info.style.display = "block";
                         Card_Info.innerHTML = `
-                            <div class="Back_card" style="background-color: red;">
-                            <button id="btn_sair">X</button>
-                                <img src="${pokemon.imagem}" alt="${pokemon.ID}" class="pokemon_cardinfo"> 
+                            <div class="Back_card">
+                                <button id="btn_sair">X</button>
+                                <div class="area_foto">
+                                    <P class="pokemonID">#${pokemon.ID}</P>
+                                    <img src="${pokemon.imagem}" alt="${pokemon.ID}" class="pokemon_cardinfo"> 
+                                    <p class="pokemonGen">${pokemon.Gen}</p>
+                                </div>
                                 <div class="info_pokemon">
-                                <p class="pokemon_nome">${pokemon.nome}</p>
-                                <P class="pokemonNivel">Nivel: ${pokemon.nivel}</P>
-                                <p class="pokemonTipo"> ${pokemon.tipo}</p>
-                                <p class="pokemonsobre">${pokemon.sobre}</p>
-                                <P class="pokemonTamanho">Tamanho: ${pokemon.tamanho}</P>
-                                <p class="pokemonPeso">Peso: ${pokemon.peso}</p>
-                                <P class="pokemonHab_principal">Habilidades Principais: ${pokemon.hab_principal}</P>
-                                <p class="pokemonHab_oculta">Habilidades Ocultas: ${pokemon.hab_oculta}</p>
-                                <P class="pokemonFraqueza">Fraquezas: ${pokemon.fraqueza}</P>
-                                <P class="pokemonEvolucoes">Evolução: ${pokemon.evolucoes}</P>
-                                <p class="pokemonGen">Geração: ${pokemon.gen}</p>
-                                <P class="pokemonID">ID: ${pokemon.ID}</P>
+                                    <h1 class="pokemon_nome">${pokemon.nome.toUpperCase()}</h1>
+                                    <h2 class="pokemonTipo">${pokemon.tipo}</h2>
+                                    <P class="pokemonNivel">Nivel: ${pokemon.nivel}</P>
+                                    <P class="pokemonTamanho">Tamanho: ${pokemon.tamanho}</P>
+                                    <p class="pokemonPeso">Peso: ${pokemon.peso}</p>
+                                    <P class="pokemonHab_principal">Habilidades Principais: ${pokemon.hab_principal}</P>
+                                    <p class="pokemonHab_oculta">Habilidades Ocultas: ${pokemon.hab_oculta}</p>
+                                    <P class="pokemonFraqueza">Fraquezas: ${pokemon.fraqueza}</P>
+                                    <p class="pokemonsobre">${pokemon.sobre}</p>
+                                    <P class="pokemonEvolucoes">Evolucao: ${pokemon.evolucoes}</P>
                                 </div>
 
 
@@ -80,7 +82,7 @@ function PokemonsMostrar(){
 
     } 
     catch (erro) {
-        console.error("DEU UM ERRO NO FUNÇAO >> PokemonsMostrar << LOCALIZADO NA PokemonsMostrar.js" + erro.stack);
+        console.error("DEU UM ERRO NO FUNcAO >> PokemonsMostrar << LOCALIZADO NA PokemonsMostrar.js" + erro.stack);
     }
 }
 export {container,PokemonsMostrar};
