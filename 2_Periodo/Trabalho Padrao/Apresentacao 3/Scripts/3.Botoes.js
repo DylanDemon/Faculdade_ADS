@@ -1,4 +1,4 @@
-import { proximaPagina, anteriorPagina } from "./PokeLimits.js"; // Adicionado .js
+import { proximaPagina, anteriorPagina } from "./3.PokeLimits.js"; // Adicionado .js
 
 const botaoHome = document.getElementById("B_Home");
 function aperteiHome() {
@@ -84,4 +84,8 @@ function aperteiAnterior(){
     }
 }
 
-export { botaoHome, botaoDeck, botaoLogin, botaoProximo, botaoAnterior, aperteiHome, aperteiDeck, aperteiLogin, aperteiProximo, aperteiAnterior};
+export 
+{ 
+    botaoHome, botaoDeck, botaoLogin, botaoProximo, botaoAnterior, 
+    aperteiHome, aperteiDeck, aperteiLogin, aperteiProximo, aperteiAnterior
+};

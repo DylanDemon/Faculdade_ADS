@@ -53,6 +53,7 @@
 }
 
 body{
+    min-height: 100vh;
     background-image: url('./Imagems_Extras/Fundo_Copia2.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -62,119 +63,123 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    max-width: 1289px;
-    height: 200px;
+    width: 70vw;
+    height: 25vw;
     gap: 5px;
-    padding: 20px;
-    margin: 0px auto;
-    margin-top: 4%;
-    margin-bottom: 0px;
+    padding: 0%;
+    margin: 0% auto;
+    margin-top: 5vw;
 }
-@media(max-width: 768px) {
+@media(max-width <= 1200px) {
     .margem_pixel {
-        flex-wrap: wrap; /* Permite que os itens "quebrem" para a linha de baixo se necessário */
-        justify-content: space-around;
+        width: 80vw;
+        height: auto;
+        flex-wrap: wrap; 
     }
     .card{
         width: 150px;
         height: 210px;
     }
     #Titulo {
-        width: 80%; /* No celular o título fica grande no topo */
+        width: 100%; 
     }
 
-    #B_Pokemons, #B_Deck, #B_Login {
-        width: 28%; /* Os botões ficam menores para caberem lado a lado abaixo do título */
+    #B_Deck, #B_Login {
+        width: 35%;
+        margin-left: 1px;
+    }
+    #B_Home{
+        width: 40%;
     }
 }
 .margem_pixel{
     display: flex;
-    margin: 0 auto;
     background-image: url(./Imagems_Extras/Margem_PixelMon.png);
     background-position: center center;
-    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items:center;
+   
+    gap: 1vw;
+    padding: 5vw;
 
-
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 2% 4%;
- /* Padding em % ajuda a manter o conteúdo longe das bordas da imagem */
-    /* Ocupa quase toda a largura da tela */
-    max-width: 1300px; /* Mas não cresce infinitamente no PC */
+    max-width: 70vw;
     height: auto;
-    min-height: 140px;
+
+    min-height: 200px;
 
     animation: iniciar 1s ease-in-out normal
+
 }
     #Titulo img, #B_Home img, #B_Deck img, #B_Login img{
-    margin: 0;
-    max-width: 100%;
-    height: auto;
-    display: block;
     animation: iniciar 1s ease-in-out normal;
     }
     #Titulo{
-        width: 40%;       /* Título um pouco maior */
+        width: 25vw;       /* Título um pouco maior */
     }
     #B_Deck, #B_Login{
-        width: 20%
+        width: 12vw
     }
     #B_Home{
-        width: 65px;
+        width: 5vw;
     }
+/* #region Login*/
 .Area_Login {
     display: flex;
-    flex-direction: column; /* Coloca o título em cima e a div de campos embaixo */
-    width: 90vw;
-    height: 75vh;
-    gap: 70px;              /* <--- Ajuste este valor para aumentar a distância entre LOGIN e os inputs */
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50vw;
+    height: 50vw;
     
-    /* Suas configurações de fundo */
     background-image: url('./Imagems_Extras/Login.png');
     background-position: center center;
     background-size: contain;
     background-repeat: no-repeat;
 
-    align-items: center;    /* Centraliza os dois horizontalmente */
-    justify-content: center; /* Centraliza o bloco todo verticalmente no fundo */
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
     animation: iniciar 1.5s ease-in-out normal;
-        .Campos_Login {
-        display: flex;
-        flex-direction: column; /* Deixa e-mail, senha e botão um embaixo do outro */
-        justify-content: center;
-        align-items: center;
-        gap: 10px;              /* Espaço entre cada campo de digitação */
-        width: 40%;             /* Garante que os inputs não fiquem largos demais */
-    }
-
-    .Campos_Login input, .Campos_Login button {
-        padding: 5%;
-        padding-right: 30%;
-        font-size: 18px;
-        border-radius: 20px;     /* Opcional: deixa as bordas arredondadas */
-        border: 2px solid #000000;
-    }
-    .Campos_Login button {
-        &:hover{
-            background-color: blue;
-        }
-    }
 }
-.Titulo_Login{
-    font-family: 'Aseprite Mini Font';
-    font-size: 6vw;
-    font-weight: 100;
-    font-style: normal;
-    color: rgb(255, 213, 0);
+.Titulo_Login {
+    font-size: 9vw;
+    color: yellow;
+    margin-top: 5vw;
+    text-shadow: 0.3vw 0.3vw 0px #000;
 }
-.CriarContaText{
+.Campos_Login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    gap: 1.5vw;
+}
+.Campos_Login input, .Campos_Login button {
+    padding: 1vw 2vw; 
+    width: 30vw; 
+    font-size: 1.2vw;
+    border-radius: 0.8vw;
+    border: 0.2vw solid #111111;
+    outline: none;
+}
+.Campos_Login button {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+}
+.Campos_Login button:hover {
+    background-color: blue;
+    color: white;
+}
+.CriarContaText {
     color: aqua;
-    &:hover{
-        transition: 0.1s ease-in-out;
-        transform: scalex(1.3);
-        transform: scaley(1.3);
-        color: blue;
-    }
+    font-size: 1.5vw;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
 }
+.CriarContaText:hover {
+    transform: scale(1.2); 
+    color: blue;
+}
+/*  #endregion */
