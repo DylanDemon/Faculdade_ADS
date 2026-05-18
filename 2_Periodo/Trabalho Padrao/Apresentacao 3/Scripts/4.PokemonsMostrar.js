@@ -43,7 +43,7 @@ function PokemonsMostrar(){
                                 <button id="btn_sair">X</button>
                                 <div class="area_foto">
                                     <P class="pokemonID">#${pokemon.ID}</P>
-                                    <img src="${pokemon.imagem}" alt="${pokemon.ID}" class="pokemon_cardinfo"> 
+                                    <img src="${pokemon.sprite}${pokemon.ID}.gif" alt="${pokemon.ID}" class="pokemon_cardinfo"> 
                                     <p class="pokemonGen">${pokemon.Gen}</p>
                                 </div>
                                 <div class="info_pokemon">
