@@ -1,6 +1,6 @@
 import pokemons from "./1.ListaPokemons.js";
 import { PokemonsMostrar } from "./4.PokemonsMostrar.js";
-import {PokemonsFiltrado } from "./2.Buscador.js";
+import {PokemonsFiltrado } from "./2.Procurador.js";
 
 const getpInput = () => document.getElementById("N_Pagina");
 const pInput = getpInput();
@@ -13,9 +13,9 @@ function AtualPaginaSet(Valor){AtualPagina = Valor;}
 
 function PokemonsPorLargura(){
     try {
-        if (largura < 768) return 12;    // Celular mostra poucos para carregar rápido
-        else if (largura < 1200) return 12;  // Tablet
-        else return 24;                      // PC de 17 polegadas ou mais
+        if (largura < 768) return 12;   
+        else if (largura < 1200) return 16;
+        else return 24;          
     } 
     catch (error) {
         console.error("DEU UM ERRO NO FUNÇAO >> PokemonsPorLargura << LOCALIZADO NA PokeLimits.js" + erro.stack);
