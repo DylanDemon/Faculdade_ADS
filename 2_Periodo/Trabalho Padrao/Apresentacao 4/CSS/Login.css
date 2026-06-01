@@ -1,0 +1,185 @@
+:root{
+    --cor-principal: black
+}
+@font-face{
+    font-family: 'Aseprite Font';
+    src: url(./Fonts/aseprite.otf) format('opentype');
+    font-weight:normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Aseprite Mini Font';
+    src: url(./Fonts/aseprite-mini.otf) format('opentype');
+    font-weight:normal;
+    font-style: normal;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    image-rendering: pixelated;
+    font-family: 'Aseprite Font';
+    vertical-align: middle;
+}
+@keyframes iniciar {
+    0% {
+        transform: translateY(-100px);
+        opacity: 0%;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 100%;
+    }
+}
+@keyframes CardSpawn{
+    0%{
+        transform: translateX(-50px);
+        opacity: 0%;
+        }
+    100%{
+        transform: translateX(0px);
+        opacity: 100%;
+    }
+}
+@keyframes CardDespawn{
+        0%{
+        transform: translateX(0px);
+        opacity: 0%;
+        }
+    100%{
+        transform: translateX(-50px);
+        opacity: 100%;
+    }
+}
+
+body{
+    min-height: 100vh;
+    background-image: url('./Imagems_Extras/Fundo_Copia2.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.Inicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    height: 25vw;
+    gap: 5px;
+    padding: 0%;
+    margin: 0% auto;
+    margin-top: 5vw;
+}
+@media(max-width <= 1200px) {
+    .margem_pixel {
+        width: 80vw;
+        height: auto;
+        flex-wrap: wrap; 
+    }
+    .card{
+        width: 150px;
+        height: 210px;
+    }
+    #Titulo {
+        width: 100%; 
+    }
+
+    #Botao_Deck, #Botao_Login {
+        width: 35%;
+        margin-left: 1px;
+    }
+    #Botao_Home{
+        width: 40%;
+    }
+}
+.margem_pixel{
+    display: flex;
+    background-image: url(./Imagems_Extras/Margem_PixelMon.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items:center;
+   
+    gap: 1vw;
+    padding: 5vw;
+
+    max-width: 70vw;
+    height: auto;
+
+    min-height: 200px;
+
+    animation: iniciar 1s ease-in-out normal
+
+}
+    #Titulo img, #Botao_Home img, #Botao_Deck img, #Botao_Login img{
+    animation: iniciar 1s ease-in-out normal;
+    }
+    #Titulo{
+        width: 25vw;
+    }
+    #Botao_Deck, #Botao_Login{
+        width: 12vw
+    }
+    #Botao_Home{
+        width: 5vw;
+    }
+/* #region Login*/
+.Area_Login {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 50vw;
+    height: 50vw;
+    
+    background-image: url('./Imagems_Extras/Login.png');
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+    animation: iniciar 1.5s ease-in-out normal;
+}
+.Titulo_Login {
+    font-size: 9vw;
+    color: yellow;
+    margin-top: 5vw;
+    text-shadow: 0.3vw 0.3vw 0px #000;
+}
+.Campos_Login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    gap: 1.5vw;
+}
+.Campos_Login input, .Campos_Login button {
+    padding: 1vw 2vw; 
+    width: 30vw; 
+    font-size: 1.2vw;
+    border-radius: 0.8vw;
+    border: 0.2vw solid #111111;
+    outline: none;
+}
+.Campos_Login button {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s;
+}
+.Campos_Login button:hover {
+    background-color: blue;
+    color: white;
+}
+.CriarContaText {
+    color: aqua;
+    font-size: 1.5vw;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+.CriarContaText:hover {
+    transform: scale(1.2); 
+    color: blue;
+}
+/*  #endregion */
