@@ -84,12 +84,21 @@ body{
         width: 100%; 
     }
 
-    #Botao_Deck, #Botao_Login {
-        width: 35%;
-        margin-left: 1px;
+    #Botao_Deck, #Botao_Login{
+        width: 12vw;
+        cursor: pointer;
+         &:active{
+        transform: translateX(5%) translateY(5%);
+        filter: brightness(70%);
+        }
     }
     #Botao_Home{
-        width: 40%;
+        width: 5vw;
+        cursor: pointer;
+        &:active{
+        transform: translateX(5%) translateY(5%);
+        filter: brightness(70%);
+        }
     }
 }
 .margem_pixel{
