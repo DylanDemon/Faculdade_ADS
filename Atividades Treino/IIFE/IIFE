@@ -1,0 +1,56 @@
+1. 
+(function ()
+{ 
+    console.log("Bem-vindo ao estudo de IIFEs");
+})()
+
+2.
+(function(a, b)
+{
+let soma = a + b;
+console.log(soma);
+})(5, 5)
+
+3.
+let media = (function(nota1, nota2, nota3){
+    let soma = nota1 + nota2 + nota3;
+    return(soma/3);
+})(5,7,9)
+console.log(media)
+
+4.
+let numero = (function(){
+    let contador = 0;
+    return{
+        incrementar : function(){
+            contador++;
+            console.log(contador);
+        },
+        obterValor : function(){
+            return contador;
+        }
+    }
+})()
+numero.incrementar();
+console.log(numero.obterValor());
+
+5.
+((a, b) =>
+{
+let soma = a + b;
+console.log(soma);
+})(5, 5)
+
+6.
+const config = (() => {
+    const info = {
+        ambiente: "desenvolvimento",
+        debug: true,
+        versao: "1.0.0"
+    };
+    console.log(info.ambiente)
+    console.log(info.debug)
+    console.log(info.versao)
+})()
+console.log(config);
+
