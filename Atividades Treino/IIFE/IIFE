@@ -48,9 +48,7 @@ const config = (() => {
         debug: true,
         versao: "1.0.0"
     };
-    console.log(info.ambiente)
-    console.log(info.debug)
-    console.log(info.versao)
+    return info
 })()
-console.log(config);
+console.log(config.ambiente, config.debug, config.versao);
 
