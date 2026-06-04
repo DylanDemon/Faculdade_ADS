@@ -36,6 +36,10 @@ function PokemonsMostrar(){
                     </div>
                 `;
                 card.addEventListener('click', () =>{
+                    const tipo1 = pokemon.tipo[0];
+                    const tipo2 = pokemon.tipo[1];
+                    const imgTipo1 = `<img src="./CSS/AsepriteDesign/Design CardInfo/${tipo1}.png" alt="${tipo1}">`;
+                    const imgTipo2 = `<img src="./CSS/AsepriteDesign/Design CardInfo/${tipo2}.png" alt="${tipo2}">`;
                     if(Card_Info){
                         Card_Info.style.display = "block";
                         Card_Info.innerHTML = `
@@ -48,14 +52,17 @@ function PokemonsMostrar(){
                                 </div>
                                 <div class="info_pokemon">
                                     <h1 class="pokemon_nome">${pokemon.nome.toUpperCase()}</h1>
-                                    <h2 class="pokemonTipo">${pokemon.tipo}</h2>
+                                    <div class="pokemonTipo">
+                                        ${tipo1 ? imgTipo1 : ''}
+                                        ${tipo2 ? imgTipo2 : ''}
+                                    </div>
                                     <P class="pokemonNivel">Nivel: ${pokemon.nivel}</P>
                                     <P class="pokemonTamanho">Tamanho: ${pokemon.tamanho}</P>
-                                    <p class="pokemonPeso">Peso: ${pokemon.peso}</p>
+                                    <p class="pokemonPeso">Peso: ${pokemon.peso} KG</p>
                                     <P class="pokemonHab_principal">Habilidades Principais: ${pokemon.hab_principal}</P>
                                     <p class="pokemonHab_oculta">Habilidades Ocultas: ${pokemon.hab_oculta}</p>
                                     <P class="pokemonFraqueza">Fraquezas: ${pokemon.fraqueza}</P>
-                                    <p class="pokemonsobre">${pokemon.sobre}</p>
+                                    <p class="pokemonsobre">(${pokemon.sobre})</p>
                                     <P class="pokemonEvolucoes">Evolucao: ${pokemon.evolucoes}</P>
                                 </div>
 
