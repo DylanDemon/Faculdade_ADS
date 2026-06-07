@@ -4,6 +4,10 @@ async function PokemonData() {
     const dados = await response.json();
     
     console.log(dados);
+    console.log(dados.name);
+    console.log(dados.id);
+    console.log(dados.types[0].type.name);
+    console.log(dados.sprites.front_default);
 }
 
 buscarPokemon();
