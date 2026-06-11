@@ -1,3 +1,5 @@
+import { ConectarApi } from './Scripts/1.PokemonApi.js';
+
 import {container, PokemonsMostrar} from './Scripts/4.PokemonsMostrar.js';
 import {PokeLimits, Pagina, pInput} from './Scripts/3.PokeLimits.js';
 import {LocalPagina,aperteiProximo, aperteiAnterior} from './Scripts/3.Botoes.js';
@@ -10,6 +12,15 @@ const botaoDeck = document.getElementById("Botao_Deck");
 const botaoLogin = document.getElementById("Botao_Login");
 const botaoProximo = document.getElementById("Botao_Proximo");
 const botaoAnterior = document.getElementById("Botao_Anterior");
+
+document.addEventListener('DOMContentLoaded', CarregarAPI);
+
+async function CarregarAPI(){
+    const API = await ConectarApi;
+
+    PokemonsFiltrado(API);
+
+}
 
 function init(){    
     if(botaoHome)     botaoHome.addEventListener("click", (e) => LocalPagina("index"))
@@ -35,3 +46,5 @@ function init(){
     console.log("Pokemons Iniciado");
 }
 document.addEventListener('DOMContentLoaded', init);
+
+export {CarregarAPI}

@@ -1,4 +1,5 @@
 import pokemons from "./1.ListaPokemons.js";
+import ConectarApi from "./1.PokemonApi.js";
 import { PokemonsMostrar } from "./4.PokemonsMostrar.js";
 import {PokemonsFiltrado } from "./2.Procurador.js";
 

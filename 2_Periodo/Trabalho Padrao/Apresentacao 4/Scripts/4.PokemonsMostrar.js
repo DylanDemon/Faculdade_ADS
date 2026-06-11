@@ -1,5 +1,6 @@
 //#region Imports
 import pokemons from "./1.ListaPokemons.js";
+import ConectarApi from "./1.PokemonApi.js";
 import { CarregarStorage } from "./1.LocalStorage.js";
 import {f_Favoritos } from "./2.Favoritos.js";
 import {PokeLimits} from "./3.PokeLimits.js";
