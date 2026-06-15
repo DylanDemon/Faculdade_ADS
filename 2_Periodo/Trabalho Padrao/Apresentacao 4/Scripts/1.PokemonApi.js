@@ -1,6 +1,9 @@
 import { Traductor } from "./1.Tradutor.js";
-
+import { PokemonsPorLargura, AtualPagina } from "./3.PokeLimits.js";
+import { PokemonsMostrar } from "./4.PokemonsMostrar.js";
+let PokemonsPorPagina = PokemonsPorLargura();
 let ListaGlobalPokemons = [];
+let todosOsNomesDoBanco = [];
 
 async function CarregarPokemons() {
     try {
@@ -104,31 +107,48 @@ async function ListaPokemons(Pokemon){
     }
 }
 
-window.addEventListener("DOMContentLoaded", async () => {
-    const TodosNomes = await CarregarPokemons();
+async function AtualizarPaginaPokemon(PaginaAlvo = 1) {
+    const container = document.getElementById('poke_contain');
+    if (!container) return;
 
-    if (!TodosNomes || TodosNomes.length === 0) {
+    if (!PaginaAlvo) PaginaAlvo = 1;
+
+    container.innerHTML = "<p style='color: white; text-align: center;'>Carregando Pokémons...</p>"; 
+
+
+    ListaGlobalPokemons = []; 
+
+    const inicio = (PaginaAlvo - 1) * 20;
+    const fim = inicio + 20;
+
+    console.log(`[API] Buscando do Pokémon número ${inicio} até o ${fim} para a página ${PaginaAlvo}`);
+
+    for (let i = inicio; i < fim && i < todosOsNomesDoBanco.length; i++) {
+        const itemAtual = todosOsNomesDoBanco[i];
+        const nomeCerto = itemAtual ? itemAtual.nome : null;
+
+        if (nomeCerto) {
+            let pokemonDetalhado = await ListaPokemons(nomeCerto); 
+            if (pokemonDetalhado) {
+                ListaGlobalPokemons.push(pokemonDetalhado);
+            }
+        }
+    }
+
+    container.innerHTML = "";
+    await PokemonsMostrar();
+}
+
+window.addEventListener("DOMContentLoaded", async () => {
+    todosOsNomesDoBanco = await CarregarPokemons();
+
+    if (!todosOsNomesDoBanco || todosOsNomesDoBanco.length === 0) {
         console.error("Erro: A lista de nomes de Pokémons veio vazia!");
         return;
     }
 
-    for (let i = 0; i < 20; i++) {
-        const itemAtual = TodosNomes[i];
-        
-        // CORREÇÃO: Garante que estamos pegando a propriedade de texto 'nome'
-        const nomeCerto = itemAtual ? (itemAtual.nome || itemAtual.name) : null;
-
-        if (nomeCerto) {
-            // CORREÇÃO: Agora passa a STRING "bulbasaur" e não o objeto {}
-            let pokemonDetalhado = await ListaPokemons(nomeCerto); 
-            
-            if (pokemonDetalhado) {
-                ListaGlobalPokemons.push(pokemonDetalhado);
-            }
-        } else {
-            console.warn(`Item na posição ${i} está com estrutura inválida:`, itemAtual);
-        }
-    }
+    // 2. Roda a função para carregar e mostrar a primeira página
+    await AtualizarPaginaPokemon();
 });
 
-export{ListaPokemons, CarregarPokemons, ListaGlobalPokemons}
+export{ListaPokemons, CarregarPokemons, AtualizarPaginaPokemon, ListaGlobalPokemons}

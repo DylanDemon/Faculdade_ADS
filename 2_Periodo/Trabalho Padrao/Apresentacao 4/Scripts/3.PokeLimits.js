@@ -1,5 +1,5 @@
 import pokemons from "./1.ListaPokemons.js";
-import { ListaPokemons, CarregarPokemons, ListaGlobalPokemons } from "./1.PokemonApi.js";
+import { ListaPokemons, CarregarPokemons, AtualizarPaginaPokemon, ListaGlobalPokemons } from "./1.PokemonApi.js";
 import { PokemonsMostrar } from "./4.PokemonsMostrar.js";
 import {PokemonsFiltrado } from "./2.Procurador.js";
 
@@ -29,7 +29,7 @@ function PokeLimits(){
     try {
         const inicio = (AtualPagina - 1) * PokemonsPorPagina;
         const fim = inicio + PokemonsPorPagina;
-        return PokemonsFiltrado().slice(inicio,fim);
+        return PokemonsFiltrado();
     } 
     catch (erro) {
         console.error("DEU UM ERRO NO FUNÇAO >> PokeLimits << LOCALIZADO NA PokeLimits.js" + erro.stack);
@@ -37,31 +37,37 @@ function PokeLimits(){
 }
 
 //#region Pagina
-function proximaPagina() {
+async function proximaPagina() {
     try {
-        if(AtualPagina<TotalPagina()) {
-            AtualPagina++
-            const pInput = document.getElementById("N_Pagina");
-            if(pInput){
-                pInput.value = AtualPagina;
-                console.log("Botão apertado!")
-            }
-            PokemonsMostrar();
+        const pInput = document.getElementById("N_Pagina");
+
+        if (AtualPagina < TotalPagina()) {
+            AtualPagina++;
+            
+            if (pInput) pInput.value = AtualPagina;
+
+            console.log("Avançando para a página: " + AtualPagina);
+
+            await AtualizarPaginaPokemon(AtualPagina);
             return true;
-        }
-        else{
+        } 
+        else {
             AtualPagina = 1;
-            pInput.value = 1;
-            PokemonsMostrar();
+            
+            if (pInput) pInput.value = 1;
+
+            console.log("Resetando para a página 1.");
+
+            await AtualizarPaginaPokemon(1);
             return false;
         } 
     }
     catch (error) {
-        console.error("DEU UM ERRO NO FUNÇAO >> proximaPagina << LOCALIZADO NA PokeLimits.js" + erro.message);
+        console.error("DEU UM ERRO NO FUNÇÃO >> proximaPagina << LOCALIZADO NA PokeLimits.js: " + error.message);
     }
 }
 
-function anteriorPagina() {
+async function anteriorPagina() {
     try {
         if(AtualPagina>1){
             AtualPagina--;
@@ -70,14 +76,14 @@ function anteriorPagina() {
                 pInput.value = AtualPagina;
                 console.log("Botão apertado!")
             }
-            PokemonsMostrar();
+            await AtualizarPaginaPokemon()
             return true;
         }
         else {
             AtualPagina = TotalPagina();
             pInput.value = TotalPagina();
             console.log("Botão apertado!")
-            PokemonsMostrar();
+            await AtualizarPaginaPokemon()
             return false;
         }
     } 
@@ -104,4 +110,4 @@ function Pagina(){
     }
 }
 //#endregion
-export{AtualPaginaSet,proximaPagina,anteriorPagina,PokeLimits, Pagina, pInput};
+export{AtualPaginaSet,proximaPagina,anteriorPagina,PokeLimits, Pagina, pInput, PokemonsPorLargura, AtualPagina};

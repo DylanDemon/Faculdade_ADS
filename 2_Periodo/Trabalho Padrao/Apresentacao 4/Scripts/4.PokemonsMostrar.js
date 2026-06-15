@@ -16,8 +16,8 @@ async function PokemonsMostrar(){
             console.error("Erro: O elemento #poke_contain nao foi encontrado no HTML!");
             return;
         }       
-        let Lista= await PokemonsFiltrado();
         container.innerHTML = "";
+        let Lista= ListaGlobalPokemons;
 
         if (!Lista || Lista.length === 0) {
             console.warn("Nenhum pokémon encontrado para exibir.");
@@ -96,7 +96,6 @@ async function PokemonsMostrar(){
                     container.appendChild(card);
                 }   
             })
-
     } 
     catch (erro) {
         console.error("DEU UM ERRO NO FUNcAO >> PokemonsMostrar << LOCALIZADO NA PokemonsMostrar.js" + erro.stack);

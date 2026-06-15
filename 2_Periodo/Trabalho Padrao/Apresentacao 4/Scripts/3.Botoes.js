@@ -11,10 +11,10 @@ function LocalPagina(Local) {
     }
 }
 
-function aperteiProximo(){
+async function aperteiProximo(){
     try {
-        setTimeout(() => {
-            proximaPagina();
+        setTimeout( async () => {
+            await proximaPagina();
         }, 100);
     } 
     catch (error) {
@@ -22,9 +22,9 @@ function aperteiProximo(){
     }
 }
 
-function aperteiAnterior(){
+async function aperteiAnterior(){
     try {
-        setTimeout(() => {
+        setTimeout(async () => {
             anteriorPagina();
         }, 100);
     } 
