@@ -4,6 +4,7 @@ import {f_Favoritos } from "./2.Favoritos.js";
 import {PokeLimits} from "./3.PokeLimits.js";
 
 
+
 const Card_Info = document.getElementById('card_info');
 const container = document.getElementById('poke_contain');
 const dados = CarregarStorage();
