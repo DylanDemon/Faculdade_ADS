@@ -47,11 +47,10 @@ const url = "https://pokeapi.co/api/v2/pokemon/";
     }
 
     fetch(`${url}${pokemonNome}`)                                                                                             
-        .then(response => {
-            if (!response.ok) {
-                throw new Error("Pokémon não encontrado!");
-            }                                                                            
-        .then(pokemon => {                                                                                               
+        .then(response => { 
+                if (!response.ok)       throw new Error("Pokémon não encontrado!");     
+        })                                                       
+        .then((pokemon) => {                                                                                               
             console.log(pokemon);                                                                                        
             pokemonApi.innerHTML = `                                                 
                 <h1>${pokemon.name.toUpperCase()}</h1>                                      
@@ -68,5 +67,4 @@ const url = "https://pokeapi.co/api/v2/pokemon/";
             `;
         })
         .catch(error => console.error("Erro ao buscar dados da API: ", error));                                                   }
-
 export {Texto_Buscar, botao_Buscar, PokemonsFiltrado, Procurar}
