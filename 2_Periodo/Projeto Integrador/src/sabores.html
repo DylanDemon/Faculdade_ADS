@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sabores - Sorveteria Leal</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- CSS DO MODAL E PAGINAÇÃO -->
+  <style>
+
+    /* GRID DOS CARDS NA PÁGINA DE SABORES */
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(3, 280px);
+      justify-content: center;
+      gap: 30px;
+    }
+
+    /* MODAL */
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.6);
+      z-index: 1000;
+    }
+
+    .modal-content {
+      background: linear-gradient(135deg, #fff8fa, #ffe8ef);
+      margin: 5% auto;
+      padding: 30px;
+      width: 750px;
+      border-radius: 20px;
+      border: 2px solid var(--vinho);
+      position: relative;
+      overflow: visible;
+      box-shadow:
+        0 20px 40px rgba(0,0,0,.15),
+        0 40px 80px rgba(0,0,0,.10);
+    }
+
+    .modal-body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 20px;
+      padding: 10px;
+    }
+
+    .produto-img {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .modal-body img {
+      width: 300px;
+      position: relative;
+      z-index: 1;
+      filter: drop-shadow(0 25px 25px rgba(0,0,0,.20));
+      animation: flutuar 3s ease-in-out infinite;
+    }
+
+    @keyframes flutuar {
+      0%   { transform: translateY(-15px); }
+      50%  { transform: translateY(-25px); }
+      100% { transform: translateY(-15px); }
+    }
+
+    .detalhes h2 {
+      color: var(--vinho);
+      font-size: 2rem;
+      margin-bottom: 15px;
+      line-height: 1.2;
+    }
+
+    .detalhes p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+      color: #555;
+    }
+
+    .preco-atual {
+      font-size: 3rem;
+      color: var(--rosa);
+      font-weight: 700;
+    }
+
+    .preco-antigo {
+      text-decoration: line-through;
+      color: var(--cinza);
+      font-size: 0.9rem;
+    }
+
+    .fechar {
+      position: absolute;
+      top: 15px;
+      right: 20px;
+      font-size: 30px;
+      cursor: pointer;
+      color: var(--vinho);
+    }
+
+    /* CURSOR CLICÁVEL NO CARD */
+    .card {
+      cursor: pointer;
+    }
+
+    /* PAGINAÇÃO */
+    .paginacao {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      margin: 50px 0;
+    }
+
+    .paginacao button {
+      width: 45px;
+      height: 45px;
+      border: none;
+      border-radius: 50%;
+      background: #fff;
+      color: var(--vinho);
+      font-size: 16px;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: 0 5px 15px rgba(0,0,0,.08);
+      transition: .3s;
+    }
+
+    .paginacao button:hover {
+      transform: translateY(-3px);
+    }
+
+    .paginacao .ativo {
+      background: var(--rosa);
+      color: #fff;
+    }
+
+  </style>
+</head>
+
+<body>
+
+<header>
+  <nav>
+    <div class="logo">
+      <img src="images/logo-sorveterialeal.png" class="logo-img" alt="Logo Sorveteria Leal">
+    </div>
+
+    <ul id="nav-links">
+      <li><a href="index.html">Início</a></li>
+      <li><a href="sabores.html">Sabores</a></li>
+      <li><a href="index.html#about">Sobre</a></li>
+      <li><a href="index.html#contact">Contato</a></li>
+    </ul>
+
+    <a href="https://wa.me/5545999999999" class="btn" target="_blank">
+      Peça pelo WhatsApp
+    </a>
+  </nav>
+</header>
+
+<main style="padding-top: 120px;">
+
+  <h3 class="section-title">Cardápio completo</h3>
+  <h2 class="section-subtitle">Todos os sabores</h2>
+
+  <div class="cards" id="grid-cards">
+  
+  </div>
+
+  <div class="paginacao" id="paginacao">
+    
+  </div>
+
+</main>
+
+
+<!-- MODAL -->
+<div id="modal" class="modal">
+  <div class="modal-content">
+
+    <span class="fechar" onclick="fecharModal()">&times;</span>
+
+    <div class="modal-body">
+
+      <div class="produto-img">
+        <img id="m-img" alt="Foto do sorvete">
+      </div>
+
+      <div class="detalhes">
+        <h2 id="m-titulo"></h2>
+        <p id="m-desc"></p>
+        <span class="preco-atual" id="m-preco"></span>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<script>
+
+  // ================================
+  // LISTA COMPLETA DE SABORES
+  // Para adicionar um novo sabor, basta
+  // acrescentar um objeto nesta lista.
+  // ================================
+  const todosSabores = [
+    {
+      titulo: "Sorvete Cascão Tradicional Chocolate",
+      descricao: "Sorvete de baunilha com cobertura de chocolate.",
+      preco: "16,90",
+      img: "images/sabores/sorvete chocolate.png"
+    },
+    {
+      titulo: "Sorvete Cascão Tradicional Morango",
+      descricao: "Sorvete de baunilha com cobertura de morango.",
+      preco: "15,90",
+      img: "images/sabores/sorvete morango.png"
+    },
+    {
+      titulo: "Sorvete Cascão de Brigadeiro",
+      descricao: "Cascão trufado com chocolate, sorvete de baunilha, cobertura de chocolate e granulado.",
+      preco: "18,90",
+      img: "images/sabores/sorvete brigadeiro.png"
+    },
+    {
+      titulo: "Sorvete Cascão Creme de Avelã",
+      descricao: "Cascão recheado com Creme de Avelã. Finalizado com cobertura de chocolate e um canudo wafer.",
+      preco: "18,90",
+      img: "images/sabores/sorvete cascao  avela.png"
+    },
+    {
+      titulo: "Sorvete Cascão Doce de Leite",
+      descricao: "Cascão recheado com Doce de Leite com cobertura de chocolate e um canudo wafer.",
+      preco: "18,90",
+      img: "images/sabores/sorvete cascao doce de leite.png"
+    },
+    {
+      titulo: "Sorvete Cascão Trufa",
+      descricao: "Trufado com doce de leite cremoso com cobertura de chocolate e pedaços de amendoim.",
+      preco: "18,90",
+      img: "images/sabores/sorvete cascao  trufa.png"
+    },
+    {
+      titulo: "Sorvete Cascão Confete",
+      descricao: "Cascão trufado com chocolate, sorvete de baunilha e muito confete.",
+      preco: "25,90",
+      img: "images/sabores/sorvete confete.png"
+    },
+    {
+      titulo: "Sorvete Cascão Ovomaltine",
+      descricao: "Cascão trufado com Ovomaltine.",
+      preco: "28,90",
+      img: "images/sabores/sorvete ovalmaltine.png"
+    }
+  ];
+
+
+  
+  // PAGINAÇÃO — 4 CARDS POR PÁGINA
+
+  const cardsPorPagina = 4;
+  let paginaAtual = 1;
+
+  // Calcula quantas páginas existem no total
+  const totalPaginas = Math.ceil(todosSabores.length / cardsPorPagina);
+
+
+  // Renderiza os cards da página atual na tela
+  function renderizarCards() {
+    const grid = document.getElementById('grid-cards');
+    grid.innerHTML = ""; // limpa o grid antes de inserir
+
+    // Calcula quais itens da lista pertencem a esta página
+    const inicio = (paginaAtual - 1) * cardsPorPagina;
+    const fim    = inicio + cardsPorPagina;
+    const saboresDaPagina = todosSabores.slice(inicio, fim);
+
+    // Cria um card para cada sabor da página
+    saboresDaPagina.forEach(function(sabor) {
+      const card = document.createElement('div');
+      card.className = 'card';
+
+      card.innerHTML = `
+        <img src="${sabor.img}" alt="${sabor.titulo}">
+        <div class="card-info">
+          <h3>${sabor.titulo}</h3>
+          <p class="descricao">${sabor.descricao}</p>
+          <p class="preco">R$ ${sabor.preco}</p>
+          <p class="unidade">Unidade</p>
+        </div>
+      `;
+
+      // Ao clicar no card, abre o modal com os dados do sabor
+      card.addEventListener('click', function() {
+        abrirModal(sabor.titulo, sabor.descricao, sabor.preco, sabor.img);
+      });
+
+      grid.appendChild(card);
+    });
+  }
+
+
+  // Renderiza os botões de página
+  function renderizarPaginacao() {
+    const paginacao = document.getElementById('paginacao');
+    paginacao.innerHTML = ""; // limpa antes de inserir
+
+    for (let i = 1; i <= totalPaginas; i++) {
+      const btn = document.createElement('button');
+      btn.textContent = i;
+
+      // Destaca o botão da página atual
+      if (i === paginaAtual) {
+        btn.classList.add('ativo');
+      }
+
+      // Ao clicar, troca de página e rola para o topo
+      btn.addEventListener('click', function() {
+        paginaAtual = i;
+        renderizarCards();
+        renderizarPaginacao();
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+
+      paginacao.appendChild(btn);
+    }
+  }
+
+
+  // Inicia a página
+  renderizarCards();
+  renderizarPaginacao();
+
+
+  // Funções para abrir e fechar a janela de detalhes
+  function abrirModal(titulo, desc, preco, img) {
+    document.getElementById("m-titulo").innerText = titulo;
+    document.getElementById("m-desc").innerText   = desc;
+    document.getElementById("m-preco").innerText  = "R$ " + preco;
+    document.getElementById("m-img").src          = img;
+    document.getElementById("modal").style.display = "block";
+  }
+
+  function fecharModal() {
+    document.getElementById("modal").style.display = "none";
+  }
+
+  // Fecha o modal clicando fora dele
+  document.getElementById("modal").addEventListener('click', function(e) {
+    if (e.target === document.getElementById("modal")) {
+      fecharModal();
+    }
+  });
+
+</script>
+
+</body>
+</html>
