@@ -1,7 +1,7 @@
-import { ListaPokemons, CarregarPokemons, AtualizarPaginaPokemon, ListaGlobalPokemons } from './Scripts/1.PokemonApi.js';
+import { ListaPokemons, BancoDeIDS, IDSAtuais, CarregarTodosOsPokemons} from './Scripts/1.PokemonApi.js';
 
 import {container, PokemonsMostrar} from './Scripts/4.PokemonsMostrar.js';
-import {PokeLimits, Pagina, pInput, AtualPagina} from './Scripts/3.PokeLimits.js';
+import {Pagina, pInput, AtualPagina} from './Scripts/3.PokeLimits.js';
 import {LocalPagina,aperteiProximo, aperteiAnterior} from './Scripts/3.Botoes.js';
 import { PrincipalStorage } from './Scripts/1.LocalStorage.js';
 import { mostrarTamanhoHeader } from './Scripts/1.MostrarTamanho.js';
@@ -16,10 +16,14 @@ const botaoAnterior = document.getElementById("Botao_Anterior");
 async function CarregarAPI(){
     console.log("Aguardando o banco de dados do PixelMon carregar...");
 
-    console.log("Banco de dados pronto! Total de itens na memória:", ListaGlobalPokemons.length);
-    console.log("Renderizando os Pokémons direto na tela...");
-    
-    await AtualizarPaginaPokemon(AtualPagina);
+    const TodosPokemons = await CarregarTodosOsPokemons() || [];
+    window.ListaGlobalPokemons = TodosPokemons;
+
+    console.log("[PixelMon] Banco de dados pronto! Total de itens na memória: " + window.ListaGlobalPokemons.length);
+    console.log("[PixelMon] Renderizando a primeira página direto na tela...");
+
+    const PokemonsAtuais = IDSAtuais(1);
+    await PokemonsMostrar(PokemonsAtuais);
 }
 
 async function init(){
@@ -40,7 +44,6 @@ async function init(){
         console.log("Bem-vindo de volta! Dados carregados do navegador.");
     }   
     if(!window.location.pathname.includes("Deck.html") && !window.location.pathname.includes("Login.html")){
-        PokeLimits();
         if(botao_Buscar)  botao_Buscar.addEventListener("click", Procurar)
     }
     mostrarTamanhoHeader();
@@ -48,5 +51,3 @@ async function init(){
     console.log("Pokemons Iniciado");
 }
 document.addEventListener('DOMContentLoaded', init);
-
-export {CarregarAPI}
