@@ -6,11 +6,11 @@ function f_Favoritos (botaoFavorito,  pokemon){
 
     let Favoritos = dados.Favoritos || [];
 
-    const index = Favoritos.indexOf(pokemon.ID);
+    const index = Favoritos.indexOf(pokemon.id);
 
     if(index === -1){
         botaoFavorito.src = "./CSS/Imagems_Extras/Favorito_1.png";
-        Favoritos.push(pokemon.ID)
+        Favoritos.push(pokemon.id)
         console.log(`Adicionado No Favoritos: ${pokemon.nome}`);
     }
     else{

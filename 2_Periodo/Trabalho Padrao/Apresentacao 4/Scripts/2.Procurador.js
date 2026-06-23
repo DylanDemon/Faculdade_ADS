@@ -1,21 +1,24 @@
-import pokemons from "./1.ListaPokemons.js";
-import { AtualPaginaSet } from "./3.PokeLimits.js";
+import { ListaPokemons, IDSAtuais, BancoDeIDS} from "./1.PokemonApi.js";
+import { AtualPaginaSet, AtualPagina} from "./3.PokeLimits.js";
 import { PokemonsMostrar } from "./4.PokemonsMostrar.js";
 const botao_Buscar = document.getElementById('Buscar_Ok')
 const Texto_Buscar = document.getElementById('Buscar')
 const Tipo_Buscar = document.getElementById('buscar-tipo')
 
-function PokemonsFiltrado(){
-        let resultado = pokemons;
+async function PokemonsFiltrado(){
+
+        let resultado = Array.isArray(window.ListaGlobalPokemons) ? [...window.ListaGlobalPokemons] : [];
+
         const Texto = Texto_Buscar.value.toLowerCase().trim();
         const Tipo = Tipo_Buscar.value.toLowerCase().trim();
         const Numero = Number(Texto)
+
         if(Texto !== ""){
                 if(!Number.isNaN(Numero)){
-                        resultado = resultado.filter(p => p.ID.toString().includes(Texto));
+                        resultado = resultado.filter(p => p.id.toString().includes(Texto));
                 }
                 else{
-                        resultado =resultado.filter(p => p.nome.includes(Texto));
+                        resultado =resultado.filter(p => p.nome.toLowerCase().includes(Texto));
                 }
         }
         if(Tipo !== ""){
@@ -27,8 +30,10 @@ function PokemonsFiltrado(){
                         return Tipo_Quebrado.every(tb => TiposPokemons.some(tP => tP.includes(tb)));
                 })
         }
-
-        return resultado;
+        window.ListaFiltradaAtiva = resultado;
+        const inicio = (AtualPagina - 1) * 20;
+        const fim = inicio + 20;
+        return resultado.slice(inicio,fim);
 }
 function Procurar(){
         AtualPaginaSet(1);

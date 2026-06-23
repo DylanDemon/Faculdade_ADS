@@ -11,22 +11,18 @@ function LocalPagina(Local) {
     }
 }
 
-function aperteiProximo(){
+async function aperteiProximo(){
     try {
-        setTimeout(() => {
-            proximaPagina();
-        }, 100);
+            await proximaPagina();
     } 
     catch (error) {
         console.error("DEU UM ERRO NO FUNÇAO >> aperteiProximo << LOCALIZADO NA Botoes.js" + erro.message);
     }
 }
 
-function aperteiAnterior(){
+async function aperteiAnterior(){
     try {
-        setTimeout(() => {
-            anteriorPagina();
-        }, 100);
+            await anteriorPagina();
     } 
     catch (error) {
         console.error("DEU UM ERRO NO FUNÇAO >> aperteiAnterior << LOCALIZADO NA Botoes.js" + erro.message);
