@@ -8,12 +8,17 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 
+import java.io.IOException;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
 import java.util.Locale;
 
 public class Calculadora {
 
+    @FXML
+    private void trocarProjeto2() throws IOException {
+        App.setRoot("questionario");
+    }
     @FXML
     private TextField jtfNumeros;
     @FXML

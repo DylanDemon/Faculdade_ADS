@@ -5,7 +5,7 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.Pane?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="503.0" prefWidth="539.0" style="-fx-border-color: red; -fx-background-color: black;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exemplo.Calculadora">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="548.0" prefWidth="539.0" style="-fx-border-color: red; -fx-background-color: black;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exemplo.Calculadora">
    <children>
       <Button fx:id="vNum1" layoutX="23.0" layoutY="113.0" minWidth="20.0" mnemonicParsing="false" onAction="#digitar" prefHeight="70.0" prefWidth="72.0" style="-fx-border-radius: 50%; -fx-background-radius: 50%;" text="1" />
       <Button fx:id="vNum2" layoutX="115.0" layoutY="113.0" minWidth="20.0" mnemonicParsing="false" onAction="#digitar" prefHeight="70.0" prefWidth="72.0" style="-fx-border-radius: 50%; -fx-background-radius: 50%;" text="2" />
@@ -26,5 +26,6 @@
       <TextField fx:id="jtfNumeros" layoutX="24.0" layoutY="19.0" prefHeight="70.0" prefWidth="263.0" />
       <ListView fx:id="lvHistorico" layoutX="387.0" layoutY="13.0" prefHeight="470.0" prefWidth="143.0" />
       <Button fx:id="btnLimpar" layoutX="296.0" layoutY="19.0" minWidth="20.0" mnemonicParsing="false" onAction="#operacao" prefHeight="70.0" prefWidth="72.0" style="-fx-border-radius: 50%; -fx-background-radius: 50%;" text="CE" />
+      <Button layoutX="213.0" layoutY="501.0" mnemonicParsing="false" onAction="#trocarProjeto2" prefHeight="33.0" prefWidth="127.0" text="Ir Projeto 2" />
    </children>
 </Pane>
