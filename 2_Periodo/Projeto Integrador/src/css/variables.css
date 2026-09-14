@@ -1,0 +1,16 @@
+/* ===========================================
+   VARIÁVEIS DE COR DO SITE
+
+   Para trocar a paleta de cores inteira,
+   basta alterar os valores aqui.
+   Todo o resto do CSS usa var(--nome)
+   e atualiza automaticamente.
+=========================================== */
+
+:root {
+  --vinho:      #6B1628; /* cor principal - rodapé, títulos fortes */
+  --rosa:       #C8375A; /* cor secundária - botões, links, destaques */
+  --rosa-claro: #FFF0F3; /* fundo claro - seções hero e contato */
+  --texto:      #2B1010; /* cor do texto principal */
+  --cinza:      #6b6b6b; /* cor do texto secundário / parágrafos */
+}

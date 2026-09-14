@@ -1,0 +1,20 @@
+let nota1 = -100;
+let nota2 = 10;
+
+function CalcularMedia(nota1, nota2){
+    try{
+        if(typeof nota1 !== 'number' || typeof nota2 !== 'number') 
+            throw new Error("nao e numero");
+        if(nota1 < 0 || nota2 < 0)
+            throw new Error("Numero Muito Baixo");
+        if(nota1 > 10 || nota2>10)
+            throw new Error("Numero Muito Alto");
+        let media = (nota1 + nota2) / 2
+        return media;
+    }
+    catch(Error){
+        console.error("Ferrou, Deu Erro", Error)
+        return null;
+    }
+}
+console.log(CalcularMedia(nota1, nota2));
