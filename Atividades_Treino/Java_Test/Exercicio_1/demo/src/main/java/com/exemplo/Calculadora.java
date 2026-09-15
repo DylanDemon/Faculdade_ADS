@@ -51,6 +51,20 @@ public class Calculadora {
         }
     }
     @FXML
+        private void pontoDigitar(ActionEvent event){
+            String textoAtual = jtfNumeros.getText();
+            String[] partes = textoAtual.split("[+\\-*/]"); 
+            String ultimoNumero = partes.length > 0 ? partes[partes.length - 1] : "";
+
+        if (!ultimoNumero.contains(".") && !ultimoNumero.contains(",")) {
+            if (textoAtual.isEmpty() || textoAtual.endsWith(" ")) {
+                jtfNumeros.setText(textoAtual + "0.");
+            } else {
+                jtfNumeros.setText(textoAtual + ".");
+        }
+        }
+    }
+    @FXML
     private void operacao(ActionEvent event){
     if (jtfNumeros.getText().isEmpty() || jtfNumeros.getText().equals("Erro")) return;
 
