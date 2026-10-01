@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="548.0" prefWidth="539.0" style="-fx-border-color: red; -fx-background-color: black;" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exemplo.Calculadora">
+   <children>
+      <Button fx:id="vNum1" layoutX="23.0" layoutY="113.0" minWidth="20.0" mnemonicParsing="false" onAction="#digitar" prefHeight="70.0" prefWidth="72.0" style="-fx-border-radius: 50%; -fx-background-radius: 50%;" text="1" />
+      <Button fx:id="vNum2" layoutX="115.0" layoutY="113.0" minWidth="20.0" mnemonicParsing="false" onAction="#digitar" prefHeight="70.0" prefWidth="72.0" style="-fx-border-radius: 50%; -fx-background-radius: 50%;" text="2" />
+      <Button fx:id="vNum3" layoutX="201.0" layoutY="113.0" minWidth="20.0" mnemonicParsing="false" onAction="#digitar" prefHeight="70.0" prefWidth="72.0" style="-fx-border-radius: 50%; -fx-background-radius: 50%;" text="3" />
+      <Button fx:id="vNum4" layoutX="26.0" layoutY="212.0" minWidth="20.0" mnemonicParsing="false" onAction="#digitar" prefHeight="70.0" prefWidth="72.0" style="-fx-border-radius: 50%; -fx-background-radius: 50%;" text="4" />
+      <Button fx:id="vNum5" layoutX="118.0" layoutY="212.0" minWidth="20.0" mnemonicParsing="false" onAction="#digitar" prefHeight="70.0" prefWidth="72.0" style="-fx-border-radius: 50%; -fx-background-radius: 50%;" text="5" />
+      <Button fx:id="vNum6" layoutX="204.0" layoutY="212.0" minWidth="20.0" mnemonicParsing="false" onAction="#digitar" prefHeight="70.0" prefWidth="72.0" style="-fx-border-radius: 50%; -fx-background-radius: 50%;" text="6" />
+      <Button fx:id="vNum7" layoutX="26.0" layoutY="306.0" minWidth="20.0" mnemonicParsing="false" onAction="#digitar" prefHeight="70.0" prefWidth="72.0" style="-fx-border-radius: 50%; -fx-background-radius: 50%;" text="7" />
+      <Button fx:id="vNum8" layoutX="118.0" layoutY="306.0" minWidth="20.0" mnemonicParsing="false" onAction="#digitar" prefHeight="70.0" prefWidth="72.0" style="-fx-border-radius: 50%; -fx-background-radius: 50%;" text="8" />
+      <Button fx:id="vNum9" layoutX="204.0" layoutY="306.0" minWidth="20.0" mnemonicParsing="false" onAction="#digitar" prefHeight="70.0" prefWidth="72.0" style="-fx-border-radius: 50%; -fx-background-radius: 50%;" text="9" />
+      <Button fx:id="vDividir" layoutX="301.0" layoutY="113.0" minWidth="20.0" mnemonicParsing="false" onAction="#operacao" prefHeight="59.0" prefWidth="62.0" style="-fx-border-radius: 50%; -fx-background-radius: 50%;" text="/" />
+      <Button fx:id="vMultiplicar" layoutX="298.0" layoutY="183.0" minWidth="20.0" mnemonicParsing="false" onAction="#operacao" prefHeight="59.0" prefWidth="62.0" style="-fx-border-radius: 50%; -fx-background-radius: 50%;" text="x" />
+      <Button fx:id="vSoma" layoutX="301.0" layoutY="259.0" minWidth="20.0" mnemonicParsing="false" onAction="#operacao" prefHeight="59.0" prefWidth="62.0" style="-fx-border-radius: 50%; -fx-background-radius: 50%;" text="+" />
+      <Button fx:id="vSubstraçao" layoutX="301.0" layoutY="347.0" minWidth="20.0" mnemonicParsing="false" onAction="#operacao" prefHeight="59.0" prefWidth="62.0" style="-fx-border-radius: 50%; -fx-background-radius: 50%;" text="-" />
+      <Button fx:id="vTotal" layoutX="301.0" layoutY="424.0" minWidth="20.0" mnemonicParsing="false" onAction="#Resultado" prefHeight="59.0" prefWidth="62.0" style="-fx-border-radius: 50%; -fx-background-radius: 50%; -fx-background-color: green;" text="=" />
+      <Button fx:id="vNum0" layoutX="118.0" layoutY="403.0" minWidth="20.0" mnemonicParsing="false" onAction="#digitar" prefHeight="70.0" prefWidth="72.0" style="-fx-border-radius: 50%; -fx-background-radius: 50%;" text="0" />
+      <Button fx:id="vponto" layoutX="204.0" layoutY="403.0" minWidth="20.0" mnemonicParsing="false" onAction="#pontoDigitar" prefHeight="70.0" prefWidth="72.0" style="-fx-border-radius: 50%; -fx-background-radius: 50%;" text="," />
+      <TextField fx:id="jtfNumeros" layoutX="24.0" layoutY="19.0" prefHeight="70.0" prefWidth="263.0" />
+      <ListView fx:id="lvHistorico" layoutX="387.0" layoutY="13.0" prefHeight="470.0" prefWidth="143.0" />
+      <Button fx:id="btnLimpar" layoutX="296.0" layoutY="19.0" minWidth="20.0" mnemonicParsing="false" onAction="#operacao" prefHeight="70.0" prefWidth="72.0" style="-fx-border-radius: 50%; -fx-background-radius: 50%;" text="CE" />
+      <Button layoutX="213.0" layoutY="501.0" mnemonicParsing="false" onAction="#trocarProjeto2" prefHeight="33.0" prefWidth="127.0" text="Ir Projeto 2" />
+   </children>
+</Pane>
