@@ -16,8 +16,22 @@ import java.util.Locale;
 public class Calculadora {
 
     @FXML
-    private void trocarProjeto2() throws IOException {
-        App.setRoot("questionario");
+    private void trocarProjeto2(ActionEvent event) throws IOException {
+        try {
+        App.setRoot("imc");
+    } catch (IOException e) {
+        System.err.println("Erro ao carregar a tela imc.fxml:");
+        e.printStackTrace();
+    }
+    }
+    @FXML
+    private void trocarProjeto3(ActionEvent event) throws IOException {
+        try {
+        App.setRoot("cadastro");
+    } catch (IOException e) {
+        System.err.println("Erro ao carregar a tela imc.fxml:");
+        e.printStackTrace();
+    }
     }
     @FXML
     private TextField jtfNumeros;

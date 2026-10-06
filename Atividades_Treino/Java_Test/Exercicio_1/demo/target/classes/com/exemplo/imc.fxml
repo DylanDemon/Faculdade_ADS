@@ -10,7 +10,7 @@
 
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="548.0" prefWidth="539.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exemplo.IMC">
    <children>
-      <Button layoutX="413.0" layoutY="509.0" mnemonicParsing="false" onAction="#trocarProjeto1" text="Trocar A Projeto 1" />
+      <Button layoutX="22.0" layoutY="509.0" mnemonicParsing="false" onAction="#trocarProjeto1" text="Trocar A Projeto 1" />
       <Text fill="#200000" fontSmoothingType="LCD" layoutX="218.0" layoutY="147.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-font: white;" text="Altura">
          <font>
             <Font size="23.0" />
@@ -39,7 +39,7 @@
          </font>
       </Text>
       <Separator layoutX="219.0" layoutY="84.0" prefHeight="6.0" prefWidth="227.0" style="-fx-background-color: black;" />
-      <Button layoutX="272.0" layoutY="509.0" mnemonicParsing="false" onAction="#trocarProjeto3" text="Trocar A Projeto 3" />
+      <Button layoutX="405.0" layoutY="509.0" mnemonicParsing="false" onAction="#trocarProjeto3" text="Trocar A Projeto 3" />
       <TextField fx:id="strAltura" layoutX="300.0" layoutY="125.0" onAction="#ValorAltura" promptText="digite..." />
    </children>
 </Pane>
