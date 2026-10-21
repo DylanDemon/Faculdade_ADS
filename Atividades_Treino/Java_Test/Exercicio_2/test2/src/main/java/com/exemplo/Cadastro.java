@@ -21,18 +21,21 @@ import javafx.util.StringConverter;
 
 public class Cadastro {
     public int vID = 0;
+    @FXML private TextField strID;
     @FXML private TextField strNome;
     @FXML private TextField strCPF;
     @FXML private TextField strCelular;
-    @FXML private TextField strEmail;
-    @FXML private TextField strCidade;
+    
+    @FXML private TextField strCEP;
+    @FXML private TextField strLogradouro;
     @FXML private TextField strBairro;
+    @FXML private TextField strCidade;
     @FXML private TextField strRua;
     @FXML private TextField strNumCasa;
     @FXML private TextField strComplemento;
-    @FXML private TextField strSalario;
-    @FXML private TextField strCEP;
-
+    
+    
+    @FXML private ComboBox<ItemCombo> strGenero;
     @FXML private ComboBox<String> strCivil;
     @FXML private ComboBox<String> strPais;
     @FXML private ComboBox<String> strTrabalho;
@@ -48,9 +51,6 @@ public class Cadastro {
         strCPF.setTextFormatter(criarFormatterCPF());
         strNome.setTextFormatter(criarFormatterApenasLetras());
         strCelular.setTextFormatter(criarFormatterCelular());
-        strSalario.setTextFormatter(criarFormatterSalario());
-        strEmail.setTextFormatter(criarFormatterEmail());
-        strCEP.setTextFormatter(criarFormatterCEP());
 
         strCivil.getItems().addAll(
             "Solteiro(a)",
@@ -60,7 +60,7 @@ public class Cadastro {
             "União Estável"
         );
         strPais.getItems().addAll(
-            "Argentina","Paraguay","Brasil"
+            "Argentina","Paraguay","Brasil","Estados Unidos","Inglaterra"
         );
         strUF.getItems().addAll("PR","AP");
         strTrabalho.getItems().addAll("Presencial","HomeOffice", "Hibrido");
@@ -107,34 +107,41 @@ public class Cadastro {
                 }
             }
             vID =+ 1;
-            String Mensagem = "ID:" + vID + "\n" + "Nome:" + strNome.getText() + "\n" + "Data De Nascimento:" + strNascimento.getValue() + "\n" + "CPF:" + strCPF.getText() + "\n" + "Estado Civil:" + strCivil.getValue() + "\n" + "Nacionalidade:" + strPais.getValue()
-            + "\n" + "Celular:" + strCelular.getText() + "\n" + "E-mail:" + strEmail.getText() + "\n" + "UF:" + strUF.getValue() + "\n" + "Cidade:" + strCidade.getText() + "\n" + "Bairro:" + strBairro.getText() + "\n" + "Rua:" + strRua.getText()
-            + "\n" + "Numero De Casa:" + strNumCasa.getText() + "\n" + "Complemento:" + strComplemento.getText() + "\n" + "Salario:" + strSalario.getText() + "\n" + "Modelo De Trabalho:" + strTrabalho.getValue();
+            String Mensagem = "Informaçao Salvada";
             exibirMensagem("Cadastro Completo", Mensagem , AlertType.INFORMATION);
 
             strNome.requestFocus();
 
+            strID.clear();
             strNome.clear();
             strCPF.clear();
-            strBairro.clear();
-            strCelular.clear();
-            strCidade.clear();
-            strComplemento.clear();
-            strEmail.clear();
             strNascimento.setValue(null);
-            strNumCasa.clear();
-            strPais.setValue(null);
-            strRua.clear();
-            strSalario.clear();
-            strCEP.clear();
-            strTrabalho.setValue(null);
-            strUF.setValue(null);
+            strCelular.clear();
+            strGenero.setValue(null);
             strCivil.setValue(null);
-
-
+            strCEP.clear();
+            strPais.setValue(null);
+            strLogradouro.clear();
+            strBairro.clear();
+            strCidade.clear();
+            strUF.setValue(null);
+            strRua.clear();
+            strNumCasa.clear();
+            strComplemento.clear();
         } catch (Exception e) {
             strNome.requestFocus();
             exibirMensagem("ERROR", e.getMessage(), AlertType.ERROR);
+        }
+    }
+    @FXML
+        private void digID(ActionEvent event){
+        try {
+            String vID = strID.getText();
+            if(vID != null) vID = vID.trim();
+            strID.setText(vID);
+            strNome.requestFocus();
+        } catch (IllegalArgumentException e) {
+            strID.requestFocus();
         }
     }
     @FXML
@@ -144,21 +151,10 @@ public class Cadastro {
             if(vNome != null) vNome = vNome.trim();
             if(vNome.isBlank()) throw new IllegalArgumentException("Por Favor Digite Um Nome Valido, Nome: " + vNome);
             strNome.setText(vNome);
-            strNascimento.requestFocus();
+            strCPF.requestFocus();
         } catch (IllegalArgumentException e) {
             strNome.requestFocus();
             exibirMensagem("O Nome É Invalido", e.getMessage(), AlertType.ERROR);
-        }
-    }
-    @FXML
-    private void digNascimento(ActionEvent event){
-        try {
-            LocalDate vNascimento = strNascimento.getValue();
-            if(vNascimento == null) throw new IllegalArgumentException("Por Favor Digite Uma Data Valido, Data: " + vNascimento);
-            strCPF.requestFocus();
-        } catch (IllegalArgumentException e) {
-            strNascimento.requestFocus();
-            exibirMensagem("A Data É Invalida", e.getMessage(), AlertType.ERROR);
         }
     }
     @FXML
@@ -166,11 +162,9 @@ public class Cadastro {
         try {
             String vCPF = strCPF.getText();
             if(vCPF != null) vCPF = vCPF.trim();
-            if(vCPF == null || vCPF.isBlank()){
-                throw new IllegalArgumentException("Por Favor Digite Um CPF Valido, CPF: " + vCPF);
-            }
+            if(vCPF == null || vCPF.isBlank()) throw new IllegalArgumentException("Por Favor Digite Um CPF Valido, CPF: " + vCPF);
             else{
-                strCivil.requestFocus();
+                strNascimento.requestFocus();
             }
         } catch (IllegalArgumentException e) {
             strCPF.requestFocus();
@@ -178,29 +172,14 @@ public class Cadastro {
         }
     }
     @FXML
-    private void digCivil(ActionEvent event){
+    private void digNascimento(ActionEvent event){
         try {
-            Object objCivil = strCivil.getValue();
-            if(objCivil == null || objCivil.toString().isBlank()) throw new IllegalArgumentException("Por Favor Digite Um Estado Civil Valido");
-                String vCivil = objCivil.toString().trim();
-                strCivil.setValue(vCivil);
-                strPais.requestFocus();
+            LocalDate vNascimento = strNascimento.getValue();
+            if(vNascimento == null) throw new IllegalArgumentException("Por Favor Digite Uma Data Valido, Data: " + vNascimento);
+            strCelular.requestFocus();
         } catch (IllegalArgumentException e) {
-            strCivil.requestFocus();
-            exibirMensagem("O Civil É Invalido", e.getMessage(), AlertType.ERROR);
-        }
-    }
-    @FXML
-    private void digPais(ActionEvent event){
-        try {
-            Object objPais = strPais.getValue();
-            if(objPais == null || objPais.toString().isBlank()) throw new IllegalArgumentException("Por Favor Digite Um Pais Valido");
-                String vPais = objPais.toString().trim();
-                strPais.setValue(vPais);
-                strCelular.requestFocus();
-        } catch (IllegalArgumentException e) {
-            strPais.requestFocus();
-            exibirMensagem("O Pais É Invalido", e.getMessage(), AlertType.ERROR);
+            strNascimento.requestFocus();
+            exibirMensagem("A Data É Invalida", e.getMessage(), AlertType.ERROR);
         }
     }
     @FXML
@@ -213,7 +192,7 @@ public class Cadastro {
             }
             else{
                 strCelular.setText(vCelular);
-                strEmail.requestFocus();
+                strGenero.requestFocus();
             }
         } catch (IllegalArgumentException e) {
             strCelular.requestFocus();
@@ -221,50 +200,80 @@ public class Cadastro {
         }
     }
     @FXML
-    private void digEmail(ActionEvent event){
-        try {
-            String vEmail = strEmail.getText().trim();
-            String regexEmail = "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,6}$";
-            if(vEmail.isBlank() || !vEmail.matches(regexEmail)){
-                throw new IllegalArgumentException("Por Favor Digite Um E-mail Valido, E-mail: " + vEmail);
+    private void digGenero(ActionEvent event){
+    try {
+            ItemCombo objGenero = strGenero.getValue();
+            if (objGenero == null) {
+                throw new IllegalArgumentException("Por favor, selecione um gênero na lista.");
             }
-            else{
-                strEmail.setText(vEmail);
-                strUF.requestFocus();
-            }
+            String vGenero = objGenero.getDescricao();
+            strCivil.requestFocus();
+
         } catch (IllegalArgumentException e) {
-            strEmail.requestFocus();
-            exibirMensagem("O Email É Invalido", e.getMessage(), AlertType.ERROR);
+            strGenero.requestFocus();
+            exibirMensagem("Gênero Inválido", e.getMessage(), AlertType.ERROR);
         }
     }
     @FXML
-    private void digUF(ActionEvent event){
+    private void digCivil(ActionEvent event){
         try {
-            Object objUF = strUF.getValue();
-            if(objUF == null || objUF.toString().isBlank()) throw new IllegalArgumentException("Por Favor Digite Um UF Valido");
-                String vUF = objUF.toString().trim();
-                strUF.setValue(vUF);
-                strCidade.requestFocus();
+            Object objCivil = strCivil.getValue();
+            if(objCivil == null || objCivil.toString().isBlank()) throw new IllegalArgumentException("Por Favor Digite Um Estado Civil Valido");
+                String vCivil = objCivil.toString().trim();
+                strCivil.setValue(vCivil);
+                strCEP.requestFocus();
         } catch (IllegalArgumentException e) {
-            strUF.requestFocus();
-            exibirMensagem("O UF É Invalido", e.getMessage(), AlertType.ERROR);
+            strCivil.requestFocus();
+            exibirMensagem("O Civil É Invalido", e.getMessage(), AlertType.ERROR);
         }
     }
     @FXML
-    private void digCidade(ActionEvent event){
+    private void digCEP(ActionEvent event){
         try {
-            String vCidade = strCidade.getText();
-            if(vCidade != null) vCidade = vCidade.trim();
-            if(vCidade == null || vCidade.isBlank() ){
-                throw new IllegalArgumentException("Por Favor Digite Uma Cidade Valido, Cidade: " + vCidade);
+            Integer vCEP = Integer.parseInt(strCEP.getText());;
+            if(vCEP == null){
+                throw new IllegalArgumentException("Por Favor Digite Uma CEP Valido, CEP: " + vCEP);
             }
-            else{
-                strCidade.setText(vCidade);
-                strBairro.requestFocus();
-            }
+            strCEP.setText(String.valueOf(vCEP));
+          ViaCEP viaCep = new ViaCEP();
+              viaCep.buscar(strCEP.getText());
+              strBairro.setText(viaCep.getBairro());
+              strRua.setText(viaCep.getLogradouro());
+              strUF.setValue(viaCep.getUf());
+              strCidade.setText(viaCep.getLocalidade());
+              
+            strPais.requestFocus();
+        } catch (Exception e) {
+            strCEP.requestFocus();
+            exibirMensagem("O CEP É Invalido", e.getMessage(), AlertType.ERROR);
+        }
+    }
+    @FXML
+    private void digPais(ActionEvent event){
+        try {
+            Object objPais = strPais.getValue();
+            if(objPais == null || objPais.toString().isBlank()) throw new IllegalArgumentException("Por Favor Digite Um Pais Valido");
+                String vPais = objPais.toString().trim();
+                strPais.setValue(vPais);
+                strLogradouro.requestFocus();
         } catch (IllegalArgumentException e) {
-            strCidade.requestFocus();
-            exibirMensagem("A Cidade É Invalido", e.getMessage(), AlertType.ERROR);
+            strPais.requestFocus();
+            exibirMensagem("O Pais É Invalido", e.getMessage(), AlertType.ERROR);
+        }
+    }
+    @FXML
+    private void digLogradouro(ActionEvent event){
+        try {
+            String vLogradouro = strLogradouro.getText();
+            if(vLogradouro != null) vLogradouro = vLogradouro.trim();
+            if(vLogradouro == null || vLogradouro.isBlank()){
+                throw new IllegalArgumentException("Por Favor Digite Uma Logradouro Valido, Logradouro: " + vLogradouro);
+            }
+            strLogradouro.setText(vLogradouro);
+            strBairro.requestFocus();
+        } catch (Exception e) {
+            strLogradouro.requestFocus();
+            exibirMensagem("O Logradouro É Invalido", e.getMessage(), AlertType.ERROR);
         }
     }
     @FXML
@@ -277,11 +286,41 @@ public class Cadastro {
             }
             else{
                 strBairro.setText(vBairro);
-                strRua.requestFocus();
+                strCidade.requestFocus();
             }
         } catch (IllegalArgumentException e) {
             strBairro.requestFocus();
             exibirMensagem("O Bairro É Invalido", e.getMessage(), AlertType.ERROR);
+        }
+    }
+    @FXML
+    private void digCidade(ActionEvent event){
+        try {
+            String vCidade = strCidade.getText();
+            if(vCidade != null) vCidade = vCidade.trim();
+            if(vCidade == null || vCidade.isBlank() ){
+                throw new IllegalArgumentException("Por Favor Digite Uma Cidade Valido, Cidade: " + vCidade);
+            }
+            else{
+                strCidade.setText(vCidade);
+                strUF.requestFocus();
+            }
+        } catch (IllegalArgumentException e) {
+            strCidade.requestFocus();
+            exibirMensagem("A Cidade É Invalido", e.getMessage(), AlertType.ERROR);
+        }
+    }
+    @FXML
+    private void digUF(ActionEvent event){
+        try {
+            Object objUF = strUF.getValue();
+            if(objUF == null || objUF.toString().isBlank()) throw new IllegalArgumentException("Por Favor Digite Um UF Valido");
+                String vUF = objUF.toString().trim();
+                strUF.setValue(vUF);
+                strRua.requestFocus();
+        } catch (IllegalArgumentException e) {
+            strUF.requestFocus();
+            exibirMensagem("O UF É Invalido", e.getMessage(), AlertType.ERROR);
         }
     }
     @FXML
@@ -317,47 +356,9 @@ public class Cadastro {
         try {
             String vComplemento = strComplemento.getText();
             if(vComplemento != null ) vComplemento = vComplemento.trim();
-            strSalario.requestFocus();
         } catch (IllegalArgumentException e) {
             strComplemento.requestFocus();
             exibirMensagem("O Complemento É Invalido", e.getMessage(), AlertType.ERROR);
-        }
-    }
-    @FXML
-    private void digCEP(ActionEvent event){
-        try {
-            String vCEP = strCEP.getText();
-            if(vCEP != null) vCEP = vCEP.trim();
-            if(vCEP == null || vCEP.isBlank()){
-                throw new IllegalArgumentException("Por Favor Digite Uma CEP Valido, CEP: " + vCEP);
-            }
-            strSalario.requestFocus();
-            strCEP.setText(vCEP);
-        } catch (Exception e) {
-            strSalario.requestFocus();
-            exibirMensagem("O Salario É Invalido", e.getMessage(), AlertType.ERROR);
-        }
-    }
-    @FXML
-    private void digSalario(ActionEvent event){
-        try {
-            Double vSalario =Double.parseDouble(strSalario.getText());
-            strTrabalho.requestFocus();
-            strSalario.setText(String.valueOf(vSalario));
-        } catch (Exception e) {
-            strSalario.requestFocus();
-            exibirMensagem("O Salario É Invalido", e.getMessage(), AlertType.ERROR);
-        }
-    }
-    @FXML
-    private void digTrabalho(ActionEvent event){
-        try {
-            Object objTrabalho = strTrabalho.getValue();
-            if(objTrabalho == null || objTrabalho.toString().isBlank()) throw new IllegalArgumentException("Por Favor Digite Um Modelo De Trabalho Valido");
-                String vTrabalho = objTrabalho.toString().trim();
-                strTrabalho.setValue(vTrabalho);
-        } catch (IllegalArgumentException e) {
-            exibirMensagem("O Modelo De Trabalho É Invalido", e.getMessage(), AlertType.ERROR);
         }
     }
     @FXML
@@ -379,25 +380,6 @@ public class Cadastro {
     }
     }
 
-    public static TextFormatter<String> criarFormatterSalario() {
-        UnaryOperator<TextFormatter.Change> filtro = change -> {
-
-            if(change.getText().contains(",")) change.setText(change.getText().replace(",", "."));
-            
-            String textoAtual = change.getControlText();
-            int inicio = change.getRangeStart();
-            int fim = change.getRangeEnd();
-            String textoInserido = change.getText();
-
-            String novoTexto = textoAtual.substring(0,inicio) + textoInserido + textoAtual.substring(fim);
-            if (novoTexto.matches("\\d*(\\.\\d{0,2})?")) {
-                return change;
-            }
-            return null;
-        };
-
-        return new TextFormatter<>(filtro);
-    }
     public static TextFormatter<String> criarFormatterCelular() {
         UnaryOperator<TextFormatter.Change> filtro = change -> {
             String novoTexto = change.getControlNewText();
@@ -409,35 +391,6 @@ public class Cadastro {
                 return change;
             }
             return null;
-        };
-
-        return new TextFormatter<>(filtro);
-    }
-    public static TextFormatter<String> criarFormatterCEP() {
-        UnaryOperator<TextFormatter.Change> filtro = change -> {
-            String textoProposto = change.getControlNewText();
-
-            String apenasNumeros = textoProposto.replaceAll("\\D", "");
-            if (apenasNumeros.length() > 8) {
-                return null;
-            }
-
-            StringBuilder cepnovo = new StringBuilder();
-            int qtdNumeros = apenasNumeros.length();
-
-            for (int i = 0; i < qtdNumeros; i++) {
-                if (i == 5) {
-                    cepnovo.append("-");
-                }
-                cepnovo.append(apenasNumeros.charAt(i));
-            }
-
-            change.setText(cepnovo.toString());
-            change.setRange(0, change.getControlText().length());
-            change.setCaretPosition(cepnovo.length());
-            change.setAnchor(cepnovo.length());
-
-            return change;
         };
 
         return new TextFormatter<>(filtro);
