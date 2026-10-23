@@ -109,7 +109,6 @@ public class Cadastro {
                     throw new IllegalArgumentException("Tem Algum Informaçao Obrigatoria Vacio");
                 }
             }
-            vID =+ 1;
             String Mensagem = "Informaçao Salvada";
             exibirMensagem("Cadastro Completo", Mensagem , AlertType.INFORMATION);
 

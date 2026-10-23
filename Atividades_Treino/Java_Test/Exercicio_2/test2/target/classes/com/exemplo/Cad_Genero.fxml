@@ -56,4 +56,11 @@
       </Button>
       <ComboBox fx:id="gstrStatus" layoutX="300.0" layoutY="324.0" onAction="#digStatus" prefHeight="41.0" prefWidth="188.0" />
    </children>
+      <fx:define>
+         <ArrayList fx:id="TextField_Genero">
+            <fx:reference source="gstrID" />
+            <fx:reference source="gstrDescripcao" />
+            <fx:reference source="gstrSigla" />
+         </ArrayList>
+      </fx:define>
 </Pane>
