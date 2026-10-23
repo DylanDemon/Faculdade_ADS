@@ -39,8 +39,8 @@
       <TextField fx:id="strComplemento" layoutX="284.0" layoutY="413.0" onAction="#digComplemento" prefHeight="25.0" prefWidth="239.0" />
       <Text layoutX="350.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Estado Civil" />
       <ComboBox fx:id="strCivil" layoutX="348.0" layoutY="235.0" onAction="#digCivil" prefHeight="25.0" prefWidth="176.0" />
-      <Text layoutX="11.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Nacionalidade" />
-      <ComboBox fx:id="strPais" editable="true" layoutX="5.0" layoutY="293.0" onAction="#digPais" prefHeight="25.0" prefWidth="190.0" />
+      <Text layoutX="170.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Nacionalidade" />
+      <ComboBox fx:id="strPais" editable="true" layoutX="164.0" layoutY="291.0" onAction="#digPais" prefHeight="25.0" prefWidth="190.0" />
       <DatePicker fx:id="strNascimento" layoutX="353.0" layoutY="154.0" onAction="#digNascimento" prefHeight="25.0" prefWidth="112.0" />
       <Text layoutX="289.0" layoutY="30.0" stroke="#c93939" strokeType="OUTSIDE" strokeWidth="0.0" text="Cadastro De Cliente" textAlignment="CENTER" wrappingWidth="239.29216957092285">
          <font>
@@ -48,12 +48,12 @@
          </font>
       </Text>
       <Button fx:id="btnCompletar" layoutX="143.0" layoutY="444.0" mnemonicParsing="false" onAction="#fCompleto" text="Salvar" />
-      <Text layoutX="204.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*CEP" />
-      <TextField fx:id="strCEP" layoutX="204.0" layoutY="294.0" onAction="#digCEP" prefHeight="25.0" prefWidth="141.0" />
+      <Text layoutX="10.0" layoutY="285.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*CEP" />
+      <TextField fx:id="strCEP" layoutX="10.0" layoutY="292.0" onAction="#digCEP" prefHeight="25.0" prefWidth="141.0" />
       <Text layoutX="195.0" layoutY="224.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Genero" />
       <ComboBox fx:id="strGenero" layoutX="195.0" layoutY="235.0" onAction="#digGenero" prefHeight="25.0" prefWidth="141.0" />
-      <Text layoutX="355.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Logradouro" />
-      <TextField fx:id="strLogradouro" layoutX="356.0" layoutY="294.0" onAction="#digLogradouro" prefHeight="25.0" prefWidth="166.0" />
+      <Text layoutX="360.0" layoutY="284.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Logradouro" />
+      <TextField fx:id="strLogradouro" layoutX="361.0" layoutY="291.0" onAction="#digLogradouro" prefHeight="25.0" prefWidth="166.0" />
       <Text layoutX="203.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID" />
       <TextField fx:id="strID" layoutX="204.0" layoutY="31.0" onAction="#digID" prefHeight="25.0" prefWidth="81.0" promptText="Ex: 1" />
    </children>

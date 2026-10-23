@@ -4,7 +4,7 @@
  * 
  * Obtem um CEP no ViaCEP
  */
-package com.exemplo;
+package com.exemplo.viacep;
 
 /**
  * Classe para registrar uma exceção de CEP

@@ -1,4 +1,4 @@
-package com.exemplo;
+package com.exemplo.util;
 
 public class ItemCombo {
             private int id;

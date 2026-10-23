@@ -1,4 +1,4 @@
-package com.exemplo;
+package com.exemplo.util;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -8,7 +8,6 @@ public class conexao {
     private static final String USUARIO = "root";
     private static final String SENHA = "#Maestros#21";
 
-    // Método estático que qualquer outro arquivo Java pode chamar
     public static Connection getConexao() throws SQLException {
         return DriverManager.getConnection(URL, USUARIO, SENHA);
     }

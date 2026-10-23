@@ -4,7 +4,7 @@
  * 
  * Obtem um CEP no ViaCEP
  */
-package com.exemplo;
+package com.exemplo.viacep;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

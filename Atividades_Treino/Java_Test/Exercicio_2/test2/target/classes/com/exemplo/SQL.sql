@@ -10,7 +10,7 @@ CREATE TABLE if NOT EXISTS Usuarios(
     ID INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(50) not null,
     CPF VARCHAR(16) not null,
-    Nascimento VARCHAR(11) not null,
+    Nascimento DATE not null,
     Telefone VARCHAR(15) not null,
     CEP VARCHAR(9) NOT NULL,
     Logradouro VARCHAR(160) NOT NULL,
