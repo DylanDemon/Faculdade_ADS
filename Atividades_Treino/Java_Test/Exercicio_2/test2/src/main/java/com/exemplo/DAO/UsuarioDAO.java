@@ -94,9 +94,9 @@ public class UsuarioDAO {
     public List<Usuario> listarTodos() {
         List<Usuario> lista = new ArrayList<>();
 
-        String sql = "SELECT u.*, s.descricao AS sexualidade_descricao"
+        String sql = "SELECT u.*, s.Descricao AS sexualidade_descricao"
                    + "FROM usuarios u "
-                   + "LEFT JOIN sexualidade s ON u.sexualidade_id = s.id";
+                   + "LEFT JOIN sexualidade s ON u.ID_Genero = s.id";
         try (Connection conn = conexao.getConexao();
         PreparedStatement stmt = conn.prepareStatement(sql);
         ResultSet rs = stmt.executeQuery()) {
@@ -113,7 +113,7 @@ public class UsuarioDAO {
                 if(sexID > 0){
                     Sexualidade s = new Sexualidade();
                     s.setId(sexID);
-                    s.setDescripcao(rs.getString("descricao"));
+                    s.setDescripcao(rs.getString("sexualidade_descricao"));
                     u.setSexualidade(s);
                 }
                 u.setCep(rs.getString("CEP"));
@@ -126,7 +126,7 @@ public class UsuarioDAO {
 
                 lista.add(u);
             }
-        } catch (Exception e) {
+        } catch (SQLException e) {
             System.err.println("Erro ao listar usuários: " + e.getMessage());
         }
         return lista;
