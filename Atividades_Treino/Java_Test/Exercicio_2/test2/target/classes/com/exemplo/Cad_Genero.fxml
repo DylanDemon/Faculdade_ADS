@@ -2,59 +2,66 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
-<?import javafx.scene.text.Text?>
+<?import java.util.ArrayList?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="534.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exemplo.Cad_Generos">
+
+<AnchorPane maxWidth="1.7976931348623157E308" minHeight="400.0" minWidth="600.0" prefHeight="700.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exemplo.Controllers.Cad_Generos">
    <children>
-      <Text layoutX="93.0" layoutY="48.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cadastro De Generos" textAlignment="CENTER" wrappingWidth="347.012451171875">
+      <Button fx:id="gbTabgenero" layoutX="656.8" layoutY="595.0" mnemonicParsing="false" onAction="#AbrirTabela" prefHeight="97.0" prefWidth="273.0" text="Ver Tabela" AnchorPane.bottomAnchor="6.399999999999949" AnchorPane.rightAnchor="97.39999999999998">
          <font>
-            <Font name="Comic Sans MS Bold" size="44.0" />
-         </font>
-      </Text>
-      <TextField fx:id="gstrID" layoutX="29.0" layoutY="192.0" onAction="#digID" prefHeight="41.0" prefWidth="64.0" promptText="1001">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </TextField>
-      <TextField fx:id="gstrDescripcao" layoutX="300.0" layoutY="192.0" onAction="#digDescripcao" prefHeight="41.0" prefWidth="188.0">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </TextField>
-      <TextField fx:id="gstrSigla" layoutX="29.0" layoutY="324.0" onAction="#digSigla" prefHeight="41.0" prefWidth="114.0" promptText="siglaaaaaa">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </TextField>
-      <Text layoutX="14.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID" textAlignment="CENTER" wrappingWidth="72.61241149902344">
-         <font>
-            <Font name="Comic Sans MS Bold" size="19.0" />
-         </font>
-      </Text>
-      <Text layoutX="300.0" layoutY="181.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Descripção" textAlignment="CENTER" wrappingWidth="114.0">
-         <font>
-            <Font name="Comic Sans MS Bold" size="19.0" />
-         </font>
-      </Text>
-      <Text layoutX="29.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sigla" textAlignment="CENTER" wrappingWidth="63.5999755859375">
-         <font>
-            <Font name="Comic Sans MS Bold" size="19.0" />
-         </font>
-      </Text>
-      <Text layoutX="305.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status" textAlignment="CENTER" wrappingWidth="63.5999755859375">
-         <font>
-            <Font name="Comic Sans MS Bold" size="19.0" />
-         </font>
-      </Text>
-      <Button fx:id="gvSalvar" layoutX="194.0" layoutY="419.0" mnemonicParsing="false" onAction="#digSalvar" prefHeight="41.0" prefWidth="106.0" text="Salvar">
-         <font>
-            <Font name="Ebrima Bold" size="18.0" />
+            <Font name="Ebrima Bold" size="36.0" />
          </font>
       </Button>
-      <ComboBox fx:id="gstrStatus" layoutX="300.0" layoutY="324.0" onAction="#digStatus" prefHeight="41.0" prefWidth="188.0" />
+      <ComboBox fx:id="gstrStatus" layoutX="608.0" layoutY="442.4" onAction="#digStatus" prefHeight="52.0" prefWidth="404.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="442.0" />
+      <Button fx:id="gbSalvar" layoutX="99.0" layoutY="595.0" mnemonicParsing="false" onAction="#digSalvar" prefHeight="98.0" prefWidth="249.0" text="Salvar" AnchorPane.bottomAnchor="6.599999999999994" AnchorPane.leftAnchor="99.0">
+         <font>
+            <Font name="Ebrima Bold" size="36.0" />
+         </font>
+      </Button>
+      <TextField fx:id="gstrSigla" layoutX="76.0" layoutY="442.0" onAction="#digSigla" prefHeight="52.0" prefWidth="148.0" promptText="siglaaaaaa" AnchorPane.leftAnchor="76.0" AnchorPane.topAnchor="442.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="gstrDescripcao" layoutX="592.0" layoutY="185.0" onAction="#digDescripcao" prefHeight="79.0" prefWidth="417.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="185.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="gstrID" layoutX="73.0" layoutY="179.0" onAction="#digID" prefHeight="79.0" prefWidth="104.0" promptText="1001" AnchorPane.leftAnchor="73.0" AnchorPane.topAnchor="179.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </TextField>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="227.0" prefHeight="124.0" prefWidth="570.0" text="Cadastro De Generos" textAlignment="CENTER" AnchorPane.leftAnchor="227.0" AnchorPane.rightAnchor="227.39999999999998" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="Comic Sans MS Bold" size="45.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="70.0" layoutY="142.0" prefHeight="6.0" prefWidth="42.0" text="ID" textAlignment="CENTER" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="142.0">
+         <font>
+            <Font name="Comic Sans MS Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="592.0" layoutY="142.0" prefHeight="42.0" prefWidth="148.0" text="Descriçao" textAlignment="CENTER" AnchorPane.rightAnchor="284.79999999999995" AnchorPane.topAnchor="142.0">
+         <font>
+            <Font name="Comic Sans MS Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="600.6" layoutY="399.2" prefHeight="42.0" prefWidth="98.0" text="Status" textAlignment="CENTER" AnchorPane.rightAnchor="325.79999999999995" AnchorPane.topAnchor="399.2">
+         <font>
+            <Font name="Comic Sans MS Bold" size="30.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="70.0" layoutY="399.0" prefHeight="42.0" prefWidth="86.0" text="Sigla" textAlignment="CENTER" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="399.0">
+         <font>
+            <Font name="Comic Sans MS Bold" size="30.0" />
+         </font>
+      </Label>
    </children>
       <fx:define>
          <ArrayList fx:id="TextField_Genero">
@@ -63,4 +70,4 @@
             <fx:reference source="gstrSigla" />
          </ArrayList>
       </fx:define>
-</Pane>
+</AnchorPane>

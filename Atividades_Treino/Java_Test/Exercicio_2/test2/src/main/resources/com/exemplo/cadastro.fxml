@@ -9,8 +9,9 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
+<?import java.util.ArrayList?>
 
-<Pane maxHeight="600.0" maxWidth="600.0" minHeight="480.0" minWidth="534.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exemplo.Cadastro">
+<Pane maxHeight="600.0" maxWidth="600.0" minHeight="480.0" minWidth="534.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exemplo.Controllers.Cadastro">
    <children>
       <ImageView fitHeight="200.0" fitWidth="200.0" scaleX="-1.0">
          <image>

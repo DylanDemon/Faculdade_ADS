@@ -1,4 +1,4 @@
-package com.exemplo;
+package com.exemplo.Controllers;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -15,6 +15,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.function.UnaryOperator;
 
+import com.exemplo.App;
 import com.exemplo.util.ItemCombo;
 import com.exemplo.viacep.ViaCEP;
 
@@ -362,24 +363,6 @@ public class Cadastro {
             strComplemento.requestFocus();
             exibirMensagem("O Complemento É Invalido", e.getMessage(), AlertType.ERROR);
         }
-    }
-    @FXML
-    private void trocarProjeto1(ActionEvent event) throws IOException {
-        try {
-        App.setRoot("calculadora");
-    } catch (IOException e) {
-        System.err.println("Erro ao carregar a tela imc.fxml:");
-        e.printStackTrace();
-    }
-    }
-    @FXML
-    private void trocarProjeto2(ActionEvent event) throws IOException {
-        try {
-        App.setRoot("imc");
-    } catch (IOException e) {
-        System.err.println("Erro ao carregar a tela imc.fxml:");
-        e.printStackTrace();
-    }
     }
 
     public static TextFormatter<String> criarFormatterCelular() {

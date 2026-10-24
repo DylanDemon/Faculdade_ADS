@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exemplo.Controllers.TabelaGeneros">
+   <children>
+      <TableView fx:id="strTableGen" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="colID" prefWidth="84.800048828125" text="ID" />
+          <TableColumn fx:id="colDescricao" minWidth="1.5999755859375" prefWidth="216.79998779296875" text="Descrição" />
+            <TableColumn fx:id="colSigla" prefWidth="115.2000732421875" text="Sigla" />
+            <TableColumn fx:id="colEstado" prefWidth="184.7999267578125" text="Estado" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -47,7 +47,7 @@ public class SexualidadeDAO {
     }
     public List<Sexualidade> listarTodos(){
         List<Sexualidade> lista = new ArrayList<>();
-        String sql = "SELECT ID, Descripcao, Sigla, Status FROM Sexualidade ";
+        String sql = "SELECT ID, Descripcao, Sigla, Status FROM sexualidade";
         try (Connection conn = conexao.getConexao();
             PreparedStatement stmt = conn.prepareStatement(sql);
             ResultSet rs = stmt.executeQuery()){
@@ -78,5 +78,19 @@ public class SexualidadeDAO {
             System.err.println("Erro ao excluir Sexualidade: " + e.getMessage());
             return false;
         }
+    }
+    public boolean existeId(int id){
+        String sql = "Select ID FROM sexualidade WHERE id = ? LIMIT 1";
+            try (Connection conn = conexao.getConexao();
+             PreparedStatement stmt = conn.prepareStatement(sql)){
+                stmt.setInt(1, id);
+                try (ResultSet rs = stmt.executeQuery()) {
+                    return rs.next(); 
+                }
+            } catch (Exception e) {
+                System.err.println("Erro ao verificar existência do ID: " + e.getMessage());
+                e.printStackTrace();
+                return false;
+            }
     }
 }

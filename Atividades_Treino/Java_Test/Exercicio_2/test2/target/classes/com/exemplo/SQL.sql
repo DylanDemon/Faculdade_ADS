@@ -25,3 +25,4 @@ CREATE TABLE if NOT EXISTS Usuarios(
     Foreign Key (ID_Genero) REFERENCES Sexualidade(ID)
     ON DELETE SET NULL
 );
+ALTER TABLE Sexualidade MODIFY COLUMN Status VARCHAR(20);
