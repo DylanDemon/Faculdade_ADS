@@ -4,7 +4,6 @@ import com.exemplo.model.Sexualidade;
 import com.exemplo.util.conexao;
 
 import java.sql.Connection;
-import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -13,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SexualidadeDAO {
-    public boolean insert(Sexualidade genero){
+    public boolean inserir(Sexualidade genero){
         String sql = "INSERT INTO sexualidade (Descripcao, Sigla, Status)"
                     + "VALUES(?,?,?)";
         try (Connection conn = conexao.getConexao();
@@ -29,7 +28,7 @@ public class SexualidadeDAO {
             return false;
         }
     }
-    public boolean Alterar(Sexualidade genero){
+    public boolean alterar(Sexualidade genero){
         String sql = "UPDATE sexualidade SET Descripcao = ?, Sigla = ?, Status = ? WHERE ID = ?";
         try (Connection conn = conexao.getConexao();
         PreparedStatement stmt = conn.prepareStatement(sql)){
@@ -92,5 +91,29 @@ public class SexualidadeDAO {
                 e.printStackTrace();
                 return false;
             }
+    }    
+    public Sexualidade buscarPorId(int id) {
+    String sql = "SELECT * FROM sexualidade WHERE id = ?";
+    Sexualidade s = null;
+
+    try (Connection conn = conexao.getConexao();
+         PreparedStatement stmt = conn.prepareStatement(sql)) {
+
+        stmt.setInt(1, id);
+        ResultSet rs = stmt.executeQuery();
+
+        if (rs.next()) {
+            s = new Sexualidade();
+            s.setId(rs.getInt("ID"));
+            s.setDescripcao(rs.getString("Descripcao"));
+            s.setSigla(rs.getString("Sigla"));
+            s.setStatus(rs.getString("Status"));
+        }
+
+    } catch (SQLException e) {
+        e.printStackTrace();
     }
+
+    return s;
+}
 }

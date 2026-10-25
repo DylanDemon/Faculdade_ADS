@@ -72,31 +72,63 @@ public class CadastroUsuarios {
         strUF.getItems().addAll("PR","AP");
         
         String pattern = "dd/MM/yyyy";
-            DateTimeFormatter formatter = DateTimeFormatter.ofPattern(pattern);
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern(pattern);
 
-            strNascimento.setConverter(new StringConverter<LocalDate>() {
-                @Override
-                public String toString(LocalDate date) {
-                    if (date != null) {
-                        return formatter.format(date);
-                    } else {
-                        return "";
+        strNascimento.setConverter(new StringConverter<LocalDate>() {
+            @Override
+            public String toString(LocalDate date) {
+                return (date != null) ? formatter.format(date) : "";
+            }
+
+            @Override
+            public LocalDate fromString(String string) {
+                if (string != null && !string.trim().isEmpty()) {
+                    try {
+                        return LocalDate.parse(string, formatter);
+                    } catch (Exception e) {
+                        return null;
                     }
                 }
+                return null;
+            }
+        });
 
-                @Override
-                public LocalDate fromString(String string) {
-                    if (string != null && !string.trim().isEmpty()) {
-                        try {
-                            return LocalDate.parse(string, formatter);
-                        } catch (Exception e) {
-                            return null;
-                        }
-                    }
-                    return null;
-                }
-            });
-            strNascimento.setPromptText("dd/mm/aaaa");
+        UnaryOperator<TextFormatter.Change> dateFilter = change -> {
+            if (change.isDeleted()) {
+                return change;
+            }
+
+            String input = change.getText();
+            if (!input.matches("\\d*")) {
+                return null; // Bloqueia letras
+            }
+
+            String newText = change.getControlNewText();
+            String apenasNumeros = newText.replaceAll("/", "");
+
+            if (apenasNumeros.length() > 8) {
+                return null; // Limita ao tamanho da data
+            }
+
+            String textoFormatado = apenasNumeros;
+            if (apenasNumeros.length() > 4) {
+                textoFormatado = apenasNumeros.replaceAll("^(\\d{2})(\\d{2})(\\d{0,4})$", "$1/$2/$3");
+            } else if (apenasNumeros.length() > 2) {
+                textoFormatado = apenasNumeros.replaceAll("^(\\d{2})(\\d{0,2})$", "$1/$2");
+            }
+
+            change.setRange(0, change.getControlText().length());
+            change.setText(textoFormatado);
+            change.setCaretPosition(textoFormatado.length());
+            change.setAnchor(textoFormatado.length());
+
+            return change;
+        };
+
+        TextFormatter<String> textFormatter = new TextFormatter<>(dateFilter);
+        strNascimento.getEditor().setTextFormatter(textFormatter);
+        strNascimento.setPromptText("dd/mm/aaaa");
+
             carregarGeneros();
             strID.focusedProperty().addListener((observable, oldValue, newValue) -> {
                 if(!newValue){
@@ -129,11 +161,10 @@ public class CadastroUsuarios {
 
             Usuario user = new Usuario();
             
-            if (strID.getText() != null && !strID.getText().trim().isEmpty()) {
-            user.setId(Integer.parseInt(strID.getText().trim()));
-            } else {
-                user.setId(1);
-            }
+             String idTexto = strID.getText() != null ? strID.getText().trim() : "";
+            if (!idTexto.isEmpty() && !idTexto.equals("0")) user.setId(Integer.parseInt(idTexto));
+            else user.setId(0);
+
             user.setNome(strNome.getText().trim());
             user.setCpf(strCPF.getText().trim());
             user.setNascimento(strNascimento.getValue());
@@ -141,7 +172,6 @@ public class CadastroUsuarios {
             user.setSexualidade(s);
             user.setCivil(strCivil.getValue());
             user.setCep(strCEP.getText().trim());
-            user.setNascimento(strNascimento.getValue());
             user.setLogradouro(strLogradouro.getText().trim());
             user.setBairro(strBairro.getText().trim());
             user.setCidade(strCidade.getText().trim());
@@ -150,7 +180,7 @@ public class CadastroUsuarios {
             if (strNumCasa.getText() != null && !strNumCasa.getText().trim().isEmpty()) {
             user.setNumero(Integer.parseInt(strNumCasa.getText().trim()));
             } else {
-                user.setNumero(0); // Valor padrão quando não preenchido (S/N)
+                user.setNumero(0);
             }
 
             UsuarioDAO dao = new UsuarioDAO();
@@ -158,14 +188,18 @@ public class CadastroUsuarios {
             if(user.getId() > 0 && dao.existeId(user.getId())){
                 boolean aceitar = exibirConfirmacao("Usuario Existe", "Deseja Alterar Os Dados?");
                 if(aceitar){
-                        sucesso = dao.Alterar(user);
-                     if(sucesso) System.out.println("Usuário Alterado Com Sucesso");
+                    sucesso = dao.alterar(user);
+                     if(sucesso) {
+                        exibirMensagem("Sucesso", "Usuario Alterado Com Sucesso", AlertType.INFORMATION);
+                        System.out.println("Usuário Alterado Com Sucesso");
+                    }
                 } 
                 else return;
             }
             else{
                 sucesso = dao.inserir(user);
                 if (sucesso) System.out.println("Usuário Cadastrado Com Sucesso");
+                
             }
             if (sucesso) {
                 textfieldCadastro.forEach(TextField::clear);
@@ -224,6 +258,17 @@ public class CadastroUsuarios {
         } catch (IllegalArgumentException e) {
             strCPF.requestFocus();
             exibirMensagem("O CPF É Invalido", e.getMessage(), AlertType.ERROR);
+        }
+    }
+    @FXML
+    private void digNascimento(ActionEvent event){
+        try {
+            if(strNascimento.getValue().toString().isBlank() || strNascimento.getValue().toString() == null ) throw new IllegalArgumentException("Por favor, digite um Nascimento válido.");
+                strCelular.requestFocus();
+
+        } catch (IllegalArgumentException e) {
+            strNascimento.requestFocus();
+            exibirMensagem("O Nascimento É Invalido", e.getMessage(), AlertType.ERROR);
         }
     }
     @FXML
@@ -356,7 +401,7 @@ public class CadastroUsuarios {
             if (novoTexto.matches("[a-zA-Zá-úÁ-ÚçÇ ]*")) {
                 return change;
             }
-            return null; // Rejeita letras, símbolos e espaços
+            return null;
         };
 
         return new TextFormatter<>(filtro);
@@ -408,10 +453,9 @@ public class CadastroUsuarios {
         if(idTexto == null || idTexto.trim().isEmpty()) return;
         try {int id = Integer.parseInt(idTexto.trim());
         UsuarioDAO dao = new UsuarioDAO();
-        Usuario user = dao.buscarPorId(id); // Método que busca o usuário no MySQL
+        Usuario user = dao.buscarPorId(id);
 
         if (user != null) {
-            // Preenche os campos de texto
             strNome.setText(user.getNome());
             strCPF.setText(user.getCpf());
             strCelular.setText(user.getTelefone());
@@ -422,12 +466,10 @@ public class CadastroUsuarios {
             strComplemento.setText(user.getComplemento());
             strNumCasa.setText(String.valueOf(user.getNumero()));
             
-            // Preenche as seleções
             strNascimento.setValue(user.getNascimento());
             strCivil.setValue(user.getCivil());
             strUF.setValue(user.getUf());
 
-            // Seleciona o ItemCombo correto no ComboBox de Gênero/Sexualidade
             if (user.getSexualidade() != null && strGenero.getItems() != null) {
                 for (ItemCombo item : strGenero.getItems()) {
                     if (item.getId() == user.getSexualidade().getId()) {
@@ -440,7 +482,6 @@ public class CadastroUsuarios {
             System.out.println("Dados do usuário ID " + id + " carregados na tela.");
         }
     } catch (NumberFormatException e) {
-        // Ignora caso o ID digitado não seja um número válido
     } catch (Exception e) {
         exibirMensagem("Erro", "Erro ao buscar dados do usuário: " + e.getMessage(), AlertType.ERROR);
     }
@@ -476,8 +517,8 @@ public class CadastroUsuarios {
     private void exibirMensagem(String titulo, String mensagem, AlertType tipo) {
         Alert alerta = new Alert(tipo);
         alerta.setTitle(titulo);
-        alerta.setHeaderText(null); // Remove o cabeçalho secundário para ficar mais limpo
+        alerta.setHeaderText(null);
         alerta.setContentText(mensagem);
-        alerta.showAndWait(); // Exibe a janela e aguarda o usuário clicar em OK
+        alerta.showAndWait();
     }
 }

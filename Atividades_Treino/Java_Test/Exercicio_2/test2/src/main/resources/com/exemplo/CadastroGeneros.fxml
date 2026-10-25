@@ -9,28 +9,28 @@
 
 <AnchorPane maxWidth="1.7976931348623157E308" minHeight="400.0" minWidth="600.0" prefHeight="700.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exemplo.Controllers.CadastroGeneros">
    <children>
-      <Button fx:id="gbTabgenero" layoutX="656.8" layoutY="595.0" mnemonicParsing="false" onAction="#AbrirTabela" prefHeight="97.0" prefWidth="273.0" text="Ver Tabela" AnchorPane.bottomAnchor="6.399999999999949" AnchorPane.rightAnchor="97.39999999999998">
+      <Button fx:id="VerTabela" layoutX="656.8" layoutY="595.0" mnemonicParsing="false" onAction="#VerTabela" prefHeight="97.0" prefWidth="273.0" text="Ver Tabela" AnchorPane.bottomAnchor="6.399999999999949" AnchorPane.rightAnchor="97.39999999999998">
          <font>
             <Font name="Ebrima Bold" size="36.0" />
          </font>
       </Button>
-      <ComboBox fx:id="gstrStatus" layoutX="608.0" layoutY="442.4" onAction="#digStatus" prefHeight="52.0" prefWidth="404.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="442.0" />
-      <Button fx:id="gbSalvar" layoutX="99.0" layoutY="595.0" mnemonicParsing="false" onAction="#digSalvar" prefHeight="98.0" prefWidth="249.0" text="Salvar" AnchorPane.bottomAnchor="6.599999999999994" AnchorPane.leftAnchor="99.0">
+      <ComboBox fx:id="strStatus" layoutX="608.0" layoutY="442.4" onAction="#digStatus" prefHeight="52.0" prefWidth="404.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="442.0" />
+      <Button fx:id="digSalvar" layoutX="99.0" layoutY="595.0" mnemonicParsing="false" onAction="#digSalvar" prefHeight="98.0" prefWidth="249.0" text="Salvar" AnchorPane.bottomAnchor="6.599999999999994" AnchorPane.leftAnchor="99.0">
          <font>
             <Font name="Ebrima Bold" size="36.0" />
          </font>
       </Button>
-      <TextField fx:id="gstrSigla" layoutX="76.0" layoutY="442.0" onAction="#digSigla" prefHeight="52.0" prefWidth="148.0" promptText="siglaaaaaa" AnchorPane.leftAnchor="76.0" AnchorPane.topAnchor="442.0">
+      <TextField fx:id="strSigla" layoutX="76.0" layoutY="442.0" onAction="#digSigla" prefHeight="52.0" prefWidth="148.0" promptText="siglaaaaaa" AnchorPane.leftAnchor="76.0" AnchorPane.topAnchor="442.0">
          <font>
             <Font size="25.0" />
          </font>
       </TextField>
-      <TextField fx:id="gstrDescripcao" layoutX="592.0" layoutY="185.0" onAction="#digDescripcao" prefHeight="79.0" prefWidth="417.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="185.0">
+      <TextField fx:id="strDescripcao" layoutX="592.0" layoutY="185.0" onAction="#digDescripcao" prefHeight="79.0" prefWidth="417.0" AnchorPane.rightAnchor="16.0" AnchorPane.topAnchor="185.0">
          <font>
             <Font size="25.0" />
          </font>
       </TextField>
-      <TextField fx:id="gstrID" layoutX="73.0" layoutY="179.0" onAction="#digID" prefHeight="79.0" prefWidth="104.0" promptText="1001" AnchorPane.leftAnchor="73.0" AnchorPane.topAnchor="179.0">
+      <TextField fx:id="strID" layoutX="73.0" layoutY="179.0" onAction="#digID" prefHeight="79.0" prefWidth="104.0" promptText="1001" AnchorPane.leftAnchor="73.0" AnchorPane.topAnchor="179.0">
          <font>
             <Font size="25.0" />
          </font>

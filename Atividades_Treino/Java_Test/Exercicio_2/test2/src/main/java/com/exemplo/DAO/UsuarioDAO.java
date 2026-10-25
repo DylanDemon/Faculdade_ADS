@@ -55,7 +55,7 @@ public class UsuarioDAO {
             return false;
         }
     }
-    public boolean Alterar(Usuario usuario){
+    public boolean alterar(Usuario usuario){
         String sql = "UPDATE usuarios SET nome = ?, CPF = ?, Nascimento = ?, Telefone = ? , ID_Genero = ?, Civil = ?,"
                    + "CEP = ?, Logradouro = ?, Bairro = ?, Cidade = ?, UF = ?, Numero = ?, Complemento = ? WHERE ID = ?";
         try (Connection conn = conexao.getConexao();

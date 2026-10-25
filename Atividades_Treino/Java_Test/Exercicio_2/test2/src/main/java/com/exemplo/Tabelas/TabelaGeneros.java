@@ -9,7 +9,6 @@ import javafx.fxml.FXML;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
-import javafx.scene.control.cell.PropertyValueFactory;
 
 public class TabelaGeneros {
 
@@ -31,11 +30,7 @@ public class TabelaGeneros {
 
     public void carregarTabela() {
         SexualidadeDAO dao = new SexualidadeDAO();
-        
-        // Converte a List do Java em ObservableList do JavaFX
         ObservableList<Sexualidade> obsList = FXCollections.observableArrayList(dao.listarTodos());
-        
-        // Aplica os dados na TableView
         strTableGen.setItems(obsList);
     }
 }

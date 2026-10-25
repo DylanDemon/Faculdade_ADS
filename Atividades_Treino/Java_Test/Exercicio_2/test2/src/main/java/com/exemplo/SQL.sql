@@ -32,10 +32,10 @@ CREATE TABLE if NOT EXISTS Produtos(
     Nome VARCHAR(50) not null,
     Categoria VARCHAR(50) not null,
     Estoque INT DEFAULT(0),
-    Validade DATE not null,
+    Validade DATE DEFAULT("Sem Validade"),
     PrecoCusto DECIMAL(10,2) DEFAULT(0),
     PrecoVenda DECIMAL(10,2) DEFAULT(0),
     Status VARCHAR(25) DEFAULT("Inativo")
 );
-ALTER TABLE Usuarios 
-MODIFY COLUMN ID INT;
+ALTER TABLE Produtos
+MODIFY COLUMN Validade DATE DEFAULT("Sem Validade");

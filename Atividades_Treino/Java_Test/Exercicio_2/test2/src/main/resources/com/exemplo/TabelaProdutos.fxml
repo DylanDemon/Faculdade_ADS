@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exemplo.Tabelas.TabelaProdutos">
+   <children>
+      <TableView fx:id="tableProducts" prefHeight="720.0" prefWidth="1024.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <columns>
+            <TableColumn fx:id="colID" prefWidth="67.20001524686813" text="ID" />
+            <TableColumn fx:id="colNome" prefWidth="176.0" text="Nome" />
+            <TableColumn fx:id="colCategoria" prefWidth="144.7999725341797" text="Categoria" />
+            <TableColumn fx:id="colEstoque" prefWidth="107.20001220703125" text="Estoque" />
+            <TableColumn fx:id="colValidade" prefWidth="108.80010986328125" text="Validade" />
+            <TableColumn fx:id="colPrecoCusto" prefWidth="111.199951171875" text="Custo" />
+            <TableColumn fx:id="colPrecoVenda" prefWidth="142.4000244140625" text="Venda" />
+            <TableColumn fx:id="colStatus" prefWidth="177.60003662109375" text="Status" />
+         </columns>
+      </TableView>
+   </children>
+</AnchorPane>

@@ -1,6 +1,7 @@
 package com.exemplo.Tabelas;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 import com.exemplo.DAO.UsuarioDAO;
 import com.exemplo.model.Usuario;
@@ -10,6 +11,7 @@ import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.control.TableView;
+import javafx.scene.control.TableCell;
 import javafx.scene.control.TableColumn;
 
 public class TabelaUsuarios {
@@ -29,12 +31,27 @@ public class TabelaUsuarios {
         colID.setCellValueFactory(new PropertyValueFactory<>("Id"));
         colNome.setCellValueFactory(new PropertyValueFactory<>("Nome"));
         colCPF.setCellValueFactory(new PropertyValueFactory<>("Cpf"));
-        colNascimento.setCellValueFactory(new PropertyValueFactory<>("Nascimento"));
         colGenero.setCellValueFactory(new PropertyValueFactory<>("Sexualidade"));
         colCivil.setCellValueFactory(new PropertyValueFactory<>("Civil"));
         colCEP.setCellValueFactory(new PropertyValueFactory<>("Cep"));
         colUF.setCellValueFactory(new PropertyValueFactory<>("Uf"));
         colCidade.setCellValueFactory(new PropertyValueFactory<>("Cidade"));
+
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+
+        colNascimento.setCellValueFactory(new PropertyValueFactory<>("Nascimento"));
+        colNascimento.setCellFactory(column -> new TableCell<Usuario, LocalDate>() {
+            @Override
+            protected void updateItem(LocalDate item, boolean empty) {
+                super.updateItem(item, empty);
+
+                if (empty || item == null) {
+                    setText(null);
+                } else {
+                    setText(formatter.format(item));
+                }
+            }
+        });
 
         tableUser.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
         carregarTabela();
@@ -42,11 +59,7 @@ public class TabelaUsuarios {
 
     public void carregarTabela() {
         UsuarioDAO dao = new UsuarioDAO();
-        
-        // Converte a List do Java em ObservableList do JavaFX
         ObservableList<Usuario> obsList = FXCollections.observableArrayList(dao.listarTodos());
-        
-        // Aplica os dados na TableView
         tableUser.setItems(obsList);
     }
 }
