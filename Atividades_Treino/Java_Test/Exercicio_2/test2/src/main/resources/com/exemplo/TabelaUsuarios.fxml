@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exemplo.Tabelas.TabelaUsuarios">
+   <children>
+      <TableView fx:id="tableUser" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="colID" prefWidth="60.79998779296875" text="ID" />
+          <TableColumn fx:id="colNome" prefWidth="240.800048828125" text="Nome" />
+            <TableColumn fx:id="colCPF" minWidth="0.0" prefWidth="118.4000244140625" text="CPF" />
+            <TableColumn fx:id="colNascimento" minWidth="0.0" prefWidth="92.80001831054688" text="Nascimento" />
+            <TableColumn fx:id="colGenero" prefWidth="103.199951171875" text="Genero" />
+            <TableColumn fx:id="colCivil" prefWidth="78.4000244140625" text="Civil" />
+            <TableColumn fx:id="colCEP" prefWidth="83.2000732421875" text="CEP" />
+            <TableColumn fx:id="colUF" prefWidth="44.800048828125" text="UF" />
+            <TableColumn fx:id="colCidade" prefWidth="200.7999267578125" text="Cidade" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

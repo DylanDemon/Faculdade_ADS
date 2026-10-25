@@ -7,6 +7,7 @@ public class Usuario {
     private LocalDate nascimento;
     private String telefone;
     private Sexualidade sexualidade;
+    private String civil;
     private String cep;
     private String logradouro;
     private String bairro;
@@ -16,14 +17,15 @@ public class Usuario {
     private String complemento;
 
     public Usuario(){}
-    public Usuario(int id, String nome, String cpf, LocalDate nascimento, String telefone, Sexualidade sexualidade, String cep,
-    String logradouro, String bairro, String cidade, String uf, int numero, String complemento){
+    public Usuario(int id, String nome, String cpf, LocalDate nascimento, String telefone, Sexualidade sexualidade, String civil,String cep,
+    String logradouro, String bairro, String cidade, String uf, String rua, int numero, String complemento){
         this.id = id;
         this.nome = nome;
         this.cpf = cpf;
         this.nascimento = nascimento;
         this.telefone = telefone;
         this.sexualidade = sexualidade;
+        this.civil = civil;
         this.cep = cep;
         this.logradouro = logradouro;
         this.bairro = bairro;
@@ -50,6 +52,9 @@ public class Usuario {
 
     public Sexualidade getSexualidade() {return sexualidade;}
     public void setSexualidade(Sexualidade sexualidade) {this.sexualidade = sexualidade;}
+
+    public String getCivil() {return civil;}
+    public void setCivil(String civil) {this.civil = civil;}
 
     public String getCep() {return cep;}
     public void setCep(String cep) {this.cep = cep;}

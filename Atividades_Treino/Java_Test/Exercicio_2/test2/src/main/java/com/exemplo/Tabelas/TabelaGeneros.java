@@ -1,4 +1,4 @@
-package com.exemplo.Controllers;
+package com.exemplo.Tabelas;
 
 import com.exemplo.DAO.SexualidadeDAO;
 import com.exemplo.model.Sexualidade;

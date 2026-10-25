@@ -1,29 +1,40 @@
 package com.exemplo.Controllers;
 
+import com.exemplo.DAO.SexualidadeDAO;
+import com.exemplo.DAO.UsuarioDAO;
+import com.exemplo.model.Sexualidade;
+import com.exemplo.model.Usuario;
+
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
+import javafx.scene.control.ButtonType;
 import javafx.scene.control.TextField;
 import javafx.scene.control.TextFormatter;
+import javafx.stage.Modality;
+import javafx.stage.Stage;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.DatePicker;
 
-import java.io.IOException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 import java.util.function.UnaryOperator;
 
-import com.exemplo.App;
 import com.exemplo.util.ItemCombo;
 import com.exemplo.viacep.ViaCEP;
 
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import javafx.util.StringConverter;
 
-public class Cadastro {
+public class CadastroUsuarios {
     public int vID = 0;
     @FXML private TextField strID;
     @FXML private TextField strNome;
@@ -34,28 +45,23 @@ public class Cadastro {
     @FXML private TextField strLogradouro;
     @FXML private TextField strBairro;
     @FXML private TextField strCidade;
-    @FXML private TextField strRua;
     @FXML private TextField strNumCasa;
     @FXML private TextField strComplemento;
     
     
     @FXML private ComboBox<ItemCombo> strGenero;
     @FXML private ComboBox<String> strCivil;
-    @FXML private ComboBox<String> strPais;
-    @FXML private ComboBox<String> strTrabalho;
     @FXML private ComboBox<String> strUF;
 
     @FXML private DatePicker strNascimento;
 
-    @FXML private List<TextField> textfieldCadastro;
-    @FXML private List<ComboBox<String>> ComboBoxCadastro;
-
     @FXML
     public void initialize(){
+
         strCPF.setTextFormatter(criarFormatterCPF());
         strNome.setTextFormatter(criarFormatterApenasLetras());
         strCelular.setTextFormatter(criarFormatterCelular());
-
+        
         strCivil.getItems().addAll(
             "Solteiro(a)",
             "Casado(a)",
@@ -63,11 +69,7 @@ public class Cadastro {
             "Viúvo(a)",
             "União Estável"
         );
-        strPais.getItems().addAll(
-            "Argentina","Paraguay","Brasil","Estados Unidos","Inglaterra"
-        );
         strUF.getItems().addAll("PR","AP");
-        strTrabalho.getItems().addAll("Presencial","HomeOffice", "Hibrido");
         
         String pattern = "dd/MM/yyyy";
             DateTimeFormatter formatter = DateTimeFormatter.ofPattern(pattern);
@@ -94,54 +96,108 @@ public class Cadastro {
                     return null;
                 }
             });
-            
             strNascimento.setPromptText("dd/mm/aaaa");
+            carregarGeneros();
+            strID.focusedProperty().addListener((observable, oldValue, newValue) -> {
+                if(!newValue){
+                    PreencherID(strID.getText());
+                }
+            });
+            strCivil.valueProperty().addListener((obs, antigo, novo) -> {
+                if(novo != null) {
+                    strCEP.requestFocus();
+                }
+            });
     }
     @FXML
     private void fCompleto(ActionEvent event) {
         try {
-            for(TextField campo : textfieldCadastro) {
-                if(campo.getText() == null|| campo.getText().trim().isEmpty()){
-                    throw new IllegalArgumentException("Tem Algum Informaçao Obrigatoria Vacio");
-                }
-            }
-            for(ComboBox<String> campo : ComboBoxCadastro) {
-                if(campo.getValue() == null|| campo.getValue().trim().isEmpty()){
-                    throw new IllegalArgumentException("Tem Algum Informaçao Obrigatoria Vacio");
-                }
-            }
-            String Mensagem = "Informaçao Salvada";
-            exibirMensagem("Cadastro Completo", Mensagem , AlertType.INFORMATION);
+            if(strGenero.getValue() == null) throw new IllegalArgumentException("Tem Algum Informaçao Obrigatoria Vacio : Genero");
+            if(strCivil.getValue() == null) throw new IllegalArgumentException("Tem Algum Informaçao Obrigatoria Vacio : Civil");
+            if(strUF.getValue() == null) throw new IllegalArgumentException("Tem Algum Informaçao Obrigatoria Vacio: UF");
+            if(strNascimento.getValue() == null) throw new IllegalArgumentException("Tem Algum Informaçao Obrigatoria Vacio: ");
 
-            strNome.requestFocus();
+        List<TextField> textfieldCadastro = List.of(strNome, strCPF, strCelular, strCEP, strLogradouro, strBairro, strCidade);
+        for (TextField campo : textfieldCadastro) {
+            if (campo.getText() == null || campo.getText().trim().isEmpty()) {
+                throw new IllegalArgumentException("Informação obrigatória vazia: " + campo.getPromptText());
+            }
+        }   
+            ItemCombo Selecionado = strGenero.getValue();
+            Sexualidade s = new Sexualidade();
+            s.setId(Selecionado.getId());
 
-            strID.clear();
-            strNome.clear();
-            strCPF.clear();
-            strNascimento.setValue(null);
-            strCelular.clear();
-            strGenero.setValue(null);
-            strCivil.setValue(null);
-            strCEP.clear();
-            strPais.setValue(null);
-            strLogradouro.clear();
-            strBairro.clear();
-            strCidade.clear();
-            strUF.setValue(null);
-            strRua.clear();
-            strNumCasa.clear();
-            strComplemento.clear();
-        } catch (Exception e) {
-            strNome.requestFocus();
-            exibirMensagem("ERROR", e.getMessage(), AlertType.ERROR);
-        }
+            Usuario user = new Usuario();
+            
+            if (strID.getText() != null && !strID.getText().trim().isEmpty()) {
+            user.setId(Integer.parseInt(strID.getText().trim()));
+            } else {
+                user.setId(1);
+            }
+            user.setNome(strNome.getText().trim());
+            user.setCpf(strCPF.getText().trim());
+            user.setNascimento(strNascimento.getValue());
+            user.setTelefone(strCelular.getText().trim());
+            user.setSexualidade(s);
+            user.setCivil(strCivil.getValue());
+            user.setCep(strCEP.getText().trim());
+            user.setNascimento(strNascimento.getValue());
+            user.setLogradouro(strLogradouro.getText().trim());
+            user.setBairro(strBairro.getText().trim());
+            user.setCidade(strCidade.getText().trim());
+            user.setUf(strUF.getValue());
+            user.setComplemento(strComplemento.getText() != null ? strComplemento.getText().trim() : "");
+            if (strNumCasa.getText() != null && !strNumCasa.getText().trim().isEmpty()) {
+            user.setNumero(Integer.parseInt(strNumCasa.getText().trim()));
+            } else {
+                user.setNumero(0); // Valor padrão quando não preenchido (S/N)
+            }
+
+            UsuarioDAO dao = new UsuarioDAO();
+            boolean sucesso = false;
+            if(user.getId() > 0 && dao.existeId(user.getId())){
+                boolean aceitar = exibirConfirmacao("Usuario Existe", "Deseja Alterar Os Dados?");
+                if(aceitar){
+                        sucesso = dao.Alterar(user);
+                     if(sucesso) System.out.println("Usuário Alterado Com Sucesso");
+                } 
+                else return;
+            }
+            else{
+                sucesso = dao.inserir(user);
+                if (sucesso) System.out.println("Usuário Cadastrado Com Sucesso");
+            }
+            if (sucesso) {
+                textfieldCadastro.forEach(TextField::clear);
+                strID.clear();
+                strNumCasa.clear();
+                strComplemento.clear();
+                
+                strNascimento.setValue(null);
+                strGenero.setValue(null);
+                strCivil.setValue(null);
+                strUF.setValue(null);
+
+                exibirMensagem("Sucesso", "Informação salva com sucesso!", AlertType.INFORMATION);
+                strNome.requestFocus();
+                return;            
+            }
+            } catch (NumberFormatException e) {
+                    exibirMensagem("Erro de Formatação", "O campo 'Número da Casa' ou 'ID' deve conter apenas números válidos.", AlertType.ERROR);
+                    strNumCasa.requestFocus();
+            } catch (IllegalArgumentException e) {
+                    exibirMensagem("Validação", e.getMessage(), AlertType.WARNING);
+                    strNome.requestFocus();
+            } catch (Exception e) {
+                    exibirMensagem("Erro Crítico", "Erro inesperado ao salvar: " + e.getMessage(), AlertType.ERROR);
+                    e.printStackTrace();
+            }
     }
     @FXML
         private void digID(ActionEvent event){
         try {
             String vID = strID.getText();
             if(vID != null) vID = vID.trim();
-            strID.setText(vID);
             strNome.requestFocus();
         } catch (IllegalArgumentException e) {
             strID.requestFocus();
@@ -151,9 +207,7 @@ public class Cadastro {
     private void digNome(ActionEvent event){
         try {
             String vNome = strNome.getText();
-            if(vNome != null) vNome = vNome.trim();
-            if(vNome.isBlank()) throw new IllegalArgumentException("Por Favor Digite Um Nome Valido, Nome: " + vNome);
-            strNome.setText(vNome);
+            if (vNome == null || vNome.trim().isEmpty()) throw new IllegalArgumentException("Por favor, digite um nome válido.");
             strCPF.requestFocus();
         } catch (IllegalArgumentException e) {
             strNome.requestFocus();
@@ -164,25 +218,12 @@ public class Cadastro {
     private void digCPF(ActionEvent event){
         try {
             String vCPF = strCPF.getText();
-            if(vCPF != null) vCPF = vCPF.trim();
-            if(vCPF == null || vCPF.isBlank()) throw new IllegalArgumentException("Por Favor Digite Um CPF Valido, CPF: " + vCPF);
-            else{
+            if (vCPF == null || vCPF.trim().isEmpty()) throw new IllegalArgumentException("Por favor, digite um CPF válido.");
                 strNascimento.requestFocus();
-            }
+
         } catch (IllegalArgumentException e) {
             strCPF.requestFocus();
             exibirMensagem("O CPF É Invalido", e.getMessage(), AlertType.ERROR);
-        }
-    }
-    @FXML
-    private void digNascimento(ActionEvent event){
-        try {
-            LocalDate vNascimento = strNascimento.getValue();
-            if(vNascimento == null) throw new IllegalArgumentException("Por Favor Digite Uma Data Valido, Data: " + vNascimento);
-            strCelular.requestFocus();
-        } catch (IllegalArgumentException e) {
-            strNascimento.requestFocus();
-            exibirMensagem("A Data É Invalida", e.getMessage(), AlertType.ERROR);
         }
     }
     @FXML
@@ -194,7 +235,6 @@ public class Cadastro {
                 throw new IllegalArgumentException("Por Favor Digite Um Numero De Celular Valido, Celular: " + vCelular);
             }
             else{
-                strCelular.setText(vCelular);
                 strGenero.requestFocus();
             }
         } catch (IllegalArgumentException e) {
@@ -203,65 +243,24 @@ public class Cadastro {
         }
     }
     @FXML
-    private void digGenero(ActionEvent event){
-    try {
-            ItemCombo objGenero = strGenero.getValue();
-            if (objGenero == null) {
-                throw new IllegalArgumentException("Por favor, selecione um gênero na lista.");
-            }
-            String vGenero = objGenero.getDescricao();
-            strCivil.requestFocus();
-
-        } catch (IllegalArgumentException e) {
-            strGenero.requestFocus();
-            exibirMensagem("Gênero Inválido", e.getMessage(), AlertType.ERROR);
-        }
-    }
-    @FXML
-    private void digCivil(ActionEvent event){
-        try {
-            Object objCivil = strCivil.getValue();
-            if(objCivil == null || objCivil.toString().isBlank()) throw new IllegalArgumentException("Por Favor Digite Um Estado Civil Valido");
-                String vCivil = objCivil.toString().trim();
-                strCivil.setValue(vCivil);
-                strCEP.requestFocus();
-        } catch (IllegalArgumentException e) {
-            strCivil.requestFocus();
-            exibirMensagem("O Civil É Invalido", e.getMessage(), AlertType.ERROR);
-        }
-    }
-    @FXML
     private void digCEP(ActionEvent event){
         try {
-            Integer vCEP = Integer.parseInt(strCEP.getText());;
-            if(vCEP == null){
+            String vCEP = strCEP.getText();
+            if(vCEP == null || vCEP.isBlank()){
                 throw new IllegalArgumentException("Por Favor Digite Uma CEP Valido, CEP: " + vCEP);
             }
             strCEP.setText(String.valueOf(vCEP));
-          ViaCEP viaCep = new ViaCEP();
+            ViaCEP viaCep = new ViaCEP();
               viaCep.buscar(strCEP.getText());
               strBairro.setText(viaCep.getBairro());
-              strRua.setText(viaCep.getLogradouro());
+              strLogradouro.setText(viaCep.getLogradouro());
               strUF.setValue(viaCep.getUf());
               strCidade.setText(viaCep.getLocalidade());
               
-            strPais.requestFocus();
+            strLogradouro.requestFocus();
         } catch (Exception e) {
             strCEP.requestFocus();
             exibirMensagem("O CEP É Invalido", e.getMessage(), AlertType.ERROR);
-        }
-    }
-    @FXML
-    private void digPais(ActionEvent event){
-        try {
-            Object objPais = strPais.getValue();
-            if(objPais == null || objPais.toString().isBlank()) throw new IllegalArgumentException("Por Favor Digite Um Pais Valido");
-                String vPais = objPais.toString().trim();
-                strPais.setValue(vPais);
-                strLogradouro.requestFocus();
-        } catch (IllegalArgumentException e) {
-            strPais.requestFocus();
-            exibirMensagem("O Pais É Invalido", e.getMessage(), AlertType.ERROR);
         }
     }
     @FXML
@@ -277,6 +276,17 @@ public class Cadastro {
         } catch (Exception e) {
             strLogradouro.requestFocus();
             exibirMensagem("O Logradouro É Invalido", e.getMessage(), AlertType.ERROR);
+        }
+    }
+    @FXML
+    private void digNumCasa(ActionEvent event){
+        try {
+            String vNumCasa = strNumCasa.getText();
+            if(vNumCasa != null) vNumCasa = vNumCasa.trim();
+                strBairro.requestFocus();
+        } catch (IllegalArgumentException e) {
+            strNumCasa.requestFocus();
+            exibirMensagem("O Numero De Casa É Invalido", e.getMessage(), AlertType.ERROR);
         }
     }
     @FXML
@@ -311,47 +321,6 @@ public class Cadastro {
         } catch (IllegalArgumentException e) {
             strCidade.requestFocus();
             exibirMensagem("A Cidade É Invalido", e.getMessage(), AlertType.ERROR);
-        }
-    }
-    @FXML
-    private void digUF(ActionEvent event){
-        try {
-            Object objUF = strUF.getValue();
-            if(objUF == null || objUF.toString().isBlank()) throw new IllegalArgumentException("Por Favor Digite Um UF Valido");
-                String vUF = objUF.toString().trim();
-                strUF.setValue(vUF);
-                strRua.requestFocus();
-        } catch (IllegalArgumentException e) {
-            strUF.requestFocus();
-            exibirMensagem("O UF É Invalido", e.getMessage(), AlertType.ERROR);
-        }
-    }
-    @FXML
-    private void digRua(ActionEvent event){
-        try {
-            String vRua = strRua.getText();
-            if(vRua != null) vRua = vRua.trim();
-            if(vRua == null || vRua.isBlank()){
-                throw new IllegalArgumentException("Por Favor Digite Uma Rua Valido, Rua: " + vRua);
-            }
-            else{
-                strRua.setText(vRua);
-                strNumCasa.requestFocus();
-            }
-        } catch (IllegalArgumentException e) {
-            strRua.requestFocus();
-            exibirMensagem("O Pais É Invalido", e.getMessage(), AlertType.ERROR);
-        }
-    }
-    @FXML
-    private void digNumCasa(ActionEvent event){
-        try {
-            String vNumCasa = strNumCasa.getText();
-            if(vNumCasa != null) vNumCasa = vNumCasa.trim();
-                strComplemento.requestFocus();
-        } catch (IllegalArgumentException e) {
-            strNumCasa.requestFocus();
-            exibirMensagem("O Numero De Casa É Invalido", e.getMessage(), AlertType.ERROR);
         }
     }
     @FXML
@@ -392,18 +361,6 @@ public class Cadastro {
 
         return new TextFormatter<>(filtro);
     }
-    public static TextFormatter<String> criarFormatterEmail() {
-        UnaryOperator<TextFormatter.Change> filtro = change -> {
-            String novoTexto = change.getControlNewText();
-
-            if (novoTexto.matches("^[a-zA-Z0-9._%+-]*@?[a-zA-Z0-9.-]*\\.?[a-zA-Z]*$")) {
-                return change;
-            }
-            return null;
-        };
-
-        return new TextFormatter<>(filtro);
-    }
     public static TextFormatter<String> criarFormatterCPF() {
         UnaryOperator<TextFormatter.Change> filtro = change -> {
             String textoProposto = change.getControlNewText();
@@ -438,6 +395,83 @@ public class Cadastro {
         };
 
         return new TextFormatter<>(filtro);
+    }
+    private void carregarGeneros(){
+        SexualidadeDAO dao = new SexualidadeDAO();
+        List<Sexualidade> listaBanco = dao.listarTodos();
+        List<ItemCombo> itensCombo = new ArrayList<>();
+        for(Sexualidade s : listaBanco) if("Ativo".equalsIgnoreCase(s.getStatus()))itensCombo.add(new ItemCombo(s.getId(), s.getDescripcao()));
+        ObservableList<ItemCombo> obsLista = FXCollections.observableArrayList(itensCombo);
+        strGenero.setItems(obsLista);
+    }
+    private void PreencherID(String idTexto){
+        if(idTexto == null || idTexto.trim().isEmpty()) return;
+        try {int id = Integer.parseInt(idTexto.trim());
+        UsuarioDAO dao = new UsuarioDAO();
+        Usuario user = dao.buscarPorId(id); // Método que busca o usuário no MySQL
+
+        if (user != null) {
+            // Preenche os campos de texto
+            strNome.setText(user.getNome());
+            strCPF.setText(user.getCpf());
+            strCelular.setText(user.getTelefone());
+            strCEP.setText(user.getCep());
+            strLogradouro.setText(user.getLogradouro());
+            strBairro.setText(user.getBairro());
+            strCidade.setText(user.getCidade());
+            strComplemento.setText(user.getComplemento());
+            strNumCasa.setText(String.valueOf(user.getNumero()));
+            
+            // Preenche as seleções
+            strNascimento.setValue(user.getNascimento());
+            strCivil.setValue(user.getCivil());
+            strUF.setValue(user.getUf());
+
+            // Seleciona o ItemCombo correto no ComboBox de Gênero/Sexualidade
+            if (user.getSexualidade() != null && strGenero.getItems() != null) {
+                for (ItemCombo item : strGenero.getItems()) {
+                    if (item.getId() == user.getSexualidade().getId()) {
+                        strGenero.setValue(item);
+                        break;
+                    }
+                }
+            }
+
+            System.out.println("Dados do usuário ID " + id + " carregados na tela.");
+        }
+    } catch (NumberFormatException e) {
+        // Ignora caso o ID digitado não seja um número válido
+    } catch (Exception e) {
+        exibirMensagem("Erro", "Erro ao buscar dados do usuário: " + e.getMessage(), AlertType.ERROR);
+    }
+    }
+    @FXML 
+    private void VerTabela(ActionEvent event){
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/exemplo/TabelaUsuarios.fxml"));
+            Parent root = loader.load();
+
+            Stage stageTabela = new Stage();
+            stageTabela.setTitle("Consulta de Usuarios");
+            stageTabela.setScene(new Scene(root));
+            stageTabela.initModality(Modality.APPLICATION_MODAL);
+
+            stageTabela.showAndWait();
+        } catch (Exception e) {
+            System.err.println("Erro ao abrir a janela da tabela de usuarios: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
+
+    private boolean exibirConfirmacao(String titulo, String mensagem) {
+        Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
+        alert.setTitle(titulo);
+        alert.setHeaderText(null);
+        alert.setContentText(mensagem);
+
+        Optional<ButtonType> resultado = alert.showAndWait();
+
+        return resultado.isPresent() && resultado.get() == ButtonType.OK;
     }
     private void exibirMensagem(String titulo, String mensagem, AlertType tipo) {
         Alert alerta = new Alert(tipo);

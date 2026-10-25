@@ -6,10 +6,8 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
-<?import java.util.ArrayList?>
 
-
-<AnchorPane maxWidth="1.7976931348623157E308" minHeight="400.0" minWidth="600.0" prefHeight="700.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exemplo.Controllers.Cad_Generos">
+<AnchorPane maxWidth="1.7976931348623157E308" minHeight="400.0" minWidth="600.0" prefHeight="700.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.exemplo.Controllers.CadastroGeneros">
    <children>
       <Button fx:id="gbTabgenero" layoutX="656.8" layoutY="595.0" mnemonicParsing="false" onAction="#AbrirTabela" prefHeight="97.0" prefWidth="273.0" text="Ver Tabela" AnchorPane.bottomAnchor="6.399999999999949" AnchorPane.rightAnchor="97.39999999999998">
          <font>
@@ -63,11 +61,4 @@
          </font>
       </Label>
    </children>
-      <fx:define>
-         <ArrayList fx:id="TextField_Genero">
-            <fx:reference source="gstrID" />
-            <fx:reference source="gstrDescripcao" />
-            <fx:reference source="gstrSigla" />
-         </ArrayList>
-      </fx:define>
 </AnchorPane>

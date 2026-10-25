@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/26" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="720.0" prefWidth="1024.0" style="-fx-border-color: black; -fx-border-width: 1px;" />
+      <VBox prefHeight="720.0" prefWidth="1024.0">
+         <children>
+            <GridPane alignment="CENTER_RIGHT" gridLinesVisible="true" prefHeight="75.0" prefWidth="600.0" VBox.vgrow="ALWAYS">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="245.0" prefWidth="1026.0" text="Cadastro De Produtos" textAlignment="CENTER">
+                     <font>
+                        <Font name="Franklin Gothic Medium" size="64.0" />
+                     </font>
+                  </Label>
+               </children>
+            </GridPane>
+            <GridPane alignment="CENTER" hgap="5.0" prefHeight="320.0" prefWidth="600.0" VBox.vgrow="ALWAYS">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                  <RowConstraints maxHeight="120.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="69.80000000000001" minHeight="10.0" prefHeight="37.600012207031256" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="120.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="94.00001220703126" minHeight="10.0" prefHeight="39.99998321533204" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="120.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="101.40005493164062" minHeight="10.0" prefHeight="39.19997558593752" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="120.0" minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="113.60003662109375" minHeight="0.0" prefHeight="36.800048828125" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="150.0" minHeight="0.7999633789062273" prefHeight="81.99997558593753" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <TextField prefHeight="38.0" GridPane.rowIndex="1" />
+                  <TextField prefHeight="37.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <TextField prefHeight="37.0" GridPane.rowIndex="5" />
+                  <TextField prefHeight="37.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <TextField prefHeight="37.0" GridPane.rowIndex="3" />
+                  <TextField prefHeight="37.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Label text="ID">
+                     <font>
+                        <Font name="Courier New Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label text="Status" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                     <font>
+                        <Font name="Courier New Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label text="Data De Validade" GridPane.rowIndex="6">
+                     <font>
+                        <Font name="Courier New Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label text="Preço De Venda" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Courier New Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label text="Preço De Custo" GridPane.rowIndex="4">
+                     <font>
+                        <Font name="Courier New Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label text="Quantidade" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Courier New Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label text="Categoria" GridPane.rowIndex="2">
+                     <font>
+                        <Font name="Courier New Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <Label text="Nome" GridPane.columnIndex="1">
+                     <font>
+                        <Font name="Courier New Bold" size="36.0" />
+                     </font>
+                  </Label>
+                  <ComboBox prefHeight="34.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                  <DatePicker prefHeight="34.0" prefWidth="175.0" GridPane.halignment="LEFT" GridPane.rowIndex="7" />
+               </children>
+               <VBox.margin>
+                  <Insets left="3.0" right="3.0" />
+               </VBox.margin>
+            </GridPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -5,6 +5,7 @@ module com.exemplo {
     requires org.json;
 
     opens com.exemplo.Controllers to javafx.fxml;
+    opens com.exemplo.Tabelas to javafx.fxml;
     opens com.exemplo.model to javafx.base;
     opens com.exemplo to javafx.fxml;
     

@@ -22,7 +22,7 @@ import javafx.scene.Scene;
 import java.util.List;
 import java.util.Optional;
 
-public class Cad_Generos {
+public class CadastroGeneros {
     @FXML private TextField gstrID;
     @FXML private TextField gstrDescripcao;
     @FXML private TextField gstrSigla;
@@ -149,7 +149,7 @@ public class Cad_Generos {
         alerta.setContentText(mensagem);
         alerta.showAndWait(); // Exibe a janela e aguarda o usuário clicar em OK
     }
-        private boolean exibirConfirmacao(String titulo, String mensagem) {
+    private boolean exibirConfirmacao(String titulo, String mensagem) {
         Alert alert = new Alert(Alert.AlertType.CONFIRMATION);
         alert.setTitle(titulo);
         alert.setHeaderText(null);
